@@ -38,6 +38,10 @@
     "./*": {
       "import": "./dist/esm/*.js",
       "require": "./dist/cjs/*.js"
+    },
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
   "license": "MIT",
