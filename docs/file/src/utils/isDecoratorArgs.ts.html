@@ -115,9 +115,9 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/utils/isDecoratorArgs.ts</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import isObject = require(&apos;lodash/isObject&apos;);
-import isFunction = require(&apos;lodash/isFunction&apos;);
-import isString = require(&apos;lodash/isString&apos;);
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import isObject from &apos;lodash/isObject&apos;;
+import isFunction from &apos;lodash/isFunction&apos;;
+import isString from &apos;lodash/isString&apos;;
 
 export function isMethodOrPropertyDecoratorArgs(...args: any[]): boolean {
   return args.length &gt;= 2

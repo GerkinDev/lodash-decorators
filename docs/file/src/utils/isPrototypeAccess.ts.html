@@ -118,7 +118,7 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export function isPrototypeAccess(context: object, target: object): boolean {
   return context === target
     || (context.constructor !== target.constructor
-      &amp;&amp; Object.getPrototypeOf(this).constructor === target.constructor);
+      &amp;&amp; Object.getPrototypeOf(context).constructor === target.constructor);
 }
 </code></pre>
 
