@@ -23,7 +23,7 @@ import { PreValueApplicator } from './applicators';
  * myClass.fn(); //=> 1
  */
 export const Once = DecoratorFactory.createInstanceDecorator(
-  new DecoratorConfig(once, new PreValueApplicator(), { setter: true, optionalParams: true })
+  new DecoratorConfig(once, new PreValueApplicator(), { setter: true, getter: true, optionalParams: true })
 ) as BiTypedDecorator;
 export { Once as once };
 export default Once;
