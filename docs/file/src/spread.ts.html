@@ -2,8 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+<<<<<<< HEAD:docs/file/src/spread.ts.html
   <base data-ice="baseUrl" href="../../">
   <title data-ice="title">src/spread.ts | Lodash Decorators Documentation</title>
+=======
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">buildDocs/applicators/ComposeApplicator.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/applicators/ComposeApplicator.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +34,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/spread.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -125,6 +131,56 @@ export const Spread = DecoratorFactory.createDecorator(
 ) as BiTypedMethodDecorator1&lt;number&gt;;
 export { Spread as spread };
 export default Spread;
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/applicators/ComposeApplicator.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var identity_1 = require(&quot;lodash/identity&quot;);
+var Applicator_1 = require(&quot;./Applicator&quot;);
+var utils_1 = require(&quot;../utils&quot;);
+var ComposeApplicator = (function (_super) {
+    tslib_1.__extends(ComposeApplicator, _super);
+    function ComposeApplicator(_config) {
+        if (_config === void 0) { _config = {}; }
+        var _this = _super.call(this) || this;
+        _this._config = _config;
+        return _this;
+    }
+    Object.defineProperty(ComposeApplicator.prototype, &quot;post&quot;, {
+        get: function () {
+            return this._config.post === true;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ComposeApplicator.prototype.apply = function (_a) {
+        var execute = _a.config.execute, _b = _a.value, value = _b === void 0 ? identity_1.default : _b, args = _a.args, target = _a.target;
+        var applicator = this;
+        return function () {
+            var _this = this;
+            var invokeArgs = [];
+            for (var _i = 0; _i &lt; arguments.length; _i++) {
+                invokeArgs[_i] = arguments[_i];
+            }
+            var _args = args.map(function (method) { return utils_1.resolveFunction(method, _this, target); }).slice();
+            if (applicator.post) {
+                _args.push(value);
+            }
+            else {
+                _args.unshift(value);
+            }
+            return execute.apply(void 0, _args).apply(this, invokeArgs);
+        };
+    };
+    return ComposeApplicator;
+}(Applicator_1.Applicator));
+exports.ComposeApplicator = ComposeApplicator;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/applicators/ComposeApplicator.js.html
 </code></pre>
 
 </div>

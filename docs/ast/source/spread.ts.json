@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
   "end": 304,
+=======
+  "end": 445,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
       "line": 6,
+=======
+      "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
     "end": 304,
+=======
+    "end": 445,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "line": 6,
+=======
+        "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "line": 1,
             "column": 62
           }
@@ -69,13 +92,60 @@
                 "end": {
                   "line": 1,
                   "column": 24
-                },
-                "identifierName": "DecoratorConfig"
-              },
-              "name": "DecoratorConfig"
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
             },
-            "local": {
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
               "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "start": 9,
               "end": 24,
               "loc": {
@@ -105,9 +175,29 @@
                 "line": 1,
                 "column": 42
               }
+=======
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
             },
-            "imported": {
+            "computed": false
+          },
+          "arguments": [
+            {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +208,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 2,
+                  "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "DecoratorFactory"
+              "name": "exports"
             },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -154,31 +257,127 @@
             "end": {
               "line": 1,
               "column": 61
+=======
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
             }
-          },
-          "extra": {
-            "rawValue": "./factory",
-            "raw": "'./factory'"
-          },
-          "value": "./factory"
+          ]
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "type": "ImportDeclaration",
         "start": 63,
         "end": 114,
+=======
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 117,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         "loc": {
           "start": {
             "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "line": 2,
             "column": 51
+=======
+            "line": 3,
+            "column": 40
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 90,
@@ -190,10 +389,24 @@
               "end": {
                 "line": 2,
                 "column": 27
+=======
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 116,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 39
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "start": 72,
               "end": 90,
               "loc": {
@@ -204,11 +417,24 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+              "start": 81,
+              "end": 89,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                },
+                "identifierName": "spread_1"
               },
-              "name": "PreValueApplicator"
+              "name": "spread_1"
             },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "local": {
               "type": "Identifier",
               "start": 72,
@@ -221,13 +447,65 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 92,
+              "end": 116,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 15
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 39
+                }
               },
-              "name": "PreValueApplicator"
+              "callee": {
+                "type": "Identifier",
+                "start": 92,
+                "end": 99,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 100,
+                  "end": 115,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 23
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 38
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/spread",
+                    "raw": "\"lodash/spread\""
+                  },
+                  "value": "lodash/spread"
+                }
+              ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "source": {
           "type": "StringLiteral",
           "start": 98,
@@ -253,12 +531,21 @@
         "type": "ExportNamedDeclaration",
         "start": 115,
         "end": 251,
+=======
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 118,
+        "end": 155,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         "loc": {
           "start": {
             "line": 3,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
             "line": 3,
             "column": 136
           }
@@ -287,15 +574,66 @@
               "loc": {
                 "start": {
                   "line": 3,
-                  "column": 13
+=======
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 122,
+            "end": 154,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 122,
+              "end": 131,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
                 },
                 "end": {
+                  "line": 4,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 134,
+              "end": 154,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                   "line": 3,
                   "column": 135
+=======
+                  "line": 4,
+                  "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                 "start": 128,
                 "end": 134,
                 "loc": {
@@ -306,11 +644,95 @@
                   "end": {
                     "line": 3,
                     "column": 19
+=======
+                "start": 134,
+                "end": 141,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
                   },
-                  "identifierName": "Spread"
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
                 },
-                "name": "Spread"
+                "name": "require"
               },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 142,
+                  "end": 153,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 156,
+        "end": 201,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 160,
+            "end": 200,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 160,
+              "end": 173,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "init": {
                 "type": "CallExpression",
                 "start": 137,
@@ -368,15 +790,312 @@
                       "end": {
                         "line": 3,
                         "column": 54
-                      },
-                      "identifierName": "createDecorator"
+=======
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 176,
+              "end": 200,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 176,
+                "end": 183,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 184,
+                  "end": 199,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
                     },
-                    "name": "createDecorator"
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 202,
+        "end": 377,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 175
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 202,
+          "end": 376,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 6,
+              "column": 174
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 202,
+            "end": 216,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 14
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 202,
+              "end": 209,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 0
+                },
+                "end": {
+                  "line": 6,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 210,
+              "end": 216,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 8
+                },
+                "end": {
+                  "line": 6,
+                  "column": 14
+                },
+                "identifierName": "Spread"
+              },
+              "name": "Spread"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "CallExpression",
+            "start": 219,
+            "end": 376,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 17
+              },
+              "end": {
+                "line": 6,
+                "column": 174
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 219,
+              "end": 261,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 17
+                },
+                "end": {
+                  "line": 6,
+                  "column": 59
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "start": 219,
+                "end": 245,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 43
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 219,
+                  "end": 228,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 17
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 26
+                    },
+                    "identifierName": "factory_1"
+                  },
+                  "name": "factory_1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 229,
+                  "end": 245,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 27
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "identifierName": "DecoratorFactory"
+                  },
+                  "name": "DecoratorFactory"
+                },
+                "computed": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 246,
+                "end": 261,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 44
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 59
+                  },
+                  "identifierName": "createDecorator"
+                },
+                "name": "createDecorator"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 262,
+                "end": 375,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 60
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 173
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 266,
+                  "end": 291,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 64
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 89
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 266,
+                    "end": 275,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 64
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 73
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 276,
+                    "end": 291,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 74
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 89
+                      },
+                      "identifierName": "DecoratorConfig"
+                    },
+                    "name": "DecoratorConfig"
                   },
                   "computed": false
                 },
                 "arguments": [
                   {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                     "type": "NewExpression",
                     "start": 170,
                     "end": 249,
@@ -388,10 +1107,24 @@
                       "end": {
                         "line": 3,
                         "column": 134
+=======
+                    "type": "MemberExpression",
+                    "start": 292,
+                    "end": 308,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 90
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 106
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                       "start": 174,
                       "end": 189,
                       "loc": {
@@ -402,14 +1135,90 @@
                         "end": {
                           "line": 3,
                           "column": 74
+=======
+                      "start": 292,
+                      "end": 300,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 90
                         },
-                        "identifierName": "DecoratorConfig"
+                        "end": {
+                          "line": 6,
+                          "column": 98
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                        },
+                        "identifierName": "spread_1"
                       },
-                      "name": "DecoratorConfig"
+                      "name": "spread_1"
                     },
-                    "arguments": [
-                      {
+                    "property": {
+                      "type": "Identifier",
+                      "start": 301,
+                      "end": 308,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 99
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 106
+                        },
+                        "identifierName": "default"
+                      },
+                      "name": "default"
+                    },
+                    "computed": false
+                  },
+                  {
+                    "type": "NewExpression",
+                    "start": 310,
+                    "end": 348,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 108
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 146
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 314,
+                      "end": 346,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 112
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 144
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+                        "start": 314,
+                        "end": 327,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 112
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 125
+                          },
+                          "identifierName": "applicators_1"
+                        },
+                        "name": "applicators_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                         "start": 190,
                         "end": 196,
                         "loc": {
@@ -420,12 +1229,44 @@
                           "end": {
                             "line": 3,
                             "column": 81
+=======
+                        "start": 328,
+                        "end": 346,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 126
                           },
-                          "identifierName": "spread"
+                          "end": {
+                            "line": 6,
+                            "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                          },
+                          "identifierName": "PreValueApplicator"
                         },
-                        "name": "spread"
+                        "name": "PreValueApplicator"
                       },
+                      "computed": false
+                    },
+                    "arguments": []
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 350,
+                    "end": 374,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 148
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 172
+                      }
+                    },
+                    "properties": [
                       {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                         "type": "NewExpression",
                         "start": 198,
                         "end": 222,
@@ -437,10 +1278,27 @@
                           "end": {
                             "line": 3,
                             "column": 107
+=======
+                        "type": "ObjectProperty",
+                        "start": 352,
+                        "end": 372,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 150
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 170
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
                           }
                         },
-                        "callee": {
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
                           "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                           "start": 202,
                           "end": 220,
                           "loc": {
@@ -451,11 +1309,24 @@
                             "end": {
                               "line": 3,
                               "column": 105
+=======
+                          "start": 352,
+                          "end": 366,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 150
                             },
-                            "identifierName": "PreValueApplicator"
+                            "end": {
+                              "line": 6,
+                              "column": 164
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                            },
+                            "identifierName": "optionalParams"
                           },
-                          "name": "PreValueApplicator"
+                          "name": "optionalParams"
                         },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
                         "arguments": []
                       },
                       {
@@ -525,19 +1396,35 @@
                             }
                           }
                         ]
+=======
+                        "value": {
+                          "type": "BooleanLiteral",
+                          "start": 368,
+                          "end": 372,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 166
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 170
+                            }
+                          },
+                          "value": true
+                        }
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
                       }
                     ]
                   }
                 ]
               }
-            }
-          ],
-          "kind": "const",
-          "leadingComments": [],
-          "trailingComments": []
+            ]
+          }
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "type": "ExportNamedDeclaration",
         "start": 252,
         "end": 280,
@@ -565,10 +1452,53 @@
               "end": {
                 "line": 4,
                 "column": 25
+=======
+        "type": "ExpressionStatement",
+        "start": 378,
+        "end": 410,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 32
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 378,
+          "end": 409,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 31
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 378,
+            "end": 392,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
               }
             },
-            "local": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "start": 261,
               "end": 267,
               "loc": {
@@ -579,13 +1509,26 @@
                 "end": {
                   "line": 4,
                   "column": 15
+=======
+              "start": 378,
+              "end": 385,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 0
                 },
-                "identifierName": "Spread"
+                "end": {
+                  "line": 7,
+                  "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "Spread"
+              "name": "exports"
             },
-            "exported": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
               "start": 271,
               "end": 277,
               "loc": {
@@ -596,16 +1539,79 @@
                 "end": {
                   "line": 4,
                   "column": 25
+=======
+              "start": 386,
+              "end": 392,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 8
+                },
+                "end": {
+                  "line": 7,
+                  "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
                 },
                 "identifierName": "spread"
               },
               "name": "spread"
-            }
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 395,
+            "end": 409,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 17
+              },
+              "end": {
+                "line": 7,
+                "column": 31
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 402,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 17
+                },
+                "end": {
+                  "line": 7,
+                  "column": 24
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 403,
+              "end": 409,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 25
+                },
+                "end": {
+                  "line": 7,
+                  "column": 31
+                },
+                "identifierName": "Spread"
+              },
+              "name": "Spread"
+            },
+            "computed": false
           }
-        ],
-        "source": null
+        }
       },
       {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
         "type": "ExportDefaultDeclaration",
         "start": 281,
         "end": 303,
@@ -637,17 +1643,181 @@
           "name": "Spread",
           "leadingComments": [],
           "trailingComments": []
+=======
+        "type": "ExpressionStatement",
+        "start": 411,
+        "end": 444,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": 33
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 411,
+          "end": 443,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 32
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 411,
+            "end": 426,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 411,
+              "end": 418,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 0
+                },
+                "end": {
+                  "line": 8,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 426,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 8
+                },
+                "end": {
+                  "line": 8,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 429,
+            "end": 443,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 18
+              },
+              "end": {
+                "line": 8,
+                "column": 32
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 429,
+              "end": 436,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 18
+                },
+                "end": {
+                  "line": 8,
+                  "column": 25
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 437,
+              "end": 443,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 26
+                },
+                "end": {
+                  "line": 8,
+                  "column": 32
+                },
+                "identifierName": "Spread"
+              },
+              "name": "Spread"
+            },
+            "computed": false
+          }
         }
       }
     ],
-    "directives": []
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
   },
   "comments": [],
   "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -658,9 +1828,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
+      "value": "use strict",
       "start": 0,
-      "end": 6,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
@@ -668,506 +1838,33 @@
         },
         "end": {
           "line": 1,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 7,
-      "end": 8,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 7
-        },
-        "end": {
-          "line": 1,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 9,
-      "end": 24,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 9
-        },
-        "end": {
-          "line": 1,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 24,
-      "end": 25,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 24
-        },
-        "end": {
-          "line": 1,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorFactory",
-      "start": 26,
-      "end": 42,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": 42
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 43,
-      "end": 44,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 43
-        },
-        "end": {
-          "line": 1,
-          "column": 44
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 45,
-      "end": 49,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 45
-        },
-        "end": {
-          "line": 1,
-          "column": 49
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "./factory",
-      "start": 50,
-      "end": 61,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 50
-        },
-        "end": {
-          "line": 1,
-          "column": 61
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 61,
-      "end": 62,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 61
-        },
-        "end": {
-          "line": 1,
-          "column": 62
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "import",
-        "keyword": "import",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "import",
-      "start": 63,
-      "end": 69,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 0
-        },
-        "end": {
-          "line": 2,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 70,
-      "end": 71,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 72,
-      "end": 90,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 91,
-      "end": 92,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 28
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 93,
-      "end": 97,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 30
-        },
-        "end": {
-          "line": 2,
-          "column": 34
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "./applicators",
-      "start": 98,
-      "end": 113,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 35
-        },
-        "end": {
-          "line": 2,
-          "column": 50
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 113,
-      "end": 114,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 50
-        },
-        "end": {
-          "line": 2,
-          "column": 51
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 115,
-      "end": 121,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 0
-        },
-        "end": {
-          "line": 3,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "const",
-        "keyword": "const",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "const",
-      "start": 122,
-      "end": 127,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 3,
           "column": 12
         }
       }
     },
     {
       "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Spread",
-      "start": 128,
-      "end": 134,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 13
-        },
-        "end": {
-          "line": 3,
-          "column": 19
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "=",
+        "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": true,
+        "isAssign": false,
         "prefix": false,
         "postfix": false,
         "binop": null,
         "updateContext": null
       },
-      "value": "=",
-      "start": 135,
-      "end": 136,
+      "start": 12,
+      "end": 13,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 20
+          "line": 1,
+          "column": 12
         },
         "end": {
-          "line": 3,
-          "column": 21
+          "line": 1,
+          "column": 13
         }
       }
     },
@@ -1183,17 +1880,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "DecoratorFactory",
-      "start": 137,
-      "end": 153,
+      "value": "Object",
+      "start": 14,
+      "end": 20,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 22
+          "line": 2,
+          "column": 0
         },
         "end": {
-          "line": 3,
-          "column": 38
+          "line": 2,
+          "column": 6
         }
       }
     },
@@ -1210,16 +1907,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 153,
-      "end": 154,
+      "start": 20,
+      "end": 21,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 38
+          "line": 2,
+          "column": 6
         },
         "end": {
-          "line": 3,
-          "column": 39
+          "line": 2,
+          "column": 7
         }
       }
     },
@@ -1235,17 +1932,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "createDecorator",
-      "start": 154,
-      "end": 169,
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 39
+          "line": 2,
+          "column": 7
         },
         "end": {
-          "line": 3,
-          "column": 54
+          "line": 2,
+          "column": 21
         }
       }
     },
@@ -1261,44 +1958,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 169,
-      "end": 170,
+      "start": 35,
+      "end": 36,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 54
+          "line": 2,
+          "column": 21
         },
         "end": {
-          "line": 3,
-          "column": 55
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 170,
-      "end": 173,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 55
-        },
-        "end": {
-          "line": 3,
-          "column": 58
+          "line": 2,
+          "column": 22
         }
       }
     },
@@ -1314,68 +1983,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "DecoratorConfig",
-      "start": 174,
-      "end": 189,
+      "value": "exports",
+      "start": 36,
+      "end": 43,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 59
+          "line": 2,
+          "column": 22
         },
         "end": {
-          "line": 3,
-          "column": 74
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 189,
-      "end": 190,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 74
-        },
-        "end": {
-          "line": 3,
-          "column": 75
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "spread",
-      "start": 190,
-      "end": 196,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 75
-        },
-        "end": {
-          "line": 3,
-          "column": 81
+          "line": 2,
+          "column": 29
         }
       }
     },
@@ -1392,24 +2010,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 196,
-      "end": 197,
+      "start": 43,
+      "end": 44,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 81
+          "line": 2,
+          "column": 29
         },
         "end": {
-          "line": 3,
-          "column": 82
+          "line": 2,
+          "column": 30
         }
       }
     },
     {
       "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
+        "label": "string",
+        "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -1419,93 +2036,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "new",
-      "start": 198,
-      "end": 201,
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 83
+          "line": 2,
+          "column": 31
         },
         "end": {
-          "line": 3,
-          "column": 86
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 202,
-      "end": 220,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 87
-        },
-        "end": {
-          "line": 3,
-          "column": 105
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 220,
-      "end": 221,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 105
-        },
-        "end": {
-          "line": 3,
-          "column": 106
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 221,
-      "end": 222,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 106
-        },
-        "end": {
-          "line": 3,
-          "column": 107
+          "line": 2,
+          "column": 43
         }
       }
     },
@@ -1522,16 +2063,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 222,
-      "end": 223,
+      "start": 57,
+      "end": 58,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 107
+          "line": 2,
+          "column": 43
         },
         "end": {
-          "line": 3,
-          "column": 108
+          "line": 2,
+          "column": 44
         }
       }
     },
@@ -1547,16 +2088,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 224,
-      "end": 225,
+      "start": 59,
+      "end": 60,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 109
+          "line": 2,
+          "column": 45
         },
         "end": {
-          "line": 3,
-          "column": 110
+          "line": 2,
+          "column": 46
         }
       }
     },
@@ -1572,17 +2113,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "optionalParams",
-      "start": 226,
-      "end": 240,
+      "value": "value",
+      "start": 61,
+      "end": 66,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 111
+          "line": 2,
+          "column": 47
         },
         "end": {
-          "line": 3,
-          "column": 125
+          "line": 2,
+          "column": 52
         }
       }
     },
@@ -1599,16 +2140,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 240,
-      "end": 241,
+      "start": 66,
+      "end": 67,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 125
+          "line": 2,
+          "column": 52
         },
         "end": {
-          "line": 3,
-          "column": 126
+          "line": 2,
+          "column": 53
         }
       }
     },
@@ -1627,16 +2168,16 @@
         "updateContext": null
       },
       "value": "true",
-      "start": 242,
-      "end": 246,
+      "start": 68,
+      "end": 72,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 127
+          "line": 2,
+          "column": 54
         },
         "end": {
-          "line": 3,
-          "column": 131
+          "line": 2,
+          "column": 58
         }
       }
     },
@@ -1652,16 +2193,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 247,
-      "end": 248,
+      "start": 73,
+      "end": 74,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 132
+          "line": 2,
+          "column": 59
         },
         "end": {
-          "line": 3,
-          "column": 133
+          "line": 2,
+          "column": 60
         }
       }
     },
@@ -1677,41 +2218,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 248,
-      "end": 249,
+      "start": 74,
+      "end": 75,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 133
+          "line": 2,
+          "column": 60
         },
         "end": {
-          "line": 3,
-          "column": 134
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 249,
-      "end": 250,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 134
-        },
-        "end": {
-          "line": 3,
-          "column": 135
+          "line": 2,
+          "column": 61
         }
       }
     },
@@ -1728,23 +2244,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 250,
-      "end": 251,
+      "start": 75,
+      "end": 76,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 135
+          "line": 2,
+          "column": 61
         },
         "end": {
-          "line": 3,
-          "column": 136
+          "line": 2,
+          "column": 62
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1755,42 +2271,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 252,
-      "end": 258,
+      "value": "var",
+      "start": 77,
+      "end": 80,
       "loc": {
         "start": {
-          "line": 4,
+          "line": 3,
           "column": 0
         },
         "end": {
-          "line": 4,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 259,
-      "end": 260,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 7
-        },
-        "end": {
-          "line": 4,
-          "column": 8
+          "line": 3,
+          "column": 3
         }
       }
     },
@@ -1806,13 +2297,250 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Spread",
-      "start": 261,
-      "end": 267,
+      "value": "spread_1",
+      "start": 81,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 90,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 92,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 99,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/spread",
+      "start": 100,
+      "end": 115,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 115,
+      "end": 116,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 116,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 39
+        },
+        "end": {
+          "line": 3,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 118,
+      "end": 121,
       "loc": {
         "start": {
           "line": 4,
-          "column": 9
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 122,
+      "end": 131,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 132,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
         },
         "end": {
           "line": 4,
@@ -1832,9 +2560,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "as",
-      "start": 268,
-      "end": 270,
+      "value": "require",
+      "start": 134,
+      "end": 141,
       "loc": {
         "start": {
           "line": 4,
@@ -1842,13 +2570,66 @@
         },
         "end": {
           "line": 4,
-          "column": 18
+          "column": 23
         }
       }
     },
     {
       "type": {
-        "label": "name",
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 141,
+      "end": 142,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./factory",
+      "start": 142,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1858,42 +2639,16 @@
         "postfix": false,
         "binop": null
       },
-      "value": "spread",
-      "start": 271,
-      "end": 277,
+      "start": 153,
+      "end": 154,
       "loc": {
         "start": {
           "line": 4,
-          "column": 19
+          "column": 35
         },
         "end": {
           "line": 4,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 278,
-      "end": 279,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 26
-        },
-        "end": {
-          "line": 4,
-          "column": 27
+          "column": 36
         }
       }
     },
@@ -1910,23 +2665,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 279,
-      "end": 280,
+      "start": 154,
+      "end": 155,
       "loc": {
         "start": {
           "line": 4,
-          "column": 27
+          "column": 36
         },
         "end": {
           "line": 4,
-          "column": 28
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1937,9 +2692,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 281,
-      "end": 287,
+      "value": "var",
+      "start": 156,
+      "end": 159,
       "loc": {
         "start": {
           "line": 5,
@@ -1947,7 +2702,2045 @@
         },
         "end": {
           "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "DecoratorConfig",
+      "start": 9,
+      "end": 24,
+=======
+      "value": "applicators_1",
+      "start": 160,
+      "end": 173,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+          "line": 1,
+          "column": 24
+=======
+          "line": 5,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": ",",
+=======
+        "label": "=",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+=======
+      "value": "=",
+      "start": 174,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "DecoratorFactory",
+      "start": 26,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+=======
+      "value": "require",
+      "start": 176,
+      "end": 183,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 183,
+      "end": 184,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+=======
+      "value": "./applicators",
+      "start": 184,
+      "end": 199,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 199,
+      "end": 200,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "start": 200,
+      "end": 201,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 202,
+      "end": 209,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "string",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "./factory",
+      "start": 50,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 50
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+=======
+      "start": 209,
+      "end": 210,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 61
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+=======
+      "value": "Spread",
+      "start": 210,
+      "end": 216,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 217,
+      "end": 218,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 15
+        },
+        "end": {
+          "line": 6,
+          "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "import",
+      "start": 63,
+      "end": 69,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
           "column": 6
+=======
+      "value": "factory_1",
+      "start": 219,
+      "end": 228,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 17
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 70,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+=======
+      "start": 228,
+      "end": 229,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "PreValueApplicator",
+      "start": 72,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 27
+=======
+      "value": "DecoratorFactory",
+      "start": 229,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+=======
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "from",
+      "start": 93,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+=======
+      "value": "createDecorator",
+      "start": 246,
+      "end": 261,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 44
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "./applicators",
+      "start": 98,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 261,
+      "end": 262,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 59
+        },
+        "end": {
+          "line": 6,
+          "column": 60
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 113,
+      "end": 114,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 50
+        },
+        "end": {
+          "line": 2,
+          "column": 51
+=======
+      "value": "new",
+      "start": 262,
+      "end": 265,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 60
+        },
+        "end": {
+          "line": 6,
+          "column": 63
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "export",
+        "keyword": "export",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "export",
+      "start": 115,
+      "end": 121,
+=======
+      "value": "factory_1",
+      "start": 266,
+      "end": 275,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 64
+        },
+        "end": {
+          "line": 6,
+          "column": 73
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "const",
+        "keyword": "const",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "const",
+      "start": 122,
+      "end": 127,
+=======
+      "start": 275,
+      "end": 276,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 73
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+          "line": 3,
+          "column": 12
+=======
+          "line": 6,
+          "column": 74
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "Spread",
+      "start": 128,
+      "end": 134,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 19
+=======
+      "value": "DecoratorConfig",
+      "start": 276,
+      "end": 291,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 74
+        },
+        "end": {
+          "line": 6,
+          "column": 89
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "=",
+      "start": 135,
+      "end": 136,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 21
+=======
+      "start": 291,
+      "end": 292,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 89
+        },
+        "end": {
+          "line": 6,
+          "column": 90
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "DecoratorFactory",
+      "start": 137,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+=======
+      "value": "spread_1",
+      "start": 292,
+      "end": 300,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 90
+        },
+        "end": {
+          "line": 6,
+          "column": 98
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 153,
+      "end": 154,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+=======
+      "start": 300,
+      "end": 301,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 98
+        },
+        "end": {
+          "line": 6,
+          "column": 99
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "createDecorator",
+      "start": 154,
+      "end": 169,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 39
+        },
+        "end": {
+          "line": 3,
+          "column": 54
+=======
+      "value": "default",
+      "start": 301,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 99
+        },
+        "end": {
+          "line": 6,
+          "column": 106
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 169,
+      "end": 170,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 54
+        },
+        "end": {
+          "line": 3,
+          "column": 55
+=======
+      "start": 308,
+      "end": 309,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 106
+        },
+        "end": {
+          "line": 6,
+          "column": 107
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "new",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 170,
+      "end": 173,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 55
+        },
+        "end": {
+          "line": 3,
+          "column": 58
+=======
+      "start": 310,
+      "end": 313,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 108
+        },
+        "end": {
+          "line": 6,
+          "column": 111
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "DecoratorConfig",
+      "start": 174,
+      "end": 189,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 59
+        },
+        "end": {
+          "line": 3,
+          "column": 74
+=======
+      "value": "applicators_1",
+      "start": 314,
+      "end": 327,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 112
+        },
+        "end": {
+          "line": 6,
+          "column": 125
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 189,
+      "end": 190,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 74
+        },
+        "end": {
+          "line": 3,
+          "column": 75
+=======
+      "start": 327,
+      "end": 328,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 125
+        },
+        "end": {
+          "line": 6,
+          "column": 126
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "spread",
+      "start": 190,
+      "end": 196,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 75
+        },
+        "end": {
+          "line": 3,
+          "column": 81
+=======
+      "value": "PreValueApplicator",
+      "start": 328,
+      "end": 346,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 126
+        },
+        "end": {
+          "line": 6,
+          "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 196,
+      "end": 197,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 81
+        },
+        "end": {
+          "line": 3,
+          "column": 82
+=======
+      "start": 346,
+      "end": 347,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 144
+        },
+        "end": {
+          "line": 6,
+          "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "new",
+      "start": 198,
+      "end": 201,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 83
+        },
+        "end": {
+          "line": 3,
+          "column": 86
+=======
+      "start": 347,
+      "end": 348,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 145
+        },
+        "end": {
+          "line": 6,
+          "column": 146
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "PreValueApplicator",
+      "start": 202,
+      "end": 220,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 87
+        },
+        "end": {
+          "line": 3,
+          "column": 105
+=======
+      "start": 348,
+      "end": 349,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 146
+        },
+        "end": {
+          "line": 6,
+          "column": 147
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "(",
+=======
+        "label": "{",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 220,
+      "end": 221,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 105
+        },
+        "end": {
+          "line": 3,
+          "column": 106
+=======
+      "start": 350,
+      "end": 351,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 148
+        },
+        "end": {
+          "line": 6,
+          "column": 149
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 221,
+      "end": 222,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 106
+        },
+        "end": {
+          "line": 3,
+          "column": 107
+=======
+      "value": "optionalParams",
+      "start": 352,
+      "end": 366,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 150
+        },
+        "end": {
+          "line": 6,
+          "column": 164
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": ",",
+=======
+        "label": ":",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 366,
+      "end": 367,
+      "loc": {
+        "start": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+          "line": 3,
+          "column": 107
+        },
+        "end": {
+          "line": 3,
+          "column": 108
+=======
+          "line": 6,
+          "column": 164
+        },
+        "end": {
+          "line": 6,
+          "column": 165
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "{",
+        "beforeExpr": true,
+=======
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 224,
+      "end": 225,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 109
+        },
+        "end": {
+          "line": 3,
+          "column": 110
+=======
+      "value": "true",
+      "start": 368,
+      "end": 372,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 166
+        },
+        "end": {
+          "line": 6,
+          "column": 170
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "optionalParams",
+      "start": 226,
+      "end": 240,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 111
+        },
+        "end": {
+          "line": 3,
+          "column": 125
+=======
+      "start": 373,
+      "end": 374,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 171
+        },
+        "end": {
+          "line": 6,
+          "column": 172
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": ":",
+        "beforeExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 240,
+      "end": 241,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 125
+        },
+        "end": {
+          "line": 3,
+          "column": 126
+=======
+      "start": 374,
+      "end": 375,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 172
+        },
+        "end": {
+          "line": 6,
+          "column": 173
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "true",
+        "keyword": "true",
+=======
+        "label": ")",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 242,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 127
+        },
+        "end": {
+          "line": 3,
+          "column": 131
+=======
+        "binop": null
+      },
+      "start": 375,
+      "end": 376,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 173
+        },
+        "end": {
+          "line": 6,
+          "column": 174
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 376,
+      "end": 377,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 174
+        },
+        "end": {
+          "line": 6,
+          "column": 175
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+        "label": "}",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 247,
+      "end": 248,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 132
+        },
+        "end": {
+          "line": 3,
+          "column": 133
+=======
+      "value": "exports",
+      "start": 378,
+      "end": 385,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 248,
+      "end": 249,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 133
+        },
+        "end": {
+          "line": 3,
+          "column": 134
+=======
+      "start": 385,
+      "end": 386,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 249,
+      "end": 250,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 134
+        },
+        "end": {
+          "line": 3,
+          "column": 135
+=======
+      "value": "spread",
+      "start": 386,
+      "end": 392,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 250,
+      "end": 251,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 135
+        },
+        "end": {
+          "line": 3,
+          "column": 136
+=======
+      "value": "=",
+      "start": 393,
+      "end": 394,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 15
+        },
+        "end": {
+          "line": 7,
+          "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "export",
+      "start": 252,
+      "end": 258,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 6
+=======
+      "value": "exports",
+      "start": 395,
+      "end": 402,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 17
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 259,
+      "end": 260,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": 8
+=======
+      "start": 402,
+      "end": 403,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 24
+        },
+        "end": {
+          "line": 7,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Spread",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 261,
+      "end": 267,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 9
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+=======
+      "start": 403,
+      "end": 409,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 25
+        },
+        "end": {
+          "line": 7,
+          "column": 31
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "as",
+      "start": 268,
+      "end": 270,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 18
+=======
+      "start": 409,
+      "end": 410,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 31
+        },
+        "end": {
+          "line": 7,
+          "column": 32
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "spread",
+      "start": 271,
+      "end": 277,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 19
+        },
+        "end": {
+          "line": 4,
+          "column": 25
+=======
+      "value": "exports",
+      "start": 411,
+      "end": 418,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 278,
+      "end": 279,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 26
+        },
+        "end": {
+          "line": 4,
+          "column": 27
+=======
+      "start": 418,
+      "end": 419,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 8,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         }
       }
     },
@@ -1965,6 +4758,114 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "start": 279,
+      "end": 280,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 4,
+          "column": 28
+=======
+      "value": "default",
+      "start": 419,
+      "end": 426,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
+      "value": "export",
+      "start": 281,
+      "end": 287,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+=======
+      "value": "=",
+      "start": 427,
+      "end": 428,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 16
+        },
+        "end": {
+          "line": 8,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 429,
+      "end": 436,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 18
+        },
+        "end": {
+          "line": 8,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
       "value": "default",
       "start": 288,
       "end": 295,
@@ -1976,6 +4877,18 @@
         "end": {
           "line": 5,
           "column": 14
+=======
+      "start": 436,
+      "end": 437,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 25
+        },
+        "end": {
+          "line": 8,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         }
       }
     },
@@ -1992,6 +4905,7 @@
         "binop": null
       },
       "value": "Spread",
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
       "start": 296,
       "end": 302,
       "loc": {
@@ -2002,6 +4916,18 @@
         "end": {
           "line": 5,
           "column": 21
+=======
+      "start": 437,
+      "end": 443,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 26
+        },
+        "end": {
+          "line": 8,
+          "column": 32
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         }
       }
     },
@@ -2018,6 +4944,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
       "start": 302,
       "end": 303,
       "loc": {
@@ -2028,6 +4955,18 @@
         "end": {
           "line": 5,
           "column": 22
+=======
+      "start": 443,
+      "end": 444,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 32
+        },
+        "end": {
+          "line": 8,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
         }
       }
     },
@@ -2044,6 +4983,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/spread.ts.json
       "start": 304,
       "end": 304,
       "loc": {
@@ -2053,6 +4993,17 @@
         },
         "end": {
           "line": 6,
+=======
+      "start": 445,
+      "end": 445,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/spread.js.json
           "column": 0
         }
       }

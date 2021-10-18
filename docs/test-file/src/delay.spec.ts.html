@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/test-file/src/delay.spec.ts.html
   <title data-ice="title">src/delay.spec.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/defer.spec.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/defer.spec.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/test-file/src/delay.spec.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -171,6 +176,134 @@ describe(&apos;delay&apos;, () =&gt; {
       done();
     }, 15);
   });
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/defer.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var chai_1 = require(&quot;chai&quot;);
+var sinon_1 = require(&quot;sinon&quot;);
+var defer_1 = require(&quot;./defer&quot;);
+describe(&apos;defer&apos;, function () {
+    it(&apos;should defer the method&apos;, function (done) {
+        var _spy = sinon_1.spy();
+        var MyClass = (function () {
+            function MyClass() {
+            }
+            MyClass.prototype.fn = function () {
+                var args = [];
+                for (var _i = 0; _i &lt; arguments.length; _i++) {
+                    args[_i] = arguments[_i];
+                }
+                chai_1.expect(this, &apos;context&apos;).to.equal(myClass);
+                _spy.apply(void 0, args);
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            defer_1.Defer(&apos;test&apos;)
+        ], MyClass.prototype, &quot;fn&quot;, null);
+        var myClass = new MyClass();
+        myClass.fn(10);
+        chai_1.expect(_spy.called).to.be.false;
+        setTimeout(function () {
+            chai_1.expect(_spy.callCount).to.equal(1);
+            chai_1.expect(_spy.getCalls()[0].args).to.eql([10, &apos;test&apos;]);
+            done();
+        }, 0);
+    });
+    it(&apos;should defer the method (paramless)&apos;, function (done) {
+        var _spy = sinon_1.spy();
+        var MyClass = (function () {
+            function MyClass() {
+            }
+            MyClass.prototype.fn = function () {
+                var args = [];
+                for (var _i = 0; _i &lt; arguments.length; _i++) {
+                    args[_i] = arguments[_i];
+                }
+                chai_1.expect(this, &apos;context&apos;).to.equal(myClass);
+                _spy.apply(void 0, args);
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            defer_1.Defer
+        ], MyClass.prototype, &quot;fn&quot;, null);
+        var myClass = new MyClass();
+        myClass.fn(10);
+        chai_1.expect(_spy.called).to.be.false;
+        setTimeout(function () {
+            chai_1.expect(_spy.callCount).to.equal(1);
+            chai_1.expect(_spy.getCalls()[0].args).to.eql([10]);
+            done();
+        }, 0);
+    });
+    it(&apos;should debounce the property setter&apos;, function (done) {
+        var MyClass = (function () {
+            function MyClass() {
+                this._value = 100;
+            }
+            Object.defineProperty(MyClass.prototype, &quot;value&quot;, {
+                get: function () {
+                    return this._value;
+                },
+                set: function (value) {
+                    chai_1.expect(this, &apos;context&apos;).to.equal(myClass);
+                    this._value = value;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            defer_1.Defer()
+        ], MyClass.prototype, &quot;value&quot;, null);
+        var myClass = new MyClass();
+        myClass.value = 5;
+        myClass.value = 15;
+        chai_1.expect(myClass.value).to.equal(100);
+        setTimeout(function () {
+            chai_1.expect(myClass.value).to.equal(15);
+            done();
+        }, 0);
+    });
+    it(&apos;should debounce the property setter (paramless)&apos;, function (done) {
+        var MyClass = (function () {
+            function MyClass() {
+                this._value = 100;
+            }
+            Object.defineProperty(MyClass.prototype, &quot;value&quot;, {
+                get: function () {
+                    return this._value;
+                },
+                set: function (value) {
+                    chai_1.expect(this, &apos;context&apos;).to.equal(myClass);
+                    this._value = value;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            defer_1.Defer
+        ], MyClass.prototype, &quot;value&quot;, null);
+        var myClass = new MyClass();
+        myClass.value = 5;
+        myClass.value = 15;
+        chai_1.expect(myClass.value).to.equal(100);
+        setTimeout(function () {
+            chai_1.expect(myClass.value).to.equal(15);
+            done();
+        }, 0);
+    });
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/defer.spec.js.html
 });
 </code></pre>
 

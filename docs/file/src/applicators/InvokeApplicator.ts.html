@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../../">
+<<<<<<< HEAD:docs/file/src/applicators/InvokeApplicator.ts.html
   <title data-ice="title">src/applicators/InvokeApplicator.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/applicators/InvokeApplicator.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/applicators/InvokeApplicator.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/applicators/InvokeApplicator.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -124,6 +129,35 @@ export class InvokeApplicator extends Applicator {
     };
   }
 }
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/applicators/InvokeApplicator.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var Applicator_1 = require(&quot;./Applicator&quot;);
+var InvokeApplicator = (function (_super) {
+    tslib_1.__extends(InvokeApplicator, _super);
+    function InvokeApplicator() {
+        return _super !== null &amp;&amp; _super.apply(this, arguments) || this;
+    }
+    InvokeApplicator.prototype.apply = function (_a) {
+        var args = _a.args, target = _a.target, execute = _a.config.execute, value = _a.value;
+        return function () {
+            var invokeArgs = [];
+            for (var _i = 0; _i &lt; arguments.length; _i++) {
+                invokeArgs[_i] = arguments[_i];
+            }
+            return execute.apply(void 0, [value.bind(this)].concat(invokeArgs, args));
+        };
+    };
+    return InvokeApplicator;
+}(Applicator_1.Applicator));
+exports.InvokeApplicator = InvokeApplicator;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/applicators/InvokeApplicator.js.html
 </code></pre>
 
 </div>

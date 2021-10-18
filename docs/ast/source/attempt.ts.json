@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
   "end": 863,
+=======
+  "end": 1072,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "line": 31,
+=======
+      "line": 34,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
     "end": 863,
+=======
+    "end": 1072,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "line": 31,
+=======
+        "line": 34,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "line": 1,
             "column": 62
           }
@@ -69,13 +92,60 @@
                 "end": {
                   "line": 1,
                   "column": 24
-                },
-                "identifierName": "DecoratorConfig"
-              },
-              "name": "DecoratorConfig"
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
             },
-            "local": {
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
               "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "start": 9,
               "end": 24,
               "loc": {
@@ -105,9 +175,29 @@
                 "line": 1,
                 "column": 42
               }
+=======
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
             },
-            "imported": {
+            "computed": false
+          },
+          "arguments": [
+            {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +208,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 2,
+                  "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "DecoratorFactory"
+              "name": "exports"
             },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -154,31 +257,127 @@
             "end": {
               "line": 1,
               "column": 61
+=======
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
             }
-          },
-          "extra": {
-            "rawValue": "./factory",
-            "raw": "'./factory'"
-          },
-          "value": "./factory"
+          ]
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "type": "ImportDeclaration",
         "start": 63,
         "end": 114,
+=======
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 119,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "loc": {
           "start": {
             "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "line": 2,
             "column": 51
+=======
+            "line": 3,
+            "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 90,
@@ -190,10 +389,24 @@
               "end": {
                 "line": 2,
                 "column": 27
+=======
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 118,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 41
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "start": 72,
               "end": 90,
               "loc": {
@@ -204,11 +417,24 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+              "start": 81,
+              "end": 90,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                },
+                "identifierName": "attempt_1"
               },
-              "name": "PreValueApplicator"
+              "name": "attempt_1"
             },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "local": {
               "type": "Identifier",
               "start": 72,
@@ -221,13 +447,65 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 93,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 16
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 41
+                }
               },
-              "name": "PreValueApplicator"
+              "callee": {
+                "type": "Identifier",
+                "start": 93,
+                "end": 100,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 101,
+                  "end": 117,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 40
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/attempt",
+                    "raw": "\"lodash/attempt\""
+                  },
+                  "value": "lodash/attempt"
+                }
+              ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "source": {
           "type": "StringLiteral",
           "start": 98,
@@ -252,6 +530,13 @@
       {
         "type": "VariableDeclaration",
         "start": 115,
+=======
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 120,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "end": 162,
         "loc": {
           "start": {
@@ -259,13 +544,19 @@
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "line": 3,
             "column": 47
+=======
+            "line": 4,
+            "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "start": 121,
             "end": 161,
             "loc": {
@@ -276,10 +567,23 @@
               "end": {
                 "line": 3,
                 "column": 46
+=======
+            "start": 124,
+            "end": 161,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 41
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               }
             },
             "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "start": 121,
               "end": 130,
               "loc": {
@@ -307,10 +611,40 @@
                 "end": {
                   "line": 3,
                   "column": 46
+=======
+              "start": 124,
+              "end": 133,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 13
+                },
+                "identifierName": "partial_1"
+              },
+              "name": "partial_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 136,
+              "end": 161,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+                  "line": 4,
+                  "column": 41
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                 "start": 121,
                 "end": 130,
                 "loc": {
@@ -325,12 +659,26 @@
                   "identifierName": "attemptFn"
                 },
                 "name": "attemptFn"
+=======
+                "start": 136,
+                "end": 143,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               },
-              "generator": false,
-              "expression": true,
-              "async": false,
-              "params": [
+              "arguments": [
                 {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                   "type": "Identifier",
                   "start": 134,
                   "end": 136,
@@ -416,12 +764,50 @@
                   }
                 ]
               }
+=======
+                  "type": "StringLiteral",
+                  "start": 144,
+                  "end": 160,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 40
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/partial",
+                    "raw": "\"lodash/partial\""
+                  },
+                  "value": "lodash/partial"
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
             }
           }
         ],
-        "kind": "const",
-        "trailingComments": [
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 163,
+        "end": 200,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        },
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "type": "CommentBlock",
             "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n *\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
             "start": 163,
@@ -430,25 +816,113 @@
               "start": {
                 "line": 4,
                 "column": 0
+=======
+            "type": "VariableDeclarator",
+            "start": 167,
+            "end": 199,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               },
               "end": {
-                "line": 25,
-                "column": 3
+                "line": 5,
+                "column": 36
               }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 167,
+              "end": 176,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 179,
+              "end": 199,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 16
+                },
+                "end": {
+                  "line": 5,
+                  "column": 36
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 179,
+                "end": 186,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 187,
+                  "end": 198,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
             }
           }
-        ]
+        ],
+        "kind": "var"
       },
       {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "type": "ExportNamedDeclaration",
         "start": 663,
         "end": 807,
+=======
+        "type": "VariableDeclaration",
+        "start": 201,
+        "end": 246,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "loc": {
           "start": {
-            "line": 26,
+            "line": 6,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "line": 28,
             "column": 4
           }
@@ -474,44 +948,190 @@
               "type": "VariableDeclarator",
               "start": 676,
               "end": 806,
+=======
+            "line": 6,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 205,
+            "end": 245,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 205,
+              "end": 218,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               "loc": {
                 "start": {
-                  "line": 26,
-                  "column": 13
+                  "line": 6,
+                  "column": 4
                 },
                 "end": {
+                  "line": 6,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 221,
+              "end": 245,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 20
+                },
+                "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                   "line": 28,
                   "column": 3
+=======
+                  "line": 6,
+                  "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                 "start": 676,
                 "end": 683,
+=======
+                "start": 221,
+                "end": 228,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 "loc": {
                   "start": {
-                    "line": 26,
-                    "column": 13
-                  },
-                  "end": {
-                    "line": 26,
+                    "line": 6,
                     "column": 20
                   },
-                  "identifierName": "Attempt"
+                  "end": {
+                    "line": 6,
+                    "column": 27
+                  },
+                  "identifierName": "require"
                 },
-                "name": "Attempt",
-                "leadingComments": null
+                "name": "require"
               },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 229,
+                  "end": 244,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 247,
+        "end": 330,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 83
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 251,
+            "end": 329,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 4
+              },
+              "end": {
+                "line": 7,
+                "column": 82
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 251,
+              "end": 260,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 4
+                },
+                "end": {
+                  "line": 7,
+                  "column": 13
+                },
+                "identifierName": "attemptFn"
+              },
+              "name": "attemptFn"
+            },
+            "init": {
+              "type": "FunctionExpression",
+              "start": 263,
+              "end": 329,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 16
+                },
+                "end": {
+                  "line": 7,
+                  "column": 82
+                }
+              },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "init": {
                 "type": "CallExpression",
                 "start": 686,
                 "end": 806,
+=======
+              "id": {
+                "type": "Identifier",
+                "start": 251,
+                "end": 260,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 "loc": {
                   "start": {
-                    "line": 26,
-                    "column": 23
+                    "line": 7,
+                    "column": 4
                   },
                   "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                     "line": 28,
                     "column": 3
                   }
@@ -520,12 +1140,30 @@
                   "type": "MemberExpression",
                   "start": 686,
                   "end": 718,
+=======
+                    "line": 7,
+                    "column": 13
+                  },
+                  "identifierName": "attemptFn"
+                },
+                "name": "attemptFn"
+              },
+              "generator": false,
+              "expression": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 273,
+                  "end": 275,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                   "loc": {
                     "start": {
-                      "line": 26,
-                      "column": 23
+                      "line": 7,
+                      "column": 26
                     },
                     "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                       "line": 26,
                       "column": 55
                     }
@@ -544,9 +1182,14 @@
                         "column": 39
                       },
                       "identifierName": "DecoratorFactory"
+=======
+                      "line": 7,
+                      "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                     },
-                    "name": "DecoratorFactory"
+                    "identifierName": "fn"
                   },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                   "property": {
                     "type": "Identifier",
                     "start": 703,
@@ -563,20 +1206,43 @@
                       "identifierName": "createDecorator"
                     },
                     "name": "createDecorator"
+=======
+                  "name": "fn"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 277,
+                "end": 329,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                   },
-                  "computed": false
+                  "end": {
+                    "line": 7,
+                    "column": 82
+                  }
                 },
-                "arguments": [
+                "body": [
                   {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                     "type": "NewExpression",
                     "start": 719,
                     "end": 805,
+=======
+                    "type": "ReturnStatement",
+                    "start": 279,
+                    "end": 327,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                     "loc": {
                       "start": {
-                        "line": 26,
-                        "column": 56
+                        "line": 7,
+                        "column": 32
                       },
                       "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                         "line": 28,
                         "column": 2
                       }
@@ -585,17 +1251,27 @@
                       "type": "Identifier",
                       "start": 723,
                       "end": 738,
+=======
+                        "line": 7,
+                        "column": 80
+                      }
+                    },
+                    "argument": {
+                      "type": "CallExpression",
+                      "start": 286,
+                      "end": 326,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                       "loc": {
                         "start": {
-                          "line": 26,
-                          "column": 60
+                          "line": 7,
+                          "column": 39
                         },
                         "end": {
-                          "line": 26,
-                          "column": 75
-                        },
-                        "identifierName": "DecoratorConfig"
+                          "line": 7,
+                          "column": 79
+                        }
                       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                       "name": "DecoratorConfig"
                     },
                     "arguments": [
@@ -603,12 +1279,19 @@
                         "type": "Identifier",
                         "start": 739,
                         "end": 748,
+=======
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 286,
+                        "end": 303,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                         "loc": {
                           "start": {
-                            "line": 26,
-                            "column": 76
+                            "line": 7,
+                            "column": 39
                           },
                           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                             "line": 26,
                             "column": 85
                           },
@@ -629,9 +1312,102 @@
                             "line": 26,
                             "column": 111
                           }
+=======
+                            "line": 7,
+                            "column": 56
+                          }
                         },
-                        "callee": {
+                        "object": {
                           "type": "Identifier",
+                          "start": 286,
+                          "end": 295,
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 39
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 48
+                            },
+                            "identifierName": "partial_1"
+                          },
+                          "name": "partial_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 296,
+                          "end": 303,
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 49
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 56
+                            },
+                            "identifierName": "default"
+                          },
+                          "name": "default"
+                        },
+                        "computed": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "MemberExpression",
+                          "start": 304,
+                          "end": 321,
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 57
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 74
+                            }
+                          },
+                          "object": {
+                            "type": "Identifier",
+                            "start": 304,
+                            "end": 313,
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 57
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 66
+                              },
+                              "identifierName": "attempt_1"
+                            },
+                            "name": "attempt_1"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 314,
+                            "end": 321,
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 67
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 74
+                              },
+                              "identifierName": "default"
+                            },
+                            "name": "default"
+                          },
+                          "computed": false
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                        },
+                        {
+                          "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                           "start": 754,
                           "end": 772,
                           "loc": {
@@ -642,9 +1418,22 @@
                             "end": {
                               "line": 26,
                               "column": 109
+=======
+                          "start": 323,
+                          "end": 325,
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 76
                             },
-                            "identifierName": "PreValueApplicator"
+                            "end": {
+                              "line": 7,
+                              "column": 78
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                            },
+                            "identifierName": "fn"
                           },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                           "name": "PreValueApplicator"
                         },
                         "arguments": []
@@ -740,24 +1529,42 @@
                   "line": 25,
                   "column": 3
                 }
+=======
+                          "name": "fn"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               }
             }
-          ],
-          "trailingComments": []
-        },
-        "leadingComments": [
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n *\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
             "start": 163,
             "end": 662,
             "loc": {
               "start": {
                 "line": 4,
+=======
+            "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
+            "start": 331,
+            "end": 827,
+            "loc": {
+              "start": {
+                "line": 8,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 "column": 0
               },
               "end": {
-                "line": 25,
+                "line": 28,
                 "column": 3
               }
             }
@@ -765,15 +1572,22 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
         "type": "ExportNamedDeclaration",
         "start": 808,
         "end": 838,
+=======
+        "type": "ExpressionStatement",
+        "start": 828,
+        "end": 1001,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         "loc": {
           "start": {
             "line": 29,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
             "line": 29,
             "column": 30
           }
@@ -792,10 +1606,44 @@
               "end": {
                 "line": 29,
                 "column": 27
+=======
+            "line": 31,
+            "column": 4
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 828,
+          "end": 1000,
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 3
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 828,
+            "end": 843,
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
               }
             },
-            "local": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
               "start": 817,
               "end": 824,
               "loc": {
@@ -806,32 +1654,1693 @@
                 "end": {
                   "line": 29,
                   "column": 16
+=======
+              "start": 828,
+              "end": 835,
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 0
                 },
-                "identifierName": "Attempt"
+                "end": {
+                  "line": 29,
+                  "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "Attempt"
+              "name": "exports",
+              "leadingComments": null
             },
-            "exported": {
+            "property": {
               "type": "Identifier",
               "start": 828,
               "end": 835,
               "loc": {
                 "start": {
                   "line": 29,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
                   "column": 20
                 },
                 "end": {
                   "line": 29,
                   "column": 27
+=======
+                  "column": 8
+                },
+                "end": {
+                  "line": 29,
+                  "column": 15
+                },
+                "identifierName": "Attempt"
+              },
+              "name": "Attempt"
+            },
+            "computed": false,
+            "leadingComments": null
+          },
+          "right": {
+            "type": "CallExpression",
+            "start": 846,
+            "end": 1000,
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 18
+              },
+              "end": {
+                "line": 31,
+                "column": 3
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 846,
+              "end": 888,
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 18
+                },
+                "end": {
+                  "line": 29,
+                  "column": 60
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "start": 846,
+                "end": 872,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 18
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 44
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 846,
+                  "end": 855,
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 18
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 27
+                    },
+                    "identifierName": "factory_1"
+                  },
+                  "name": "factory_1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 856,
+                  "end": 872,
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 44
+                    },
+                    "identifierName": "DecoratorFactory"
+                  },
+                  "name": "DecoratorFactory"
+                },
+                "computed": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 873,
+                "end": 888,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 45
+                  },
+                  "end": {
+                    "line": 29,
+                    "column": 60
+                  },
+                  "identifierName": "createDecorator"
+                },
+                "name": "createDecorator"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 889,
+                "end": 999,
+                "loc": {
+                  "start": {
+                    "line": 29,
+                    "column": 61
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 2
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 893,
+                  "end": 918,
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 65
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 90
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 893,
+                    "end": 902,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 65
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 74
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 903,
+                    "end": 918,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 75
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 90
+                      },
+                      "identifierName": "DecoratorConfig"
+                    },
+                    "name": "DecoratorConfig"
+                  },
+                  "computed": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 919,
+                    "end": 928,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 91
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 100
+                      },
+                      "identifierName": "attemptFn"
+                    },
+                    "name": "attemptFn"
+                  },
+                  {
+                    "type": "NewExpression",
+                    "start": 930,
+                    "end": 968,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 102
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 140
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 934,
+                      "end": 966,
+                      "loc": {
+                        "start": {
+                          "line": 29,
+                          "column": 106
+                        },
+                        "end": {
+                          "line": 29,
+                          "column": 138
+                        }
+                      },
+                      "object": {
+                        "type": "Identifier",
+                        "start": 934,
+                        "end": 947,
+                        "loc": {
+                          "start": {
+                            "line": 29,
+                            "column": 106
+                          },
+                          "end": {
+                            "line": 29,
+                            "column": 119
+                          },
+                          "identifierName": "applicators_1"
+                        },
+                        "name": "applicators_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 948,
+                        "end": 966,
+                        "loc": {
+                          "start": {
+                            "line": 29,
+                            "column": 120
+                          },
+                          "end": {
+                            "line": 29,
+                            "column": 138
+                          },
+                          "identifierName": "PreValueApplicator"
+                        },
+                        "name": "PreValueApplicator"
+                      },
+                      "computed": false
+                    },
+                    "arguments": []
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 970,
+                    "end": 998,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 142
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 1
+                      }
+                    },
+                    "properties": [
+                      {
+                        "type": "ObjectProperty",
+                        "start": 976,
+                        "end": 996,
+                        "loc": {
+                          "start": {
+                            "line": 30,
+                            "column": 4
+                          },
+                          "end": {
+                            "line": 30,
+                            "column": 24
+                          }
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 976,
+                          "end": 990,
+                          "loc": {
+                            "start": {
+                              "line": 30,
+                              "column": 4
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 18
+                            },
+                            "identifierName": "optionalParams"
+                          },
+                          "name": "optionalParams"
+                        },
+                        "value": {
+                          "type": "BooleanLiteral",
+                          "start": 992,
+                          "end": 996,
+                          "loc": {
+                            "start": {
+                              "line": 30,
+                              "column": 20
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 24
+                            }
+                          },
+                          "value": true
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "leadingComments": null
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
+            "start": 331,
+            "end": 827,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0
+              },
+              "end": {
+                "line": 28,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1002,
+        "end": 1036,
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 0
+          },
+          "end": {
+            "line": 32,
+            "column": 34
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1002,
+          "end": 1035,
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 33
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1002,
+            "end": 1017,
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 0
+              },
+              "end": {
+                "line": 32,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1002,
+              "end": 1009,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 0
+                },
+                "end": {
+                  "line": 32,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1010,
+              "end": 1017,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 8
+                },
+                "end": {
+                  "line": 32,
+                  "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
                 },
                 "identifierName": "attempt"
               },
               "name": "attempt"
-            }
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 1020,
+            "end": 1035,
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 18
+              },
+              "end": {
+                "line": 32,
+                "column": 33
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1020,
+              "end": 1027,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 18
+                },
+                "end": {
+                  "line": 32,
+                  "column": 25
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1028,
+              "end": 1035,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 26
+                },
+                "end": {
+                  "line": 32,
+                  "column": 33
+                },
+                "identifierName": "Attempt"
+              },
+              "name": "Attempt"
+            },
+            "computed": false
           }
-        ],
-        "source": null
+        }
       },
+      {
+        "type": "ExpressionStatement",
+        "start": 1037,
+        "end": 1071,
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 33,
+            "column": 34
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1037,
+          "end": 1070,
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 0
+            },
+            "end": {
+              "line": 33,
+              "column": 33
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1037,
+            "end": 1052,
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1037,
+              "end": 1044,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 0
+                },
+                "end": {
+                  "line": 33,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1045,
+              "end": 1052,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 8
+                },
+                "end": {
+                  "line": 33,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 1055,
+            "end": 1070,
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 18
+              },
+              "end": {
+                "line": 33,
+                "column": 33
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1055,
+              "end": 1062,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 18
+                },
+                "end": {
+                  "line": 33,
+                  "column": 25
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1063,
+              "end": 1070,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 26
+                },
+                "end": {
+                  "line": 33,
+                  "column": 33
+                },
+                "identifierName": "Attempt"
+              },
+              "name": "Attempt"
+            },
+            "computed": false
+          }
+        }
+      }
+    ],
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
+      "start": 331,
+      "end": 827,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "use strict",
+      "start": 0,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "attempt_1",
+      "start": 81,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 14
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 93,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 16
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 100,
+      "end": 101,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/attempt",
+      "start": 101,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 3,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 117,
+      "end": 118,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 40
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 118,
+      "end": 119,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 41
+        },
+        "end": {
+          "line": 3,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 120,
+      "end": 123,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "partial_1",
+      "start": 124,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 134,
+      "end": 135,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 136,
+      "end": 143,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 143,
+      "end": 144,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/partial",
+      "start": 144,
+      "end": 160,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 160,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 40
+        },
+        "end": {
+          "line": 4,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 161,
+      "end": 162,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 41
+        },
+        "end": {
+          "line": 4,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 163,
+      "end": 166,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 167,
+      "end": 176,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 177,
+      "end": 178,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 14
+        },
+        "end": {
+          "line": 5,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 179,
+      "end": 186,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 16
+        },
+        "end": {
+          "line": 5,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       {
         "type": "ExportDefaultDeclaration",
         "start": 839,
@@ -864,13 +3373,23 @@
           "name": "Attempt",
           "leadingComments": [],
           "trailingComments": []
+=======
+      "start": 186,
+      "end": 187,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 23
+        },
+        "end": {
+          "line": 5,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
-    ],
-    "directives": []
-  },
-  "comments": [
+    },
     {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "type": "CommentBlock",
       "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n *\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
       "start": 163,
@@ -878,199 +3397,7 @@
       "loc": {
         "start": {
           "line": 4,
-          "column": 0
-        },
-        "end": {
-          "line": 25,
-          "column": 3
-        }
-      }
-    }
-  ],
-  "tokens": [
-    {
-      "type": {
-        "label": "import",
-        "keyword": "import",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "import",
-      "start": 0,
-      "end": 6,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 1,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 7,
-      "end": 8,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 7
-        },
-        "end": {
-          "line": 1,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 9,
-      "end": 24,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 9
-        },
-        "end": {
-          "line": 1,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 24,
-      "end": 25,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 24
-        },
-        "end": {
-          "line": 1,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorFactory",
-      "start": 26,
-      "end": 42,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": 42
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 43,
-      "end": 44,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 43
-        },
-        "end": {
-          "line": 1,
-          "column": 44
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 45,
-      "end": 49,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 45
-        },
-        "end": {
-          "line": 1,
-          "column": 49
-        }
-      }
-    },
-    {
+=======
       "type": {
         "label": "string",
         "beforeExpr": false,
@@ -1084,16 +3411,41 @@
         "updateContext": null
       },
       "value": "./factory",
-      "start": 50,
-      "end": 61,
+      "start": 187,
+      "end": 198,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 50
+          "line": 5,
+          "column": 24
         },
         "end": {
-          "line": 1,
-          "column": 61
+          "line": 5,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 198,
+      "end": 199,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 35
+        },
+        "end": {
+          "line": 5,
+          "column": 36
         }
       }
     },
@@ -1110,25 +3462,25 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 61,
-      "end": 62,
+      "start": 199,
+      "end": 200,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 61
+          "line": 5,
+          "column": 36
         },
         "end": {
-          "line": 1,
-          "column": 62
+          "line": 5,
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1137,23 +3489,106 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
-      "start": 63,
-      "end": 69,
+      "value": "var",
+      "start": 201,
+      "end": 204,
       "loc": {
         "start": {
-          "line": 2,
+          "line": 6,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
           "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 6
+          "line": 6,
+          "column": 3
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+=======
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 205,
+      "end": 218,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 219,
+      "end": 220,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 18
+        },
+        "end": {
+          "line": 6,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 221,
+      "end": 228,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 20
+        },
+        "end": {
+          "line": 6,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1163,93 +3598,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 70,
-      "end": 71,
+      "start": 228,
+      "end": 229,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 72,
-      "end": 90,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
+          "line": 6,
           "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 91,
-      "end": 92,
-      "loc": {
-        "start": {
-          "line": 2,
+        },
+        "end": {
+          "line": 6,
           "column": 28
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 93,
-      "end": 97,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 30
-        },
-        "end": {
-          "line": 2,
-          "column": 34
         }
       }
     },
@@ -1267,16 +3625,41 @@
         "updateContext": null
       },
       "value": "./applicators",
-      "start": 98,
-      "end": 113,
+      "start": 229,
+      "end": 244,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 35
+          "line": 6,
+          "column": 28
         },
         "end": {
-          "line": 2,
-          "column": 50
+          "line": 6,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 244,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 44
         }
       }
     },
@@ -1293,23 +3676,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 113,
-      "end": 114,
+      "start": 245,
+      "end": 246,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 50
+          "line": 6,
+          "column": 44
         },
         "end": {
-          "line": 2,
-          "column": 51
+          "line": 6,
+          "column": 45
         }
       }
     },
     {
       "type": {
-        "label": "const",
-        "keyword": "const",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1320,17 +3703,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "const",
-      "start": 115,
-      "end": 120,
+      "value": "var",
+      "start": 247,
+      "end": 250,
       "loc": {
         "start": {
-          "line": 3,
+          "line": 7,
           "column": 0
         },
         "end": {
-          "line": 3,
-          "column": 5
+          "line": 7,
+          "column": 3
         }
       }
     },
@@ -1346,6 +3729,816 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "DecoratorConfig",
+      "start": 9,
+      "end": 24,
+=======
+      "value": "attemptFn",
+      "start": 251,
+      "end": 260,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+          "line": 1,
+          "column": 24
+=======
+          "line": 7,
+          "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+=======
+      "value": "=",
+      "start": 261,
+      "end": 262,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 14
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "DecoratorFactory",
+      "start": 26,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+=======
+      "value": "function",
+      "start": 263,
+      "end": 271,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 16
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+=======
+      "start": 272,
+      "end": 273,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 25
+        },
+        "end": {
+          "line": 7,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "value": "fn",
+      "start": 273,
+      "end": 275,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 26
+        },
+        "end": {
+          "line": 7,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "./factory",
+      "start": 50,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 50
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+=======
+      "start": 275,
+      "end": 276,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 28
+        },
+        "end": {
+          "line": 7,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 61
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+=======
+      "start": 277,
+      "end": 278,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 30
+        },
+        "end": {
+          "line": 7,
+          "column": 31
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "import",
+      "start": 63,
+      "end": 69,
+=======
+      "value": "return",
+      "start": 279,
+      "end": 285,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 32
+        },
+        "end": {
+          "line": 7,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 70,
+      "end": 71,
+=======
+      "value": "partial_1",
+      "start": 286,
+      "end": 295,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 39
+        },
+        "end": {
+          "line": 7,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "PreValueApplicator",
+      "start": 72,
+      "end": 90,
+=======
+      "start": 295,
+      "end": 296,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 48
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+          "line": 2,
+          "column": 27
+=======
+          "line": 7,
+          "column": 49
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+        "label": "}",
+        "beforeExpr": false,
+=======
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+=======
+      "value": "default",
+      "start": 296,
+      "end": 303,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 303,
+      "end": 304,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 56
+        },
+        "end": {
+          "line": 7,
+          "column": 57
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "from",
+      "start": 93,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+=======
+      "value": "attempt_1",
+      "start": 304,
+      "end": 313,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 57
+        },
+        "end": {
+          "line": 7,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 313,
+      "end": 314,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 66
+        },
+        "end": {
+          "line": 7,
+          "column": 67
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 314,
+      "end": 321,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 67
+        },
+        "end": {
+          "line": 7,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 321,
+      "end": 322,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 74
+        },
+        "end": {
+          "line": 7,
+          "column": 75
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "fn",
+      "start": 323,
+      "end": 325,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 76
+        },
+        "end": {
+          "line": 7,
+          "column": 78
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 325,
+      "end": 326,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 78
+        },
+        "end": {
+          "line": 7,
+          "column": 79
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 326,
+      "end": 327,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 79
+        },
+        "end": {
+          "line": 7,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 328,
+      "end": 329,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 81
+        },
+        "end": {
+          "line": 7,
+          "column": 82
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "./applicators",
+      "start": 98,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 329,
+      "end": 330,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 82
+        },
+        "end": {
+          "line": 7,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked.\n * @param {...*} [args] The arguments to invoke func with.\n * @example\n *\n * class MyClass {\n *   @Attempt()\n *   fn(value) {\n *     if (typeof value === 'number') {\n *       return value\n *     }\n *\n *     throw new Error();\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(10); // => 10;\n * myClass.fn(null); // => Error\n ",
+      "start": 331,
+      "end": 827,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 3
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 113,
+      "end": 114,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 50
+        },
+        "end": {
+          "line": 2,
+          "column": 51
+=======
+      "value": "exports",
+      "start": 828,
+      "end": 835,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "const",
+      "start": 115,
+      "end": 120,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 5
+=======
+      "start": 835,
+      "end": 836,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 7
+        },
+        "end": {
+          "line": 29,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "attemptFn",
       "start": 121,
       "end": 130,
@@ -1356,6 +4549,18 @@
         },
         "end": {
           "line": 3,
+=======
+      "value": "Attempt",
+      "start": 836,
+      "end": 843,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 29,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
           "column": 15
         }
       }
@@ -1374,6 +4579,7 @@
         "updateContext": null
       },
       "value": "=",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 131,
       "end": 132,
       "loc": {
@@ -1383,32 +4589,18 @@
         },
         "end": {
           "line": 3,
-          "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 133,
-      "end": 134,
+=======
+      "start": 844,
+      "end": 845,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 18
+          "line": 29,
+          "column": 16
         },
         "end": {
-          "line": 3,
-          "column": 19
+          "line": 29,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+          "column": 17
         }
       }
     },
@@ -1424,6 +4616,47 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 133,
+      "end": 134,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 18
+        },
+        "end": {
+          "line": 3,
+          "column": 19
+=======
+      "value": "factory_1",
+      "start": 846,
+      "end": 855,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 18
+        },
+        "end": {
+          "line": 29,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "fn",
       "start": 134,
       "end": 136,
@@ -1435,57 +4668,18 @@
         "end": {
           "line": 3,
           "column": 21
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 136,
-      "end": 137,
+=======
+      "start": 855,
+      "end": 856,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 21
+          "line": 29,
+          "column": 27
         },
         "end": {
-          "line": 3,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "=>",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 138,
-      "end": 140,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 23
-        },
-        "end": {
-          "line": 3,
-          "column": 25
+          "line": 29,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -1501,6 +4695,85 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 136,
+      "end": 137,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+=======
+      "value": "DecoratorFactory",
+      "start": 856,
+      "end": 872,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 28
+        },
+        "end": {
+          "line": 29,
+          "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 138,
+      "end": 140,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 25
+=======
+      "start": 872,
+      "end": 873,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 44
+        },
+        "end": {
+          "line": 29,
+          "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "partial",
       "start": 141,
       "end": 148,
@@ -1512,6 +4785,19 @@
         "end": {
           "line": 3,
           "column": 33
+=======
+      "value": "createDecorator",
+      "start": 873,
+      "end": 888,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 45
+        },
+        "end": {
+          "line": 29,
+          "column": 60
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -1527,6 +4813,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 148,
       "end": 149,
       "loc": {
@@ -1563,14 +4850,27 @@
         "end": {
           "line": 3,
           "column": 41
+=======
+      "start": 888,
+      "end": 889,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 60
+        },
+        "end": {
+          "line": 29,
+          "column": 61
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": ",",
+        "label": "new",
+        "keyword": "new",
         "beforeExpr": true,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1579,6 +4879,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 156,
       "end": 157,
       "loc": {
@@ -1589,6 +4890,19 @@
         "end": {
           "line": 3,
           "column": 42
+=======
+      "value": "new",
+      "start": 889,
+      "end": 892,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 61
+        },
+        "end": {
+          "line": 29,
+          "column": 64
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -1604,6 +4918,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "fn",
       "start": 158,
       "end": 160,
@@ -1615,12 +4930,25 @@
         "end": {
           "line": 3,
           "column": 45
+=======
+      "value": "factory_1",
+      "start": 893,
+      "end": 902,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 65
+        },
+        "end": {
+          "line": 29,
+          "column": 74
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1628,8 +4956,10 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 160,
       "end": 161,
       "loc": {
@@ -1640,22 +4970,34 @@
         "end": {
           "line": 3,
           "column": 46
+=======
+      "start": 902,
+      "end": 903,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 74
+        },
+        "end": {
+          "line": 29,
+          "column": 75
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 161,
       "end": 162,
       "loc": {
@@ -1678,66 +5020,50 @@
         "start": {
           "line": 4,
           "column": 0
+=======
+      "value": "DecoratorConfig",
+      "start": 903,
+      "end": 918,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 75
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         },
         "end": {
-          "line": 25,
-          "column": 3
+          "line": 29,
+          "column": 90
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "export",
       "start": 663,
       "end": 669,
+=======
+      "start": 918,
+      "end": 919,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 0
+          "line": 29,
+          "column": 90
         },
         "end": {
-          "line": 26,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "const",
-        "keyword": "const",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "const",
-      "start": 670,
-      "end": 675,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 7
-        },
-        "end": {
-          "line": 26,
-          "column": 12
+          "line": 29,
+          "column": 91
         }
       }
     },
@@ -1753,44 +5079,89 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Attempt",
-      "start": 676,
-      "end": 683,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "const",
+      "start": 670,
+      "end": 675,
+=======
+      "value": "attemptFn",
+      "start": 919,
+      "end": 928,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 13
+          "line": 29,
+          "column": 91
         },
         "end": {
-          "line": 26,
-          "column": 20
+          "line": 29,
+          "column": 100
         }
       }
     },
     {
       "type": {
-        "label": "=",
+        "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": true,
+        "isAssign": false,
         "prefix": false,
         "postfix": false,
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "Attempt",
+      "start": 676,
+      "end": 683,
+=======
+      "start": 928,
+      "end": 929,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 100
+        },
+        "end": {
+          "line": 29,
+          "column": 101
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "=",
       "start": 684,
       "end": 685,
+=======
+      "value": "new",
+      "start": 930,
+      "end": 933,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 21
+          "line": 29,
+          "column": 102
         },
         "end": {
-          "line": 26,
-          "column": 22
+          "line": 29,
+          "column": 105
         }
       }
     },
@@ -1806,17 +5177,23 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "DecoratorFactory",
       "start": 686,
       "end": 702,
+=======
+      "value": "applicators_1",
+      "start": 934,
+      "end": 947,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 23
+          "line": 29,
+          "column": 106
         },
         "end": {
-          "line": 26,
-          "column": 39
+          "line": 29,
+          "column": 119
         }
       }
     },
@@ -1833,16 +5210,21 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 702,
       "end": 703,
+=======
+      "start": 947,
+      "end": 948,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 39
+          "line": 29,
+          "column": 119
         },
         "end": {
-          "line": 26,
-          "column": 40
+          "line": 29,
+          "column": 120
         }
       }
     },
@@ -1858,17 +5240,23 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "createDecorator",
       "start": 703,
       "end": 718,
+=======
+      "value": "PreValueApplicator",
+      "start": 948,
+      "end": 966,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 40
+          "line": 29,
+          "column": 120
         },
         "end": {
-          "line": 26,
-          "column": 55
+          "line": 29,
+          "column": 138
         }
       }
     },
@@ -1884,226 +5272,21 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 718,
       "end": 719,
+=======
+      "start": 966,
+      "end": 967,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 55
+          "line": 29,
+          "column": 138
         },
         "end": {
-          "line": 26,
-          "column": 56
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 719,
-      "end": 722,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 56
-        },
-        "end": {
-          "line": 26,
-          "column": 59
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 723,
-      "end": 738,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 60
-        },
-        "end": {
-          "line": 26,
-          "column": 75
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 738,
-      "end": 739,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 75
-        },
-        "end": {
-          "line": 26,
-          "column": 76
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "attemptFn",
-      "start": 739,
-      "end": 748,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 76
-        },
-        "end": {
-          "line": 26,
-          "column": 85
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 748,
-      "end": 749,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 85
-        },
-        "end": {
-          "line": 26,
-          "column": 86
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 750,
-      "end": 753,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 87
-        },
-        "end": {
-          "line": 26,
-          "column": 90
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 754,
-      "end": 772,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 91
-        },
-        "end": {
-          "line": 26,
-          "column": 109
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 772,
-      "end": 773,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 109
-        },
-        "end": {
-          "line": 26,
-          "column": 110
+          "line": 29,
+          "column": 139
         }
       }
     },
@@ -2119,16 +5302,22 @@
         "postfix": false,
         "binop": null
       },
-      "start": 773,
-      "end": 774,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "new",
+      "start": 719,
+      "end": 722,
+=======
+      "start": 967,
+      "end": 968,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
       "loc": {
         "start": {
-          "line": 26,
-          "column": 110
+          "line": 29,
+          "column": 139
         },
         "end": {
-          "line": 26,
-          "column": 111
+          "line": 29,
+          "column": 140
         }
       }
     },
@@ -2144,6 +5333,306 @@
         "postfix": false,
         "binop": null,
         "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "DecoratorConfig",
+      "start": 723,
+      "end": 738,
+=======
+      "start": 968,
+      "end": 969,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 140
+        },
+        "end": {
+          "line": 29,
+          "column": 141
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 738,
+      "end": 739,
+=======
+      "start": 970,
+      "end": 971,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 142
+        },
+        "end": {
+          "line": 29,
+          "column": 143
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "attemptFn",
+      "start": 739,
+      "end": 748,
+=======
+      "value": "optionalParams",
+      "start": 976,
+      "end": 990,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+          "line": 26,
+          "column": 85
+=======
+          "line": 30,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 748,
+      "end": 749,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 85
+        },
+        "end": {
+          "line": 26,
+          "column": 86
+=======
+      "start": 990,
+      "end": 991,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 18
+        },
+        "end": {
+          "line": 30,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "new",
+      "start": 750,
+      "end": 753,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 87
+        },
+        "end": {
+          "line": 26,
+          "column": 90
+=======
+      "value": "true",
+      "start": 992,
+      "end": 996,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 20
+        },
+        "end": {
+          "line": 30,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "PreValueApplicator",
+      "start": 754,
+      "end": 772,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 91
+        },
+        "end": {
+          "line": 26,
+          "column": 109
+=======
+      "start": 997,
+      "end": 998,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 772,
+      "end": 773,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 109
+        },
+        "end": {
+          "line": 26,
+          "column": 110
+=======
+      "start": 998,
+      "end": 999,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 1
+        },
+        "end": {
+          "line": 31,
+          "column": 2
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 773,
+      "end": 774,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 110
+        },
+        "end": {
+          "line": 26,
+          "column": 111
+=======
+      "start": 999,
+      "end": 1000,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 3
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+        "label": ",",
+=======
+        "label": ";",
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       },
       "start": 774,
       "end": 775,
@@ -2285,14 +5774,27 @@
         "end": {
           "line": 28,
           "column": 1
+=======
+      },
+      "start": 1000,
+      "end": 1001,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 3
+        },
+        "end": {
+          "line": 31,
+          "column": 4
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2300,6 +5802,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 804,
       "end": 805,
       "loc": {
@@ -2335,13 +5838,26 @@
         "end": {
           "line": 28,
           "column": 3
+=======
+      "value": "exports",
+      "start": 1002,
+      "end": 1009,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": ";",
-        "beforeExpr": true,
+        "label": ".",
+        "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -2351,6 +5867,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 806,
       "end": 807,
       "loc": {
@@ -2361,111 +5878,18 @@
         "end": {
           "line": 28,
           "column": 4
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 808,
-      "end": 814,
+=======
+      "start": 1009,
+      "end": 1010,
       "loc": {
         "start": {
-          "line": 29,
-          "column": 0
-        },
-        "end": {
-          "line": 29,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 815,
-      "end": 816,
-      "loc": {
-        "start": {
-          "line": 29,
+          "line": 32,
           "column": 7
         },
         "end": {
-          "line": 29,
+          "line": 32,
           "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Attempt",
-      "start": 817,
-      "end": 824,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 9
-        },
-        "end": {
-          "line": 29,
-          "column": 16
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "as",
-      "start": 825,
-      "end": 827,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 17
-        },
-        "end": {
-          "line": 29,
-          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -2482,24 +5906,65 @@
         "binop": null
       },
       "value": "attempt",
-      "start": 828,
-      "end": 835,
+      "start": 1010,
+      "end": 1017,
       "loc": {
         "start": {
-          "line": 29,
-          "column": 20
+          "line": 32,
+          "column": 8
         },
         "end": {
-          "line": 29,
-          "column": 27
+          "line": 32,
+          "column": 15
         }
       }
     },
     {
       "type": {
-        "label": "}",
-        "beforeExpr": false,
+        "label": "=",
+        "beforeExpr": true,
         "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "export",
+      "start": 808,
+      "end": 814,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 6
+=======
+      "value": "=",
+      "start": 1018,
+      "end": 1019,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 16
+        },
+        "end": {
+          "line": 32,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2507,16 +5972,109 @@
         "postfix": false,
         "binop": null
       },
-      "start": 836,
-      "end": 837,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 815,
+      "end": 816,
       "loc": {
         "start": {
           "line": 29,
-          "column": 28
+          "column": 7
         },
         "end": {
           "line": 29,
-          "column": 29
+          "column": 8
+=======
+      "value": "exports",
+      "start": 1020,
+      "end": 1027,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 18
+        },
+        "end": {
+          "line": 32,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "Attempt",
+      "start": 817,
+      "end": 824,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 9
+        },
+        "end": {
+          "line": 29,
+          "column": 16
+=======
+      "start": 1027,
+      "end": 1028,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 25
+        },
+        "end": {
+          "line": 32,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "as",
+      "start": 825,
+      "end": 827,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 17
+        },
+        "end": {
+          "line": 29,
+          "column": 19
+=======
+      "value": "Attempt",
+      "start": 1028,
+      "end": 1035,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 26
+        },
+        "end": {
+          "line": 32,
+          "column": 33
         }
       }
     },
@@ -2533,23 +6091,63 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 837,
-      "end": 838,
+      "start": 1035,
+      "end": 1036,
       "loc": {
         "start": {
-          "line": 29,
-          "column": 29
+          "line": 32,
+          "column": 33
         },
         "end": {
-          "line": 29,
-          "column": 30
+          "line": 32,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "attempt",
+      "start": 828,
+      "end": 835,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 20
+        },
+        "end": {
+          "line": 29,
+          "column": 27
+=======
+      "value": "exports",
+      "start": 1037,
+      "end": 1044,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2560,17 +6158,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 839,
-      "end": 845,
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 836,
+      "end": 837,
       "loc": {
         "start": {
-          "line": 30,
-          "column": 0
+          "line": 29,
+          "column": 28
         },
         "end": {
-          "line": 30,
-          "column": 6
+          "line": 29,
+          "column": 29
+=======
+      "start": 1044,
+      "end": 1045,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 7
+        },
+        "end": {
+          "line": 33,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -2588,6 +6198,114 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "start": 837,
+      "end": 838,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 29
+        },
+        "end": {
+          "line": 29,
+          "column": 30
+=======
+      "value": "default",
+      "start": 1045,
+      "end": 1052,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 8
+        },
+        "end": {
+          "line": 33,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
+      "value": "export",
+      "start": 839,
+      "end": 845,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 6
+=======
+      "value": "=",
+      "start": 1053,
+      "end": 1054,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 16
+        },
+        "end": {
+          "line": 33,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 1055,
+      "end": 1062,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 18
+        },
+        "end": {
+          "line": 33,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "value": "default",
       "start": 846,
       "end": 853,
@@ -2599,6 +6317,18 @@
         "end": {
           "line": 30,
           "column": 14
+=======
+      "start": 1062,
+      "end": 1063,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 25
+        },
+        "end": {
+          "line": 33,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -2615,6 +6345,7 @@
         "binop": null
       },
       "value": "Attempt",
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 854,
       "end": 861,
       "loc": {
@@ -2625,6 +6356,18 @@
         "end": {
           "line": 30,
           "column": 22
+=======
+      "start": 1063,
+      "end": 1070,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 26
+        },
+        "end": {
+          "line": 33,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -2641,6 +6384,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 861,
       "end": 862,
       "loc": {
@@ -2651,6 +6395,18 @@
         "end": {
           "line": 30,
           "column": 23
+=======
+      "start": 1070,
+      "end": 1071,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 33
+        },
+        "end": {
+          "line": 33,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
         }
       }
     },
@@ -2667,6 +6423,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/attempt.ts.json
       "start": 863,
       "end": 863,
       "loc": {
@@ -2676,6 +6433,17 @@
         },
         "end": {
           "line": 31,
+=======
+      "start": 1072,
+      "end": 1072,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+>>>>>>> esm-cjs-build:docs/ast/source/attempt.js.json
           "column": 0
         }
       }

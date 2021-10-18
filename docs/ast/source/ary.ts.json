@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
   "end": 520,
+=======
+  "end": 775,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "line": 19,
+=======
+      "line": 29,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
     "end": 520,
+=======
+    "end": 775,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "line": 19,
+=======
+        "line": 29,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
             "line": 1,
             "column": 62
           }
@@ -182,44 +205,91 @@
             "type": "ImportSpecifier",
             "start": 72,
             "end": 90,
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
             "loc": {
               "start": {
                 "line": 2,
-                "column": 9
+                "column": 0
               },
               "end": {
                 "line": 2,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                 "column": 27
+=======
+                "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
               }
             },
-            "imported": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
               "start": 72,
               "end": 90,
+=======
+              "start": 14,
+              "end": 20,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 0
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                   "column": 27
                 },
                 "identifierName": "PreValueApplicator"
               },
               "name": "PreValueApplicator"
+=======
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
             },
-            "local": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
               "start": 72,
               "end": 90,
+=======
+              "start": 21,
+              "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 7
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                   "column": 27
                 },
                 "identifierName": "PreValueApplicator"
@@ -650,12 +720,136 @@
         "type": "ExportNamedDeclaration",
         "start": 471,
         "end": 493,
+=======
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 111,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "loc": {
           "start": {
             "line": 17,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
             "line": 17,
             "column": 22
           }
@@ -790,10 +984,269 @@
                 "end": {
                   "line": 3,
                   "column": 102
+=======
+            "line": 3,
+            "column": 34
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 110,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 33
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 86,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 9
+                },
+                "identifierName": "ary_1"
+              },
+              "name": "ary_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 89,
+              "end": 110,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 12
+                },
+                "end": {
+                  "line": 3,
+                  "column": 33
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+                "start": 89,
+                "end": 96,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 19
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 97,
+                  "end": 109,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 20
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 32
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/ary",
+                    "raw": "\"lodash/ary\""
+                  },
+                  "value": "lodash/ary"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 112,
+        "end": 149,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 116,
+            "end": 148,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 116,
+              "end": 125,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 128,
+              "end": 148,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+                  "line": 4,
+                  "column": 36
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 128,
+                "end": 135,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 136,
+                  "end": 147,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 150,
+        "end": 195,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 154,
+            "end": 194,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 154,
+              "end": 167,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 170,
+              "end": 194,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                 "start": 121,
                 "end": 130,
                 "loc": {
@@ -866,13 +1319,175 @@
                       "end": {
                         "line": 3,
                         "column": 50
-                      },
-                      "identifierName": "createDecorator"
+=======
+                "start": 170,
+                "end": 177,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 178,
+                  "end": 193,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
                     },
-                    "name": "createDecorator"
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 196,
+        "end": 341,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 145
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 200,
+            "end": 340,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 144
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 200,
+              "end": 209,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "decorator"
+              },
+              "name": "decorator"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 212,
+              "end": 340,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 144
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 212,
+                "end": 254,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 58
+                  }
+                },
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 212,
+                  "end": 238,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 212,
+                    "end": 221,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 25
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 222,
+                    "end": 238,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+                      },
+                      "identifierName": "DecoratorFactory"
+                    },
+                    "name": "DecoratorFactory"
                   },
                   "computed": false
                 },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                 "arguments": [
                   {
                     "type": "NewExpression",
@@ -886,10 +1501,76 @@
                       "end": {
                         "line": 3,
                         "column": 101
+=======
+                "property": {
+                  "type": "Identifier",
+                  "start": 239,
+                  "end": 254,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 58
+                    },
+                    "identifierName": "createDecorator"
+                  },
+                  "name": "createDecorator"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 255,
+                  "end": 339,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 59
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 143
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 259,
+                    "end": 284,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 63
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+                      "start": 259,
+                      "end": 268,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 63
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 72
+                        },
+                        "identifierName": "factory_1"
+                      },
+                      "name": "factory_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                       "start": 170,
                       "end": 185,
                       "loc": {
@@ -900,14 +1581,43 @@
                         "end": {
                           "line": 3,
                           "column": 70
+=======
+                      "start": 269,
+                      "end": 284,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 73
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
                         },
                         "identifierName": "DecoratorConfig"
                       },
                       "name": "DecoratorConfig"
                     },
-                    "arguments": [
-                      {
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 285,
+                      "end": 298,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 89
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 102
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                         "start": 186,
                         "end": 189,
                         "loc": {
@@ -918,11 +1628,24 @@
                           "end": {
                             "line": 3,
                             "column": 74
+=======
+                        "start": 285,
+                        "end": 290,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 89
                           },
-                          "identifierName": "ary"
+                          "end": {
+                            "line": 6,
+                            "column": 94
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+                          },
+                          "identifierName": "ary_1"
                         },
-                        "name": "ary"
+                        "name": "ary_1"
                       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                       {
                         "type": "NewExpression",
                         "start": 191,
@@ -935,10 +1658,75 @@
                           "end": {
                             "line": 3,
                             "column": 100
+=======
+                      "property": {
+                        "type": "Identifier",
+                        "start": 291,
+                        "end": 298,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 95
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 102
+                          },
+                          "identifierName": "default"
+                        },
+                        "name": "default"
+                      },
+                      "computed": false
+                    },
+                    {
+                      "type": "NewExpression",
+                      "start": 300,
+                      "end": 338,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 104
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 142
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 304,
+                        "end": 336,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 108
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 140
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
                           }
                         },
-                        "callee": {
+                        "object": {
                           "type": "Identifier",
+                          "start": 304,
+                          "end": 317,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 108
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 121
+                            },
+                            "identifierName": "applicators_1"
+                          },
+                          "name": "applicators_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                           "start": 195,
                           "end": 213,
                           "loc": {
@@ -949,11 +1737,24 @@
                             "end": {
                               "line": 3,
                               "column": 98
+=======
+                          "start": 318,
+                          "end": 336,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 122
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 140
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
                             },
                             "identifierName": "PreValueApplicator"
                           },
                           "name": "PreValueApplicator"
                         },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                         "arguments": []
                       }
                     ]
@@ -969,27 +1770,545 @@
               "value": "*\n * @desc\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @lineNumber\n * 27\n * @param\n * {number} n\n * @return\n * {LodashMethodDecorator}\n ",
               "start": 219,
               "end": 418,
+=======
+                        "computed": false
+                      },
+                      "arguments": []
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @param {number} n The arity cap.\n * @example\n *\n * class MyClass {\n *   @Ary(1)\n *   fn(...args) {\n *     return args;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(1, 2, 3, 4); // => [ 1 ]\n ",
+            "start": 342,
+            "end": 662,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 22,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 663,
+        "end": 707,
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 0
+          },
+          "end": {
+            "line": 25,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 672,
+          "end": 675,
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 9
+            },
+            "end": {
+              "line": 23,
+              "column": 12
+            },
+            "identifierName": "Ary"
+          },
+          "name": "Ary",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 676,
+            "end": 677,
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 13
+              },
+              "end": {
+                "line": 23,
+                "column": 14
+              },
+              "identifierName": "n"
+            },
+            "name": "n"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 679,
+          "end": 707,
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 16
+            },
+            "end": {
+              "line": 25,
+              "column": 1
+            }
+          },
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 685,
+              "end": 705,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
               "loc": {
                 "start": {
-                  "line": 4,
-                  "column": 0
+                  "line": 24,
+                  "column": 4
                 },
                 "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
                   "line": 13,
                   "column": 3
+=======
+                  "line": 24,
+                  "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
                 }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 692,
+                "end": 704,
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 24,
+                    "column": 23
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 701,
+                  "loc": {
+                    "start": {
+                      "line": 24,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 20
+                    },
+                    "identifierName": "decorator"
+                  },
+                  "name": "decorator"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 702,
+                    "end": 703,
+                    "loc": {
+                      "start": {
+                        "line": 24,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 24,
+                        "column": 22
+                      },
+                      "identifierName": "n"
+                    },
+                    "name": "n"
+                  }
+                ]
               }
             }
           ],
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
           "leadingComments": []
         }
       }
     ],
     "directives": []
+=======
+          "directives": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @param {number} n The arity cap.\n * @example\n *\n * class MyClass {\n *   @Ary(1)\n *   fn(...args) {\n *     return args;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(1, 2, 3, 4); // => [ 1 ]\n ",
+            "start": 342,
+            "end": 662,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 22,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 708,
+        "end": 726,
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 0
+          },
+          "end": {
+            "line": 26,
+            "column": 18
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 708,
+          "end": 725,
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 17
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 708,
+            "end": 719,
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 0
+              },
+              "end": {
+                "line": 26,
+                "column": 11
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 708,
+              "end": 715,
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 0
+                },
+                "end": {
+                  "line": 26,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 716,
+              "end": 719,
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 8
+                },
+                "end": {
+                  "line": 26,
+                  "column": 11
+                },
+                "identifierName": "Ary"
+              },
+              "name": "Ary"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 725,
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 14
+              },
+              "end": {
+                "line": 26,
+                "column": 17
+              },
+              "identifierName": "Ary"
+            },
+            "name": "Ary"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 727,
+        "end": 745,
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 18
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 727,
+          "end": 744,
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 17
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 727,
+            "end": 738,
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 11
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 734,
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 0
+                },
+                "end": {
+                  "line": 27,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 738,
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 8
+                },
+                "end": {
+                  "line": 27,
+                  "column": 11
+                },
+                "identifierName": "ary"
+              },
+              "name": "ary"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 744,
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 14
+              },
+              "end": {
+                "line": 27,
+                "column": 17
+              },
+              "identifierName": "Ary"
+            },
+            "name": "Ary"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 746,
+        "end": 774,
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 0
+          },
+          "end": {
+            "line": 28,
+            "column": 28
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 746,
+          "end": 773,
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 27
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 746,
+            "end": 761,
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 0
+              },
+              "end": {
+                "line": 28,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 746,
+              "end": 753,
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 0
+                },
+                "end": {
+                  "line": 28,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 754,
+              "end": 761,
+              "loc": {
+                "start": {
+                  "line": 28,
+                  "column": 8
+                },
+                "end": {
+                  "line": 28,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 773,
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 18
+              },
+              "end": {
+                "line": 28,
+                "column": 27
+              },
+              "identifierName": "decorator"
+            },
+            "name": "decorator"
+          }
+        }
+      }
+    ],
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
   },
   "comments": [
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "*\n * @desc\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @lineNumber\n * 27\n * @param\n * {number} n\n * @return\n * {LodashMethodDecorator}\n ",
       "start": 219,
       "end": 418,
@@ -1000,6 +2319,18 @@
         },
         "end": {
           "line": 13,
+=======
+      "value": "*\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @param {number} n The arity cap.\n * @example\n *\n * class MyClass {\n *   @Ary(1)\n *   fn(...args) {\n *     return args;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(1, 2, 3, 4); // => [ 1 ]\n ",
+      "start": 342,
+      "end": 662,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 3
         }
       }
@@ -1008,8 +2339,7 @@
   "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1020,6 +2350,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "import",
       "start": 0,
       "end": 6,
@@ -1074,6 +2405,11 @@
       "value": "DecoratorConfig",
       "start": 9,
       "end": 24,
+=======
+      "value": "use strict",
+      "start": 0,
+      "end": 12,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
       "loc": {
         "start": {
           "line": 1,
@@ -1081,7 +2417,185 @@
         },
         "end": {
           "line": 1,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
           "column": 24
+=======
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+=======
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
         }
       }
     },
@@ -1098,16 +2612,94 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 24,
-      "end": 25,
+      "start": 43,
+      "end": 44,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 24
+          "line": 2,
+          "column": 29
         },
         "end": {
-          "line": 1,
-          "column": 25
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
         }
       }
     },
@@ -1123,17 +2715,71 @@
         "postfix": false,
         "binop": null
       },
-      "value": "DecoratorFactory",
-      "start": 26,
-      "end": 42,
+      "value": "value",
+      "start": 61,
+      "end": 66,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 26
+          "line": 2,
+          "column": 47
         },
         "end": {
-          "line": 1,
-          "column": 42
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
         }
       }
     },
@@ -1149,16 +2795,95 @@
         "postfix": false,
         "binop": null
       },
-      "start": 43,
-      "end": 44,
+      "start": 73,
+      "end": 74,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 43
+          "line": 2,
+          "column": 59
         },
         "end": {
-          "line": 1,
-          "column": 44
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
         }
       }
     },
@@ -1174,17 +2899,305 @@
         "postfix": false,
         "binop": null
       },
-      "value": "from",
-      "start": 45,
-      "end": 49,
+      "value": "ary_1",
+      "start": 81,
+      "end": 86,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 45
+          "line": 3,
+          "column": 4
         },
         "end": {
-          "line": 1,
-          "column": 49
+          "line": 3,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 87,
+      "end": 88,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 10
+        },
+        "end": {
+          "line": 3,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 89,
+      "end": 96,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 12
+        },
+        "end": {
+          "line": 3,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 96,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/ary",
+      "start": 97,
+      "end": 109,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 20
+        },
+        "end": {
+          "line": 3,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 109,
+      "end": 110,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 110,
+      "end": 111,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 33
+        },
+        "end": {
+          "line": 3,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 112,
+      "end": 115,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 116,
+      "end": 125,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 126,
+      "end": 127,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 128,
+      "end": 135,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 135,
+      "end": 136,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
         }
       }
     },
@@ -1202,16 +3215,41 @@
         "updateContext": null
       },
       "value": "./factory",
-      "start": 50,
-      "end": 61,
+      "start": 136,
+      "end": 147,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 50
+          "line": 4,
+          "column": 24
         },
         "end": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 147,
+      "end": 148,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
         }
       }
     },
@@ -1228,25 +3266,25 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 61,
-      "end": 62,
+      "start": 148,
+      "end": 149,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 36
         },
         "end": {
-          "line": 1,
-          "column": 62
+          "line": 4,
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1255,23 +3293,102 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
-      "start": 63,
-      "end": 69,
+      "value": "var",
+      "start": 150,
+      "end": 153,
       "loc": {
         "start": {
-          "line": 2,
+          "line": 5,
           "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 6
+          "line": 5,
+          "column": 3
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 154,
+      "end": 167,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 168,
+      "end": 169,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 170,
+      "end": 177,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1281,93 +3398,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 70,
-      "end": 71,
+      "start": 177,
+      "end": 178,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 72,
-      "end": 90,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
+          "line": 5,
           "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 91,
-      "end": 92,
-      "loc": {
-        "start": {
-          "line": 2,
+        },
+        "end": {
+          "line": 5,
           "column": 28
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 93,
-      "end": 97,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 30
-        },
-        "end": {
-          "line": 2,
-          "column": 34
         }
       }
     },
@@ -1385,16 +3425,41 @@
         "updateContext": null
       },
       "value": "./applicators",
-      "start": 98,
-      "end": 113,
+      "start": 178,
+      "end": 193,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 35
+          "line": 5,
+          "column": 28
         },
         "end": {
-          "line": 2,
-          "column": 50
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 193,
+      "end": 194,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
         }
       }
     },
@@ -1411,23 +3476,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 113,
-      "end": 114,
+      "start": 194,
+      "end": 195,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 50
+          "line": 5,
+          "column": 44
         },
         "end": {
-          "line": 2,
-          "column": 51
+          "line": 5,
+          "column": 45
         }
       }
     },
     {
       "type": {
-        "label": "const",
-        "keyword": "const",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1438,6 +3503,565 @@
         "binop": null,
         "updateContext": null
       },
+      "value": "var",
+      "start": 196,
+      "end": 199,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+      "start": 200,
+      "end": 209,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 210,
+      "end": 211,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "DecoratorFactory",
+      "start": 26,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+=======
+      "value": "factory_1",
+      "start": 212,
+      "end": 221,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+          "line": 6,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+=======
+      "start": 221,
+      "end": 222,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "value": "DecoratorFactory",
+      "start": 222,
+      "end": 238,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "./factory",
+      "start": 50,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 50
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+=======
+      "start": 238,
+      "end": 239,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 61
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+=======
+      "value": "createDecorator",
+      "start": 239,
+      "end": 254,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 58
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "import",
+      "start": 63,
+      "end": 69,
+=======
+      "start": 254,
+      "end": 255,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 58
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 70,
+      "end": 71,
+=======
+      "value": "new",
+      "start": 255,
+      "end": 258,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 59
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "PreValueApplicator",
+      "start": 72,
+      "end": 90,
+=======
+      "value": "factory_1",
+      "start": 259,
+      "end": 268,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 63
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+          "line": 2,
+          "column": 27
+=======
+          "line": 6,
+          "column": 72
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": "}",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+=======
+      "start": 268,
+      "end": 269,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 72
+        },
+        "end": {
+          "line": 6,
+          "column": 73
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "from",
+      "start": 93,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+=======
+      "value": "DecoratorConfig",
+      "start": 269,
+      "end": 284,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 73
+        },
+        "end": {
+          "line": 6,
+          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": "string",
+        "beforeExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "./applicators",
+      "start": 98,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 284,
+      "end": 285,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 88
+        },
+        "end": {
+          "line": 6,
+          "column": 89
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 113,
+      "end": 114,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 50
+        },
+        "end": {
+          "line": 2,
+          "column": 51
+=======
+      "value": "ary_1",
+      "start": 285,
+      "end": 290,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 89
+        },
+        "end": {
+          "line": 6,
+          "column": 94
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": "const",
+        "keyword": "const",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "const",
       "start": 115,
       "end": 120,
@@ -1449,11 +4073,24 @@
         "end": {
           "line": 3,
           "column": 5
+=======
+      "start": 290,
+      "end": 291,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 94
+        },
+        "end": {
+          "line": 6,
+          "column": 95
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
@@ -1481,6 +4118,10 @@
     {
       "type": {
         "label": "=",
+=======
+        "label": "default",
+        "keyword": "default",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1491,6 +4132,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "=",
       "start": 131,
       "end": 132,
@@ -1502,11 +4144,25 @@
         "end": {
           "line": 3,
           "column": 17
+=======
+      "value": "default",
+      "start": 291,
+      "end": 298,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 95
+        },
+        "end": {
+          "line": 6,
+          "column": 102
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
@@ -1535,6 +4191,10 @@
       "type": {
         "label": ".",
         "beforeExpr": false,
+=======
+        "label": ",",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -1544,6 +4204,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 149,
       "end": 150,
       "loc": {
@@ -1554,11 +4215,24 @@
         "end": {
           "line": 3,
           "column": 35
+=======
+      "start": 298,
+      "end": 299,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 102
+        },
+        "end": {
+          "line": 6,
+          "column": 103
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
@@ -1586,6 +4260,10 @@
     {
       "type": {
         "label": "(",
+=======
+        "label": "new",
+        "keyword": "new",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1593,8 +4271,10 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 165,
       "end": 166,
       "loc": {
@@ -1633,6 +4313,19 @@
         "end": {
           "line": 3,
           "column": 54
+=======
+      "value": "new",
+      "start": 300,
+      "end": 303,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 104
+        },
+        "end": {
+          "line": 6,
+          "column": 107
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -1648,6 +4341,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "DecoratorConfig",
       "start": 170,
       "end": 185,
@@ -1659,21 +4353,42 @@
         "end": {
           "line": 3,
           "column": 70
+=======
+      "value": "applicators_1",
+      "start": 304,
+      "end": 317,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 108
+        },
+        "end": {
+          "line": 6,
+          "column": 121
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 185,
       "end": 186,
       "loc": {
@@ -1684,6 +4399,18 @@
         "end": {
           "line": 3,
           "column": 71
+=======
+      "start": 317,
+      "end": 318,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 121
+        },
+        "end": {
+          "line": 6,
+          "column": 122
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -1699,6 +4426,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "ary",
       "start": 186,
       "end": 189,
@@ -1710,22 +4438,41 @@
         "end": {
           "line": 3,
           "column": 74
+=======
+      "value": "PreValueApplicator",
+      "start": 318,
+      "end": 336,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 122
+        },
+        "end": {
+          "line": 6,
+          "column": 140
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 189,
       "end": 190,
       "loc": {
@@ -1736,23 +4483,41 @@
         "end": {
           "line": 3,
           "column": 75
+=======
+      "start": 336,
+      "end": 337,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 140
+        },
+        "end": {
+          "line": 6,
+          "column": 141
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "new",
         "keyword": "new",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "new",
       "start": 191,
       "end": 194,
@@ -1764,12 +4529,53 @@
         "end": {
           "line": 3,
           "column": 79
+=======
+      "start": 337,
+      "end": 338,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 141
+        },
+        "end": {
+          "line": 6,
+          "column": 142
         }
       }
     },
     {
       "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 338,
+      "end": 339,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 142
+        },
+        "end": {
+          "line": 6,
+          "column": 143
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "name",
+=======
+        "label": ")",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1779,6 +4585,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "PreValueApplicator",
       "start": 195,
       "end": 213,
@@ -1790,14 +4597,32 @@
         "end": {
           "line": 3,
           "column": 98
+=======
+      "start": 339,
+      "end": 340,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 143
+        },
+        "end": {
+          "line": 6,
+          "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1805,6 +4630,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 213,
       "end": 214,
       "loc": {
@@ -1815,12 +4641,45 @@
         "end": {
           "line": 3,
           "column": 99
+=======
+      "start": 340,
+      "end": 341,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 144
+        },
+        "end": {
+          "line": 6,
+          "column": 145
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Creates a function that invokes func, with up to n arguments, ignoring any additional arguments.\n * @param {number} n The arity cap.\n * @example\n *\n * class MyClass {\n *   @Ary(1)\n *   fn(...args) {\n *     return args;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn(1, 2, 3, 4); // => [ 1 ]\n ",
+      "start": 342,
+      "end": 662,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 3
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": ")",
+=======
+        "label": "function",
+        "keyword": "function",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1830,6 +4689,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 214,
       "end": 215,
       "loc": {
@@ -1840,14 +4700,33 @@
         "end": {
           "line": 3,
           "column": 100
+=======
+      "value": "function",
+      "start": 663,
+      "end": 671,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": ")",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1855,6 +4734,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 215,
       "end": 216,
       "loc": {
@@ -1865,14 +4745,33 @@
         "end": {
           "line": 3,
           "column": 101
+=======
+      "value": "Ary",
+      "start": 672,
+      "end": 675,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 9
+        },
+        "end": {
+          "line": 23,
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": ")",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1880,6 +4779,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 216,
       "end": 217,
       "loc": {
@@ -1890,22 +4790,40 @@
         "end": {
           "line": 3,
           "column": 102
+=======
+      "start": 675,
+      "end": 676,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 12
+        },
+        "end": {
+          "line": 23,
+          "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 217,
       "end": 218,
       "loc": {
@@ -1932,13 +4850,30 @@
         "end": {
           "line": 13,
           "column": 3
+=======
+      "value": "n",
+      "start": 676,
+      "end": 677,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 13
+        },
+        "end": {
+          "line": 23,
+          "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "export",
         "keyword": "export",
+=======
+        "label": ")",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1949,6 +4884,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "export",
       "start": 419,
       "end": 425,
@@ -1960,14 +4896,31 @@
         "end": {
           "line": 14,
           "column": 6
+=======
+      "start": 677,
+      "end": 678,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 14
+        },
+        "end": {
+          "line": 23,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "function",
         "keyword": "function",
         "beforeExpr": false,
+=======
+        "label": "{",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -1976,6 +4929,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "function",
       "start": 426,
       "end": 434,
@@ -1987,14 +4941,33 @@
         "end": {
           "line": 14,
           "column": 15
+=======
+      "start": 679,
+      "end": 680,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 16
+        },
+        "end": {
+          "line": 23,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2002,6 +4975,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "Ary",
       "start": 435,
       "end": 438,
@@ -2013,6 +4987,19 @@
         "end": {
           "line": 14,
           "column": 19
+=======
+      "value": "return",
+      "start": 685,
+      "end": 691,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2028,6 +5015,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 438,
       "end": 439,
       "loc": {
@@ -2037,6 +5025,18 @@
         },
         "end": {
           "line": 14,
+=======
+      "value": "decorator",
+      "start": 692,
+      "end": 701,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 11
+        },
+        "end": {
+          "line": 24,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 20
         }
       }
@@ -2053,6 +5053,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "n",
       "start": 439,
       "end": 440,
@@ -2063,6 +5064,17 @@
         },
         "end": {
           "line": 14,
+=======
+      "start": 701,
+      "end": 702,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 20
+        },
+        "end": {
+          "line": 24,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 21
         }
       }
@@ -2079,6 +5091,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 440,
       "end": 441,
       "loc": {
@@ -2088,15 +5101,33 @@
         },
         "end": {
           "line": 14,
+=======
+      "value": "n",
+      "start": 702,
+      "end": 703,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 21
+        },
+        "end": {
+          "line": 24,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 22
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "{",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2104,6 +5135,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 442,
       "end": 443,
       "loc": {
@@ -2114,13 +5146,29 @@
         "end": {
           "line": 14,
           "column": 24
+=======
+      "start": 703,
+      "end": 704,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 22
+        },
+        "end": {
+          "line": 24,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
         "label": "return",
         "keyword": "return",
+=======
+        "label": ";",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2131,6 +5179,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "return",
       "start": 448,
       "end": 454,
@@ -2142,134 +5191,18 @@
         "end": {
           "line": 15,
           "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "decorator",
-      "start": 455,
-      "end": 464,
+=======
+      "start": 704,
+      "end": 705,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 11
-        },
-        "end": {
-          "line": 15,
-          "column": 20
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 464,
-      "end": 465,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 20
-        },
-        "end": {
-          "line": 15,
-          "column": 21
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "n",
-      "start": 465,
-      "end": 466,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 21
-        },
-        "end": {
-          "line": 15,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 466,
-      "end": 467,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 22
-        },
-        "end": {
-          "line": 15,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 467,
-      "end": 468,
-      "loc": {
-        "start": {
-          "line": 15,
+          "line": 24,
           "column": 23
         },
         "end": {
-          "line": 15,
+          "line": 24,
           "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2285,6 +5218,239 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "decorator",
+      "start": 455,
+      "end": 464,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 11
+        },
+        "end": {
+          "line": 15,
+          "column": 20
+=======
+      "start": 706,
+      "end": 707,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 464,
+      "end": 465,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 20
+        },
+        "end": {
+          "line": 15,
+          "column": 21
+=======
+      "value": "exports",
+      "start": 708,
+      "end": 715,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": "name",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "n",
+      "start": 465,
+      "end": 466,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 21
+        },
+        "end": {
+          "line": 15,
+          "column": 22
+=======
+      "start": 715,
+      "end": 716,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 7
+        },
+        "end": {
+          "line": 26,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 466,
+      "end": 467,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 22
+        },
+        "end": {
+          "line": 15,
+          "column": 23
+=======
+      "value": "Ary",
+      "start": 716,
+      "end": 719,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 26,
+          "column": 11
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+        "label": ";",
+=======
+        "label": "=",
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 720,
+      "end": 721,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 12
+        },
+        "end": {
+          "line": 26,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 467,
+      "end": 468,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 23
+        },
+        "end": {
+          "line": 15,
+          "column": 24
+=======
+      "value": "Ary",
+      "start": 722,
+      "end": 725,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 14
+        },
+        "end": {
+          "line": 26,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 469,
       "end": 470,
       "loc": {
@@ -2295,23 +5461,34 @@
         "end": {
           "line": 16,
           "column": 1
+=======
+      "start": 725,
+      "end": 726,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 17
+        },
+        "end": {
+          "line": 26,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "export",
       "start": 471,
       "end": 477,
@@ -2323,21 +5500,36 @@
         "end": {
           "line": 17,
           "column": 6
+=======
+      "value": "exports",
+      "start": 727,
+      "end": 734,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 478,
       "end": 479,
       "loc": {
@@ -2347,6 +5539,17 @@
         },
         "end": {
           "line": 17,
+=======
+      "start": 734,
+      "end": 735,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 7
+        },
+        "end": {
+          "line": 27,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 8
         }
       }
@@ -2363,6 +5566,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "Ary",
       "start": 480,
       "end": 483,
@@ -2373,7 +5577,46 @@
         },
         "end": {
           "line": 17,
+=======
+      "value": "ary",
+      "start": 735,
+      "end": 738,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 8
+        },
+        "end": {
+          "line": 27,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 739,
+      "end": 740,
+      "loc": {
+        "start": {
+          "line": 27,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 12
+        },
+        "end": {
+          "line": 27,
+          "column": 13
         }
       }
     },
@@ -2389,6 +5632,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "as",
       "start": 484,
       "end": 486,
@@ -2400,57 +5644,19 @@
         "end": {
           "line": 17,
           "column": 15
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "ary",
-      "start": 487,
-      "end": 490,
+=======
+      "value": "Ary",
+      "start": 741,
+      "end": 744,
       "loc": {
         "start": {
-          "line": 17,
-          "column": 16
+          "line": 27,
+          "column": 14
         },
         "end": {
-          "line": 17,
-          "column": 19
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 491,
-      "end": 492,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 20
-        },
-        "end": {
-          "line": 17,
-          "column": 21
+          "line": 27,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2467,23 +5673,75 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 492,
-      "end": 493,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "ary",
+      "start": 487,
+      "end": 490,
       "loc": {
         "start": {
           "line": 17,
-          "column": 21
+          "column": 16
         },
         "end": {
           "line": 17,
-          "column": 22
+          "column": 19
+=======
+      "start": 744,
+      "end": 745,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 17
+        },
+        "end": {
+          "line": 27,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 491,
+      "end": 492,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 20
+        },
+        "end": {
+          "line": 17,
+          "column": 21
+=======
+      "value": "exports",
+      "start": 746,
+      "end": 753,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2494,17 +5752,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 494,
-      "end": 500,
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "start": 492,
+      "end": 493,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 0
+          "line": 17,
+          "column": 21
         },
         "end": {
-          "line": 18,
-          "column": 6
+          "line": 17,
+          "column": 22
+=======
+      "start": 753,
+      "end": 754,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 7
+        },
+        "end": {
+          "line": 28,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2522,6 +5792,48 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
+      "value": "export",
+      "start": 494,
+      "end": 500,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+=======
+      "value": "default",
+      "start": 754,
+      "end": 761,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 8
+        },
+        "end": {
+          "line": 28,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "value": "default",
       "start": 501,
       "end": 508,
@@ -2533,6 +5845,19 @@
         "end": {
           "line": 18,
           "column": 14
+=======
+      "value": "=",
+      "start": 762,
+      "end": 763,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 16
+        },
+        "end": {
+          "line": 28,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2549,6 +5874,7 @@
         "binop": null
       },
       "value": "decorator",
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 509,
       "end": 518,
       "loc": {
@@ -2559,6 +5885,18 @@
         "end": {
           "line": 18,
           "column": 24
+=======
+      "start": 764,
+      "end": 773,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 18
+        },
+        "end": {
+          "line": 28,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2575,6 +5913,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 518,
       "end": 519,
       "loc": {
@@ -2585,6 +5924,18 @@
         "end": {
           "line": 18,
           "column": 25
+=======
+      "start": 773,
+      "end": 774,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 27
+        },
+        "end": {
+          "line": 28,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
         }
       }
     },
@@ -2601,6 +5952,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/ary.ts.json
       "start": 520,
       "end": 520,
       "loc": {
@@ -2610,6 +5962,17 @@
         },
         "end": {
           "line": 19,
+=======
+      "start": 775,
+      "end": 775,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+>>>>>>> esm-cjs-build:docs/ast/source/ary.js.json
           "column": 0
         }
       }

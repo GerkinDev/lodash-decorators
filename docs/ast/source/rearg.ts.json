@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
   "end": 530,
+=======
+  "end": 1159,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "line": 21,
+=======
+      "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
     "end": 530,
+=======
+    "end": 1159,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "line": 21,
+=======
+        "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "line": 1,
             "column": 62
           }
@@ -69,13 +92,60 @@
                 "end": {
                   "line": 1,
                   "column": 24
-                },
-                "identifierName": "DecoratorConfig"
-              },
-              "name": "DecoratorConfig"
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
             },
-            "local": {
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
               "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
               "start": 9,
               "end": 24,
               "loc": {
@@ -105,9 +175,29 @@
                 "line": 1,
                 "column": 42
               }
+=======
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
             },
-            "imported": {
+            "computed": false
+          },
+          "arguments": [
+            {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +208,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 2,
+                  "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "DecoratorFactory"
+              "name": "exports"
             },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -154,31 +257,127 @@
             "end": {
               "line": 1,
               "column": 61
+=======
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
             }
-          },
-          "extra": {
-            "rawValue": "./factory",
-            "raw": "'./factory'"
-          },
-          "value": "./factory"
+          ]
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "type": "ImportDeclaration",
         "start": 63,
         "end": 118,
+=======
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 123,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "loc": {
           "start": {
             "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "line": 2,
             "column": 55
+=======
+            "line": 3,
+            "column": 46
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 94,
@@ -190,10 +389,24 @@
               "end": {
                 "line": 2,
                 "column": 31
+=======
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 122,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
               "start": 72,
               "end": 94,
               "loc": {
@@ -261,11 +474,203 @@
           "end": {
             "line": 3,
             "column": 137
+=======
+              "start": 81,
+              "end": 92,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 15
+                },
+                "identifierName": "flowRight_1"
+              },
+              "name": "flowRight_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 95,
+              "end": 122,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 18
+                },
+                "end": {
+                  "line": 3,
+                  "column": 45
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 95,
+                "end": 102,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 18
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 25
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 103,
+                  "end": 121,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 44
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/flowRight",
+                    "raw": "\"lodash/flowRight\""
+                  },
+                  "value": "lodash/flowRight"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 124,
+        "end": 161,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 37
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 128,
+            "end": 160,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 137,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 140,
+              "end": 160,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+                  "line": 4,
+                  "column": 36
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 140,
+                "end": 147,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 148,
+                  "end": 159,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 162,
+        "end": 207,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "start": 125,
             "end": 255,
             "loc": {
@@ -276,10 +681,23 @@
               "end": {
                 "line": 3,
                 "column": 136
+=======
+            "start": 166,
+            "end": 206,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
               }
             },
             "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
               "start": 125,
               "end": 134,
               "loc": {
@@ -404,11 +822,288 @@
                         "end": {
                           "line": 3,
                           "column": 84
+=======
+              "start": 166,
+              "end": 179,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 182,
+              "end": 206,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 182,
+                "end": 189,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 190,
+                  "end": 205,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 208,
+        "end": 401,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 193
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 212,
+            "end": 400,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 192
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 212,
+              "end": 221,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "decorator"
+              },
+              "name": "decorator"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 224,
+              "end": 400,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 192
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 224,
+                "end": 274,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 66
+                  }
+                },
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 224,
+                  "end": 250,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 224,
+                    "end": 233,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 25
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 234,
+                    "end": 250,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 42
+                      },
+                      "identifierName": "DecoratorFactory"
+                    },
+                    "name": "DecoratorFactory"
+                  },
+                  "computed": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 251,
+                  "end": 274,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 66
+                    },
+                    "identifierName": "createInstanceDecorator"
+                  },
+                  "name": "createInstanceDecorator"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 275,
+                  "end": 399,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 67
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 191
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 279,
+                    "end": 304,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 71
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 96
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+                      "start": 279,
+                      "end": 288,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 71
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 80
+                        },
+                        "identifierName": "factory_1"
+                      },
+                      "name": "factory_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 289,
+                      "end": 304,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 81
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
                         },
                         "identifierName": "rearg"
                       },
                       "name": "rearg"
                     },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
                     {
                       "type": "NewExpression",
                       "start": 205,
@@ -488,9 +1183,122 @@
                                 "column": 126
                               },
                               "identifierName": "property"
+=======
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 305,
+                      "end": 324,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 97
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 116
+                        }
+                      },
+                      "object": {
+                        "type": "Identifier",
+                        "start": 305,
+                        "end": 316,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 97
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 108
+                          },
+                          "identifierName": "flowRight_1"
+                        },
+                        "name": "flowRight_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 317,
+                        "end": 324,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 109
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 116
+                          },
+                          "identifierName": "default"
+                        },
+                        "name": "default"
+                      },
+                      "computed": false
+                    },
+                    {
+                      "type": "NewExpression",
+                      "start": 326,
+                      "end": 378,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 118
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 170
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 330,
+                        "end": 361,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 122
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 153
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 330,
+                          "end": 343,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 122
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 135
+                            },
+                            "identifierName": "applicators_1"
+                          },
+                          "name": "applicators_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 344,
+                          "end": 361,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 136
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 153
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
                             },
                             "name": "property"
                           },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
                           "value": {
                             "type": "BooleanLiteral",
                             "start": 247,
@@ -753,25 +1561,181 @@
                 "end": {
                   "line": 15,
                   "column": 3
+=======
+                          "name": "ComposeApplicator"
+                        },
+                        "computed": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "ObjectExpression",
+                          "start": 362,
+                          "end": 377,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 154
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 169
+                            }
+                          },
+                          "properties": [
+                            {
+                              "type": "ObjectProperty",
+                              "start": 364,
+                              "end": 375,
+                              "loc": {
+                                "start": {
+                                  "line": 6,
+                                  "column": 156
+                                },
+                                "end": {
+                                  "line": 6,
+                                  "column": 167
+                                }
+                              },
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 364,
+                                "end": 368,
+                                "loc": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 156
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 160
+                                  },
+                                  "identifierName": "post"
+                                },
+                                "name": "post"
+                              },
+                              "value": {
+                                "type": "BooleanLiteral",
+                                "start": 370,
+                                "end": 375,
+                                "loc": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 162
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 167
+                                  }
+                                },
+                                "value": false
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 380,
+                      "end": 398,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 172
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 190
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "ObjectProperty",
+                          "start": 382,
+                          "end": 396,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 174
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 188
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 382,
+                            "end": 390,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 174
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 182
+                              },
+                              "identifierName": "property"
+                            },
+                            "name": "property"
+                          },
+                          "value": {
+                            "type": "BooleanLiteral",
+                            "start": 392,
+                            "end": 396,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 184
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 188
+                              }
+                            },
+                            "value": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
                 }
-              }
+              ]
             }
-          ],
-          "trailingComments": []
-        },
-        "leadingComments": [
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
             "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n * @param\n * {undefined} indexes\n * @param\n * {undefined} args\n * @return\n * {LodashDecorator}\n ",
             "start": 257,
             "end": 392,
+=======
+            "value": "*\n * Creates a function that returns the result of invoking the given functions with the this binding of the created function,\n * where each successive invocation is supplied the return value of the previous.\n *\n * @example\n *\n * class MyClass {\n *   name = 'Ted';\n *\n *   @FlowRight(toUpperCase, 'getName')\n *   getUpperCaseName: () => string;\n *\n *   getName() {\n *     return this.name;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.getUpperCaseName(); // => 'TED'\n ",
+            "start": 402,
+            "end": 892,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
             "loc": {
               "start": {
-                "line": 4,
+                "line": 7,
                 "column": 0
               },
               "end": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
                 "line": 15,
+=======
+                "line": 27,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
                 "column": 3
               }
             }
@@ -779,6 +1743,7 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "type": "ExportNamedDeclaration",
         "start": 477,
         "end": 503,
@@ -1490,87 +2455,987 @@
         },
         "end": {
           "line": 2,
-          "column": 8
+=======
+        "type": "FunctionDeclaration",
+        "start": 893,
+        "end": 1067,
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 0
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 902,
+          "end": 911,
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 9
+            },
+            "end": {
+              "line": 28,
+              "column": 18
+            },
+            "identifierName": "FlowRight"
+          },
+          "name": "FlowRight",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 914,
+          "end": 1067,
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 21
+            },
+            "end": {
+              "line": 34,
+              "column": 1
+            }
+          },
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 920,
+              "end": 933,
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 4
+                },
+                "end": {
+                  "line": 29,
+                  "column": 17
+                }
+              },
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 924,
+                  "end": 932,
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 16
+                    }
+                  },
+                  "id": {
+                    "type": "Identifier",
+                    "start": 924,
+                    "end": 927,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 11
+                      },
+                      "identifierName": "fns"
+                    },
+                    "name": "fns"
+                  },
+                  "init": {
+                    "type": "ArrayExpression",
+                    "start": 930,
+                    "end": 932,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 14
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 16
+                      }
+                    },
+                    "elements": []
+                  }
+                }
+              ],
+              "kind": "var"
+            },
+            {
+              "type": "ForStatement",
+              "start": 938,
+              "end": 1024,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 4
+                },
+                "end": {
+                  "line": 32,
+                  "column": 5
+                }
+              },
+              "init": {
+                "type": "VariableDeclaration",
+                "start": 943,
+                "end": 953,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 19
+                  }
+                },
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 947,
+                    "end": 953,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 13
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 19
+                      }
+                    },
+                    "id": {
+                      "type": "Identifier",
+                      "start": 947,
+                      "end": 949,
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 13
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 15
+                        },
+                        "identifierName": "_i"
+                      },
+                      "name": "_i"
+                    },
+                    "init": {
+                      "type": "NumericLiteral",
+                      "start": 952,
+                      "end": 953,
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 18
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 19
+                        }
+                      },
+                      "extra": {
+                        "rawValue": 0,
+                        "raw": "0"
+                      },
+                      "value": 0
+                    }
+                  }
+                ],
+                "kind": "var"
+              },
+              "test": {
+                "type": "BinaryExpression",
+                "start": 955,
+                "end": 976,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 42
+                  }
+                },
+                "left": {
+                  "type": "Identifier",
+                  "start": 955,
+                  "end": 957,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 23
+                    },
+                    "identifierName": "_i"
+                  },
+                  "name": "_i"
+                },
+                "operator": "<",
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 960,
+                  "end": 976,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 960,
+                    "end": 969,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 35
+                      },
+                      "identifierName": "arguments"
+                    },
+                    "name": "arguments"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 970,
+                    "end": 976,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 36
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 42
+                      },
+                      "identifierName": "length"
+                    },
+                    "name": "length"
+                  },
+                  "computed": false
+                }
+              },
+              "update": {
+                "type": "UpdateExpression",
+                "start": 978,
+                "end": 982,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 44
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 48
+                  }
+                },
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 978,
+                  "end": 980,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 44
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 46
+                    },
+                    "identifierName": "_i"
+                  },
+                  "name": "_i"
+                }
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 984,
+                "end": 1024,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 50
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 5
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 994,
+                    "end": 1018,
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 32
+                      }
+                    },
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 994,
+                      "end": 1017,
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 31
+                        }
+                      },
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 994,
+                        "end": 1001,
+                        "loc": {
+                          "start": {
+                            "line": 31,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 31,
+                            "column": 15
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 994,
+                          "end": 997,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 11
+                            },
+                            "identifierName": "fns"
+                          },
+                          "name": "fns"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 998,
+                          "end": 1000,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 14
+                            },
+                            "identifierName": "_i"
+                          },
+                          "name": "_i"
+                        },
+                        "computed": true
+                      },
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 1004,
+                        "end": 1017,
+                        "loc": {
+                          "start": {
+                            "line": 31,
+                            "column": 18
+                          },
+                          "end": {
+                            "line": 31,
+                            "column": 31
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1004,
+                          "end": 1013,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 18
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 27
+                            },
+                            "identifierName": "arguments"
+                          },
+                          "name": "arguments"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1014,
+                          "end": 1016,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 28
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 30
+                            },
+                            "identifierName": "_i"
+                          },
+                          "name": "_i"
+                        },
+                        "computed": true
+                      }
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            },
+            {
+              "type": "ReturnStatement",
+              "start": 1029,
+              "end": 1065,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 4
+                },
+                "end": {
+                  "line": 33,
+                  "column": 40
+                }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 1036,
+                "end": 1064,
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 39
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1036,
+                  "end": 1051,
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 26
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1036,
+                    "end": 1045,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 20
+                      },
+                      "identifierName": "decorator"
+                    },
+                    "name": "decorator"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1046,
+                    "end": 1051,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 26
+                      },
+                      "identifierName": "apply"
+                    },
+                    "name": "apply"
+                  },
+                  "computed": false
+                },
+                "arguments": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 1052,
+                    "end": 1058,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 27
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 33
+                      }
+                    },
+                    "operator": "void",
+                    "prefix": true,
+                    "argument": {
+                      "type": "NumericLiteral",
+                      "start": 1057,
+                      "end": 1058,
+                      "loc": {
+                        "start": {
+                          "line": 33,
+                          "column": 32
+                        },
+                        "end": {
+                          "line": 33,
+                          "column": 33
+                        }
+                      },
+                      "extra": {
+                        "rawValue": 0,
+                        "raw": "0"
+                      },
+                      "value": 0
+                    },
+                    "extra": {
+                      "parenthesizedArgument": false
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1060,
+                    "end": 1063,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 35
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 38
+                      },
+                      "identifierName": "fns"
+                    },
+                    "name": "fns"
+                  }
+                ]
+              }
+            }
+          ],
+          "directives": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a function that returns the result of invoking the given functions with the this binding of the created function,\n * where each successive invocation is supplied the return value of the previous.\n *\n * @example\n *\n * class MyClass {\n *   name = 'Ted';\n *\n *   @FlowRight(toUpperCase, 'getName')\n *   getUpperCaseName: () => string;\n *\n *   getName() {\n *     return this.name;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.getUpperCaseName(); // => 'TED'\n ",
+            "start": 402,
+            "end": 892,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1068,
+        "end": 1098,
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 30
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1068,
+          "end": 1097,
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 29
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1068,
+            "end": 1085,
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 17
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1068,
+              "end": 1075,
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 0
+                },
+                "end": {
+                  "line": 35,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1076,
+              "end": 1085,
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 8
+                },
+                "end": {
+                  "line": 35,
+                  "column": 17
+                },
+                "identifierName": "FlowRight"
+              },
+              "name": "FlowRight"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1088,
+            "end": 1097,
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 20
+              },
+              "end": {
+                "line": 35,
+                "column": 29
+              },
+              "identifierName": "FlowRight"
+            },
+            "name": "FlowRight"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1099,
+        "end": 1129,
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 0
+          },
+          "end": {
+            "line": 36,
+            "column": 30
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1099,
+          "end": 1128,
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 29
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1099,
+            "end": 1116,
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 0
+              },
+              "end": {
+                "line": 36,
+                "column": 17
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1099,
+              "end": 1106,
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 0
+                },
+                "end": {
+                  "line": 36,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1107,
+              "end": 1116,
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 8
+                },
+                "end": {
+                  "line": 36,
+                  "column": 17
+                },
+                "identifierName": "flowRight"
+              },
+              "name": "flowRight"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1119,
+            "end": 1128,
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 20
+              },
+              "end": {
+                "line": 36,
+                "column": 29
+              },
+              "identifierName": "FlowRight"
+            },
+            "name": "FlowRight"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1130,
+        "end": 1158,
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 28
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1130,
+          "end": 1157,
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 37,
+              "column": 27
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1130,
+            "end": 1145,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 37,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1130,
+              "end": 1137,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 0
+                },
+                "end": {
+                  "line": 37,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1138,
+              "end": 1145,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 8
+                },
+                "end": {
+                  "line": 37,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1157,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 18
+              },
+              "end": {
+                "line": 37,
+                "column": 27
+              },
+              "identifierName": "decorator"
+            },
+            "name": "decorator"
+          }
         }
       }
-    },
+    ],
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
     {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PartialValueApplicator",
-      "start": 72,
-      "end": 94,
+      "type": "CommentBlock",
+      "value": "*\n * Creates a function that returns the result of invoking the given functions with the this binding of the created function,\n * where each successive invocation is supplied the return value of the previous.\n *\n * @example\n *\n * class MyClass {\n *   name = 'Ted';\n *\n *   @FlowRight(toUpperCase, 'getName')\n *   getUpperCaseName: () => string;\n *\n *   getName() {\n *     return this.name;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.getUpperCaseName(); // => 'TED'\n ",
+      "start": 402,
+      "end": 892,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 9
+          "line": 7,
+          "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 31
+          "line": 27,
+          "column": 3
         }
       }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 95,
-      "end": 96,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 32
-        },
-        "end": {
-          "line": 2,
-          "column": 33
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 97,
-      "end": 101,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 34
-        },
-        "end": {
-          "line": 2,
-          "column": 38
-        }
-      }
-    },
+    }
+  ],
+  "tokens": [
     {
       "type": {
         "label": "string",
@@ -1584,17 +3449,17 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./applicators",
-      "start": 102,
-      "end": 117,
+      "value": "use strict",
+      "start": 0,
+      "end": 12,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 39
+          "line": 1,
+          "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 54
+          "line": 1,
+          "column": 12
         }
       }
     },
@@ -1611,44 +3476,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 117,
-      "end": 118,
+      "start": 12,
+      "end": 13,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 54
+          "line": 1,
+          "column": 12
         },
         "end": {
-          "line": 2,
-          "column": 55
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "const",
-        "keyword": "const",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "const",
-      "start": 119,
-      "end": 124,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 0
-        },
-        "end": {
-          "line": 3,
-          "column": 5
+          "line": 1,
+          "column": 13
         }
       }
     },
@@ -1664,13 +3501,430 @@
         "postfix": false,
         "binop": null
       },
-      "value": "decorator",
-      "start": 125,
-      "end": 134,
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
       "loc": {
         "start": {
           "line": 3,
-          "column": 6
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "flowRight_1",
+      "start": 81,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
         },
         "end": {
           "line": 3,
@@ -1692,8 +3946,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 135,
-      "end": 136,
+      "start": 93,
+      "end": 94,
       "loc": {
         "start": {
           "line": 3,
@@ -1717,9 +3971,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "DecoratorFactory",
-      "start": 137,
-      "end": 153,
+      "value": "require",
+      "start": 95,
+      "end": 102,
       "loc": {
         "start": {
           "line": 3,
@@ -1727,7 +3981,637 @@
         },
         "end": {
           "line": 3,
-          "column": 34
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 102,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 3,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/flowRight",
+      "start": 103,
+      "end": 121,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 26
+        },
+        "end": {
+          "line": 3,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 121,
+      "end": 122,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 44
+        },
+        "end": {
+          "line": 3,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 122,
+      "end": 123,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 45
+        },
+        "end": {
+          "line": 3,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 124,
+      "end": 127,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 128,
+      "end": 137,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 138,
+      "end": 139,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 140,
+      "end": 147,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 147,
+      "end": 148,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./factory",
+      "start": 148,
+      "end": 159,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 159,
+      "end": 160,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 160,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 36
+        },
+        "end": {
+          "line": 4,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 162,
+      "end": 165,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 166,
+      "end": 179,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 180,
+      "end": 181,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 182,
+      "end": 189,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 189,
+      "end": 190,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./applicators",
+      "start": 190,
+      "end": 205,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 205,
+      "end": 206,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 206,
+      "end": 207,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 208,
+      "end": 211,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+      "start": 212,
+      "end": 221,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 222,
+      "end": 223,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 224,
+      "end": 233,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+          "line": 6,
+          "column": 25
         }
       }
     },
@@ -1744,16 +4628,68 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 153,
-      "end": 154,
+      "start": 233,
+      "end": 234,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 34
+          "line": 6,
+          "column": 25
         },
         "end": {
-          "line": 3,
-          "column": 35
+          "line": 6,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DecoratorFactory",
+      "start": 234,
+      "end": 250,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 250,
+      "end": 251,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
         }
       }
     },
@@ -1770,16 +4706,16 @@
         "binop": null
       },
       "value": "createInstanceDecorator",
-      "start": 154,
-      "end": 177,
+      "start": 251,
+      "end": 274,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 35
+          "line": 6,
+          "column": 43
         },
         "end": {
-          "line": 3,
-          "column": 58
+          "line": 6,
+          "column": 66
         }
       }
     },
@@ -1795,16 +4731,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 177,
-      "end": 178,
+      "start": 274,
+      "end": 275,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 58
+          "line": 6,
+          "column": 66
         },
         "end": {
-          "line": 3,
-          "column": 59
+          "line": 6,
+          "column": 67
         }
       }
     },
@@ -1823,16 +4759,68 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 178,
-      "end": 181,
+      "start": 275,
+      "end": 278,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 59
+          "line": 6,
+          "column": 67
         },
         "end": {
-          "line": 3,
-          "column": 62
+          "line": 6,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 279,
+      "end": 288,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 71
+        },
+        "end": {
+          "line": 6,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 288,
+      "end": 289,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 80
+        },
+        "end": {
+          "line": 6,
+          "column": 81
         }
       }
     },
@@ -1849,16 +4837,16 @@
         "binop": null
       },
       "value": "DecoratorConfig",
-      "start": 182,
-      "end": 197,
+      "start": 289,
+      "end": 304,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 63
+          "line": 6,
+          "column": 81
         },
         "end": {
-          "line": 3,
-          "column": 78
+          "line": 6,
+          "column": 96
         }
       }
     },
@@ -1874,16 +4862,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 197,
-      "end": 198,
+      "start": 304,
+      "end": 305,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 78
+          "line": 6,
+          "column": 96
         },
         "end": {
-          "line": 3,
-          "column": 79
+          "line": 6,
+          "column": 97
         }
       }
     },
@@ -1899,17 +4887,71 @@
         "postfix": false,
         "binop": null
       },
-      "value": "rearg",
-      "start": 198,
-      "end": 203,
+      "value": "flowRight_1",
+      "start": 305,
+      "end": 316,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 79
+          "line": 6,
+          "column": 97
         },
         "end": {
-          "line": 3,
-          "column": 84
+          "line": 6,
+          "column": 108
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 316,
+      "end": 317,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 108
+        },
+        "end": {
+          "line": 6,
+          "column": 109
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 317,
+      "end": 324,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 109
+        },
+        "end": {
+          "line": 6,
+          "column": 116
         }
       }
     },
@@ -1926,16 +4968,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 203,
-      "end": 204,
+      "start": 324,
+      "end": 325,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 84
+          "line": 6,
+          "column": 116
         },
         "end": {
-          "line": 3,
-          "column": 85
+          "line": 6,
+          "column": 117
         }
       }
     },
@@ -1954,16 +4996,16 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 205,
-      "end": 208,
+      "start": 326,
+      "end": 329,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 86
+          "line": 6,
+          "column": 118
         },
         "end": {
-          "line": 3,
-          "column": 89
+          "line": 6,
+          "column": 121
         }
       }
     },
@@ -1979,17 +5021,69 @@
         "postfix": false,
         "binop": null
       },
-      "value": "PartialValueApplicator",
-      "start": 209,
-      "end": 231,
+      "value": "applicators_1",
+      "start": 330,
+      "end": 343,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 90
+          "line": 6,
+          "column": 122
         },
         "end": {
-          "line": 3,
-          "column": 112
+          "line": 6,
+          "column": 135
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 343,
+      "end": 344,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 135
+        },
+        "end": {
+          "line": 6,
+          "column": 136
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "ComposeApplicator",
+      "start": 344,
+      "end": 361,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 136
+        },
+        "end": {
+          "line": 6,
+          "column": 153
         }
       }
     },
@@ -2005,67 +5099,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 231,
-      "end": 232,
+      "start": 361,
+      "end": 362,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 112
+          "line": 6,
+          "column": 153
         },
         "end": {
-          "line": 3,
-          "column": 113
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 232,
-      "end": 233,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 113
-        },
-        "end": {
-          "line": 3,
-          "column": 114
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 233,
-      "end": 234,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 114
-        },
-        "end": {
-          "line": 3,
-          "column": 115
+          "line": 6,
+          "column": 154
         }
       }
     },
@@ -2081,16 +5124,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 235,
-      "end": 236,
+      "start": 362,
+      "end": 363,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 116
+          "line": 6,
+          "column": 154
         },
         "end": {
-          "line": 3,
-          "column": 117
+          "line": 6,
+          "column": 155
         }
       }
     },
@@ -2106,17 +5149,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "property",
-      "start": 237,
-      "end": 245,
+      "value": "post",
+      "start": 364,
+      "end": 368,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 118
+          "line": 6,
+          "column": 156
         },
         "end": {
-          "line": 3,
-          "column": 126
+          "line": 6,
+          "column": 160
         }
       }
     },
@@ -2133,16 +5176,197 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 245,
-      "end": 246,
+      "start": 368,
+      "end": 369,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 126
+          "line": 6,
+          "column": 160
         },
         "end": {
-          "line": 3,
-          "column": 127
+          "line": 6,
+          "column": 161
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "false",
+        "keyword": "false",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "false",
+      "start": 370,
+      "end": 375,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 162
+        },
+        "end": {
+          "line": 6,
+          "column": 167
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 376,
+      "end": 377,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 168
+        },
+        "end": {
+          "line": 6,
+          "column": 169
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 377,
+      "end": 378,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 169
+        },
+        "end": {
+          "line": 6,
+          "column": 170
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 378,
+      "end": 379,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 170
+        },
+        "end": {
+          "line": 6,
+          "column": 171
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 380,
+      "end": 381,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 172
+        },
+        "end": {
+          "line": 6,
+          "column": 173
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "property",
+      "start": 382,
+      "end": 390,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 174
+        },
+        "end": {
+          "line": 6,
+          "column": 182
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 390,
+      "end": 391,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 182
+        },
+        "end": {
+          "line": 6,
+          "column": 183
         }
       }
     },
@@ -2161,16 +5385,16 @@
         "updateContext": null
       },
       "value": "true",
-      "start": 247,
-      "end": 251,
+      "start": 392,
+      "end": 396,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 128
+          "line": 6,
+          "column": 184
         },
         "end": {
-          "line": 3,
-          "column": 132
+          "line": 6,
+          "column": 188
         }
       }
     },
@@ -2186,16 +5410,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 252,
-      "end": 253,
+      "start": 397,
+      "end": 398,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 133
+          "line": 6,
+          "column": 189
         },
         "end": {
-          "line": 3,
-          "column": 134
+          "line": 6,
+          "column": 190
         }
       }
     },
@@ -2211,16 +5435,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 253,
-      "end": 254,
+      "start": 398,
+      "end": 399,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 134
+          "line": 6,
+          "column": 190
         },
         "end": {
-          "line": 3,
-          "column": 135
+          "line": 6,
+          "column": 191
         }
       }
     },
@@ -2236,16 +5460,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 254,
-      "end": 255,
+      "start": 399,
+      "end": 400,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 135
+          "line": 6,
+          "column": 191
         },
         "end": {
-          "line": 3,
-          "column": 136
+          "line": 6,
+          "column": 192
         }
       }
     },
@@ -2262,60 +5486,32 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 255,
-      "end": 256,
+      "start": 400,
+      "end": 401,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 136
+          "line": 6,
+          "column": 192
         },
         "end": {
-          "line": 3,
-          "column": 137
+          "line": 6,
+          "column": 193
         }
       }
     },
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n * @param\n * {undefined} indexes\n * @param\n * {undefined} args\n * @return\n * {LodashDecorator}\n ",
-      "start": 257,
-      "end": 392,
+      "value": "*\n * Creates a function that returns the result of invoking the given functions with the this binding of the created function,\n * where each successive invocation is supplied the return value of the previous.\n *\n * @example\n *\n * class MyClass {\n *   name = 'Ted';\n *\n *   @FlowRight(toUpperCase, 'getName')\n *   getUpperCaseName: () => string;\n *\n *   getName() {\n *     return this.name;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.getUpperCaseName(); // => 'TED'\n ",
+      "start": 402,
+      "end": 892,
       "loc": {
         "start": {
-          "line": 4,
+          "line": 7,
           "column": 0
         },
         "end": {
-          "line": 15,
+          "line": 27,
           "column": 3
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 393,
-      "end": 399,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 0
-        },
-        "end": {
-          "line": 16,
-          "column": 6
         }
       }
     },
@@ -2333,16 +5529,17 @@
         "binop": null
       },
       "value": "function",
-      "start": 400,
-      "end": 408,
+      "start": 893,
+      "end": 901,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 7
+          "line": 28,
+          "column": 0
         },
         "end": {
-          "line": 16,
-          "column": 15
+          "line": 28,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+          "column": 8
         }
       }
     },
@@ -2358,17 +5555,31 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Rearg",
-      "start": 409,
-      "end": 414,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "PartialValueApplicator",
+      "start": 72,
+      "end": 94,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 16
+          "line": 2,
+          "column": 9
         },
         "end": {
-          "line": 16,
-          "column": 21
+          "line": 2,
+          "column": 31
+=======
+      "value": "FlowRight",
+      "start": 902,
+      "end": 911,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 9
+        },
+        "end": {
+          "line": 28,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2384,120 +5595,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 414,
-      "end": 415,
+      "start": 911,
+      "end": 912,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 21
+          "line": 28,
+          "column": 18
         },
         "end": {
-          "line": 16,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "indexes",
-      "start": 415,
-      "end": 422,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 22
-        },
-        "end": {
-          "line": 16,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 422,
-      "end": 423,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 29
-        },
-        "end": {
-          "line": 16,
-          "column": 30
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "...",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 424,
-      "end": 427,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 31
-        },
-        "end": {
-          "line": 16,
-          "column": 34
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "args",
-      "start": 427,
-      "end": 431,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 34
-        },
-        "end": {
-          "line": 16,
-          "column": 38
+          "line": 28,
+          "column": 19
         }
       }
     },
@@ -2513,16 +5620,29 @@
         "postfix": false,
         "binop": null
       },
-      "start": 431,
-      "end": 432,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 95,
+      "end": 96,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 38
+          "line": 2,
+          "column": 32
         },
         "end": {
-          "line": 16,
-          "column": 39
+          "line": 2,
+          "column": 33
+=======
+      "start": 912,
+      "end": 913,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 19
+        },
+        "end": {
+          "line": 28,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2538,23 +5658,229 @@
         "postfix": false,
         "binop": null
       },
-      "start": 433,
-      "end": 434,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "from",
+      "start": 97,
+      "end": 101,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 40
+          "line": 2,
+          "column": 34
         },
         "end": {
-          "line": 16,
-          "column": 41
+          "line": 2,
+          "column": 38
+=======
+      "start": 914,
+      "end": 915,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 21
+        },
+        "end": {
+          "line": 28,
+          "column": 22
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
-        "label": "return",
-        "keyword": "return",
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "./applicators",
+      "start": 102,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 39
+        },
+        "end": {
+          "line": 2,
+          "column": 54
+=======
+      "value": "var",
+      "start": 920,
+      "end": 923,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 117,
+      "end": 118,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 55
+=======
+      "value": "fns",
+      "start": 924,
+      "end": 927,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 29,
+          "column": 11
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "const",
+        "keyword": "const",
+        "beforeExpr": false,
+=======
+        "label": "=",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "const",
+      "start": 119,
+      "end": 124,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 5
+=======
+      "value": "=",
+      "start": 928,
+      "end": 929,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 12
+        },
+        "end": {
+          "line": 29,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 930,
+      "end": 931,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 14
+        },
+        "end": {
+          "line": 29,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "]",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "decorator",
+      "start": 125,
+      "end": 134,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 6
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+=======
+      "start": 931,
+      "end": 932,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 15
+        },
+        "end": {
+          "line": 29,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2565,6 +5891,1606 @@
         "binop": null,
         "updateContext": null
       },
+      "start": 932,
+      "end": 933,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 16
+        },
+        "end": {
+          "line": 29,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+=======
+        "label": "for",
+        "keyword": "for",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": true,
+        "isAssign": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "=",
+      "start": 135,
+      "end": 136,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 16
+        },
+        "end": {
+          "line": 3,
+          "column": 17
+=======
+      "value": "for",
+      "start": 938,
+      "end": 941,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 4
+        },
+        "end": {
+          "line": 30,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "DecoratorFactory",
+      "start": 137,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 18
+        },
+        "end": {
+          "line": 3,
+          "column": 34
+=======
+      "start": 942,
+      "end": 943,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 8
+        },
+        "end": {
+          "line": 30,
+          "column": 9
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ".",
+=======
+        "label": "var",
+        "keyword": "var",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 153,
+      "end": 154,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 34
+        },
+        "end": {
+          "line": 3,
+          "column": 35
+=======
+      "value": "var",
+      "start": 943,
+      "end": 946,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 9
+        },
+        "end": {
+          "line": 30,
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "createInstanceDecorator",
+      "start": 154,
+      "end": 177,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 35
+        },
+        "end": {
+          "line": 3,
+          "column": 58
+=======
+      "value": "_i",
+      "start": 947,
+      "end": 949,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 13
+        },
+        "end": {
+          "line": 30,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "(",
+        "beforeExpr": true,
+=======
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 950,
+      "end": 951,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 16
+        },
+        "end": {
+          "line": 30,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "num",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 177,
+      "end": 178,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 58
+        },
+        "end": {
+          "line": 3,
+          "column": 59
+=======
+      "value": 0,
+      "start": 952,
+      "end": 953,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 18
+        },
+        "end": {
+          "line": 30,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "new",
+      "start": 178,
+      "end": 181,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 59
+        },
+        "end": {
+          "line": 3,
+          "column": 62
+=======
+      "start": 953,
+      "end": 954,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 19
+        },
+        "end": {
+          "line": 30,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "DecoratorConfig",
+      "start": 182,
+      "end": 197,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 63
+        },
+        "end": {
+          "line": 3,
+          "column": 78
+=======
+      "value": "_i",
+      "start": 955,
+      "end": 957,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 21
+        },
+        "end": {
+          "line": 30,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "(",
+=======
+        "label": "</>",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": 7,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 197,
+      "end": 198,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 78
+        },
+        "end": {
+          "line": 3,
+          "column": 79
+=======
+      "value": "<",
+      "start": 958,
+      "end": 959,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 24
+        },
+        "end": {
+          "line": 30,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "rearg",
+      "start": 198,
+      "end": 203,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 79
+        },
+        "end": {
+          "line": 3,
+          "column": 84
+=======
+      "value": "arguments",
+      "start": 960,
+      "end": 969,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 26
+        },
+        "end": {
+          "line": 30,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ",",
+        "beforeExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 203,
+      "end": 204,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 84
+        },
+        "end": {
+          "line": 3,
+          "column": 85
+=======
+      "start": 969,
+      "end": 970,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 35
+        },
+        "end": {
+          "line": 30,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "new",
+      "start": 205,
+      "end": 208,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 86
+        },
+        "end": {
+          "line": 3,
+          "column": 89
+=======
+      "value": "length",
+      "start": 970,
+      "end": 976,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 36
+        },
+        "end": {
+          "line": 30,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "PartialValueApplicator",
+      "start": 209,
+      "end": 231,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 90
+        },
+        "end": {
+          "line": 3,
+          "column": 112
+=======
+      "start": 976,
+      "end": 977,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 42
+        },
+        "end": {
+          "line": 30,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "(",
+        "beforeExpr": true,
+=======
+        "label": "name",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 231,
+      "end": 232,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 112
+        },
+        "end": {
+          "line": 3,
+          "column": 113
+=======
+      "value": "_i",
+      "start": 978,
+      "end": 980,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 44
+        },
+        "end": {
+          "line": 30,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "++/--",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": true,
+        "postfix": true,
+        "binop": null
+      },
+      "value": "++",
+      "start": 980,
+      "end": 982,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 46
+        },
+        "end": {
+          "line": 30,
+          "column": 48
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 232,
+      "end": 233,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 113
+        },
+        "end": {
+          "line": 3,
+          "column": 114
+=======
+      "start": 982,
+      "end": 983,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 48
+        },
+        "end": {
+          "line": 30,
+          "column": 49
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 233,
+      "end": 234,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 114
+        },
+        "end": {
+          "line": 3,
+          "column": 115
+=======
+        "binop": null
+      },
+      "start": 984,
+      "end": 985,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 50
+        },
+        "end": {
+          "line": 30,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "fns",
+      "start": 994,
+      "end": 997,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 11
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "{",
+=======
+        "label": "[",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 235,
+      "end": 236,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 116
+        },
+        "end": {
+          "line": 3,
+          "column": 117
+=======
+      "start": 997,
+      "end": 998,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 11
+        },
+        "end": {
+          "line": 31,
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "property",
+      "start": 237,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 118
+        },
+        "end": {
+          "line": 3,
+          "column": 126
+=======
+      "value": "_i",
+      "start": 998,
+      "end": 1000,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 12
+        },
+        "end": {
+          "line": 31,
+          "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ":",
+        "beforeExpr": true,
+=======
+        "label": "]",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 126
+        },
+        "end": {
+          "line": 3,
+          "column": 127
+=======
+      "start": 1000,
+      "end": 1001,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 14
+        },
+        "end": {
+          "line": 31,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "true",
+      "start": 247,
+      "end": 251,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 128
+        },
+        "end": {
+          "line": 3,
+          "column": 132
+=======
+      "value": "=",
+      "start": 1002,
+      "end": 1003,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 16
+        },
+        "end": {
+          "line": 31,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 252,
+      "end": 253,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 133
+        },
+        "end": {
+          "line": 3,
+          "column": 134
+=======
+      "value": "arguments",
+      "start": 1004,
+      "end": 1013,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 18
+        },
+        "end": {
+          "line": 31,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 253,
+      "end": 254,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 134
+        },
+        "end": {
+          "line": 3,
+          "column": 135
+=======
+      "start": 1013,
+      "end": 1014,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 27
+        },
+        "end": {
+          "line": 31,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 254,
+      "end": 255,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 135
+        },
+        "end": {
+          "line": 3,
+          "column": 136
+=======
+      "value": "_i",
+      "start": 1014,
+      "end": 1016,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 28
+        },
+        "end": {
+          "line": 31,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+=======
+        "label": "]",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1016,
+      "end": 1017,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 30
+        },
+        "end": {
+          "line": 31,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 255,
+      "end": 256,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 136
+        },
+        "end": {
+          "line": 3,
+          "column": 137
+=======
+      "start": 1017,
+      "end": 1018,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 31
+        },
+        "end": {
+          "line": 31,
+          "column": 32
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "type": "CommentBlock",
+      "value": "*\n * @desc\n *\n * @lineNumber\n * 15\n * @param\n * {undefined} indexes\n * @param\n * {undefined} args\n * @return\n * {LodashDecorator}\n ",
+      "start": 257,
+      "end": 392,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+=======
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 1023,
+      "end": 1024,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 5
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "export",
+      "start": 393,
+      "end": 399,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 6
+=======
+      "value": "return",
+      "start": 1029,
+      "end": 1035,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "function",
+        "keyword": "function",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "function",
+      "start": 400,
+      "end": 408,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 7
+        },
+        "end": {
+          "line": 16,
+          "column": 15
+=======
+      "value": "decorator",
+      "start": 1036,
+      "end": 1045,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 11
+        },
+        "end": {
+          "line": 33,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "Rearg",
+      "start": 409,
+      "end": 414,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 16
+        },
+        "end": {
+          "line": 16,
+=======
+      "start": 1045,
+      "end": 1046,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 20
+        },
+        "end": {
+          "line": 33,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 414,
+      "end": 415,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 21
+        },
+        "end": {
+          "line": 16,
+          "column": 22
+=======
+      "value": "apply",
+      "start": 1046,
+      "end": 1051,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 21
+        },
+        "end": {
+          "line": 33,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "name",
+        "beforeExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "indexes",
+      "start": 415,
+      "end": 422,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 22
+        },
+        "end": {
+          "line": 16,
+          "column": 29
+=======
+      "start": 1051,
+      "end": 1052,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 26
+        },
+        "end": {
+          "line": 33,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "void",
+        "keyword": "void",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": true,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 422,
+      "end": 423,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 29
+        },
+        "end": {
+          "line": 16,
+          "column": 30
+=======
+      "value": "void",
+      "start": 1052,
+      "end": 1056,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 27
+        },
+        "end": {
+          "line": 33,
+          "column": 31
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "...",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "num",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 424,
+      "end": 427,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 31
+        },
+        "end": {
+          "line": 16,
+          "column": 34
+=======
+      "value": 0,
+      "start": 1057,
+      "end": 1058,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 32
+        },
+        "end": {
+          "line": 33,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "args",
+      "start": 427,
+      "end": 431,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 34
+        },
+        "end": {
+          "line": 16,
+          "column": 38
+=======
+      "start": 1058,
+      "end": 1059,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 33
+        },
+        "end": {
+          "line": 33,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": ")",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 431,
+      "end": 432,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 38
+        },
+        "end": {
+          "line": 16,
+          "column": 39
+=======
+      "value": "fns",
+      "start": 1060,
+      "end": 1063,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 35
+        },
+        "end": {
+          "line": 33,
+          "column": 38
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 433,
+      "end": 434,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 40
+        },
+        "end": {
+          "line": 16,
+          "column": 41
+=======
+      "start": 1063,
+      "end": 1064,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 38
+        },
+        "end": {
+          "line": 33,
+          "column": 39
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+        "label": "return",
+        "keyword": "return",
+=======
+        "label": ";",
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "return",
       "start": 439,
       "end": 445,
@@ -2576,11 +7502,24 @@
         "end": {
           "line": 17,
           "column": 10
+=======
+      "start": 1064,
+      "end": 1065,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 39
+        },
+        "end": {
+          "line": 33,
+          "column": 40
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
@@ -2610,6 +7549,11 @@
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2617,6 +7561,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 455,
       "end": 456,
       "loc": {
@@ -2627,6 +7572,18 @@
         "end": {
           "line": 17,
           "column": 21
+=======
+      "start": 1066,
+      "end": 1067,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2642,6 +7599,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "indexes",
       "start": 456,
       "end": 463,
@@ -2653,13 +7611,31 @@
         "end": {
           "line": 17,
           "column": 28
+=======
+      "value": "exports",
+      "start": 1068,
+      "end": 1075,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "label": ",",
         "beforeExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -2669,6 +7645,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 463,
       "end": 464,
       "loc": {
@@ -2679,22 +7656,40 @@
         "end": {
           "line": 17,
           "column": 29
+=======
+      "start": 1075,
+      "end": 1076,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 7
+        },
+        "end": {
+          "line": 35,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "label": "...",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 465,
       "end": 468,
       "loc": {
@@ -2705,21 +7700,42 @@
         "end": {
           "line": 17,
           "column": 33
+=======
+      "value": "FlowRight",
+      "start": 1076,
+      "end": 1085,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 8
+        },
+        "end": {
+          "line": 35,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "args",
       "start": 468,
       "end": 472,
@@ -2731,14 +7747,27 @@
         "end": {
           "line": 17,
           "column": 37
+=======
+      "value": "=",
+      "start": 1086,
+      "end": 1087,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 18
+        },
+        "end": {
+          "line": 35,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2746,6 +7775,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 472,
       "end": 473,
       "loc": {
@@ -2756,6 +7786,19 @@
         "end": {
           "line": 17,
           "column": 38
+=======
+      "value": "FlowRight",
+      "start": 1088,
+      "end": 1097,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 20
+        },
+        "end": {
+          "line": 35,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2772,6 +7815,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 473,
       "end": 474,
       "loc": {
@@ -2782,14 +7826,32 @@
         "end": {
           "line": 17,
           "column": 39
+=======
+      "start": 1097,
+      "end": 1098,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 29
+        },
+        "end": {
+          "line": 35,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
         "label": "}",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2797,6 +7859,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 475,
       "end": 476,
       "loc": {
@@ -2807,13 +7870,25 @@
         "end": {
           "line": 18,
           "column": 1
+=======
+      "value": "exports",
+      "start": 1099,
+      "end": 1106,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2824,6 +7899,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "export",
       "start": 477,
       "end": 483,
@@ -2835,31 +7911,18 @@
         "end": {
           "line": 19,
           "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 484,
-      "end": 485,
+=======
+      "start": 1106,
+      "end": 1107,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 36,
           "column": 7
         },
         "end": {
-          "line": 19,
+          "line": 36,
           "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2875,6 +7938,47 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 484,
+      "end": 485,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 7
+        },
+        "end": {
+          "line": 19,
+          "column": 8
+=======
+      "value": "flowRight",
+      "start": 1107,
+      "end": 1116,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 8
+        },
+        "end": {
+          "line": 36,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "Rearg",
       "start": 486,
       "end": 491,
@@ -2886,6 +7990,19 @@
         "end": {
           "line": 19,
           "column": 14
+=======
+      "value": "=",
+      "start": 1117,
+      "end": 1118,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 18
+        },
+        "end": {
+          "line": 36,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2901,6 +8018,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "as",
       "start": 492,
       "end": 494,
@@ -2912,57 +8030,19 @@
         "end": {
           "line": 19,
           "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "rearg",
-      "start": 495,
-      "end": 500,
+=======
+      "value": "FlowRight",
+      "start": 1119,
+      "end": 1128,
       "loc": {
         "start": {
-          "line": 19,
-          "column": 18
+          "line": 36,
+          "column": 20
         },
         "end": {
-          "line": 19,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 501,
-      "end": 502,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 24
-        },
-        "end": {
-          "line": 19,
-          "column": 25
+          "line": 36,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -2979,23 +8059,75 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 502,
-      "end": 503,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "rearg",
+      "start": 495,
+      "end": 500,
       "loc": {
         "start": {
           "line": 19,
-          "column": 25
+          "column": 18
         },
         "end": {
           "line": 19,
-          "column": 26
+          "column": 23
+=======
+      "start": 1128,
+      "end": 1129,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 29
+        },
+        "end": {
+          "line": 36,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 501,
+      "end": 502,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 24
+        },
+        "end": {
+          "line": 19,
+          "column": 25
+=======
+      "value": "exports",
+      "start": 1130,
+      "end": 1137,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -3006,17 +8138,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 504,
-      "end": 510,
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "start": 502,
+      "end": 503,
       "loc": {
         "start": {
-          "line": 20,
-          "column": 0
+          "line": 19,
+          "column": 25
         },
         "end": {
-          "line": 20,
-          "column": 6
+          "line": 19,
+          "column": 26
+=======
+      "start": 1137,
+      "end": 1138,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 7
+        },
+        "end": {
+          "line": 37,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -3034,6 +8178,48 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
+      "value": "export",
+      "start": 504,
+      "end": 510,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+=======
+      "value": "default",
+      "start": 1138,
+      "end": 1145,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "value": "default",
       "start": 511,
       "end": 518,
@@ -3045,6 +8231,19 @@
         "end": {
           "line": 20,
           "column": 14
+=======
+      "value": "=",
+      "start": 1146,
+      "end": 1147,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 16
+        },
+        "end": {
+          "line": 37,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -3061,6 +8260,7 @@
         "binop": null
       },
       "value": "decorator",
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 519,
       "end": 528,
       "loc": {
@@ -3071,6 +8271,18 @@
         "end": {
           "line": 20,
           "column": 24
+=======
+      "start": 1148,
+      "end": 1157,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 18
+        },
+        "end": {
+          "line": 37,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -3087,6 +8299,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 528,
       "end": 529,
       "loc": {
@@ -3097,6 +8310,18 @@
         "end": {
           "line": 20,
           "column": 25
+=======
+      "start": 1157,
+      "end": 1158,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 27
+        },
+        "end": {
+          "line": 37,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
         }
       }
     },
@@ -3113,6 +8338,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/rearg.ts.json
       "start": 530,
       "end": 530,
       "loc": {
@@ -3122,6 +8348,17 @@
         },
         "end": {
           "line": 21,
+=======
+      "start": 1159,
+      "end": 1159,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/flowRight.js.json
           "column": 0
         }
       }

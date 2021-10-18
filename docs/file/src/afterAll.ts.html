@@ -2,8 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+<<<<<<< HEAD:docs/file/src/afterAll.ts.html
   <base data-ice="baseUrl" href="../../">
   <title data-ice="title">src/afterAll.ts | Lodash Decorators Documentation</title>
+=======
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">buildDocs/utils/bind.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/bind.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +34,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/afterAll.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -124,6 +130,16 @@ const decorator = DecoratorFactory.createDecorator(
   new DecoratorConfig(after, new PostValueApplicator(), { setter: true })
 );
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/utils/bind.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var copyMetaData_1 = require(&quot;./copyMetaData&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/bind.js.html
 /**
  * The opposite of Before. This method creates a function that invokes once it&apos;s called n or more times.
  * This spans across all instances of the class instead of the instance.
@@ -147,11 +163,18 @@ const decorator = DecoratorFactory.createDecorator(
  * myClass2.fn(); // =&gt; 10
  * myClass2.fn(); // =&gt; 10
  */
+<<<<<<< HEAD:docs/file/src/afterAll.ts.html
 export function AfterAll(n: number): LodashDecorator {
   return decorator(n);
 }
 export { AfterAll as afterAll };
 export default decorator;
+=======
+function bind(fn, context) {
+    return copyMetaData_1.copyMetadata(fn.bind(context), fn);
+}
+exports.bind = bind;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/bind.js.html
 </code></pre>
 
 </div>

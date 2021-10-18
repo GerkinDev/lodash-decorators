@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/test-file/src/after.spec.ts.html
   <title data-ice="title">src/after.spec.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/after.spec.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/after.spec.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/test-file/src/after.spec.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -161,6 +166,62 @@ describe(&apos;after&apos;, () =&gt; {
     expect(myClass.props[0], &apos;setter value&apos;).to.equal(100);
   });
 });</code></pre>
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/after.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var chai_1 = require(&quot;chai&quot;);
+var after_1 = require(&quot;./after&quot;);
+describe(&apos;after&apos;, function () {
+    it(&apos;should invoke the method after 3 times&apos;, function () {
+        var calls = 0;
+        var MyClass = (function () {
+            function MyClass() {
+                this.props = [];
+            }
+            Object.defineProperty(MyClass.prototype, &quot;prop&quot;, {
+                set: function (val) {
+                    this.props.push(val);
+                },
+                enumerable: true,
+                configurable: true
+            });
+            MyClass.prototype.fn = function () {
+                calls++;
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            after_1.After(2)
+        ], MyClass.prototype, &quot;prop&quot;, null);
+        tslib_1.__decorate([
+            after_1.After(3)
+        ], MyClass.prototype, &quot;fn&quot;, null);
+        var myClass = new MyClass();
+        var myClass2 = new MyClass();
+        myClass.fn();
+        myClass.fn();
+        myClass.fn();
+        myClass.fn();
+        chai_1.expect(calls, &apos;single class&apos;).to.equal(2);
+        myClass2.fn();
+        myClass2.fn();
+        myClass2.fn();
+        myClass2.fn();
+        chai_1.expect(calls, &apos;multiple class&apos;).to.equal(4);
+        myClass.prop = 50;
+        myClass.prop = 100;
+        chai_1.expect(myClass.props.length, &apos;setter length&apos;).to.equal(1);
+        chai_1.expect(myClass.props[0], &apos;setter value&apos;).to.equal(100);
+    });
+});
+</code></pre>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/after.spec.js.html
 
 </div>
 

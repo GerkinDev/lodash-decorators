@@ -1,131 +1,362 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
   "end": 296,
+=======
+  "end": 380,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
       "line": 17,
+=======
+      "line": 16,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
     "end": 296,
+=======
+    "end": 380,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
         "line": 17,
+=======
+        "line": 16,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
-        "type": "ImportDeclaration",
-        "start": 0,
-        "end": 46,
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
-            "line": 1,
-            "column": 46
+            "line": 2,
+            "column": 62
           }
         },
-        "specifiers": [
-          {
-            "type": "ImportSpecifier",
-            "start": 9,
-            "end": 21,
-            "loc": {
-              "start": {
-                "line": 1,
-                "column": 9
-              },
-              "end": {
-                "line": 1,
-                "column": 21
-              }
-            },
-            "imported": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 21,
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 9
-                },
-                "end": {
-                  "line": 1,
-                  "column": 21
-                },
-                "identifierName": "copyMetadata"
-              },
-              "name": "copyMetadata"
-            },
-            "local": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 21,
-              "loc": {
-                "start": {
-                  "line": 1,
-                  "column": 9
-                },
-                "end": {
-                  "line": 1,
-                  "column": 21
-                },
-                "identifierName": "copyMetadata"
-              },
-              "name": "copyMetadata"
-            }
-          }
-        ],
-        "source": {
-          "type": "StringLiteral",
-          "start": 29,
-          "end": 45,
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
           "loc": {
             "start": {
-              "line": 1,
-              "column": 29
+              "line": 2,
+              "column": 0
             },
             "end": {
-              "line": 1,
-              "column": 45
+              "line": 2,
+              "column": 61
             }
           },
-          "extra": {
-            "rawValue": "./copyMetaData",
-            "raw": "'./copyMetaData'"
-          },
-          "value": "./copyMetaData"
-        },
-        "trailingComments": [
-          {
-            "type": "CommentBlock",
-            "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
-            "start": 47,
-            "end": 210,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
             "loc": {
               "start": {
                 "line": 2,
                 "column": 0
               },
               "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 124,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 47
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 123,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 46
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 95,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 18
+                },
+                "identifierName": "copyMetaData_1"
+              },
+              "name": "copyMetaData_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 98,
+              "end": 123,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 21
+                },
+                "end": {
+                  "line": 3,
+                  "column": 46
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 98,
+                "end": 105,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 28
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 106,
+                  "end": 122,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 29
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 45
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./copyMetaData",
+                    "raw": "\"./copyMetaData\""
+                  },
+                  "value": "./copyMetaData"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+            "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
+            "start": 47,
+            "end": 210,
+=======
+            "value": "*\n * Binds a function and copies metadata.\n * @private\n * @export\n * @param {Function} fn\n * @param {*} context\n * @returns {Function}\n ",
+            "start": 125,
+            "end": 265,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 0
+              },
+              "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                 "line": 13,
+=======
+                "line": 11,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
                 "column": 3
               }
             }
@@ -133,6 +364,7 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
         "type": "ExportNamedDeclaration",
         "start": 211,
         "end": 295,
@@ -161,9 +393,46 @@
               "line": 16,
               "column": 1
             }
+=======
+        "type": "FunctionDeclaration",
+        "start": 266,
+        "end": 358,
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 0
           },
-          "id": {
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 275,
+          "end": 279,
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 9
+            },
+            "end": {
+              "line": 12,
+              "column": 13
+            },
+            "identifierName": "bind"
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+          },
+          "name": "bind",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
             "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
             "start": 227,
             "end": 231,
             "loc": {
@@ -174,12 +443,24 @@
               "end": {
                 "line": 14,
                 "column": 20
+=======
+            "start": 280,
+            "end": 282,
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 14
               },
-              "identifierName": "bind"
+              "end": {
+                "line": 12,
+                "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+              },
+              "identifierName": "fn"
             },
-            "name": "bind",
-            "leadingComments": null
+            "name": "fn"
           },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
           "generator": false,
           "expression": false,
           "async": false,
@@ -198,10 +479,43 @@
                   "column": 23
                 },
                 "identifierName": "fn"
+=======
+          {
+            "type": "Identifier",
+            "start": 284,
+            "end": 291,
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 18
               },
-              "name": "fn"
+              "end": {
+                "line": 12,
+                "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+              },
+              "identifierName": "context"
             },
+            "name": "context"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 293,
+          "end": 358,
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 27
+            },
+            "end": {
+              "line": 14,
+              "column": 1
+            }
+          },
+          "body": [
             {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
               "type": "Identifier",
               "start": 236,
               "end": 243,
@@ -260,10 +574,52 @@
                     "end": {
                       "line": 15,
                       "column": 45
+=======
+              "type": "ReturnStatement",
+              "start": 299,
+              "end": 356,
+              "loc": {
+                "start": {
+                  "line": 13,
+                  "column": 4
+                },
+                "end": {
+                  "line": 13,
+                  "column": 61
+                }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 306,
+                "end": 355,
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 60
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 306,
+                  "end": 333,
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 38
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
                     }
                   },
-                  "callee": {
+                  "object": {
                     "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                     "start": 258,
                     "end": 270,
                     "loc": {
@@ -274,11 +630,41 @@
                       "end": {
                         "line": 15,
                         "column": 23
+=======
+                    "start": 306,
+                    "end": 320,
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 25
+                      },
+                      "identifierName": "copyMetaData_1"
+                    },
+                    "name": "copyMetaData_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 321,
+                    "end": 333,
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 38
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
                       },
                       "identifierName": "copyMetadata"
                     },
                     "name": "copyMetadata"
                   },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                   "arguments": [
                     {
                       "type": "CallExpression",
@@ -322,9 +708,55 @@
                               "column": 26
                             },
                             "identifierName": "fn"
-                          },
-                          "name": "fn"
+=======
+                  "computed": false
+                },
+                "arguments": [
+                  {
+                    "type": "CallExpression",
+                    "start": 334,
+                    "end": 350,
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 39
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 55
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 334,
+                      "end": 341,
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 39
                         },
+                        "end": {
+                          "line": 13,
+                          "column": 46
+                        }
+                      },
+                      "object": {
+                        "type": "Identifier",
+                        "start": 334,
+                        "end": 336,
+                        "loc": {
+                          "start": {
+                            "line": 13,
+                            "column": 39
+                          },
+                          "end": {
+                            "line": 13,
+                            "column": 41
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+                          },
+                          "identifierName": "fn"
+                        },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                         "property": {
                           "type": "Identifier",
                           "start": 274,
@@ -339,11 +771,28 @@
                               "column": 31
                             },
                             "identifierName": "bind"
-                          },
-                          "name": "bind"
-                        },
-                        "computed": false
+=======
+                        "name": "fn"
                       },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 337,
+                        "end": 341,
+                        "loc": {
+                          "start": {
+                            "line": 13,
+                            "column": 42
+                          },
+                          "end": {
+                            "line": 13,
+                            "column": 46
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+                          },
+                          "identifierName": "bind"
+                        },
+                        "name": "bind"
+                      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                       "arguments": [
                         {
                           "type": "Identifier",
@@ -376,9 +825,40 @@
                         "end": {
                           "line": 15,
                           "column": 44
+=======
+                      "computed": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 342,
+                        "end": 349,
+                        "loc": {
+                          "start": {
+                            "line": 13,
+                            "column": 47
+                          },
+                          "end": {
+                            "line": 13,
+                            "column": 54
+                          },
+                          "identifierName": "context"
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
                         },
-                        "identifierName": "fn"
+                        "name": "context"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 352,
+                    "end": 354,
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 57
                       },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                       "name": "fn"
                     }
                   ]
@@ -402,46 +882,201 @@
                   "line": 13,
                   "column": 3
                 }
+=======
+                      "end": {
+                        "line": 13,
+                        "column": 59
+                      },
+                      "identifierName": "fn"
+                    },
+                    "name": "fn"
+                  }
+                ]
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
               }
             }
           ],
-          "trailingComments": []
+          "directives": []
         },
         "leadingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
             "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
             "start": 47,
             "end": 210,
+=======
+            "value": "*\n * Binds a function and copies metadata.\n * @private\n * @export\n * @param {Function} fn\n * @param {*} context\n * @returns {Function}\n ",
+            "start": 125,
+            "end": 265,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
             "loc": {
               "start": {
-                "line": 2,
+                "line": 4,
                 "column": 0
               },
               "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
                 "line": 13,
+=======
+                "line": 11,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
                 "column": 3
               }
             }
           }
         ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 359,
+        "end": 379,
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 20
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 359,
+          "end": 378,
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 19
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 359,
+            "end": 371,
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 12
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 359,
+              "end": 366,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 0
+                },
+                "end": {
+                  "line": 15,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 367,
+              "end": 371,
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 8
+                },
+                "end": {
+                  "line": 15,
+                  "column": 12
+                },
+                "identifierName": "bind"
+              },
+              "name": "bind"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 378,
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 15
+              },
+              "end": {
+                "line": 15,
+                "column": 19
+              },
+              "identifierName": "bind"
+            },
+            "name": "bind"
+          }
+        }
       }
     ],
-    "directives": []
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
   },
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
-      "start": 47,
-      "end": 210,
+      "value": "*\n * Binds a function and copies metadata.\n * @private\n * @export\n * @param {Function} fn\n * @param {*} context\n * @returns {Function}\n ",
+      "start": 125,
+      "end": 265,
       "loc": {
         "start": {
-          "line": 2,
+          "line": 4,
           "column": 0
         },
         "end": {
-          "line": 13,
+          "line": 11,
           "column": 3
         }
       }
@@ -450,8 +1085,7 @@
   "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -462,9 +1096,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
+      "value": "use strict",
       "start": 0,
-      "end": 6,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
@@ -472,7 +1106,241 @@
         },
         "end": {
           "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
           "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
         }
       }
     },
@@ -488,16 +1356,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 7,
-      "end": 8,
+      "start": 59,
+      "end": 60,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 7
+          "line": 2,
+          "column": 45
         },
         "end": {
-          "line": 1,
-          "column": 8
+          "line": 2,
+          "column": 46
         }
       }
     },
@@ -513,17 +1381,71 @@
         "postfix": false,
         "binop": null
       },
-      "value": "copyMetadata",
-      "start": 9,
-      "end": 21,
+      "value": "value",
+      "start": 61,
+      "end": 66,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 9
+          "line": 2,
+          "column": 47
         },
         "end": {
-          "line": 1,
-          "column": 21
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
         }
       }
     },
@@ -539,16 +1461,114 @@
         "postfix": false,
         "binop": null
       },
-      "start": 22,
-      "end": 23,
+      "start": 73,
+      "end": 74,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 22
+          "line": 2,
+          "column": 59
         },
         "end": {
-          "line": 1,
-          "column": 23
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "type": "CommentBlock",
+      "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
+      "start": 47,
+      "end": 210,
+=======
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+          "line": 13,
+          "column": 3
+=======
+          "line": 2,
+          "column": 61
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
         }
       }
     },
@@ -564,17 +1584,95 @@
         "postfix": false,
         "binop": null
       },
-      "value": "from",
-      "start": 24,
-      "end": 28,
+      "value": "copyMetaData_1",
+      "start": 81,
+      "end": 95,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 24
+          "line": 3,
+          "column": 4
         },
         "end": {
-          "line": 1,
+          "line": 3,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 96,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 98,
+      "end": 105,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 3,
           "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 105,
+      "end": 106,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 28
+        },
+        "end": {
+          "line": 3,
+          "column": 29
         }
       }
     },
@@ -592,16 +1690,41 @@
         "updateContext": null
       },
       "value": "./copyMetaData",
-      "start": 29,
-      "end": 45,
+      "start": 106,
+      "end": 122,
       "loc": {
         "start": {
-          "line": 1,
+          "line": 3,
           "column": 29
         },
         "end": {
-          "line": 1,
+          "line": 3,
           "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 122,
+      "end": 123,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 45
+        },
+        "end": {
+          "line": 3,
+          "column": 46
         }
       }
     },
@@ -618,60 +1741,42 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 45,
-      "end": 46,
+      "start": 123,
+      "end": 124,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 45
+          "line": 3,
+          "column": 46
         },
         "end": {
-          "line": 1,
-          "column": 46
+          "line": 3,
+          "column": 47
         }
       }
     },
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
       "value": "*\n * @desc\n * Binds a function and copies metadata.\n * @lineNumber\n * 12\n * @param\n * {Function} fn\n * @param\n * {undefined} context\n * @return\n * {Function}\n ",
       "start": 47,
       "end": 210,
+=======
+      "value": "*\n * Binds a function and copies metadata.\n * @private\n * @export\n * @param {Function} fn\n * @param {*} context\n * @returns {Function}\n ",
+      "start": 125,
+      "end": 265,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
       "loc": {
         "start": {
-          "line": 2,
+          "line": 4,
           "column": 0
         },
         "end": {
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
           "line": 13,
+=======
+          "line": 11,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
           "column": 3
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 211,
-      "end": 217,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 6
         }
       }
     },
@@ -689,16 +1794,16 @@
         "binop": null
       },
       "value": "function",
-      "start": 218,
-      "end": 226,
+      "start": 266,
+      "end": 274,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 7
+          "line": 12,
+          "column": 0
         },
         "end": {
-          "line": 14,
-          "column": 15
+          "line": 12,
+          "column": 8
         }
       }
     },
@@ -715,16 +1820,16 @@
         "binop": null
       },
       "value": "bind",
-      "start": 227,
-      "end": 231,
+      "start": 275,
+      "end": 279,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 16
+          "line": 12,
+          "column": 9
         },
         "end": {
-          "line": 14,
-          "column": 20
+          "line": 12,
+          "column": 13
         }
       }
     },
@@ -740,16 +1845,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 231,
-      "end": 232,
+      "start": 279,
+      "end": 280,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 20
+          "line": 12,
+          "column": 13
         },
         "end": {
-          "line": 14,
-          "column": 21
+          "line": 12,
+          "column": 14
         }
       }
     },
@@ -766,16 +1871,16 @@
         "binop": null
       },
       "value": "fn",
-      "start": 232,
-      "end": 234,
+      "start": 280,
+      "end": 282,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 21
+          "line": 12,
+          "column": 14
         },
         "end": {
-          "line": 14,
-          "column": 23
+          "line": 12,
+          "column": 16
         }
       }
     },
@@ -792,16 +1897,30 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 234,
-      "end": 235,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "export",
+      "start": 211,
+      "end": 217,
       "loc": {
         "start": {
           "line": 14,
-          "column": 23
+          "column": 0
         },
         "end": {
           "line": 14,
-          "column": 24
+          "column": 6
+=======
+      "start": 282,
+      "end": 283,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 16
+        },
+        "end": {
+          "line": 12,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -818,16 +1937,16 @@
         "binop": null
       },
       "value": "context",
-      "start": 236,
-      "end": 243,
+      "start": 284,
+      "end": 291,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 25
+          "line": 12,
+          "column": 18
         },
         "end": {
-          "line": 14,
-          "column": 32
+          "line": 12,
+          "column": 25
         }
       }
     },
@@ -843,16 +1962,30 @@
         "postfix": false,
         "binop": null
       },
-      "start": 243,
-      "end": 244,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "function",
+      "start": 218,
+      "end": 226,
       "loc": {
         "start": {
           "line": 14,
-          "column": 32
+          "column": 7
         },
         "end": {
           "line": 14,
-          "column": 33
+          "column": 15
+=======
+      "start": 291,
+      "end": 292,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 25
+        },
+        "end": {
+          "line": 12,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -868,16 +2001,30 @@
         "postfix": false,
         "binop": null
       },
-      "start": 245,
-      "end": 246,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "bind",
+      "start": 227,
+      "end": 231,
       "loc": {
         "start": {
           "line": 14,
-          "column": 34
+          "column": 16
         },
         "end": {
           "line": 14,
-          "column": 35
+          "column": 20
+=======
+      "start": 293,
+      "end": 294,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 27
+        },
+        "end": {
+          "line": 12,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -895,17 +2042,30 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "return",
-      "start": 251,
-      "end": 257,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 231,
+      "end": 232,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 14,
+          "column": 20
+        },
+        "end": {
+          "line": 14,
+          "column": 21
+=======
+      "value": "return",
+      "start": 299,
+      "end": 305,
+      "loc": {
+        "start": {
+          "line": 13,
           "column": 4
         },
         "end": {
-          "line": 15,
+          "line": 13,
           "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -921,68 +2081,31 @@
         "postfix": false,
         "binop": null
       },
-      "value": "copyMetadata",
-      "start": 258,
-      "end": 270,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "fn",
+      "start": 232,
+      "end": 234,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+          "column": 23
+=======
+      "value": "copyMetaData_1",
+      "start": 306,
+      "end": 320,
+      "loc": {
+        "start": {
+          "line": 13,
           "column": 11
         },
         "end": {
-          "line": 15,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 270,
-      "end": 271,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 23
-        },
-        "end": {
-          "line": 15,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "fn",
-      "start": 271,
-      "end": 273,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 24
-        },
-        "end": {
-          "line": 15,
-          "column": 26
+          "line": 13,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -999,16 +2122,29 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 273,
-      "end": 274,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 234,
+      "end": 235,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 26
+          "line": 14,
+          "column": 23
         },
         "end": {
-          "line": 15,
-          "column": 27
+          "line": 14,
+          "column": 24
+=======
+      "start": 320,
+      "end": 321,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 25
+        },
+        "end": {
+          "line": 13,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1024,17 +2160,31 @@
         "postfix": false,
         "binop": null
       },
-      "value": "bind",
-      "start": 274,
-      "end": 278,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "context",
+      "start": 236,
+      "end": 243,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 27
+          "line": 14,
+          "column": 25
         },
         "end": {
-          "line": 15,
-          "column": 31
+          "line": 14,
+          "column": 32
+=======
+      "value": "copyMetadata",
+      "start": 321,
+      "end": 333,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 26
+        },
+        "end": {
+          "line": 13,
+          "column": 38
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1050,16 +2200,29 @@
         "postfix": false,
         "binop": null
       },
-      "start": 278,
-      "end": 279,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 243,
+      "end": 244,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 31
+          "line": 14,
+          "column": 32
         },
         "end": {
-          "line": 15,
-          "column": 32
+          "line": 14,
+          "column": 33
+=======
+      "start": 333,
+      "end": 334,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 38
+        },
+        "end": {
+          "line": 13,
+          "column": 39
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1075,17 +2238,188 @@
         "postfix": false,
         "binop": null
       },
-      "value": "context",
-      "start": 279,
-      "end": 286,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 34
+        },
+        "end": {
+          "line": 14,
+          "column": 35
+=======
+      "value": "fn",
+      "start": 334,
+      "end": 336,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 39
+        },
+        "end": {
+          "line": 13,
+          "column": 41
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "return",
+      "start": 251,
+      "end": 257,
       "loc": {
         "start": {
           "line": 15,
-          "column": 32
+          "column": 4
         },
         "end": {
           "line": 15,
-          "column": 39
+          "column": 10
+=======
+      "start": 336,
+      "end": 337,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 41
+        },
+        "end": {
+          "line": 13,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "copyMetadata",
+      "start": 258,
+      "end": 270,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 11
+        },
+        "end": {
+          "line": 15,
+          "column": 23
+=======
+      "value": "bind",
+      "start": 337,
+      "end": 341,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 42
+        },
+        "end": {
+          "line": 13,
+          "column": 46
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 270,
+      "end": 271,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 23
+        },
+        "end": {
+          "line": 15,
+          "column": 24
+=======
+      "start": 341,
+      "end": 342,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 46
+        },
+        "end": {
+          "line": 13,
+          "column": 47
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "fn",
+      "start": 271,
+      "end": 273,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 24
+        },
+        "end": {
+          "line": 15,
+          "column": 26
+=======
+      "value": "context",
+      "start": 342,
+      "end": 349,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 47
+        },
+        "end": {
+          "line": 13,
+          "column": 54
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1101,16 +2435,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 286,
-      "end": 287,
+      "start": 349,
+      "end": 350,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 39
+          "line": 13,
+          "column": 54
         },
         "end": {
-          "line": 15,
-          "column": 40
+          "line": 13,
+          "column": 55
         }
       }
     },
@@ -1127,16 +2461,29 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 287,
-      "end": 288,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 273,
+      "end": 274,
       "loc": {
         "start": {
           "line": 15,
-          "column": 40
+          "column": 26
         },
         "end": {
           "line": 15,
-          "column": 41
+          "column": 27
+=======
+      "start": 350,
+      "end": 351,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 55
+        },
+        "end": {
+          "line": 13,
+          "column": 56
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1152,17 +2499,31 @@
         "postfix": false,
         "binop": null
       },
-      "value": "fn",
-      "start": 289,
-      "end": 291,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "bind",
+      "start": 274,
+      "end": 278,
       "loc": {
         "start": {
           "line": 15,
-          "column": 42
+          "column": 27
         },
         "end": {
           "line": 15,
-          "column": 44
+          "column": 31
+=======
+      "value": "fn",
+      "start": 352,
+      "end": 354,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 57
+        },
+        "end": {
+          "line": 13,
+          "column": 59
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1178,16 +2539,29 @@
         "postfix": false,
         "binop": null
       },
-      "start": 291,
-      "end": 292,
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 278,
+      "end": 279,
       "loc": {
         "start": {
           "line": 15,
-          "column": 44
+          "column": 31
         },
         "end": {
           "line": 15,
-          "column": 45
+          "column": 32
+=======
+      "start": 354,
+      "end": 355,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 59
+        },
+        "end": {
+          "line": 13,
+          "column": 60
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1204,16 +2578,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 292,
-      "end": 293,
+      "start": 355,
+      "end": 356,
       "loc": {
         "start": {
-          "line": 15,
-          "column": 45
+          "line": 13,
+          "column": 60
         },
         "end": {
-          "line": 15,
-          "column": 46
+          "line": 13,
+          "column": 61
         }
       }
     },
@@ -1229,6 +2603,244 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "context",
+      "start": 279,
+      "end": 286,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 32
+        },
+        "end": {
+          "line": 15,
+          "column": 39
+=======
+      "start": 357,
+      "end": 358,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 286,
+      "end": 287,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 39
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+=======
+      "value": "exports",
+      "start": 359,
+      "end": 366,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 287,
+      "end": 288,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 40
+        },
+        "end": {
+          "line": 15,
+          "column": 41
+=======
+      "start": 366,
+      "end": 367,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 7
+        },
+        "end": {
+          "line": 15,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "value": "fn",
+      "start": 289,
+      "end": 291,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 42
+        },
+        "end": {
+          "line": 15,
+          "column": 44
+=======
+      "value": "bind",
+      "start": 367,
+      "end": 371,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 291,
+      "end": 292,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 44
+        },
+        "end": {
+          "line": 15,
+          "column": 45
+=======
+      "value": "=",
+      "start": 372,
+      "end": 373,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 13
+        },
+        "end": {
+          "line": 15,
+          "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
+      "start": 292,
+      "end": 293,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 45
+        },
+        "end": {
+          "line": 15,
+          "column": 46
+=======
+      "value": "bind",
+      "start": 374,
+      "end": 378,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 15
+        },
+        "end": {
+          "line": 15,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
       "start": 294,
       "end": 295,
       "loc": {
@@ -1239,6 +2851,18 @@
         "end": {
           "line": 16,
           "column": 1
+=======
+      "start": 378,
+      "end": 379,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 19
+        },
+        "end": {
+          "line": 15,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
         }
       }
     },
@@ -1255,6 +2879,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/bind.ts.json
       "start": 296,
       "end": 296,
       "loc": {
@@ -1264,6 +2889,17 @@
         },
         "end": {
           "line": 17,
+=======
+      "start": 380,
+      "end": 380,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/bind.js.json
           "column": 0
         }
       }

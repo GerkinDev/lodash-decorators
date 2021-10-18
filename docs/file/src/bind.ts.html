@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/file/src/bind.ts.html
   <title data-ice="title">src/bind.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/bindAll.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/bindAll.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/bind.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -120,6 +125,18 @@
 import { DecoratorConfig, DecoratorFactory, BiTypedMethodDecorator1 } from &apos;./factory&apos;;
 import { BindApplicator } from &apos;./applicators&apos;;
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/bindAll.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var isFunction_1 = require(&quot;lodash/isFunction&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var bind_1 = require(&quot;./bind&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/bindAll.js.html
 /**
  * Creates a function that invokes func with the this binding of thisArg and partials prepended to the arguments it receives.
  *
@@ -146,6 +163,7 @@ import { BindApplicator } from &apos;./applicators&apos;;
  * myClass.bound.call(null); // =&gt; myClass {}
  * myClass.unbound.call(null); // =&gt; null
  */
+<<<<<<< HEAD:docs/file/src/bind.ts.html
 export const Bind = DecoratorFactory.createInstanceDecorator(
   new DecoratorConfig(bind, new BindApplicator(), {
     optionalParams: true
@@ -153,6 +171,45 @@ export const Bind = DecoratorFactory.createInstanceDecorator(
 ) as BiTypedMethodDecorator1&lt;any&gt;;
 export { Bind as bind, };
 export default Bind;
+=======
+function BindAll(methods) {
+    if (methods === void 0) { methods = []; }
+    return function (target) {
+        bindAllMethods(target, methods);
+    };
+}
+exports.BindAll = BindAll;
+exports.bindAll = BindAll;
+function bindAllMethods(target, methods) {
+    if (methods === void 0) { methods = []; }
+    var targetProto = target.prototype;
+    var proto = target.prototype;
+    var boundKeys = [];
+    while (proto &amp;&amp; proto !== Object.prototype) {
+        for (var _i = 0, _a = Object.getOwnPropertyNames(proto); _i &lt; _a.length; _i++) {
+            var key = _a[_i];
+            var include = methods.length ? methods.indexOf(key) !== -1 : true;
+            var descriptor = Object.getOwnPropertyDescriptor(proto, key);
+            if (include &amp;&amp; key !== &apos;constructor&apos;) {
+                // If this property is a getter and it&apos;s NOT an instance decorated
+                // method, ignore it. Instance decorators are getters until first accessed.
+                if (descriptor.get) {
+                    var chainData = factory_1.InstanceChainMap.get([proto, key]);
+                    if (!chainData || !chainData.isMethod) {
+                        continue;
+                    }
+                }
+                if (isFunction_1.default(proto[key]) &amp;&amp; boundKeys.indexOf(key) === -1) {
+                    Object.defineProperty(targetProto, key, bind_1.Bind(proto, key, descriptor));
+                    boundKeys.push(key);
+                }
+            }
+        }
+        proto = Object.getPrototypeOf(proto);
+    }
+}
+exports.default = BindAll;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/bindAll.js.html
 </code></pre>
 
 </div>

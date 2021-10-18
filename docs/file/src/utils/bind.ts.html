@@ -2,8 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+<<<<<<< HEAD:docs/file/src/utils/bind.ts.html
   <base data-ice="baseUrl" href="../../../">
   <title data-ice="title">src/utils/bind.ts | Lodash Decorators Documentation</title>
+=======
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">buildDocs/memoizeAll.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/memoizeAll.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +34,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/utils/bind.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -117,6 +123,18 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/utils/bind.ts</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { copyMetadata } from &apos;./copyMetaData&apos;;
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/memoizeAll.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var memoize_1 = require(&quot;lodash/memoize&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/memoizeAll.js.html
 /**
  * Binds a function and copies metadata.
  *
@@ -126,9 +144,16 @@
  * @param {*} context
  * @returns {Function}
  */
+<<<<<<< HEAD:docs/file/src/utils/bind.ts.html
 export function bind(fn: Function, context: any): Function {
   return copyMetadata(fn.bind(context), fn);
 }</code></pre>
+=======
+exports.MemoizeAll = factory_1.DecoratorFactory.createDecorator(new factory_1.DecoratorConfig(memoize_1.default, new applicators_1.MemoizeApplicator(), { optionalParams: true }));
+exports.memoizeAll = exports.MemoizeAll;
+exports.default = exports.MemoizeAll;
+</code></pre>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/memoizeAll.js.html
 
 </div>
 

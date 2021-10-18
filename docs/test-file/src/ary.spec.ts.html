@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/test-file/src/ary.spec.ts.html
   <title data-ice="title">src/ary.spec.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/spread.spec.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/spread.spec.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/test-file/src/ary.spec.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -133,6 +138,61 @@ describe(&apos;ary&apos;, () =&gt; {
     myClass.fn(1, 2, 3, 4, 5);
   });
 });</code></pre>
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/spread.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var chai_1 = require(&quot;chai&quot;);
+var spread_1 = require(&quot;./spread&quot;);
+describe(&apos;spread&apos;, function () {
+    it(&apos;should spread the arguments&apos;, function () {
+        var MyClass = (function () {
+            function MyClass() {
+            }
+            MyClass.prototype.fn = function () {
+                var args = [];
+                for (var _i = 0; _i &lt; arguments.length; _i++) {
+                    args[_i] = arguments[_i];
+                }
+                chai_1.expect(args.length).to.equal(4);
+                chai_1.expect(args).to.eql([1, 2, 3, 4]);
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            spread_1.Spread()
+        ], MyClass.prototype, &quot;fn&quot;, null);
+        var myClass = new MyClass();
+        myClass.fn([1, 2, 3, 4]);
+    });
+    it(&apos;should spread the arguments (paramless)&apos;, function () {
+        var MyClass = (function () {
+            function MyClass() {
+            }
+            MyClass.prototype.fn = function () {
+                var args = [];
+                for (var _i = 0; _i &lt; arguments.length; _i++) {
+                    args[_i] = arguments[_i];
+                }
+                chai_1.expect(args.length).to.equal(4);
+                chai_1.expect(args).to.eql([1, 2, 3, 4]);
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            spread_1.Spread
+        ], MyClass.prototype, &quot;fn&quot;, null);
+        var myClass = new MyClass();
+        myClass.fn([1, 2, 3, 4]);
+    });
+});
+</code></pre>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/spread.spec.js.html
 
 </div>
 

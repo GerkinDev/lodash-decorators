@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../../">
+<<<<<<< HEAD:docs/file/src/utils/CompositeKeyWeakMap.ts.html
   <title data-ice="title">src/utils/CompositeKeyWeakMap.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/utils/CompositeKeyWeakMap.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/CompositeKeyWeakMap.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/utils/CompositeKeyWeakMap.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -117,6 +122,16 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/utils/CompositeKeyWeakMap.ts</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import isUndefined = require(&apos;lodash/isUndefined&apos;);
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/utils/CompositeKeyWeakMap.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var isUndefined_1 = require(&quot;lodash/isUndefined&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/CompositeKeyWeakMap.js.html
 /**
  * A map for weakly holding nested references.
  *
@@ -125,6 +140,7 @@
  * @class CompositeKeyWeakMap
  * @template T
  */
+<<<<<<< HEAD:docs/file/src/utils/CompositeKeyWeakMap.ts.html
 export class CompositeKeyWeakMap&lt;T&gt; {
   private _weakMap = new WeakMap&lt;any, any&gt;();
 
@@ -164,6 +180,41 @@ export class CompositeKeyWeakMap&lt;T&gt; {
     return !isUndefined(this.get(keys));
   }
 }
+=======
+var CompositeKeyWeakMap = (function () {
+    function CompositeKeyWeakMap() {
+        this._weakMap = new WeakMap();
+    }
+    CompositeKeyWeakMap.prototype.set = function (keys, value) {
+        var map = this._weakMap;
+        for (var i = 0, len = keys.length - 1; i &lt; len; i++) {
+            var key = keys[i];
+            var next = map.get(key);
+            if (!next) {
+                next = new Map();
+                map.set(key, next);
+            }
+            map = next;
+        }
+        map.set(keys[keys.length - 1], value);
+    };
+    CompositeKeyWeakMap.prototype.get = function (keys) {
+        var next = this._weakMap;
+        for (var i = 0, len = keys.length; i &lt; len; i++) {
+            next = next.get(keys[i]);
+            if (isUndefined_1.default(next)) {
+                break;
+            }
+        }
+        return next;
+    };
+    CompositeKeyWeakMap.prototype.has = function (keys) {
+        return !isUndefined_1.default(this.get(keys));
+    };
+    return CompositeKeyWeakMap;
+}());
+exports.CompositeKeyWeakMap = CompositeKeyWeakMap;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/utils/CompositeKeyWeakMap.js.html
 </code></pre>
 
 </div>

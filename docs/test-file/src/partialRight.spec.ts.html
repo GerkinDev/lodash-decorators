@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/test-file/src/partialRight.spec.ts.html
   <title data-ice="title">src/partialRight.spec.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/rearg.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/rearg.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/test-file/src/partialRight.spec.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -138,6 +143,30 @@ describe(&apos;partialRight&apos;, () =&gt; {
     expect(myClass.fn2()).to.equal(&apos;Avry Sojka&apos;);
   });
 });</code></pre>
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/rearg.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var rearg_1 = require(&quot;lodash/rearg&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+var decorator = factory_1.DecoratorFactory.createInstanceDecorator(new factory_1.DecoratorConfig(rearg_1.default, new applicators_1.PartialValueApplicator(), { property: true }));
+function Rearg(indexes) {
+    var args = [];
+    for (var _i = 1; _i &lt; arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    return decorator.apply(void 0, [indexes].concat(args));
+}
+exports.Rearg = Rearg;
+exports.rearg = Rearg;
+exports.default = decorator;
+</code></pre>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/rearg.js.html
 
 </div>
 

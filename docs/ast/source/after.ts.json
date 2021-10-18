@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
   "end": 555,
+=======
+  "end": 1136,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "line": 19,
+=======
+      "line": 40,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
     "end": 555,
+=======
+    "end": 1136,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "line": 19,
+=======
+        "line": 40,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
             "line": 1,
             "column": 62
           }
@@ -182,44 +205,91 @@
             "type": "ImportSpecifier",
             "start": 72,
             "end": 91,
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
             "loc": {
               "start": {
                 "line": 2,
-                "column": 9
+                "column": 0
               },
               "end": {
                 "line": 2,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                 "column": 28
+=======
+                "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               }
             },
-            "imported": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
               "start": 72,
               "end": 91,
+=======
+              "start": 14,
+              "end": 20,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 0
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                   "column": 28
                 },
                 "identifierName": "PostValueApplicator"
               },
               "name": "PostValueApplicator"
+=======
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
             },
-            "local": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
               "start": 72,
               "end": 91,
+=======
+              "start": 21,
+              "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 7
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                   "column": 28
                 },
                 "identifierName": "PostValueApplicator"
@@ -253,6 +323,129 @@
         "type": "Identifier",
         "start": 116,
         "end": 248,
+=======
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 117,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "loc": {
           "start": {
             "line": 3,
@@ -260,12 +453,17 @@
           },
           "end": {
             "line": 3,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
             "column": 132
+=======
+            "column": 40
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
             "start": 122,
             "end": 247,
             "loc": {
@@ -276,10 +474,23 @@
               "end": {
                 "line": 3,
                 "column": 131
+=======
+            "start": 81,
+            "end": 116,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 39
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               }
             },
             "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
               "start": 122,
               "end": 131,
               "loc": {
@@ -511,11 +722,80 @@
                       ]
                     }
                   ]
+=======
+              "start": 81,
+              "end": 89,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                },
+                "identifierName": "before_1"
+              },
+              "name": "before_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 92,
+              "end": 116,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 15
+                },
+                "end": {
+                  "line": 3,
+                  "column": 39
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 92,
+                "end": 99,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 100,
+                  "end": 115,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 23
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 38
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/before",
+                    "raw": "\"lodash/before\""
+                  },
+                  "value": "lodash/before"
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                 }
               ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "kind": "const",
         "trailingComments": [],
         "name": "_",
@@ -701,20 +981,121 @@
             "value": "*\n * @desc\n * The opposite of Before. This method creates a function that invokes once it's called n or more times.\n * @lineNumber\n * 28\n * @param\n * {number} n\n * @return\n * {LodashDecorator}\n ",
             "start": 249,
             "end": 447,
+=======
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 118,
+        "end": 155,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 122,
+            "end": 154,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
             "loc": {
               "start": {
                 "line": 4,
-                "column": 0
+                "column": 4
               },
               "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                 "line": 13,
                 "column": 3
+=======
+                "line": 4,
+                "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 122,
+              "end": 131,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 134,
+              "end": 154,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+                  "line": 4,
+                  "column": 36
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 134,
+                "end": 141,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 142,
+                  "end": 153,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
             }
           }
-        ]
+        ],
+        "kind": "var"
       },
       {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "type": "ExportNamedDeclaration",
         "start": 502,
         "end": 528,
@@ -858,10 +1239,70 @@
                 "end": {
                   "line": 3,
                   "column": 131
+=======
+        "type": "VariableDeclaration",
+        "start": 156,
+        "end": 201,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 160,
+            "end": 200,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 160,
+              "end": 173,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 176,
+              "end": 200,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                 "start": 122,
                 "end": 131,
                 "loc": {
@@ -954,10 +1395,242 @@
                       "end": {
                         "line": 3,
                         "column": 130
+=======
+                "start": 176,
+                "end": 183,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 184,
+                  "end": 199,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 202,
+        "end": 369,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 167
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 206,
+            "end": 368,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 166
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 206,
+              "end": 215,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "decorator"
+              },
+              "name": "decorator"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 218,
+              "end": 368,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 166
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 218,
+                "end": 260,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 58
+                  }
+                },
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 218,
+                  "end": 244,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 218,
+                    "end": 227,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 25
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 228,
+                    "end": 244,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 42
+                      },
+                      "identifierName": "DecoratorFactory"
+                    },
+                    "name": "DecoratorFactory"
+                  },
+                  "computed": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 245,
+                  "end": 260,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 58
+                    },
+                    "identifierName": "createDecorator"
+                  },
+                  "name": "createDecorator"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 261,
+                  "end": 367,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 59
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 165
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 265,
+                    "end": 290,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 63
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+                      "start": 265,
+                      "end": 274,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 63
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 72
+                        },
+                        "identifierName": "factory_1"
+                      },
+                      "name": "factory_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                       "start": 179,
                       "end": 194,
                       "loc": {
@@ -968,14 +1641,43 @@
                         "end": {
                           "line": 3,
                           "column": 78
+=======
+                      "start": 275,
+                      "end": 290,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 73
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                         },
                         "identifierName": "DecoratorConfig"
                       },
                       "name": "DecoratorConfig"
                     },
-                    "arguments": [
-                      {
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 291,
+                      "end": 307,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 89
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 105
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                         "start": 195,
                         "end": 200,
                         "loc": {
@@ -1002,11 +1704,90 @@
                           },
                           "end": {
                             "line": 3,
+=======
+                        "start": 291,
+                        "end": 299,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 89
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 97
+                          },
+                          "identifierName": "before_1"
+                        },
+                        "name": "before_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 300,
+                        "end": 307,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 98
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 105
+                          },
+                          "identifierName": "default"
+                        },
+                        "name": "default"
+                      },
+                      "computed": false
+                    },
+                    {
+                      "type": "NewExpression",
+                      "start": 309,
+                      "end": 348,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 107
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 146
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 313,
+                        "end": 346,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                             "column": 111
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 144
                           }
                         },
-                        "callee": {
+                        "object": {
                           "type": "Identifier",
+                          "start": 313,
+                          "end": 326,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 111
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 124
+                            },
+                            "identifierName": "applicators_1"
+                          },
+                          "name": "applicators_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                           "start": 206,
                           "end": 225,
                           "loc": {
@@ -1017,13 +1798,26 @@
                             "end": {
                               "line": 3,
                               "column": 109
+=======
+                          "start": 327,
+                          "end": 346,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 125
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                             },
                             "identifierName": "PostValueApplicator"
                           },
                           "name": "PostValueApplicator"
                         },
-                        "arguments": []
+                        "computed": false
                       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                       {
                         "type": "ObjectExpression",
                         "start": 229,
@@ -1070,9 +1864,58 @@
                                   "column": 121
                                 },
                                 "identifierName": "setter"
-                              },
-                              "name": "setter"
+=======
+                      "arguments": []
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 350,
+                      "end": 366,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 148
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 164
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "ObjectProperty",
+                          "start": 352,
+                          "end": 364,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 150
                             },
+                            "end": {
+                              "line": 6,
+                              "column": 162
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 352,
+                            "end": 358,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 150
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 156
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+                              },
+                              "identifierName": "setter"
+                            },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                             "value": {
                               "type": "BooleanLiteral",
                               "start": 239,
@@ -1086,10 +1929,27 @@
                                   "line": 3,
                                   "column": 127
                                 }
+=======
+                            "name": "setter"
+                          },
+                          "value": {
+                            "type": "BooleanLiteral",
+                            "start": 360,
+                            "end": 364,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 158
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                               },
-                              "value": true
-                            }
+                              "end": {
+                                "line": 6,
+                                "column": 162
+                              }
+                            },
+                            "value": true
                           }
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                         ]
                       }
                     ]
@@ -1105,37 +1965,559 @@
               "value": "*\n * @desc\n * The opposite of Before. This method creates a function that invokes once it's called n or more times.\n * @lineNumber\n * 28\n * @param\n * {number} n\n * @return\n * {LodashDecorator}\n ",
               "start": 249,
               "end": 447,
+=======
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times.\n * Subsequent calls to the created function return the result of the last func invocation.\n * @param {number} n The number of calls at whichc func is no longer invoked.\n * @example\n *\n * let calls = 0;\n *\n * class MyClass {\n *   @BeforeAll(3)\n *   fn() {\n *     calls++;\n *   }\n * }\n *\n * const myClass = new MyClass();\n * const myClass2 = new MyClass();\n *\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n *\n * myClass2.fn();\n *\n * calls === 3; // => true\n ",
+            "start": 370,
+            "end": 993,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 994,
+        "end": 1044,
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 0
+          },
+          "end": {
+            "line": 36,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 1003,
+          "end": 1012,
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 9
+            },
+            "end": {
+              "line": 34,
+              "column": 18
+            },
+            "identifierName": "BeforeAll"
+          },
+          "name": "BeforeAll",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 1013,
+            "end": 1014,
+            "loc": {
+              "start": {
+                "line": 34,
+                "column": 19
+              },
+              "end": {
+                "line": 34,
+                "column": 20
+              },
+              "identifierName": "n"
+            },
+            "name": "n"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 1016,
+          "end": 1044,
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 22
+            },
+            "end": {
+              "line": 36,
+              "column": 1
+            }
+          },
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 1022,
+              "end": 1042,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
               "loc": {
                 "start": {
-                  "line": 4,
-                  "column": 0
+                  "line": 35,
+                  "column": 4
                 },
                 "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
                   "line": 13,
                   "column": 3
+=======
+                  "line": 35,
+                  "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
                 }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 1029,
+                "end": 1041,
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 35,
+                    "column": 23
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1029,
+                  "end": 1038,
+                  "loc": {
+                    "start": {
+                      "line": 35,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 20
+                    },
+                    "identifierName": "decorator"
+                  },
+                  "name": "decorator"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1039,
+                    "end": 1040,
+                    "loc": {
+                      "start": {
+                        "line": 35,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 35,
+                        "column": 22
+                      },
+                      "identifierName": "n"
+                    },
+                    "name": "n"
+                  }
+                ]
               }
             }
           ],
+<<<<<<< HEAD:docs/ast/source/after.ts.json
           "leadingComments": []
+=======
+          "directives": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times.\n * Subsequent calls to the created function return the result of the last func invocation.\n * @param {number} n The number of calls at whichc func is no longer invoked.\n * @example\n *\n * let calls = 0;\n *\n * class MyClass {\n *   @BeforeAll(3)\n *   fn() {\n *     calls++;\n *   }\n * }\n *\n * const myClass = new MyClass();\n * const myClass2 = new MyClass();\n *\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n *\n * myClass2.fn();\n *\n * calls === 3; // => true\n ",
+            "start": 370,
+            "end": 993,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1045,
+        "end": 1075,
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 30
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1045,
+          "end": 1074,
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 37,
+              "column": 29
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1045,
+            "end": 1062,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 37,
+                "column": 17
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1045,
+              "end": 1052,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 0
+                },
+                "end": {
+                  "line": 37,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1053,
+              "end": 1062,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 8
+                },
+                "end": {
+                  "line": 37,
+                  "column": 17
+                },
+                "identifierName": "BeforeAll"
+              },
+              "name": "BeforeAll"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1065,
+            "end": 1074,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 20
+              },
+              "end": {
+                "line": 37,
+                "column": 29
+              },
+              "identifierName": "BeforeAll"
+            },
+            "name": "BeforeAll"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1076,
+        "end": 1106,
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 0
+          },
+          "end": {
+            "line": 38,
+            "column": 30
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1076,
+          "end": 1105,
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 0
+            },
+            "end": {
+              "line": 38,
+              "column": 29
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1076,
+            "end": 1093,
+            "loc": {
+              "start": {
+                "line": 38,
+                "column": 0
+              },
+              "end": {
+                "line": 38,
+                "column": 17
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1076,
+              "end": 1083,
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 0
+                },
+                "end": {
+                  "line": 38,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1084,
+              "end": 1093,
+              "loc": {
+                "start": {
+                  "line": 38,
+                  "column": 8
+                },
+                "end": {
+                  "line": 38,
+                  "column": 17
+                },
+                "identifierName": "beforeAll"
+              },
+              "name": "beforeAll"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1096,
+            "end": 1105,
+            "loc": {
+              "start": {
+                "line": 38,
+                "column": 20
+              },
+              "end": {
+                "line": 38,
+                "column": 29
+              },
+              "identifierName": "BeforeAll"
+            },
+            "name": "BeforeAll"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1107,
+        "end": 1135,
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": 28
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1107,
+          "end": 1134,
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 0
+            },
+            "end": {
+              "line": 39,
+              "column": 27
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1107,
+            "end": 1122,
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 0
+              },
+              "end": {
+                "line": 39,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1107,
+              "end": 1114,
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 0
+                },
+                "end": {
+                  "line": 39,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1115,
+              "end": 1122,
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 8
+                },
+                "end": {
+                  "line": 39,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1125,
+            "end": 1134,
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 18
+              },
+              "end": {
+                "line": 39,
+                "column": 27
+              },
+              "identifierName": "decorator"
+            },
+            "name": "decorator"
+          }
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     ],
-    "directives": []
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
   },
   "comments": [
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "*\n * @desc\n * The opposite of Before. This method creates a function that invokes once it's called n or more times.\n * @lineNumber\n * 28\n * @param\n * {number} n\n * @return\n * {LodashDecorator}\n ",
       "start": 249,
       "end": 447,
+=======
+      "value": "*\n * Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times.\n * Subsequent calls to the created function return the result of the last func invocation.\n * @param {number} n The number of calls at whichc func is no longer invoked.\n * @example\n *\n * let calls = 0;\n *\n * class MyClass {\n *   @BeforeAll(3)\n *   fn() {\n *     calls++;\n *   }\n * }\n *\n * const myClass = new MyClass();\n * const myClass2 = new MyClass();\n *\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n *\n * myClass2.fn();\n *\n * calls === 3; // => true\n ",
+      "start": 370,
+      "end": 993,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
       "loc": {
         "start": {
-          "line": 4,
+          "line": 7,
           "column": 0
         },
         "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
           "line": 13,
+=======
+          "line": 33,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
           "column": 3
         }
       }
@@ -1144,8 +2526,7 @@
   "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1156,9 +2537,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
+      "value": "use strict",
       "start": 0,
-      "end": 6,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
@@ -1166,32 +2547,33 @@
         },
         "end": {
           "line": 1,
-          "column": 6
+          "column": 12
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": ";",
         "beforeExpr": true,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
-      "start": 7,
-      "end": 8,
+      "start": 12,
+      "end": 13,
       "loc": {
         "start": {
           "line": 1,
-          "column": 7
+          "column": 12
         },
         "end": {
           "line": 1,
-          "column": 8
+          "column": 13
         }
       }
     },
@@ -1207,15 +2589,22 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "DecoratorConfig",
       "start": 9,
       "end": 24,
+=======
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
       "loc": {
         "start": {
-          "line": 1,
-          "column": 9
+          "line": 2,
+          "column": 0
         },
         "end": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
           "line": 1,
           "column": 24
         }
@@ -1270,12 +2659,16 @@
         "end": {
           "line": 1,
           "column": 42
+=======
+          "line": 2,
+          "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "}",
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1283,18 +2676,19 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
-      "start": 43,
-      "end": 44,
+      "start": 20,
+      "end": 21,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 43
+          "line": 2,
+          "column": 6
         },
         "end": {
-          "line": 1,
-          "column": 44
+          "line": 2,
+          "column": 7
         }
       }
     },
@@ -1310,17 +2704,106 @@
         "postfix": false,
         "binop": null
       },
-      "value": "from",
-      "start": 45,
-      "end": 49,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 43,
+      "end": 44,
       "loc": {
         "start": {
           "line": 1,
-          "column": 45
+          "column": 43
         },
         "end": {
           "line": 1,
-          "column": 49
+          "column": 44
+=======
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
         }
       }
     },
@@ -1337,6 +2820,1096 @@
         "binop": null,
         "updateContext": null
       },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "before_1",
+      "start": 81,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 90,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 92,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 99,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/before",
+      "start": 100,
+      "end": 115,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 115,
+      "end": 116,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 116,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 39
+        },
+        "end": {
+          "line": 3,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 118,
+      "end": 121,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 122,
+      "end": 131,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 132,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 134,
+      "end": 141,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 141,
+      "end": 142,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./factory",
+      "start": 142,
+      "end": 153,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 153,
+      "end": 154,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 154,
+      "end": 155,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 36
+        },
+        "end": {
+          "line": 4,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 156,
+      "end": 159,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 160,
+      "end": 173,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 174,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 176,
+      "end": 183,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 183,
+      "end": 184,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./applicators",
+      "start": 184,
+      "end": 199,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 199,
+      "end": 200,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 200,
+      "end": 201,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 202,
+      "end": 205,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+      "start": 206,
+      "end": 215,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 216,
+      "end": 217,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 218,
+      "end": 227,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+          "line": 6,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 227,
+      "end": 228,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DecoratorFactory",
+      "start": 228,
+      "end": 244,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 244,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "value": "createDecorator",
+      "start": 245,
+      "end": 260,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 58
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "./factory",
       "start": 50,
       "end": 61,
@@ -1453,14 +4026,33 @@
         "end": {
           "line": 2,
           "column": 28
+=======
+      "start": 260,
+      "end": 261,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 58
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "label": "}",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1468,6 +4060,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "start": 92,
       "end": 93,
       "loc": {
@@ -1478,6 +4071,19 @@
         "end": {
           "line": 2,
           "column": 30
+=======
+      "value": "new",
+      "start": 261,
+      "end": 264,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 59
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -1493,6 +4099,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "from",
       "start": 94,
       "end": 98,
@@ -1504,14 +4111,33 @@
         "end": {
           "line": 2,
           "column": 35
+=======
+      "value": "factory_1",
+      "start": 265,
+      "end": 274,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 63
+        },
+        "end": {
+          "line": 6,
+          "column": 72
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1520,6 +4146,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "./applicators",
       "start": 99,
       "end": 114,
@@ -1531,6 +4158,18 @@
         "end": {
           "line": 2,
           "column": 51
+=======
+      "start": 274,
+      "end": 275,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 72
+        },
+        "end": {
+          "line": 6,
+          "column": 73
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -1547,6 +4186,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "start": 114,
       "end": 115,
       "loc": {
@@ -1557,23 +4197,42 @@
         "end": {
           "line": 2,
           "column": 52
+=======
+      "value": "DecoratorConfig",
+      "start": 275,
+      "end": 290,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 73
+        },
+        "end": {
+          "line": 6,
+          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "label": "const",
         "keyword": "const",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "const",
       "start": 116,
       "end": 121,
@@ -1585,6 +4244,18 @@
         "end": {
           "line": 3,
           "column": 5
+=======
+      "start": 290,
+      "end": 291,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 88
+        },
+        "end": {
+          "line": 6,
+          "column": 89
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -1600,6 +4271,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "decorator",
       "start": 122,
       "end": 131,
@@ -1611,13 +4283,31 @@
         "end": {
           "line": 3,
           "column": 15
+=======
+      "value": "before_1",
+      "start": 291,
+      "end": 299,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 89
+        },
+        "end": {
+          "line": 6,
+          "column": 97
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
         "label": "=",
         "beforeExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -1627,6 +4317,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "value": "=",
       "start": 132,
       "end": 133,
@@ -1638,1165 +4329,18 @@
         "end": {
           "line": 3,
           "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorFactory",
-      "start": 134,
-      "end": 150,
+=======
+      "start": 299,
+      "end": 300,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 18
+          "line": 6,
+          "column": 97
         },
         "end": {
-          "line": 3,
-          "column": 34
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ".",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 150,
-      "end": 151,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 34
-        },
-        "end": {
-          "line": 3,
-          "column": 35
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "createInstanceDecorator",
-      "start": 151,
-      "end": 174,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 35
-        },
-        "end": {
-          "line": 3,
-          "column": 58
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 174,
-      "end": 175,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 58
-        },
-        "end": {
-          "line": 3,
-          "column": 59
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 175,
-      "end": 178,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 59
-        },
-        "end": {
-          "line": 3,
-          "column": 62
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 179,
-      "end": 194,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 63
-        },
-        "end": {
-          "line": 3,
-          "column": 78
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 194,
-      "end": 195,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 78
-        },
-        "end": {
-          "line": 3,
-          "column": 79
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "after",
-      "start": 195,
-      "end": 200,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 79
-        },
-        "end": {
-          "line": 3,
-          "column": 84
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 200,
-      "end": 201,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 84
-        },
-        "end": {
-          "line": 3,
-          "column": 85
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 202,
-      "end": 205,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 86
-        },
-        "end": {
-          "line": 3,
-          "column": 89
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PostValueApplicator",
-      "start": 206,
-      "end": 225,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 90
-        },
-        "end": {
-          "line": 3,
-          "column": 109
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 225,
-      "end": 226,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 109
-        },
-        "end": {
-          "line": 3,
-          "column": 110
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 226,
-      "end": 227,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 110
-        },
-        "end": {
-          "line": 3,
-          "column": 111
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 227,
-      "end": 228,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 111
-        },
-        "end": {
-          "line": 3,
-          "column": 112
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 229,
-      "end": 230,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 113
-        },
-        "end": {
-          "line": 3,
-          "column": 114
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "setter",
-      "start": 231,
-      "end": 237,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 115
-        },
-        "end": {
-          "line": 3,
-          "column": 121
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 237,
-      "end": 238,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 121
-        },
-        "end": {
-          "line": 3,
-          "column": 122
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "true",
-        "keyword": "true",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "true",
-      "start": 239,
-      "end": 243,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 123
-        },
-        "end": {
-          "line": 3,
-          "column": 127
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 244,
-      "end": 245,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 128
-        },
-        "end": {
-          "line": 3,
-          "column": 129
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 245,
-      "end": 246,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 129
-        },
-        "end": {
-          "line": 3,
-          "column": 130
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 246,
-      "end": 247,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 130
-        },
-        "end": {
-          "line": 3,
-          "column": 131
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 247,
-      "end": 248,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 131
-        },
-        "end": {
-          "line": 3,
-          "column": 132
-        }
-      }
-    },
-    {
-      "type": "CommentBlock",
-      "value": "*\n * @desc\n * The opposite of Before. This method creates a function that invokes once it's called n or more times.\n * @lineNumber\n * 28\n * @param\n * {number} n\n * @return\n * {LodashDecorator}\n ",
-      "start": 249,
-      "end": 447,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 0
-        },
-        "end": {
-          "line": 13,
-          "column": 3
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 448,
-      "end": 454,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "function",
-        "keyword": "function",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "function",
-      "start": 455,
-      "end": 463,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 7
-        },
-        "end": {
-          "line": 14,
-          "column": 15
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "After",
-      "start": 464,
-      "end": 469,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 16
-        },
-        "end": {
-          "line": 14,
-          "column": 21
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 469,
-      "end": 470,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 21
-        },
-        "end": {
-          "line": 14,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "n",
-      "start": 470,
-      "end": 471,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 22
-        },
-        "end": {
-          "line": 14,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 471,
-      "end": 472,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 23
-        },
-        "end": {
-          "line": 14,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 473,
-      "end": 474,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 25
-        },
-        "end": {
-          "line": 14,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "return",
-        "keyword": "return",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "return",
-      "start": 479,
-      "end": 485,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 4
-        },
-        "end": {
-          "line": 15,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "decorator",
-      "start": 486,
-      "end": 495,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 11
-        },
-        "end": {
-          "line": 15,
-          "column": 20
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 495,
-      "end": 496,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 20
-        },
-        "end": {
-          "line": 15,
-          "column": 21
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "n",
-      "start": 496,
-      "end": 497,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 21
-        },
-        "end": {
-          "line": 15,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 497,
-      "end": 498,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 22
-        },
-        "end": {
-          "line": 15,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 498,
-      "end": 499,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 23
-        },
-        "end": {
-          "line": 15,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 500,
-      "end": 501,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 0
-        },
-        "end": {
-          "line": 16,
-          "column": 1
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 502,
-      "end": 508,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 0
-        },
-        "end": {
-          "line": 17,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 509,
-      "end": 510,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 7
-        },
-        "end": {
-          "line": 17,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "After",
-      "start": 511,
-      "end": 516,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 9
-        },
-        "end": {
-          "line": 17,
-          "column": 14
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "as",
-      "start": 517,
-      "end": 519,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 15
-        },
-        "end": {
-          "line": 17,
-          "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "after",
-      "start": 520,
-      "end": 525,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 18
-        },
-        "end": {
-          "line": 17,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 526,
-      "end": 527,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 24
-        },
-        "end": {
-          "line": 17,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 527,
-      "end": 528,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 25
-        },
-        "end": {
-          "line": 17,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 529,
-      "end": 535,
-      "loc": {
-        "start": {
-          "line": 18,
-          "column": 0
-        },
-        "end": {
-          "line": 18,
-          "column": 6
+          "line": 6,
+          "column": 98
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -2814,17 +4358,212 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "default",
-      "start": 536,
-      "end": 543,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "DecoratorFactory",
+      "start": 134,
+      "end": 150,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 7
+          "line": 3,
+          "column": 18
         },
         "end": {
-          "line": 18,
-          "column": 14
+          "line": 3,
+          "column": 34
+=======
+      "value": "default",
+      "start": 300,
+      "end": 307,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 98
+        },
+        "end": {
+          "line": 6,
+          "column": 105
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ".",
+        "beforeExpr": false,
+=======
+        "label": ",",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 150,
+      "end": 151,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 34
+        },
+        "end": {
+          "line": 3,
+          "column": 35
+=======
+      "start": 307,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 105
+        },
+        "end": {
+          "line": 6,
+          "column": 106
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "name",
+        "beforeExpr": false,
+=======
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "createInstanceDecorator",
+      "start": 151,
+      "end": 174,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 35
+        },
+        "end": {
+          "line": 3,
+          "column": 58
+=======
+      "value": "new",
+      "start": 309,
+      "end": 312,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 107
+        },
+        "end": {
+          "line": 6,
+          "column": 110
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "(",
+        "beforeExpr": true,
+=======
+        "label": "name",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 174,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 58
+        },
+        "end": {
+          "line": 3,
+          "column": 59
+=======
+      "value": "applicators_1",
+      "start": 313,
+      "end": 326,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 111
+        },
+        "end": {
+          "line": 6,
+          "column": 124
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "new",
+      "start": 175,
+      "end": 178,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 59
+        },
+        "end": {
+          "line": 3,
+          "column": 62
+=======
+      "start": 326,
+      "end": 327,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 124
+        },
+        "end": {
+          "line": 6,
+          "column": 125
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -2840,17 +4579,1268 @@
         "postfix": false,
         "binop": null
       },
-      "value": "decorator",
-      "start": 544,
-      "end": 553,
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "DecoratorConfig",
+      "start": 179,
+      "end": 194,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 15
+          "line": 3,
+          "column": 63
         },
         "end": {
-          "line": 18,
+          "line": 3,
+          "column": 78
+=======
+      "value": "PostValueApplicator",
+      "start": 327,
+      "end": 346,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 125
+        },
+        "end": {
+          "line": 6,
+          "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 194,
+      "end": 195,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 78
+        },
+        "end": {
+          "line": 3,
+          "column": 79
+=======
+      "start": 346,
+      "end": 347,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 144
+        },
+        "end": {
+          "line": 6,
+          "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "after",
+      "start": 195,
+      "end": 200,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 79
+        },
+        "end": {
+          "line": 3,
+          "column": 84
+=======
+      "start": 347,
+      "end": 348,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 145
+        },
+        "end": {
+          "line": 6,
+          "column": 146
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 200,
+      "end": 201,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 84
+        },
+        "end": {
+          "line": 3,
+          "column": 85
+=======
+      "start": 348,
+      "end": 349,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 146
+        },
+        "end": {
+          "line": 6,
+          "column": 147
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "new",
+        "keyword": "new",
+=======
+        "label": "{",
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "new",
+      "start": 202,
+      "end": 205,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 86
+        },
+        "end": {
+          "line": 3,
+          "column": 89
+=======
+      "start": 350,
+      "end": 351,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 148
+        },
+        "end": {
+          "line": 6,
+          "column": 149
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "PostValueApplicator",
+      "start": 206,
+      "end": 225,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 90
+        },
+        "end": {
+          "line": 3,
+          "column": 109
+=======
+      "value": "setter",
+      "start": 352,
+      "end": 358,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 150
+        },
+        "end": {
+          "line": 6,
+          "column": 156
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 225,
+      "end": 226,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 109
+        },
+        "end": {
+          "line": 3,
+          "column": 110
+=======
+      "start": 358,
+      "end": 359,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 156
+        },
+        "end": {
+          "line": 6,
+          "column": 157
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ")",
+=======
+        "label": "true",
+        "keyword": "true",
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 226,
+      "end": 227,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 110
+        },
+        "end": {
+          "line": 3,
+          "column": 111
+=======
+      "value": "true",
+      "start": 360,
+      "end": 364,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 158
+        },
+        "end": {
+          "line": 6,
+          "column": 162
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ",",
+        "beforeExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 227,
+      "end": 228,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 111
+        },
+        "end": {
+          "line": 3,
+          "column": 112
+=======
+      "start": 365,
+      "end": 366,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 163
+        },
+        "end": {
+          "line": 6,
+          "column": 164
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 229,
+      "end": 230,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 113
+        },
+        "end": {
+          "line": 3,
+          "column": 114
+=======
+      "start": 366,
+      "end": 367,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 164
+        },
+        "end": {
+          "line": 6,
+          "column": 165
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "setter",
+      "start": 231,
+      "end": 237,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 115
+        },
+        "end": {
+          "line": 3,
+          "column": 121
+=======
+      "start": 367,
+      "end": 368,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 165
+        },
+        "end": {
+          "line": 6,
+          "column": 166
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ":",
+=======
+        "label": ";",
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 237,
+      "end": 238,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 121
+        },
+        "end": {
+          "line": 3,
+          "column": 122
+=======
+      "start": 368,
+      "end": 369,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 166
+        },
+        "end": {
+          "line": 6,
+          "column": 167
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times.\n * Subsequent calls to the created function return the result of the last func invocation.\n * @param {number} n The number of calls at whichc func is no longer invoked.\n * @example\n *\n * let calls = 0;\n *\n * class MyClass {\n *   @BeforeAll(3)\n *   fn() {\n *     calls++;\n *   }\n * }\n *\n * const myClass = new MyClass();\n * const myClass2 = new MyClass();\n *\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n * myClass.fn();\n *\n * myClass2.fn();\n *\n * calls === 3; // => true\n ",
+      "start": 370,
+      "end": 993,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 3
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "true",
+        "keyword": "true",
+=======
+        "label": "function",
+        "keyword": "function",
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "true",
+      "start": 239,
+      "end": 243,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 123
+        },
+        "end": {
+          "line": 3,
+          "column": 127
+=======
+      "value": "function",
+      "start": 994,
+      "end": 1002,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 244,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 128
+        },
+        "end": {
+          "line": 3,
+          "column": 129
+=======
+      "value": "BeforeAll",
+      "start": 1003,
+      "end": 1012,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 9
+        },
+        "end": {
+          "line": 34,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 129
+        },
+        "end": {
+          "line": 3,
+          "column": 130
+=======
+      "start": 1012,
+      "end": 1013,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 18
+        },
+        "end": {
+          "line": 34,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 246,
+      "end": 247,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 130
+        },
+        "end": {
+          "line": 3,
+          "column": 131
+=======
+      "value": "n",
+      "start": 1013,
+      "end": 1014,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 19
+        },
+        "end": {
+          "line": 34,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ";",
+        "beforeExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 247,
+      "end": 248,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 131
+        },
+        "end": {
+          "line": 3,
+          "column": 132
+=======
+      "start": 1014,
+      "end": 1015,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 20
+        },
+        "end": {
+          "line": 34,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "type": "CommentBlock",
+      "value": "*\n * @desc\n * The opposite of Before. This method creates a function that invokes once it's called n or more times.\n * @lineNumber\n * 28\n * @param\n * {number} n\n * @return\n * {LodashDecorator}\n ",
+      "start": 249,
+      "end": 447,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 3
+=======
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 1016,
+      "end": 1017,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 22
+        },
+        "end": {
+          "line": 34,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "export",
+      "start": 448,
+      "end": 454,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 6
+=======
+      "value": "return",
+      "start": 1022,
+      "end": 1028,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 4
+        },
+        "end": {
+          "line": 35,
+          "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "function",
+        "keyword": "function",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "function",
+      "start": 455,
+      "end": 463,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 7
+        },
+        "end": {
+          "line": 14,
+          "column": 15
+=======
+      "value": "decorator",
+      "start": 1029,
+      "end": 1038,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 11
+        },
+        "end": {
+          "line": 35,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "After",
+      "start": 464,
+      "end": 469,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 16
+        },
+        "end": {
+          "line": 14,
+=======
+      "start": 1038,
+      "end": 1039,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 20
+        },
+        "end": {
+          "line": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 469,
+      "end": 470,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+=======
+      "value": "n",
+      "start": 1039,
+      "end": 1040,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 21
+        },
+        "end": {
+          "line": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "n",
+      "start": 470,
+      "end": 471,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 22
+        },
+        "end": {
+          "line": 14,
+=======
+      "start": 1040,
+      "end": 1041,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 22
+        },
+        "end": {
+          "line": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": ")",
+        "beforeExpr": false,
+=======
+        "label": ";",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 471,
+      "end": 472,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 23
+        },
+        "end": {
+          "line": 14,
+=======
+      "start": 1041,
+      "end": 1042,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 23
+        },
+        "end": {
+          "line": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
           "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 473,
+      "end": 474,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 25
+        },
+        "end": {
+          "line": 14,
+          "column": 26
+=======
+      "start": 1043,
+      "end": 1044,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "return",
+      "start": 479,
+      "end": 485,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 10
+=======
+      "value": "exports",
+      "start": 1045,
+      "end": 1052,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "decorator",
+      "start": 486,
+      "end": 495,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 11
+        },
+        "end": {
+          "line": 15,
+          "column": 20
+=======
+      "start": 1052,
+      "end": 1053,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 7
+        },
+        "end": {
+          "line": 37,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "(",
+        "beforeExpr": true,
+=======
+        "label": "name",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 495,
+      "end": 496,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 20
+        },
+        "end": {
+          "line": 15,
+          "column": 21
+=======
+      "value": "BeforeAll",
+      "start": 1053,
+      "end": 1062,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "n",
+      "start": 496,
+      "end": 497,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 21
+        },
+        "end": {
+          "line": 15,
+          "column": 22
+=======
+      "value": "=",
+      "start": 1063,
+      "end": 1064,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 18
+        },
+        "end": {
+          "line": 37,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 497,
+      "end": 498,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 22
+        },
+        "end": {
+          "line": 15,
+          "column": 23
+=======
+      "value": "BeforeAll",
+      "start": 1065,
+      "end": 1074,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 20
+        },
+        "end": {
+          "line": 37,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -2867,6 +5857,491 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 498,
+      "end": 499,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 23
+        },
+        "end": {
+          "line": 15,
+          "column": 24
+=======
+      "start": 1074,
+      "end": 1075,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 29
+        },
+        "end": {
+          "line": 37,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 500,
+      "end": 501,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+=======
+      "value": "exports",
+      "start": 1076,
+      "end": 1083,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "export",
+      "start": 502,
+      "end": 508,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 6
+=======
+      "start": 1083,
+      "end": 1084,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 7
+        },
+        "end": {
+          "line": 38,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 509,
+      "end": 510,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 17,
+          "column": 8
+=======
+      "value": "beforeAll",
+      "start": 1084,
+      "end": 1093,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 8
+        },
+        "end": {
+          "line": 38,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "After",
+      "start": 511,
+      "end": 516,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 14
+=======
+      "value": "=",
+      "start": 1094,
+      "end": 1095,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 18
+        },
+        "end": {
+          "line": 38,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "as",
+      "start": 517,
+      "end": 519,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 15
+        },
+        "end": {
+          "line": 17,
+          "column": 17
+=======
+      "value": "BeforeAll",
+      "start": 1096,
+      "end": 1105,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 20
+        },
+        "end": {
+          "line": 38,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "after",
+      "start": 520,
+      "end": 525,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 18
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+=======
+      "start": 1105,
+      "end": 1106,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 29
+        },
+        "end": {
+          "line": 38,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 526,
+      "end": 527,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 24
+        },
+        "end": {
+          "line": 17,
+          "column": 25
+=======
+      "value": "exports",
+      "start": 1107,
+      "end": 1114,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 527,
+      "end": 528,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 25
+        },
+        "end": {
+          "line": 17,
+          "column": 26
+=======
+      "start": 1114,
+      "end": 1115,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 7
+        },
+        "end": {
+          "line": 39,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "export",
+      "start": 529,
+      "end": 535,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+=======
+      "value": "default",
+      "start": 1115,
+      "end": 1122,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 8
+        },
+        "end": {
+          "line": 39,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "value": "default",
+      "start": 536,
+      "end": 543,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 7
+        },
+        "end": {
+          "line": 18,
+          "column": 14
+=======
+      "value": "=",
+      "start": 1123,
+      "end": 1124,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 16
+        },
+        "end": {
+          "line": 39,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+<<<<<<< HEAD:docs/ast/source/after.ts.json
+      "start": 544,
+      "end": 553,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 15
+        },
+        "end": {
+          "line": 18,
+          "column": 24
+=======
+      "start": 1125,
+      "end": 1134,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 18
+        },
+        "end": {
+          "line": 39,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "start": 553,
       "end": 554,
       "loc": {
@@ -2877,6 +6352,18 @@
         "end": {
           "line": 18,
           "column": 25
+=======
+      "start": 1134,
+      "end": 1135,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 27
+        },
+        "end": {
+          "line": 39,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
         }
       }
     },
@@ -2893,6 +6380,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/after.ts.json
       "start": 555,
       "end": 555,
       "loc": {
@@ -2902,6 +6390,17 @@
         },
         "end": {
           "line": 19,
+=======
+      "start": 1136,
+      "end": 1136,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+>>>>>>> esm-cjs-build:docs/ast/source/beforeAll.js.json
           "column": 0
         }
       }

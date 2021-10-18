@@ -1,43 +1,58 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
   "end": 1147,
+=======
+  "end": 1293,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 31,
+      "line": 33,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
     "end": 1147,
+=======
+    "end": 1293,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 31,
+        "line": 33,
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "line": 1,
             "column": 62
           }
@@ -47,33 +62,247 @@
             "type": "ImportSpecifier",
             "start": 9,
             "end": 24,
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
             "loc": {
               "start": {
-                "line": 1,
-                "column": 9
+                "line": 2,
+                "column": 0
               },
               "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                 "line": 1,
                 "column": 24
+=======
+                "line": 2,
+                "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               }
             },
-            "imported": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "start": 9,
               "end": 24,
+=======
+              "start": 14,
+              "end": 20,
               "loc": {
                 "start": {
-                  "line": 1,
-                  "column": 9
+                  "line": 2,
+                  "column": 0
                 },
                 "end": {
+                  "line": 2,
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                   "line": 1,
                   "column": 24
+=======
+                  "line": 2,
+                  "column": 21
                 },
-                "identifierName": "DecoratorConfig"
+                "identifierName": "defineProperty"
               },
-              "name": "DecoratorConfig"
+              "name": "defineProperty"
             },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 125,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 124,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 47
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 93,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "identifierName": "curryRight_1"
+              },
+              "name": "curryRight_1"
+            },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "local": {
               "type": "Identifier",
               "start": 9,
@@ -86,13 +315,83 @@
                 "end": {
                   "line": 1,
                   "column": 24
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 96,
+              "end": 124,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 19
                 },
-                "identifierName": "DecoratorConfig"
+                "end": {
+                  "line": 3,
+                  "column": 47
+                }
               },
-              "name": "DecoratorConfig"
+              "callee": {
+                "type": "Identifier",
+                "start": 96,
+                "end": 103,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 19
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 26
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 104,
+                  "end": 123,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 27
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 46
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/curryRight",
+                    "raw": "\"lodash/curryRight\""
+                  },
+                  "value": "lodash/curryRight"
+                }
+              ]
             }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 126,
+        "end": 163,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
           },
+          "end": {
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "type": "ImportSpecifier",
             "start": 26,
             "end": 42,
@@ -104,10 +403,24 @@
               "end": {
                 "line": 1,
                 "column": 42
+=======
+            "type": "VariableDeclarator",
+            "start": 130,
+            "end": 162,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +431,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 130,
+              "end": 139,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 4,
+                  "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "identifierName": "factory_1"
               },
-              "name": "DecoratorFactory"
+              "name": "factory_1"
             },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -135,13 +461,65 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 142,
+              "end": 162,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 4,
+                  "column": 36
+                }
               },
-              "name": "DecoratorFactory"
+              "callee": {
+                "type": "Identifier",
+                "start": 142,
+                "end": 149,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 150,
+                  "end": 161,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "source": {
           "type": "StringLiteral",
           "start": 50,
@@ -175,10 +553,27 @@
           "end": {
             "line": 2,
             "column": 51
+=======
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 164,
+        "end": 209,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 90,
@@ -190,10 +585,24 @@
               "end": {
                 "line": 2,
                 "column": 27
+=======
+            "type": "VariableDeclarator",
+            "start": 168,
+            "end": 208,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "start": 72,
               "end": 90,
               "loc": {
@@ -204,11 +613,24 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+              "start": 168,
+              "end": 181,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 5,
+                  "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "identifierName": "applicators_1"
               },
-              "name": "PreValueApplicator"
+              "name": "applicators_1"
             },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "local": {
               "type": "Identifier",
               "start": 72,
@@ -221,13 +643,65 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 184,
+              "end": 208,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 5,
+                  "column": 44
+                }
               },
-              "name": "PreValueApplicator"
+              "callee": {
+                "type": "Identifier",
+                "start": 184,
+                "end": 191,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 192,
+                  "end": 207,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "source": {
           "type": "StringLiteral",
           "start": 98,
@@ -257,10 +731,22 @@
             "loc": {
               "start": {
                 "line": 3,
+=======
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
+            "start": 210,
+            "end": 1017,
+            "loc": {
+              "start": {
+                "line": 6,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                 "column": 0
               },
               "end": {
-                "line": 27,
+                "line": 29,
                 "column": 3
               }
             }
@@ -268,15 +754,22 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "type": "ExportNamedDeclaration",
         "start": 926,
         "end": 1073,
+=======
+        "type": "ExpressionStatement",
+        "start": 1018,
+        "end": 1204,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         "loc": {
           "start": {
-            "line": 28,
+            "line": 30,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "line": 28,
             "column": 147
           }
@@ -287,12 +780,23 @@
           "type": "VariableDeclaration",
           "start": 933,
           "end": 1073,
+=======
+            "line": 30,
+            "column": 186
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1018,
+          "end": 1203,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
           "loc": {
             "start": {
-              "line": 28,
-              "column": 7
+              "line": 30,
+              "column": 0
             },
             "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "line": 28,
               "column": 147
             }
@@ -302,12 +806,38 @@
               "type": "VariableDeclarator",
               "start": 939,
               "end": 1072,
+=======
+              "line": 30,
+              "column": 185
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1018,
+            "end": 1039,
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 0
+              },
+              "end": {
+                "line": 30,
+                "column": 21
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1018,
+              "end": 1025,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               "loc": {
                 "start": {
-                  "line": 28,
-                  "column": 13
+                  "line": 30,
+                  "column": 0
                 },
                 "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                   "line": 28,
                   "column": 146
                 }
@@ -326,10 +856,14 @@
                     "column": 26
                   },
                   "identifierName": "CurryRightAll"
+=======
+                  "line": 30,
+                  "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                 },
-                "name": "CurryRightAll",
-                "leadingComments": null
+                "identifierName": "exports"
               },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "init": {
                 "type": "CallExpression",
                 "start": 955,
@@ -343,138 +877,407 @@
                     "line": 28,
                     "column": 146
                   }
+=======
+              "name": "exports",
+              "leadingComments": null
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1026,
+              "end": 1039,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                },
+                "end": {
+                  "line": 30,
+                  "column": 21
+                },
+                "identifierName": "CurryRightAll"
+              },
+              "name": "CurryRightAll"
+            },
+            "computed": false,
+            "leadingComments": null
+          },
+          "right": {
+            "type": "CallExpression",
+            "start": 1042,
+            "end": 1203,
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 24
+              },
+              "end": {
+                "line": 30,
+                "column": 185
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1042,
+              "end": 1084,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 24
+                },
+                "end": {
+                  "line": 30,
+                  "column": 66
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "start": 1042,
+                "end": 1068,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 24
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 50
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 1042,
+                  "end": 1051,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 33
+                    },
+                    "identifierName": "factory_1"
+                  },
+                  "name": "factory_1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1052,
+                  "end": 1068,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 34
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 50
+                    },
+                    "identifierName": "DecoratorFactory"
+                  },
+                  "name": "DecoratorFactory"
+                },
+                "computed": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1069,
+                "end": 1084,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 51
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 66
+                  },
+                  "identifierName": "createDecorator"
+                },
+                "name": "createDecorator"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 1085,
+                "end": 1202,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 67
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 184
+                  }
                 },
                 "callee": {
                   "type": "MemberExpression",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                   "start": 955,
                   "end": 987,
+=======
+                  "start": 1089,
+                  "end": 1114,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                   "loc": {
                     "start": {
-                      "line": 28,
-                      "column": 29
+                      "line": 30,
+                      "column": 71
                     },
                     "end": {
-                      "line": 28,
-                      "column": 61
+                      "line": 30,
+                      "column": 96
                     }
                   },
                   "object": {
                     "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                     "start": 955,
                     "end": 971,
+=======
+                    "start": 1089,
+                    "end": 1098,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                     "loc": {
                       "start": {
-                        "line": 28,
-                        "column": 29
+                        "line": 30,
+                        "column": 71
                       },
                       "end": {
-                        "line": 28,
-                        "column": 45
+                        "line": 30,
+                        "column": 80
                       },
-                      "identifierName": "DecoratorFactory"
+                      "identifierName": "factory_1"
                     },
-                    "name": "DecoratorFactory"
+                    "name": "factory_1"
                   },
                   "property": {
                     "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                     "start": 972,
                     "end": 987,
+=======
+                    "start": 1099,
+                    "end": 1114,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                     "loc": {
                       "start": {
-                        "line": 28,
-                        "column": 46
+                        "line": 30,
+                        "column": 81
                       },
                       "end": {
-                        "line": 28,
-                        "column": 61
+                        "line": 30,
+                        "column": 96
                       },
-                      "identifierName": "createDecorator"
+                      "identifierName": "DecoratorConfig"
                     },
-                    "name": "createDecorator"
+                    "name": "DecoratorConfig"
                   },
                   "computed": false
                 },
                 "arguments": [
                   {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                     "type": "NewExpression",
                     "start": 988,
                     "end": 1071,
+=======
+                    "type": "MemberExpression",
+                    "start": 1115,
+                    "end": 1135,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                     "loc": {
                       "start": {
-                        "line": 28,
-                        "column": 62
+                        "line": 30,
+                        "column": 97
                       },
                       "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                         "line": 28,
                         "column": 145
+=======
+                        "line": 30,
+                        "column": 117
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                      }
+                    },
+                    "object": {
+                      "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+                      "start": 992,
+                      "end": 1007,
+=======
+                      "start": 1115,
+                      "end": 1127,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 97
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 109
+                        },
+                        "identifierName": "curryRight_1"
+                      },
+                      "name": "curryRight_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1128,
+                      "end": 1135,
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 110
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 117
+                        },
+                        "identifierName": "default"
+                      },
+                      "name": "default"
+                    },
+                    "computed": false
+                  },
+                  {
+                    "type": "NewExpression",
+                    "start": 1137,
+                    "end": 1175,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 119
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 157
                       }
                     },
                     "callee": {
-                      "type": "Identifier",
-                      "start": 992,
-                      "end": 1007,
+                      "type": "MemberExpression",
+                      "start": 1141,
+                      "end": 1173,
                       "loc": {
                         "start": {
-                          "line": 28,
-                          "column": 66
+                          "line": 30,
+                          "column": 123
                         },
                         "end": {
-                          "line": 28,
-                          "column": 81
-                        },
-                        "identifierName": "DecoratorConfig"
+                          "line": 30,
+                          "column": 155
+                        }
                       },
-                      "name": "DecoratorConfig"
-                    },
-                    "arguments": [
-                      {
+                      "object": {
                         "type": "Identifier",
-                        "start": 1008,
-                        "end": 1018,
+                        "start": 1141,
+                        "end": 1154,
                         "loc": {
                           "start": {
-                            "line": 28,
-                            "column": 82
+                            "line": 30,
+                            "column": 123
                           },
                           "end": {
-                            "line": 28,
-                            "column": 92
+                            "line": 30,
+                            "column": 136
                           },
-                          "identifierName": "curryRight"
+                          "identifierName": "applicators_1"
                         },
-                        "name": "curryRight"
+                        "name": "applicators_1"
                       },
+                      "property": {
+                        "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+                        "start": 1008,
+                        "end": 1018,
+=======
+                        "start": 1155,
+                        "end": 1173,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+                        "loc": {
+                          "start": {
+                            "line": 30,
+                            "column": 137
+                          },
+                          "end": {
+                            "line": 30,
+                            "column": 155
+                          },
+                          "identifierName": "PreValueApplicator"
+                        },
+                        "name": "PreValueApplicator"
+                      },
+                      "computed": false
+                    },
+                    "arguments": []
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 1177,
+                    "end": 1201,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 159
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 183
+                      }
+                    },
+                    "properties": [
                       {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                         "type": "NewExpression",
                         "start": 1020,
                         "end": 1044,
+=======
+                        "type": "ObjectProperty",
+                        "start": 1179,
+                        "end": 1199,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                         "loc": {
                           "start": {
-                            "line": 28,
-                            "column": 94
+                            "line": 30,
+                            "column": 161
                           },
                           "end": {
-                            "line": 28,
-                            "column": 118
+                            "line": 30,
+                            "column": 181
                           }
                         },
-                        "callee": {
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
                           "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                           "start": 1024,
                           "end": 1042,
+=======
+                          "start": 1179,
+                          "end": 1193,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                           "loc": {
                             "start": {
-                              "line": 28,
-                              "column": 98
+                              "line": 30,
+                              "column": 161
                             },
                             "end": {
-                              "line": 28,
-                              "column": 116
+                              "line": 30,
+                              "column": 175
                             },
-                            "identifierName": "PreValueApplicator"
+                            "identifierName": "optionalParams"
                           },
-                          "name": "PreValueApplicator"
+                          "name": "optionalParams"
                         },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
                         "arguments": []
                       },
                       {
@@ -544,10 +1347,29 @@
                             }
                           }
                         ]
+=======
+                        "value": {
+                          "type": "BooleanLiteral",
+                          "start": 1195,
+                          "end": 1199,
+                          "loc": {
+                            "start": {
+                              "line": 30,
+                              "column": 177
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 181
+                            }
+                          },
+                          "value": true
+                        }
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                       }
                     ]
                   }
                 ]
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               },
               "leadingComments": null
             }
@@ -568,24 +1390,35 @@
                   "line": 27,
                   "column": 3
                 }
+=======
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               }
-            }
-          ],
-          "trailingComments": []
+            ]
+          },
+          "leadingComments": null
         },
         "leadingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
             "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n *\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
             "start": 115,
             "end": 925,
             "loc": {
               "start": {
                 "line": 3,
+=======
+            "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
+            "start": 210,
+            "end": 1017,
+            "loc": {
+              "start": {
+                "line": 6,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
                 "column": 0
               },
               "end": {
-                "line": 27,
+                "line": 29,
                 "column": 3
               }
             }
@@ -593,87 +1426,1135 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "type": "ExportNamedDeclaration",
         "start": 1074,
         "end": 1116,
+=======
+        "type": "ExpressionStatement",
+        "start": 1205,
+        "end": 1251,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         "loc": {
           "start": {
-            "line": 29,
+            "line": 31,
             "column": 0
           },
           "end": {
-            "line": 29,
-            "column": 42
+            "line": 31,
+            "column": 46
           }
         },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "declaration": null,
         "specifiers": [
           {
             "type": "ExportSpecifier",
             "start": 1083,
             "end": 1113,
+=======
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1205,
+          "end": 1250,
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 45
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1205,
+            "end": 1226,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
             "loc": {
               "start": {
-                "line": 29,
-                "column": 9
+                "line": 31,
+                "column": 0
               },
               "end": {
-                "line": 29,
-                "column": 39
+                "line": 31,
+                "column": 21
               }
             },
-            "local": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
               "start": 1083,
               "end": 1096,
+=======
+              "start": 1205,
+              "end": 1212,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
               "loc": {
                 "start": {
-                  "line": 29,
-                  "column": 9
+                  "line": 31,
+                  "column": 0
                 },
                 "end": {
-                  "line": 29,
-                  "column": 22
+                  "line": 31,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1213,
+              "end": 1226,
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 8
+                },
+                "end": {
+                  "line": 31,
+                  "column": 21
+                },
+                "identifierName": "curryRightAll"
+              },
+              "name": "curryRightAll"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 1229,
+            "end": 1250,
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 24
+              },
+              "end": {
+                "line": 31,
+                "column": 45
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1229,
+              "end": 1236,
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 24
+                },
+                "end": {
+                  "line": 31,
+                  "column": 31
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1237,
+              "end": 1250,
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 32
+                },
+                "end": {
+                  "line": 31,
+                  "column": 45
                 },
                 "identifierName": "CurryRightAll"
               },
               "name": "CurryRightAll"
             },
-            "exported": {
-              "type": "Identifier",
-              "start": 1100,
-              "end": 1113,
-              "loc": {
-                "start": {
-                  "line": 29,
-                  "column": 26
-                },
-                "end": {
-                  "line": 29,
-                  "column": 39
-                },
-                "identifierName": "curryRightAll"
-              },
-              "name": "curryRightAll"
-            }
+            "computed": false
           }
-        ],
-        "source": null
+        }
       },
       {
-        "type": "ExportDefaultDeclaration",
-        "start": 1117,
-        "end": 1146,
+        "type": "ExpressionStatement",
+        "start": 1252,
+        "end": 1292,
         "loc": {
           "start": {
-            "line": 30,
+            "line": 32,
             "column": 0
           },
           "end": {
-            "line": 30,
-            "column": 29
+            "line": 32,
+            "column": 40
           }
         },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1252,
+          "end": 1291,
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 39
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1252,
+            "end": 1267,
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 0
+              },
+              "end": {
+                "line": 32,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1252,
+              "end": 1259,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 0
+                },
+                "end": {
+                  "line": 32,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1260,
+              "end": 1267,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 8
+                },
+                "end": {
+                  "line": 32,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 1270,
+            "end": 1291,
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 18
+              },
+              "end": {
+                "line": 32,
+                "column": 39
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1270,
+              "end": 1277,
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 18
+                },
+                "end": {
+                  "line": 32,
+                  "column": 25
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+              "start": 1100,
+              "end": 1113,
+=======
+              "start": 1278,
+              "end": 1291,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 26
+                },
+                "end": {
+                  "line": 32,
+                  "column": 39
+                },
+                "identifierName": "CurryRightAll"
+              },
+              "name": "CurryRightAll"
+            },
+            "computed": false
+          }
+        }
+      }
+    ],
+    "directives": [
+      {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+        "type": "ExportDefaultDeclaration",
+        "start": 1117,
+        "end": 1146,
+=======
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
+      "start": 210,
+      "end": 1017,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "use strict",
+      "start": 0,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "curryRight_1",
+      "start": 81,
+      "end": 93,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 94,
+      "end": 95,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 17
+        },
+        "end": {
+          "line": 3,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 96,
+      "end": 103,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 103,
+      "end": 104,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 26
+        },
+        "end": {
+          "line": 3,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/curryRight",
+      "start": 104,
+      "end": 123,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 27
+        },
+        "end": {
+          "line": 3,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 123,
+      "end": 124,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 46
+        },
+        "end": {
+          "line": 3,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 124,
+      "end": 125,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 47
+        },
+        "end": {
+          "line": 3,
+          "column": 48
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 126,
+      "end": 129,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 130,
+      "end": 139,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 140,
+      "end": 141,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 142,
+      "end": 149,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 149,
+      "end": 150,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "declaration": {
           "type": "Identifier",
           "start": 1132,
@@ -692,13 +2573,16 @@
           "name": "CurryRightAll",
           "leadingComments": [],
           "trailingComments": []
+=======
+        "end": {
+          "line": 4,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         }
       }
-    ],
-    "directives": []
-  },
-  "comments": [
+    },
     {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "type": "CommentBlock",
       "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n *\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
       "start": 115,
@@ -707,198 +2591,7 @@
         "start": {
           "line": 3,
           "column": 0
-        },
-        "end": {
-          "line": 27,
-          "column": 3
-        }
-      }
-    }
-  ],
-  "tokens": [
-    {
-      "type": {
-        "label": "import",
-        "keyword": "import",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "import",
-      "start": 0,
-      "end": 6,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 1,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 7,
-      "end": 8,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 7
-        },
-        "end": {
-          "line": 1,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 9,
-      "end": 24,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 9
-        },
-        "end": {
-          "line": 1,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 24,
-      "end": 25,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 24
-        },
-        "end": {
-          "line": 1,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorFactory",
-      "start": 26,
-      "end": 42,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": 42
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 43,
-      "end": 44,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 43
-        },
-        "end": {
-          "line": 1,
-          "column": 44
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 45,
-      "end": 49,
-      "loc": {
-        "start": {
-          "line": 1,
-          "column": 45
-        },
-        "end": {
-          "line": 1,
-          "column": 49
-        }
-      }
-    },
-    {
+=======
       "type": {
         "label": "string",
         "beforeExpr": false,
@@ -912,16 +2605,42 @@
         "updateContext": null
       },
       "value": "./factory",
-      "start": 50,
-      "end": 61,
+      "start": 150,
+      "end": 161,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 50
+          "line": 4,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         },
         "end": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 161,
+      "end": 162,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
         }
       }
     },
@@ -938,25 +2657,25 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 61,
-      "end": 62,
+      "start": 162,
+      "end": 163,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 36
         },
         "end": {
-          "line": 1,
-          "column": 62
+          "line": 4,
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -965,23 +2684,112 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
-      "start": 63,
-      "end": 69,
+      "value": "var",
+      "start": 164,
+      "end": 167,
       "loc": {
         "start": {
-          "line": 2,
+          "line": 5,
           "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 6
+          "line": 5,
+          "column": 3
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "DecoratorConfig",
+      "start": 9,
+      "end": 24,
+=======
+      "value": "applicators_1",
+      "start": 168,
+      "end": 181,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+          "line": 1,
+          "column": 24
+=======
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 182,
+      "end": 183,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 184,
+      "end": 191,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -991,93 +2799,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 70,
-      "end": 71,
+      "start": 191,
+      "end": 192,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "PreValueApplicator",
-      "start": 72,
-      "end": 90,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
+          "line": 5,
           "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 91,
-      "end": 92,
-      "loc": {
-        "start": {
-          "line": 2,
+        },
+        "end": {
+          "line": 5,
           "column": 28
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 93,
-      "end": 97,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 30
-        },
-        "end": {
-          "line": 2,
-          "column": 34
         }
       }
     },
@@ -1095,16 +2826,41 @@
         "updateContext": null
       },
       "value": "./applicators",
-      "start": 98,
-      "end": 113,
+      "start": 192,
+      "end": 207,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 35
+          "line": 5,
+          "column": 28
         },
         "end": {
-          "line": 2,
-          "column": 50
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 207,
+      "end": 208,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
         }
       }
     },
@@ -1121,6 +2877,656 @@
         "binop": null,
         "updateContext": null
       },
+      "start": 208,
+      "end": 209,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * This method is like _.curry except that arguments are applied to func in the manner of _.partialRight instead of _.partial.\n * The arity of func may be specified if func.length is not sufficient.\n * The original function is bound to the instance. If the method is needed to call in a different context use `CurryAll`.\n *\n * The _.curryRight.placeholder value, which defaults to _ in monolithic builds, may be used as a placeholder for provided arguments.\n *\n * Note: This method doesn't set the \"length\" property of curried functions.\n * @param {number} [arity] The arity of func.\n * @example\n *\n * class MyClass {\n *   @CurryRightAll()\n *   add(a, b) {\n *     return (a + b);\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * const add5 = myClass.add(5);\n *\n * add5AndMultiply(10); // => 15\n ",
+      "start": 210,
+      "end": 1017,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 1018,
+      "end": 1025,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 1025,
+      "end": 1026,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 7
+        },
+        "end": {
+          "line": 30,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "CurryRightAll",
+      "start": 1026,
+      "end": 1039,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 8
+        },
+        "end": {
+          "line": 30,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 1040,
+      "end": 1041,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 22
+        },
+        "end": {
+          "line": 30,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 1042,
+      "end": 1051,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 24
+        },
+        "end": {
+          "line": 30,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 24,
+      "end": 25,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 1,
+          "column": 25
+=======
+      "start": 1051,
+      "end": 1052,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 33
+        },
+        "end": {
+          "line": 30,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DecoratorFactory",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 26,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+=======
+      "start": 1052,
+      "end": 1068,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 34
+        },
+        "end": {
+          "line": 30,
+          "column": 50
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+=======
+      "start": 1068,
+      "end": 1069,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 50
+        },
+        "end": {
+          "line": 30,
+          "column": 51
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "value": "createDecorator",
+      "start": 1069,
+      "end": 1084,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 51
+        },
+        "end": {
+          "line": 30,
+          "column": 66
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "./factory",
+      "start": 50,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 50
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+=======
+      "start": 1084,
+      "end": 1085,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 66
+        },
+        "end": {
+          "line": 30,
+          "column": 67
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 61
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+=======
+      "value": "new",
+      "start": 1085,
+      "end": 1088,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 67
+        },
+        "end": {
+          "line": 30,
+          "column": 70
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "import",
+      "start": 63,
+      "end": 69,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+=======
+      "value": "factory_1",
+      "start": 1089,
+      "end": 1098,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 71
+        },
+        "end": {
+          "line": 30,
+          "column": 80
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 70,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+=======
+      "start": 1098,
+      "end": 1099,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 80
+        },
+        "end": {
+          "line": 30,
+          "column": 81
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "PreValueApplicator",
+      "start": 72,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 27
+=======
+      "value": "DecoratorConfig",
+      "start": 1099,
+      "end": 1114,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 81
+        },
+        "end": {
+          "line": 30,
+          "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+=======
+      "start": 1114,
+      "end": 1115,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 96
+        },
+        "end": {
+          "line": 30,
+          "column": 97
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "from",
+      "start": 93,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+=======
+      "value": "curryRight_1",
+      "start": 1115,
+      "end": 1127,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 97
+        },
+        "end": {
+          "line": 30,
+          "column": 109
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "./applicators",
+      "start": 98,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 1127,
+      "end": 1128,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 109
+        },
+        "end": {
+          "line": 30,
+          "column": 110
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 113,
       "end": 114,
       "loc": {
@@ -1143,327 +3549,19 @@
         "start": {
           "line": 3,
           "column": 0
-        },
-        "end": {
-          "line": 27,
-          "column": 3
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 926,
-      "end": 932,
+=======
+      "value": "default",
+      "start": 1128,
+      "end": 1135,
       "loc": {
         "start": {
-          "line": 28,
-          "column": 0
+          "line": 30,
+          "column": 110
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         },
         "end": {
-          "line": 28,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "const",
-        "keyword": "const",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "const",
-      "start": 933,
-      "end": 938,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 7
-        },
-        "end": {
-          "line": 28,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "CurryRightAll",
-      "start": 939,
-      "end": 952,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 13
-        },
-        "end": {
-          "line": 28,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "=",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": true,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "=",
-      "start": 953,
-      "end": 954,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 27
-        },
-        "end": {
-          "line": 28,
-          "column": 28
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorFactory",
-      "start": 955,
-      "end": 971,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 29
-        },
-        "end": {
-          "line": 28,
-          "column": 45
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ".",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 971,
-      "end": 972,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 45
-        },
-        "end": {
-          "line": 28,
-          "column": 46
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "createDecorator",
-      "start": 972,
-      "end": 987,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 46
-        },
-        "end": {
-          "line": 28,
-          "column": 61
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 987,
-      "end": 988,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 61
-        },
-        "end": {
-          "line": 28,
-          "column": 62
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 988,
-      "end": 991,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 62
-        },
-        "end": {
-          "line": 28,
-          "column": 65
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 992,
-      "end": 1007,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 66
-        },
-        "end": {
-          "line": 28,
-          "column": 81
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 1007,
-      "end": 1008,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 81
-        },
-        "end": {
-          "line": 28,
-          "column": 82
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "curryRight",
-      "start": 1008,
-      "end": 1018,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 82
-        },
-        "end": {
-          "line": 28,
-          "column": 92
+          "line": 30,
+          "column": 117
         }
       }
     },
@@ -1480,16 +3578,22 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1018,
-      "end": 1019,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "export",
+      "start": 926,
+      "end": 932,
+=======
+      "start": 1135,
+      "end": 1136,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 28,
-          "column": 92
+          "line": 30,
+          "column": 117
         },
         "end": {
-          "line": 28,
-          "column": 93
+          "line": 30,
+          "column": 118
         }
       }
     },
@@ -1507,17 +3611,23 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "const",
+      "start": 933,
+      "end": 938,
+=======
       "value": "new",
-      "start": 1020,
-      "end": 1023,
+      "start": 1137,
+      "end": 1140,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 28,
-          "column": 94
+          "line": 30,
+          "column": 119
         },
         "end": {
-          "line": 28,
-          "column": 97
+          "line": 30,
+          "column": 122
         }
       }
     },
@@ -1533,17 +3643,87 @@
         "postfix": false,
         "binop": null
       },
-      "value": "PreValueApplicator",
-      "start": 1024,
-      "end": 1042,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "CurryRightAll",
+      "start": 939,
+      "end": 952,
+=======
+      "value": "applicators_1",
+      "start": 1141,
+      "end": 1154,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 28,
-          "column": 98
+          "line": 30,
+          "column": 123
         },
         "end": {
-          "line": 28,
-          "column": 116
+          "line": 30,
+          "column": 136
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "=",
+      "start": 953,
+      "end": 954,
+=======
+      "start": 1154,
+      "end": 1155,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 136
+        },
+        "end": {
+          "line": 30,
+          "column": 137
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "DecoratorFactory",
+      "start": 955,
+      "end": 971,
+=======
+      "value": "PreValueApplicator",
+      "start": 1155,
+      "end": 1173,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 137
+        },
+        "end": {
+          "line": 30,
+          "column": 155
         }
       }
     },
@@ -1559,16 +3739,21 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1042,
-      "end": 1043,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 971,
+      "end": 972,
+=======
+      "start": 1173,
+      "end": 1174,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 28,
-          "column": 116
+          "line": 30,
+          "column": 155
         },
         "end": {
-          "line": 28,
-          "column": 117
+          "line": 30,
+          "column": 156
         }
       }
     },
@@ -1584,21 +3769,341 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1043,
-      "end": 1044,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "createDecorator",
+      "start": 972,
+      "end": 987,
+=======
+      "start": 1174,
+      "end": 1175,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 28,
-          "column": 117
+          "line": 30,
+          "column": 156
         },
         "end": {
-          "line": 28,
-          "column": 118
+          "line": 30,
+          "column": 157
         }
       }
     },
     {
       "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 987,
+      "end": 988,
+=======
+      "start": 1175,
+      "end": 1176,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 157
+        },
+        "end": {
+          "line": 30,
+          "column": 158
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "new",
+      "start": 988,
+      "end": 991,
+=======
+      "start": 1177,
+      "end": 1178,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 159
+        },
+        "end": {
+          "line": 30,
+          "column": 160
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "DecoratorConfig",
+      "start": 992,
+      "end": 1007,
+=======
+      "value": "optionalParams",
+      "start": 1179,
+      "end": 1193,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 161
+        },
+        "end": {
+          "line": 30,
+          "column": 175
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1007,
+      "end": 1008,
+=======
+      "start": 1193,
+      "end": 1194,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 175
+        },
+        "end": {
+          "line": 30,
+          "column": 176
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "curryRight",
+      "start": 1008,
+      "end": 1018,
+=======
+      "value": "true",
+      "start": 1195,
+      "end": 1199,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 177
+        },
+        "end": {
+          "line": 30,
+          "column": 181
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1018,
+      "end": 1019,
+=======
+      "start": 1200,
+      "end": 1201,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 182
+        },
+        "end": {
+          "line": 30,
+          "column": 183
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "new",
+      "start": 1020,
+      "end": 1023,
+=======
+      "start": 1201,
+      "end": 1202,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 183
+        },
+        "end": {
+          "line": 30,
+          "column": 184
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "PreValueApplicator",
+      "start": 1024,
+      "end": 1042,
+=======
+      "start": 1202,
+      "end": 1203,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 184
+        },
+        "end": {
+          "line": 30,
+          "column": 185
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1042,
+      "end": 1043,
+=======
+      "start": 1203,
+      "end": 1204,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 185
+        },
+        "end": {
+          "line": 30,
+          "column": 186
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1043,
+      "end": 1044,
+=======
+      "value": "exports",
+      "start": 1205,
+      "end": 1212,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
@@ -1756,6 +4261,9 @@
     {
       "type": {
         "label": ")",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1763,8 +4271,10 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1070,
       "end": 1071,
       "loc": {
@@ -1775,14 +4285,26 @@
         "end": {
           "line": 28,
           "column": 145
+=======
+      "start": 1212,
+      "end": 1213,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 7
+        },
+        "end": {
+          "line": 31,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1790,6 +4312,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1071,
       "end": 1072,
       "loc": {
@@ -1800,22 +4323,36 @@
         "end": {
           "line": 28,
           "column": 146
+=======
+      "value": "curryRightAll",
+      "start": 1213,
+      "end": 1226,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": ";",
+        "label": "=",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1072,
       "end": 1073,
       "loc": {
@@ -1826,13 +4363,57 @@
         "end": {
           "line": 28,
           "column": 147
+=======
+      "value": "=",
+      "start": 1227,
+      "end": 1228,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 22
+        },
+        "end": {
+          "line": 31,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "export",
+      "start": 1074,
+      "end": 1080,
+=======
+      "value": "exports",
+      "start": 1229,
+      "end": 1236,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 24
+        },
+        "end": {
+          "line": 31,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1843,42 +4424,21 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 1074,
-      "end": 1080,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 0
-        },
-        "end": {
-          "line": 29,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1081,
       "end": 1082,
+=======
+      "start": 1236,
+      "end": 1237,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 29,
-          "column": 7
+          "line": 31,
+          "column": 31
         },
         "end": {
-          "line": 29,
-          "column": 8
+          "line": 31,
+          "column": 32
         }
       }
     },
@@ -1895,93 +4455,21 @@
         "binop": null
       },
       "value": "CurryRightAll",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1083,
       "end": 1096,
+=======
+      "start": 1237,
+      "end": 1250,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 29,
-          "column": 9
+          "line": 31,
+          "column": 32
         },
         "end": {
-          "line": 29,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "as",
-      "start": 1097,
-      "end": 1099,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 23
-        },
-        "end": {
-          "line": 29,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "curryRightAll",
-      "start": 1100,
-      "end": 1113,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 26
-        },
-        "end": {
-          "line": 29,
-          "column": 39
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 1114,
-      "end": 1115,
-      "loc": {
-        "start": {
-          "line": 29,
-          "column": 40
-        },
-        "end": {
-          "line": 29,
-          "column": 41
+          "line": 31,
+          "column": 45
         }
       }
     },
@@ -1998,23 +4486,60 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1115,
-      "end": 1116,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "as",
+      "start": 1097,
+      "end": 1099,
+=======
+      "start": 1250,
+      "end": 1251,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 29,
-          "column": 41
+          "line": 31,
+          "column": 45
         },
         "end": {
-          "line": 29,
-          "column": 42
+          "line": 31,
+          "column": 46
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "curryRightAll",
+      "start": 1100,
+      "end": 1113,
+=======
+      "value": "exports",
+      "start": 1252,
+      "end": 1259,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2025,17 +4550,21 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 1117,
-      "end": 1123,
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1114,
+      "end": 1115,
+=======
+      "start": 1259,
+      "end": 1260,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 30,
-          "column": 0
+          "line": 32,
+          "column": 7
         },
         "end": {
-          "line": 30,
-          "column": 6
+          "line": 32,
+          "column": 8
         }
       }
     },
@@ -2053,17 +4582,113 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "start": 1115,
+      "end": 1116,
+=======
+      "value": "default",
+      "start": 1260,
+      "end": 1267,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 8
+        },
+        "end": {
+          "line": 32,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
+      "value": "export",
+      "start": 1117,
+      "end": 1123,
+=======
+      "value": "=",
+      "start": 1268,
+      "end": 1269,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 16
+        },
+        "end": {
+          "line": 32,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 1270,
+      "end": 1277,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 18
+        },
+        "end": {
+          "line": 32,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "value": "default",
       "start": 1124,
       "end": 1131,
+=======
+      "start": 1277,
+      "end": 1278,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 30,
-          "column": 7
+          "line": 32,
+          "column": 25
         },
         "end": {
-          "line": 30,
-          "column": 14
+          "line": 32,
+          "column": 26
         }
       }
     },
@@ -2080,16 +4705,21 @@
         "binop": null
       },
       "value": "CurryRightAll",
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1132,
       "end": 1145,
+=======
+      "start": 1278,
+      "end": 1291,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 30,
-          "column": 15
+          "line": 32,
+          "column": 26
         },
         "end": {
-          "line": 30,
-          "column": 28
+          "line": 32,
+          "column": 39
         }
       }
     },
@@ -2106,16 +4736,21 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1145,
       "end": 1146,
+=======
+      "start": 1291,
+      "end": 1292,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 30,
-          "column": 28
+          "line": 32,
+          "column": 39
         },
         "end": {
-          "line": 30,
-          "column": 29
+          "line": 32,
+          "column": 40
         }
       }
     },
@@ -2132,15 +4767,20 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/curryRightAll.ts.json
       "start": 1147,
       "end": 1147,
+=======
+      "start": 1293,
+      "end": 1293,
+>>>>>>> esm-cjs-build:docs/ast/source/curryRightAll.js.json
       "loc": {
         "start": {
-          "line": 31,
+          "line": 33,
           "column": 0
         },
         "end": {
-          "line": 31,
+          "line": 33,
           "column": 0
         }
       }

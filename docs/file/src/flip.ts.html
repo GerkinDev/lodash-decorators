@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/file/src/flip.ts.html
   <title data-ice="title">src/flip.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/curryAll.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curryAll.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/flip.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -129,6 +134,18 @@ const decorator = DecoratorFactory.createInstanceDecorator(
   new DecoratorConfig(flip, new PartialValueApplicator(), { property: true })
 );
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/curryAll.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var curry_1 = require(&quot;lodash/curry&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curryAll.js.html
 /**
  * Creates a function that invokes func with arguments reversed. Honestly, there is probably not much
  * use for this decorator but maybe you will find one?
@@ -150,11 +167,17 @@ const decorator = DecoratorFactory.createInstanceDecorator(
  *
  * myClass.fn2(10, &apos;20&apos;); // =&gt; [ &apos;20&apos;, 10 ]
  */
+<<<<<<< HEAD:docs/file/src/flip.ts.html
 export function Flip(fn?: ResolvableFunction): LodashDecorator {
   return decorator(fn);
 }
 export { Flip as flip };
 export default decorator;
+=======
+exports.CurryAll = factory_1.DecoratorFactory.createDecorator(new factory_1.DecoratorConfig(curry_1.default, new applicators_1.PreValueApplicator(), { optionalParams: true }));
+exports.curryAll = exports.CurryAll;
+exports.default = exports.CurryAll;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curryAll.js.html
 </code></pre>
 
 </div>

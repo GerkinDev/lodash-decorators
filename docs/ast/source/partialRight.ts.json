@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
   "end": 526,
+=======
+  "end": 1076,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "line": 19,
+=======
+      "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
     "end": 526,
+=======
+    "end": 1076,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "line": 19,
+=======
+        "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
             "line": 1,
             "column": 62
           }
@@ -182,44 +205,91 @@
             "type": "ImportSpecifier",
             "start": 72,
             "end": 89,
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
             "loc": {
               "start": {
                 "line": 2,
-                "column": 9
+                "column": 0
               },
               "end": {
                 "line": 2,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                 "column": 26
+=======
+                "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
               }
             },
-            "imported": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
               "start": 72,
               "end": 89,
+=======
+              "start": 14,
+              "end": 20,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 0
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                   "column": 26
                 },
                 "identifierName": "PartialApplicator"
               },
               "name": "PartialApplicator"
+=======
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
             },
-            "local": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
               "start": 72,
               "end": 89,
+=======
+              "start": 21,
+              "end": 35,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
               "loc": {
                 "start": {
                   "line": 2,
-                  "column": 9
+                  "column": 7
                 },
                 "end": {
                   "line": 2,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                   "column": 26
                 },
                 "identifierName": "PartialApplicator"
@@ -799,12 +869,136 @@
         "type": "ExportNamedDeclaration",
         "start": 459,
         "end": 499,
+=======
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 119,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "loc": {
           "start": {
             "line": 17,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
             "line": 17,
             "column": 40
           }
@@ -902,12 +1096,113 @@
         "type": "ExportDefaultDeclaration",
         "start": 500,
         "end": 525,
+=======
+            "line": 3,
+            "column": 42
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 118,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 41
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 90,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 13
+                },
+                "identifierName": "partial_1"
+              },
+              "name": "partial_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 93,
+              "end": 118,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 16
+                },
+                "end": {
+                  "line": 3,
+                  "column": 41
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 93,
+                "end": 100,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 101,
+                  "end": 117,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 40
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/partial",
+                    "raw": "\"lodash/partial\""
+                  },
+                  "value": "lodash/partial"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 120,
+        "end": 157,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "loc": {
           "start": {
             "line": 18,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
             "line": 18,
             "column": 25
           }
@@ -935,14 +1230,66 @@
                 "start": {
                   "line": 3,
                   "column": 6
+=======
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 124,
+            "end": 156,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 124,
+              "end": 133,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
                 },
                 "end": {
+                  "line": 4,
+                  "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 136,
+              "end": 156,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                   "line": 3,
                   "column": 153
+=======
+                  "line": 4,
+                  "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                 "start": 120,
                 "end": 129,
                 "loc": {
@@ -1017,11 +1364,279 @@
                         "column": 58
                       },
                       "identifierName": "createInstanceDecorator"
+=======
+                "start": 136,
+                "end": 143,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 144,
+                  "end": 155,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
                     },
-                    "name": "createInstanceDecorator"
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 158,
+        "end": 203,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 162,
+            "end": 202,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 162,
+              "end": 175,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 178,
+              "end": 202,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 178,
+                "end": 185,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 186,
+                  "end": 201,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 204,
+        "end": 395,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 191
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 208,
+            "end": 394,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 190
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 208,
+              "end": 217,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "decorator"
+              },
+              "name": "decorator"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 220,
+              "end": 394,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 190
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 220,
+                "end": 270,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 66
+                  }
+                },
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 220,
+                  "end": 246,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 220,
+                    "end": 229,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 25
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 230,
+                    "end": 246,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 42
+                      },
+                      "identifierName": "DecoratorFactory"
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+                    },
+                    "name": "DecoratorFactory"
                   },
                   "computed": false
                 },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                 "arguments": [
                   {
                     "type": "NewExpression",
@@ -1035,10 +1650,76 @@
                       "end": {
                         "line": 3,
                         "column": 152
+=======
+                "property": {
+                  "type": "Identifier",
+                  "start": 247,
+                  "end": 270,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 66
+                    },
+                    "identifierName": "createInstanceDecorator"
+                  },
+                  "name": "createInstanceDecorator"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 271,
+                  "end": 393,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 67
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 189
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 275,
+                    "end": 300,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 71
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+                      "start": 275,
+                      "end": 284,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 71
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 80
+                        },
+                        "identifierName": "factory_1"
+                      },
+                      "name": "factory_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                       "start": 177,
                       "end": 192,
                       "loc": {
@@ -1049,14 +1730,60 @@
                         "end": {
                           "line": 3,
                           "column": 78
+=======
+                      "start": 285,
+                      "end": 300,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 81
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                         },
                         "identifierName": "DecoratorConfig"
                       },
                       "name": "DecoratorConfig"
                     },
-                    "arguments": [
-                      {
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 301,
+                      "end": 318,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 97
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 114
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+                        "start": 301,
+                        "end": 310,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 97
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 106
+                          },
+                          "identifierName": "partial_1"
+                        },
+                        "name": "partial_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                         "start": 193,
                         "end": 205,
                         "loc": {
@@ -1084,10 +1811,73 @@
                           "end": {
                             "line": 3,
                             "column": 116
+=======
+                        "start": 311,
+                        "end": 318,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 107
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 114
+                          },
+                          "identifierName": "default"
+                        },
+                        "name": "default"
+                      },
+                      "computed": false
+                    },
+                    {
+                      "type": "NewExpression",
+                      "start": 320,
+                      "end": 357,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 116
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 153
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 324,
+                        "end": 355,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 120
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 151
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                           }
                         },
-                        "callee": {
+                        "object": {
                           "type": "Identifier",
+                          "start": 324,
+                          "end": 337,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 120
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 133
+                            },
+                            "identifierName": "applicators_1"
+                          },
+                          "name": "applicators_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                           "start": 211,
                           "end": 228,
                           "loc": {
@@ -1098,13 +1888,26 @@
                             "end": {
                               "line": 3,
                               "column": 114
+=======
+                          "start": 338,
+                          "end": 355,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 134
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 151
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                             },
                             "identifierName": "PartialApplicator"
                           },
                           "name": "PartialApplicator"
                         },
-                        "arguments": []
+                        "computed": false
                       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                       {
                         "type": "ObjectExpression",
                         "start": 232,
@@ -1151,9 +1954,58 @@
                                   "column": 128
                                 },
                                 "identifierName": "property"
-                              },
-                              "name": "property"
+=======
+                      "arguments": []
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 359,
+                      "end": 392,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 155
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 188
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "ObjectProperty",
+                          "start": 361,
+                          "end": 375,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 157
                             },
+                            "end": {
+                              "line": 6,
+                              "column": 171
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 361,
+                            "end": 369,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 157
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 165
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+                              },
+                              "identifierName": "property"
+                            },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                             "value": {
                               "type": "BooleanLiteral",
                               "start": 244,
@@ -1202,9 +2054,60 @@
                                   "column": 142
                                 },
                                 "identifierName": "method"
+=======
+                            "name": "property"
+                          },
+                          "value": {
+                            "type": "BooleanLiteral",
+                            "start": 371,
+                            "end": 375,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 167
                               },
-                              "name": "method"
+                              "end": {
+                                "line": 6,
+                                "column": 171
+                              }
                             },
+                            "value": true
+                          }
+                        },
+                        {
+                          "type": "ObjectProperty",
+                          "start": 377,
+                          "end": 390,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 173
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 186
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 377,
+                            "end": 383,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 173
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 179
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+                              },
+                              "identifierName": "method"
+                            },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
                             "value": {
                               "type": "BooleanLiteral",
                               "start": 258,
@@ -1218,17 +2121,53 @@
                                   "line": 3,
                                   "column": 149
                                 }
+=======
+                            "name": "method"
+                          },
+                          "value": {
+                            "type": "BooleanLiteral",
+                            "start": 385,
+                            "end": 390,
+                            "loc": {
+                              "start": {
+                                "line": 6,
+                                "column": 181
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
                               },
-                              "value": false
-                            }
+                              "end": {
+                                "line": 6,
+                                "column": 186
+                              }
+                            },
+                            "value": false
                           }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Partially applies arguments to a function.\n * @export\n * @param {...any[]} partials\n * @returns {PropertyDecorator}\n * @example\n * class MyClass {\n *   lastName: string = 'Schmo';\n *\n *   @Partial('fn', 'Joe')\n *   fn2: () => string;\n *\n *   fn(name: string): string {\n *     return `${name} ${this.lastName}`;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn2(); //=> 'Joe Schmo'\n ",
+            "start": 396,
+            "end": 804,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 3
               }
             }
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
           ],
           "kind": "const",
           "trailingComments": [
@@ -1254,10 +2193,977 @@
       }
     ],
     "directives": []
+=======
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 805,
+        "end": 992,
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 0
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 814,
+          "end": 821,
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 9
+            },
+            "end": {
+              "line": 28,
+              "column": 16
+            },
+            "identifierName": "Partial"
+          },
+          "name": "Partial",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 824,
+          "end": 992,
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 19
+            },
+            "end": {
+              "line": 34,
+              "column": 1
+            }
+          },
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 830,
+              "end": 848,
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 4
+                },
+                "end": {
+                  "line": 29,
+                  "column": 22
+                }
+              },
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 834,
+                  "end": 847,
+                  "loc": {
+                    "start": {
+                      "line": 29,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 21
+                    }
+                  },
+                  "id": {
+                    "type": "Identifier",
+                    "start": 834,
+                    "end": 842,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 16
+                      },
+                      "identifierName": "partials"
+                    },
+                    "name": "partials"
+                  },
+                  "init": {
+                    "type": "ArrayExpression",
+                    "start": 845,
+                    "end": 847,
+                    "loc": {
+                      "start": {
+                        "line": 29,
+                        "column": 19
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 21
+                      }
+                    },
+                    "elements": []
+                  }
+                }
+              ],
+              "kind": "var"
+            },
+            {
+              "type": "ForStatement",
+              "start": 853,
+              "end": 944,
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 4
+                },
+                "end": {
+                  "line": 32,
+                  "column": 5
+                }
+              },
+              "init": {
+                "type": "VariableDeclaration",
+                "start": 858,
+                "end": 868,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 19
+                  }
+                },
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 862,
+                    "end": 868,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 13
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 19
+                      }
+                    },
+                    "id": {
+                      "type": "Identifier",
+                      "start": 862,
+                      "end": 864,
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 13
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 15
+                        },
+                        "identifierName": "_i"
+                      },
+                      "name": "_i"
+                    },
+                    "init": {
+                      "type": "NumericLiteral",
+                      "start": 867,
+                      "end": 868,
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 18
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 19
+                        }
+                      },
+                      "extra": {
+                        "rawValue": 0,
+                        "raw": "0"
+                      },
+                      "value": 0
+                    }
+                  }
+                ],
+                "kind": "var"
+              },
+              "test": {
+                "type": "BinaryExpression",
+                "start": 870,
+                "end": 891,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 42
+                  }
+                },
+                "left": {
+                  "type": "Identifier",
+                  "start": 870,
+                  "end": 872,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 21
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 23
+                    },
+                    "identifierName": "_i"
+                  },
+                  "name": "_i"
+                },
+                "operator": "<",
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 875,
+                  "end": 891,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 875,
+                    "end": 884,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 35
+                      },
+                      "identifierName": "arguments"
+                    },
+                    "name": "arguments"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 885,
+                    "end": 891,
+                    "loc": {
+                      "start": {
+                        "line": 30,
+                        "column": 36
+                      },
+                      "end": {
+                        "line": 30,
+                        "column": 42
+                      },
+                      "identifierName": "length"
+                    },
+                    "name": "length"
+                  },
+                  "computed": false
+                }
+              },
+              "update": {
+                "type": "UpdateExpression",
+                "start": 893,
+                "end": 897,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 44
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 48
+                  }
+                },
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 893,
+                  "end": 895,
+                  "loc": {
+                    "start": {
+                      "line": 30,
+                      "column": 44
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 46
+                    },
+                    "identifierName": "_i"
+                  },
+                  "name": "_i"
+                }
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 899,
+                "end": 944,
+                "loc": {
+                  "start": {
+                    "line": 30,
+                    "column": 50
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 5
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 909,
+                    "end": 938,
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 37
+                      }
+                    },
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 909,
+                      "end": 937,
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 36
+                        }
+                      },
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 909,
+                        "end": 921,
+                        "loc": {
+                          "start": {
+                            "line": 31,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 31,
+                            "column": 20
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 909,
+                          "end": 917,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 8
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 16
+                            },
+                            "identifierName": "partials"
+                          },
+                          "name": "partials"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 918,
+                          "end": 920,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 17
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 19
+                            },
+                            "identifierName": "_i"
+                          },
+                          "name": "_i"
+                        },
+                        "computed": true
+                      },
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 924,
+                        "end": 937,
+                        "loc": {
+                          "start": {
+                            "line": 31,
+                            "column": 23
+                          },
+                          "end": {
+                            "line": 31,
+                            "column": 36
+                          }
+                        },
+                        "object": {
+                          "type": "Identifier",
+                          "start": 924,
+                          "end": 933,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 23
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 32
+                            },
+                            "identifierName": "arguments"
+                          },
+                          "name": "arguments"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 934,
+                          "end": 936,
+                          "loc": {
+                            "start": {
+                              "line": 31,
+                              "column": 33
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 35
+                            },
+                            "identifierName": "_i"
+                          },
+                          "name": "_i"
+                        },
+                        "computed": true
+                      }
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            },
+            {
+              "type": "ReturnStatement",
+              "start": 949,
+              "end": 990,
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 4
+                },
+                "end": {
+                  "line": 33,
+                  "column": 45
+                }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 956,
+                "end": 989,
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 44
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 956,
+                  "end": 971,
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 26
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 956,
+                    "end": 965,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 20
+                      },
+                      "identifierName": "decorator"
+                    },
+                    "name": "decorator"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 966,
+                    "end": 971,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 26
+                      },
+                      "identifierName": "apply"
+                    },
+                    "name": "apply"
+                  },
+                  "computed": false
+                },
+                "arguments": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 972,
+                    "end": 978,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 27
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 33
+                      }
+                    },
+                    "operator": "void",
+                    "prefix": true,
+                    "argument": {
+                      "type": "NumericLiteral",
+                      "start": 977,
+                      "end": 978,
+                      "loc": {
+                        "start": {
+                          "line": 33,
+                          "column": 32
+                        },
+                        "end": {
+                          "line": 33,
+                          "column": 33
+                        }
+                      },
+                      "extra": {
+                        "rawValue": 0,
+                        "raw": "0"
+                      },
+                      "value": 0
+                    },
+                    "extra": {
+                      "parenthesizedArgument": false
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 980,
+                    "end": 988,
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 35
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 43
+                      },
+                      "identifierName": "partials"
+                    },
+                    "name": "partials"
+                  }
+                ]
+              }
+            }
+          ],
+          "directives": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Partially applies arguments to a function.\n * @export\n * @param {...any[]} partials\n * @returns {PropertyDecorator}\n * @example\n * class MyClass {\n *   lastName: string = 'Schmo';\n *\n *   @Partial('fn', 'Joe')\n *   fn2: () => string;\n *\n *   fn(name: string): string {\n *     return `${name} ${this.lastName}`;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn2(); //=> 'Joe Schmo'\n ",
+            "start": 396,
+            "end": 804,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 993,
+        "end": 1019,
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 26
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 993,
+          "end": 1018,
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 25
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 993,
+            "end": 1008,
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 993,
+              "end": 1000,
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 0
+                },
+                "end": {
+                  "line": 35,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1001,
+              "end": 1008,
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 8
+                },
+                "end": {
+                  "line": 35,
+                  "column": 15
+                },
+                "identifierName": "Partial"
+              },
+              "name": "Partial"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1011,
+            "end": 1018,
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 18
+              },
+              "end": {
+                "line": 35,
+                "column": 25
+              },
+              "identifierName": "Partial"
+            },
+            "name": "Partial"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1020,
+        "end": 1046,
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 0
+          },
+          "end": {
+            "line": 36,
+            "column": 26
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1020,
+          "end": 1045,
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 25
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1020,
+            "end": 1035,
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 0
+              },
+              "end": {
+                "line": 36,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1020,
+              "end": 1027,
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 0
+                },
+                "end": {
+                  "line": 36,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1028,
+              "end": 1035,
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 8
+                },
+                "end": {
+                  "line": 36,
+                  "column": 15
+                },
+                "identifierName": "partial"
+              },
+              "name": "partial"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1038,
+            "end": 1045,
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 18
+              },
+              "end": {
+                "line": 36,
+                "column": 25
+              },
+              "identifierName": "Partial"
+            },
+            "name": "Partial"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1047,
+        "end": 1075,
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 28
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1047,
+          "end": 1074,
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 37,
+              "column": 27
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1047,
+            "end": 1062,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 37,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1047,
+              "end": 1054,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 0
+                },
+                "end": {
+                  "line": 37,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1055,
+              "end": 1062,
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 8
+                },
+                "end": {
+                  "line": 37,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1065,
+            "end": 1074,
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 18
+              },
+              "end": {
+                "line": 37,
+                "column": 27
+              },
+              "identifierName": "decorator"
+            },
+            "name": "decorator"
+          }
+        }
+      }
+    ],
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
   },
   "comments": [
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "*\n * @desc\n *\n * @lineNumber\n * 10\n * @param\n * {undefined} partials\n * @return\n * {PropertyDecorator}\n ",
       "start": 269,
       "end": 377,
@@ -1274,10 +3180,26 @@
     }
   ],
   "tokens": [
+=======
+      "value": "*\n * Partially applies arguments to a function.\n * @export\n * @param {...any[]} partials\n * @returns {PropertyDecorator}\n * @example\n * class MyClass {\n *   lastName: string = 'Schmo';\n *\n *   @Partial('fn', 'Joe')\n *   fn2: () => string;\n *\n *   fn(name: string): string {\n *     return `${name} ${this.lastName}`;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn2(); //=> 'Joe Schmo'\n ",
+      "start": 396,
+      "end": 804,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1288,9 +3210,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
+      "value": "use strict",
       "start": 0,
-      "end": 6,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
@@ -1298,7 +3220,241 @@
         },
         "end": {
           "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
           "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
         }
       }
     },
@@ -1314,16 +3470,1118 @@
         "postfix": false,
         "binop": null
       },
-      "start": 7,
-      "end": 8,
+      "start": 59,
+      "end": 60,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 7
+          "line": 2,
+          "column": 45
         },
         "end": {
-          "line": 1,
-          "column": 8
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "partial_1",
+      "start": 81,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 14
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 93,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 16
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 100,
+      "end": 101,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/partial",
+      "start": 101,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 3,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 117,
+      "end": 118,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 40
+        },
+        "end": {
+          "line": 3,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 118,
+      "end": 119,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 41
+        },
+        "end": {
+          "line": 3,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 120,
+      "end": 123,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 124,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 134,
+      "end": 135,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 136,
+      "end": 143,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 143,
+      "end": 144,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./factory",
+      "start": 144,
+      "end": 155,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 155,
+      "end": 156,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 156,
+      "end": 157,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 36
+        },
+        "end": {
+          "line": 4,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 158,
+      "end": 161,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 162,
+      "end": 175,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 176,
+      "end": 177,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 178,
+      "end": 185,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 185,
+      "end": 186,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./applicators",
+      "start": 186,
+      "end": 201,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 201,
+      "end": 202,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 202,
+      "end": 203,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 204,
+      "end": 207,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+      "start": 208,
+      "end": 217,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 218,
+      "end": 219,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 220,
+      "end": 229,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+          "line": 6,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 229,
+      "end": 230,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DecoratorFactory",
+      "start": 230,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 246,
+      "end": 247,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "createInstanceDecorator",
+      "start": 247,
+      "end": 270,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 270,
+      "end": 271,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 66
+        },
+        "end": {
+          "line": 6,
+          "column": 67
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "new",
+      "start": 271,
+      "end": 274,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 67
+        },
+        "end": {
+          "line": 6,
+          "column": 70
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 275,
+      "end": 284,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 71
+        },
+        "end": {
+          "line": 6,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 284,
+      "end": 285,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 80
+        },
+        "end": {
+          "line": 6,
+          "column": 81
         }
       }
     },
@@ -1340,14 +4598,845 @@
         "binop": null
       },
       "value": "DecoratorConfig",
-      "start": 9,
-      "end": 24,
+      "start": 285,
+      "end": 300,
       "loc": {
         "start": {
-          "line": 1,
+          "line": 6,
+          "column": 81
+        },
+        "end": {
+          "line": 6,
+          "column": 96
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 300,
+      "end": 301,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 96
+        },
+        "end": {
+          "line": 6,
+          "column": 97
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "partial_1",
+      "start": 301,
+      "end": 310,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 97
+        },
+        "end": {
+          "line": 6,
+          "column": 106
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 310,
+      "end": 311,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 106
+        },
+        "end": {
+          "line": 6,
+          "column": 107
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 311,
+      "end": 318,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 107
+        },
+        "end": {
+          "line": 6,
+          "column": 114
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 318,
+      "end": 319,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 114
+        },
+        "end": {
+          "line": 6,
+          "column": 115
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "new",
+      "start": 320,
+      "end": 323,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 116
+        },
+        "end": {
+          "line": 6,
+          "column": 119
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 324,
+      "end": 337,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 120
+        },
+        "end": {
+          "line": 6,
+          "column": 133
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 337,
+      "end": 338,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 133
+        },
+        "end": {
+          "line": 6,
+          "column": 134
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "PartialApplicator",
+      "start": 338,
+      "end": 355,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 134
+        },
+        "end": {
+          "line": 6,
+          "column": 151
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 355,
+      "end": 356,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 151
+        },
+        "end": {
+          "line": 6,
+          "column": 152
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 356,
+      "end": 357,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 152
+        },
+        "end": {
+          "line": 6,
+          "column": 153
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 357,
+      "end": 358,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 153
+        },
+        "end": {
+          "line": 6,
+          "column": 154
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 359,
+      "end": 360,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 155
+        },
+        "end": {
+          "line": 6,
+          "column": 156
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "property",
+      "start": 361,
+      "end": 369,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 157
+        },
+        "end": {
+          "line": 6,
+          "column": 165
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 369,
+      "end": 370,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 165
+        },
+        "end": {
+          "line": 6,
+          "column": 166
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 371,
+      "end": 375,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 167
+        },
+        "end": {
+          "line": 6,
+          "column": 171
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 375,
+      "end": 376,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 171
+        },
+        "end": {
+          "line": 6,
+          "column": 172
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "method",
+      "start": 377,
+      "end": 383,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 173
+        },
+        "end": {
+          "line": 6,
+          "column": 179
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 383,
+      "end": 384,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 179
+        },
+        "end": {
+          "line": 6,
+          "column": 180
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "false",
+        "keyword": "false",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "false",
+      "start": 385,
+      "end": 390,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 181
+        },
+        "end": {
+          "line": 6,
+          "column": 186
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 391,
+      "end": 392,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 187
+        },
+        "end": {
+          "line": 6,
+          "column": 188
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 392,
+      "end": 393,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 188
+        },
+        "end": {
+          "line": 6,
+          "column": 189
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 393,
+      "end": 394,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 189
+        },
+        "end": {
+          "line": 6,
+          "column": 190
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 394,
+      "end": 395,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 190
+        },
+        "end": {
+          "line": 6,
+          "column": 191
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Partially applies arguments to a function.\n * @export\n * @param {...any[]} partials\n * @returns {PropertyDecorator}\n * @example\n * class MyClass {\n *   lastName: string = 'Schmo';\n *\n *   @Partial('fn', 'Joe')\n *   fn2: () => string;\n *\n *   fn(name: string): string {\n *     return `${name} ${this.lastName}`;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.fn2(); //=> 'Joe Schmo'\n ",
+      "start": 396,
+      "end": 804,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 805,
+      "end": 813,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Partial",
+      "start": 814,
+      "end": 821,
+      "loc": {
+        "start": {
+          "line": 28,
           "column": 9
         },
         "end": {
+          "line": 28,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 821,
+      "end": 822,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 16
+        },
+        "end": {
+          "line": 28,
+          "column": 17
+        }
+      }
+    },
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 822,
+      "end": 823,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 17
+        },
+        "end": {
+          "line": 28,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 824,
+      "end": 825,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 19
+        },
+        "end": {
+          "line": 28,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 830,
+      "end": 833,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 29,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "value": "DecoratorConfig",
+      "start": 9,
+      "end": 24,
+=======
+      "value": "partials",
+      "start": 834,
+      "end": 842,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
           "line": 1,
           "column": 24
         }
@@ -1402,21 +5491,27 @@
         "end": {
           "line": 1,
           "column": 42
+=======
+          "line": 29,
+          "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "}",
-        "beforeExpr": false,
+        "label": "=",
+        "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 43,
       "end": 44,
       "loc": {
@@ -1427,21 +5522,36 @@
         "end": {
           "line": 1,
           "column": 44
+=======
+      "value": "=",
+      "start": 843,
+      "end": 844,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 17
+        },
+        "end": {
+          "line": 29,
+          "column": 18
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "name",
-        "beforeExpr": false,
+        "label": "[",
+        "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "from",
       "start": 45,
       "end": 49,
@@ -1453,14 +5563,26 @@
         "end": {
           "line": 1,
           "column": 49
+=======
+      "start": 845,
+      "end": 846,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 19
+        },
+        "end": {
+          "line": 29,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "string",
+        "label": "]",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1469,6 +5591,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "./factory",
       "start": 50,
       "end": 61,
@@ -1480,6 +5603,18 @@
         "end": {
           "line": 1,
           "column": 61
+=======
+      "start": 846,
+      "end": 847,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 20
+        },
+        "end": {
+          "line": 29,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -1496,6 +5631,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 61,
       "end": 62,
       "loc": {
@@ -1506,40 +5642,58 @@
         "end": {
           "line": 1,
           "column": 62
+=======
+      "start": 847,
+      "end": 848,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 21
+        },
+        "end": {
+          "line": 29,
+          "column": 22
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "for",
+        "keyword": "for",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
-        "isLoop": false,
+        "isLoop": true,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "import",
       "start": 63,
       "end": 69,
+=======
+      "value": "for",
+      "start": 853,
+      "end": 856,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
       "loc": {
         "start": {
-          "line": 2,
-          "column": 0
+          "line": 30,
+          "column": 4
         },
         "end": {
-          "line": 2,
-          "column": 6
+          "line": 30,
+          "column": 7
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1549,16 +5703,49 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 70,
       "end": 71,
+=======
+      "start": 857,
+      "end": 858,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
       "loc": {
         "start": {
-          "line": 2,
-          "column": 7
+          "line": 30,
+          "column": 8
         },
         "end": {
-          "line": 2,
-          "column": 8
+          "line": 30,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 858,
+      "end": 861,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 9
+        },
+        "end": {
+          "line": 30,
+          "column": 12
         }
       }
     },
@@ -1574,32 +5761,49 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "PartialApplicator",
       "start": 72,
       "end": 89,
+=======
+      "value": "_i",
+      "start": 862,
+      "end": 864,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
       "loc": {
         "start": {
-          "line": 2,
-          "column": 9
+          "line": 30,
+          "column": 13
         },
         "end": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
           "line": 2,
           "column": 26
+=======
+          "line": 30,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "}",
         "beforeExpr": false,
+=======
+        "label": "=",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 90,
       "end": 91,
       "loc": {
@@ -1610,12 +5814,25 @@
         "end": {
           "line": 2,
           "column": 28
+=======
+      "value": "=",
+      "start": 865,
+      "end": 866,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 16
+        },
+        "end": {
+          "line": 30,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "name",
+        "label": "num",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1623,8 +5840,10 @@
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "from",
       "start": 92,
       "end": 96,
@@ -1636,11 +5855,25 @@
         "end": {
           "line": 2,
           "column": 33
+=======
+      "value": 0,
+      "start": 867,
+      "end": 868,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 18
+        },
+        "end": {
+          "line": 30,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
@@ -1668,6 +5901,8 @@
     },
     {
       "type": {
+=======
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
@@ -1679,6 +5914,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 112,
       "end": 113,
       "loc": {
@@ -1822,6 +6058,18 @@
         "end": {
           "line": 3,
           "column": 35
+=======
+      "start": 868,
+      "end": 869,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 19
+        },
+        "end": {
+          "line": 30,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -1837,6 +6085,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "createInstanceDecorator",
       "start": 149,
       "end": 172,
@@ -1848,13 +6097,58 @@
         "end": {
           "line": 3,
           "column": 58
+=======
+      "value": "_i",
+      "start": 870,
+      "end": 872,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 21
+        },
+        "end": {
+          "line": 30,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "(",
         "beforeExpr": true,
+=======
+        "label": "</>",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": 7,
+        "updateContext": null
+      },
+      "value": "<",
+      "start": 873,
+      "end": 874,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 24
+        },
+        "end": {
+          "line": 30,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -1863,6 +6157,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 172,
       "end": 173,
       "loc": {
@@ -1873,15 +6168,34 @@
         "end": {
           "line": 3,
           "column": 59
+=======
+      "value": "arguments",
+      "start": 875,
+      "end": 884,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 26
+        },
+        "end": {
+          "line": 30,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "new",
         "keyword": "new",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1890,6 +6204,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "new",
       "start": 173,
       "end": 176,
@@ -1901,6 +6216,18 @@
         "end": {
           "line": 3,
           "column": 62
+=======
+      "start": 884,
+      "end": 885,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 35
+        },
+        "end": {
+          "line": 30,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -1916,6 +6243,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "DecoratorConfig",
       "start": 177,
       "end": 192,
@@ -1927,21 +6255,40 @@
         "end": {
           "line": 3,
           "column": 78
+=======
+      "value": "length",
+      "start": 885,
+      "end": 891,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 36
+        },
+        "end": {
+          "line": 30,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "(",
+=======
+        "label": ";",
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "beforeExpr": true,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 192,
       "end": 193,
       "loc": {
@@ -1952,6 +6299,18 @@
         "end": {
           "line": 3,
           "column": 79
+=======
+      "start": 891,
+      "end": 892,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 42
+        },
+        "end": {
+          "line": 30,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -1967,6 +6326,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "partialRight",
       "start": 193,
       "end": 205,
@@ -1978,11 +6338,25 @@
         "end": {
           "line": 3,
           "column": 91
+=======
+      "value": "_i",
+      "start": 893,
+      "end": 895,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 44
+        },
+        "end": {
+          "line": 30,
+          "column": 46
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
@@ -2004,15 +6378,44 @@
         "end": {
           "line": 3,
           "column": 92
+=======
+        "label": "++/--",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": true,
+        "postfix": true,
+        "binop": null
+      },
+      "value": "++",
+      "start": 895,
+      "end": 897,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 46
+        },
+        "end": {
+          "line": 30,
+          "column": 48
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "new",
         "keyword": "new",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2021,6 +6424,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "new",
       "start": 207,
       "end": 210,
@@ -2032,13 +6436,30 @@
         "end": {
           "line": 3,
           "column": 96
+=======
+      "start": 897,
+      "end": 898,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 48
+        },
+        "end": {
+          "line": 30,
+          "column": 49
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "name",
         "beforeExpr": false,
+=======
+        "label": "{",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -2047,6 +6468,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "PartialApplicator",
       "start": 211,
       "end": 228,
@@ -2058,13 +6480,30 @@
         "end": {
           "line": 3,
           "column": 114
+=======
+      "start": 899,
+      "end": 900,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 50
+        },
+        "end": {
+          "line": 30,
+          "column": 51
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "(",
         "beforeExpr": true,
+=======
+        "label": "name",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -2073,6 +6512,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 228,
       "end": 229,
       "loc": {
@@ -2083,14 +6523,33 @@
         "end": {
           "line": 3,
           "column": 115
+=======
+      "value": "partials",
+      "start": 909,
+      "end": 917,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 16
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ")",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2098,6 +6557,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 229,
       "end": 230,
       "loc": {
@@ -2108,22 +6568,40 @@
         "end": {
           "line": 3,
           "column": 116
+=======
+      "start": 917,
+      "end": 918,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 16
+        },
+        "end": {
+          "line": 31,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 230,
       "end": 231,
       "loc": {
@@ -2159,21 +6637,36 @@
         "end": {
           "line": 3,
           "column": 119
+=======
+      "value": "_i",
+      "start": 918,
+      "end": 920,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 17
+        },
+        "end": {
+          "line": 31,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "name",
+        "label": "]",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "property",
       "start": 234,
       "end": 242,
@@ -2185,6 +6678,18 @@
         "end": {
           "line": 3,
           "column": 128
+=======
+      "start": 920,
+      "end": 921,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 19
+        },
+        "end": {
+          "line": 31,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2201,6 +6706,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 242,
       "end": 243,
       "loc": {
@@ -2211,6 +6717,19 @@
         "end": {
           "line": 3,
           "column": 129
+=======
+      "value": "=",
+      "start": 922,
+      "end": 923,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 21
+        },
+        "end": {
+          "line": 31,
+          "column": 22
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2228,6 +6747,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "true",
       "start": 244,
       "end": 248,
@@ -2239,14 +6759,33 @@
         "end": {
           "line": 3,
           "column": 134
+=======
+      "value": "arguments",
+      "start": 924,
+      "end": 933,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 23
+        },
+        "end": {
+          "line": 31,
+          "column": 32
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2255,6 +6794,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 248,
       "end": 249,
       "loc": {
@@ -2265,6 +6805,18 @@
         "end": {
           "line": 3,
           "column": 135
+=======
+      "start": 933,
+      "end": 934,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 32
+        },
+        "end": {
+          "line": 31,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2280,6 +6832,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "method",
       "start": 250,
       "end": 256,
@@ -2291,13 +6844,31 @@
         "end": {
           "line": 3,
           "column": 142
+=======
+      "value": "_i",
+      "start": 934,
+      "end": 936,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 33
+        },
+        "end": {
+          "line": 31,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ":",
         "beforeExpr": true,
+=======
+        "label": "]",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -2307,6 +6878,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 256,
       "end": 257,
       "loc": {
@@ -2317,15 +6889,33 @@
         "end": {
           "line": 3,
           "column": 143
+=======
+      "start": 936,
+      "end": 937,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 35
+        },
+        "end": {
+          "line": 31,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "false",
         "keyword": "false",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2334,6 +6924,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "false",
       "start": 258,
       "end": 263,
@@ -2345,6 +6936,18 @@
         "end": {
           "line": 3,
           "column": 149
+=======
+      "start": 937,
+      "end": 938,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 36
+        },
+        "end": {
+          "line": 31,
+          "column": 37
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2360,6 +6963,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 264,
       "end": 265,
       "loc": {
@@ -2370,21 +6974,41 @@
         "end": {
           "line": 3,
           "column": 151
+=======
+      "start": 943,
+      "end": 944,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 5
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ")",
         "beforeExpr": false,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 265,
       "end": 266,
       "loc": {
@@ -2395,6 +7019,19 @@
         "end": {
           "line": 3,
           "column": 152
+=======
+      "value": "return",
+      "start": 949,
+      "end": 955,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 4
+        },
+        "end": {
+          "line": 33,
+          "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2410,6 +7047,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 266,
       "end": 267,
       "loc": {
@@ -2420,13 +7058,31 @@
         "end": {
           "line": 3,
           "column": 153
+=======
+      "value": "decorator",
+      "start": 956,
+      "end": 965,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 11
+        },
+        "end": {
+          "line": 33,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": ";",
         "beforeExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
@@ -2436,6 +7092,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 267,
       "end": 268,
       "loc": {
@@ -2462,6 +7119,18 @@
         "end": {
           "line": 13,
           "column": 3
+=======
+      "start": 965,
+      "end": 966,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 20
+        },
+        "end": {
+          "line": 33,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2479,6 +7148,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "export",
       "start": 378,
       "end": 384,
@@ -2490,6 +7160,19 @@
         "end": {
           "line": 14,
           "column": 6
+=======
+      "value": "apply",
+      "start": 966,
+      "end": 971,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 21
+        },
+        "end": {
+          "line": 33,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2506,6 +7189,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "function",
       "start": 385,
       "end": 393,
@@ -2517,21 +7201,41 @@
         "end": {
           "line": 14,
           "column": 15
+=======
+      "start": 971,
+      "end": 972,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 26
+        },
+        "end": {
+          "line": 33,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "name",
         "beforeExpr": false,
+=======
+        "label": "void",
+        "keyword": "void",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
-        "prefix": false,
+        "prefix": true,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "PartialRight",
       "start": 394,
       "end": 406,
@@ -2543,13 +7247,31 @@
         "end": {
           "line": 14,
           "column": 28
+=======
+      "value": "void",
+      "start": 972,
+      "end": 976,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 27
+        },
+        "end": {
+          "line": 33,
+          "column": 31
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "(",
         "beforeExpr": true,
+=======
+        "label": "num",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -2558,6 +7280,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 406,
       "end": 407,
       "loc": {
@@ -2568,12 +7291,29 @@
         "end": {
           "line": 14,
           "column": 29
+=======
+      "value": 0,
+      "start": 977,
+      "end": 978,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 32
+        },
+        "end": {
+          "line": 33,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "...",
+=======
+        "label": ",",
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2584,6 +7324,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 407,
       "end": 410,
       "loc": {
@@ -2594,6 +7335,18 @@
         "end": {
           "line": 14,
           "column": 32
+=======
+      "start": 978,
+      "end": 979,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 33
+        },
+        "end": {
+          "line": 33,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2610,6 +7363,7 @@
         "binop": null
       },
       "value": "partials",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 410,
       "end": 418,
       "loc": {
@@ -2620,6 +7374,18 @@
         "end": {
           "line": 14,
           "column": 40
+=======
+      "start": 980,
+      "end": 988,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 35
+        },
+        "end": {
+          "line": 33,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2635,6 +7401,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 418,
       "end": 419,
       "loc": {
@@ -2645,14 +7412,32 @@
         "end": {
           "line": 14,
           "column": 41
+=======
+      "start": 988,
+      "end": 989,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 43
+        },
+        "end": {
+          "line": 33,
+          "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "{",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2660,6 +7445,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 420,
       "end": 421,
       "loc": {
@@ -2670,23 +7456,40 @@
         "end": {
           "line": 14,
           "column": 43
+=======
+      "start": 989,
+      "end": 990,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 44
+        },
+        "end": {
+          "line": 33,
+          "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "return",
         "keyword": "return",
         "beforeExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "return",
       "start": 426,
       "end": 432,
@@ -2698,6 +7501,18 @@
         "end": {
           "line": 15,
           "column": 10
+=======
+      "start": 991,
+      "end": 992,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2713,6 +7528,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "decorator",
       "start": 433,
       "end": 442,
@@ -2724,14 +7540,33 @@
         "end": {
           "line": 15,
           "column": 20
+=======
+      "value": "exports",
+      "start": 993,
+      "end": 1000,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2739,6 +7574,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 442,
       "end": 443,
       "loc": {
@@ -2749,22 +7585,40 @@
         "end": {
           "line": 15,
           "column": 21
+=======
+      "start": 1000,
+      "end": 1001,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 7
+        },
+        "end": {
+          "line": 35,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "...",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 443,
       "end": 446,
       "loc": {
@@ -2775,21 +7629,42 @@
         "end": {
           "line": 15,
           "column": 24
+=======
+      "value": "Partial",
+      "start": 1001,
+      "end": 1008,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 8
+        },
+        "end": {
+          "line": 35,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "partials",
       "start": 446,
       "end": 454,
@@ -2801,14 +7676,27 @@
         "end": {
           "line": 15,
           "column": 32
+=======
+      "value": "=",
+      "start": 1009,
+      "end": 1010,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 16
+        },
+        "end": {
+          "line": 35,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2816,6 +7704,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 454,
       "end": 455,
       "loc": {
@@ -2826,6 +7715,19 @@
         "end": {
           "line": 15,
           "column": 33
+=======
+      "value": "Partial",
+      "start": 1011,
+      "end": 1018,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 18
+        },
+        "end": {
+          "line": 35,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2842,6 +7744,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 455,
       "end": 456,
       "loc": {
@@ -2852,14 +7755,32 @@
         "end": {
           "line": 15,
           "column": 34
+=======
+      "start": 1018,
+      "end": 1019,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 25
+        },
+        "end": {
+          "line": 35,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
         "label": "}",
         "beforeExpr": false,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2867,6 +7788,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 457,
       "end": 458,
       "loc": {
@@ -2877,13 +7799,25 @@
         "end": {
           "line": 16,
           "column": 1
+=======
+      "value": "exports",
+      "start": 1020,
+      "end": 1027,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2894,6 +7828,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "export",
       "start": 459,
       "end": 465,
@@ -2905,31 +7840,18 @@
         "end": {
           "line": 17,
           "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 466,
-      "end": 467,
+=======
+      "start": 1027,
+      "end": 1028,
       "loc": {
         "start": {
-          "line": 17,
+          "line": 36,
           "column": 7
         },
         "end": {
-          "line": 17,
+          "line": 36,
           "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2945,6 +7867,47 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "start": 466,
+      "end": 467,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 17,
+          "column": 8
+=======
+      "value": "partial",
+      "start": 1028,
+      "end": 1035,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 8
+        },
+        "end": {
+          "line": 36,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "PartialRight",
       "start": 468,
       "end": 480,
@@ -2956,6 +7919,19 @@
         "end": {
           "line": 17,
           "column": 21
+=======
+      "value": "=",
+      "start": 1036,
+      "end": 1037,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 16
+        },
+        "end": {
+          "line": 36,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -2971,6 +7947,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "as",
       "start": 481,
       "end": 483,
@@ -2982,57 +7959,19 @@
         "end": {
           "line": 17,
           "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "partialRight",
-      "start": 484,
-      "end": 496,
+=======
+      "value": "Partial",
+      "start": 1038,
+      "end": 1045,
       "loc": {
         "start": {
-          "line": 17,
+          "line": 36,
+          "column": 18
+        },
+        "end": {
+          "line": 36,
           "column": 25
-        },
-        "end": {
-          "line": 17,
-          "column": 37
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 497,
-      "end": 498,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 38
-        },
-        "end": {
-          "line": 17,
-          "column": 39
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -3049,23 +7988,75 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 498,
-      "end": 499,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "value": "partialRight",
+      "start": 484,
+      "end": 496,
       "loc": {
         "start": {
           "line": 17,
-          "column": 39
+          "column": 25
         },
         "end": {
           "line": 17,
-          "column": 40
+          "column": 37
+=======
+      "start": 1045,
+      "end": 1046,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 25
+        },
+        "end": {
+          "line": 36,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "start": 497,
+      "end": 498,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 38
+        },
+        "end": {
+          "line": 17,
+          "column": 39
+=======
+      "value": "exports",
+      "start": 1047,
+      "end": 1054,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -3076,17 +8067,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 500,
-      "end": 506,
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "start": 498,
+      "end": 499,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 0
+          "line": 17,
+          "column": 39
         },
         "end": {
-          "line": 18,
-          "column": 6
+          "line": 17,
+          "column": 40
+=======
+      "start": 1054,
+      "end": 1055,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 7
+        },
+        "end": {
+          "line": 37,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -3104,6 +8107,48 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
+      "value": "export",
+      "start": 500,
+      "end": 506,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 6
+=======
+      "value": "default",
+      "start": 1055,
+      "end": 1062,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "value": "default",
       "start": 507,
       "end": 514,
@@ -3115,6 +8160,19 @@
         "end": {
           "line": 18,
           "column": 14
+=======
+      "value": "=",
+      "start": 1063,
+      "end": 1064,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 16
+        },
+        "end": {
+          "line": 37,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -3131,6 +8189,7 @@
         "binop": null
       },
       "value": "decorator",
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 515,
       "end": 524,
       "loc": {
@@ -3141,6 +8200,18 @@
         "end": {
           "line": 18,
           "column": 24
+=======
+      "start": 1065,
+      "end": 1074,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 18
+        },
+        "end": {
+          "line": 37,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -3157,6 +8228,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 524,
       "end": 525,
       "loc": {
@@ -3167,6 +8239,18 @@
         "end": {
           "line": 18,
           "column": 25
+=======
+      "start": 1074,
+      "end": 1075,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 27
+        },
+        "end": {
+          "line": 37,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
         }
       }
     },
@@ -3183,6 +8267,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/partialRight.ts.json
       "start": 526,
       "end": 526,
       "loc": {
@@ -3192,6 +8277,17 @@
         },
         "end": {
           "line": 19,
+=======
+      "start": 1076,
+      "end": 1076,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+>>>>>>> esm-cjs-build:docs/ast/source/partial.js.json
           "column": 0
         }
       }

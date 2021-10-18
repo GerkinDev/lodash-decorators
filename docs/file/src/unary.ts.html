@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/file/src/unary.ts.html
   <title data-ice="title">src/unary.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/onceAll.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/onceAll.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/unary.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -125,6 +130,40 @@ export const Unary = DecoratorFactory.createDecorator(
 ) as BiTypedMethodDecorator;
 export { Unary as unary };
 export default Unary;
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/onceAll.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var once_1 = require(&quot;lodash/once&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+/**
+ * Creates a function that is restricted to invoking func once. Repeat calls to the function return the value of the first invocation.
+ * This is shared across all instances of the class.
+ * @example
+ * const value = 0;
+ *
+ * class MyClass {
+ *   @Once()
+ *   fn(): number {
+ *     return ++value;
+ *   }
+ * }
+ *
+ * const myClass = new MyClass();
+ * const myClass2 = new MyClass();
+ *
+ * myClass.fn(); //=&gt; 1
+ * myClass2.fn(); //=&gt; 1
+ */
+exports.OnceAll = factory_1.DecoratorFactory.createDecorator(new factory_1.DecoratorConfig(once_1.default, new applicators_1.PreValueApplicator(), { setter: true, optionalParams: true }));
+exports.onceAll = exports.OnceAll;
+exports.default = exports.OnceAll;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/onceAll.js.html
 </code></pre>
 
 </div>

@@ -2,8 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+<<<<<<< HEAD:docs/test-file/src/utils/wrapConstructor.spec.ts.html
   <base data-ice="baseUrl" href="../../../">
   <title data-ice="title">src/utils/wrapConstructor.spec.ts | Lodash Decorators Documentation</title>
+=======
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">buildDocs/partial.spec.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/partial.spec.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +34,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/test-file/src/utils/wrapConstructor.spec.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -127,6 +133,36 @@ describe(&apos;when wrapping a constructor&apos;, () =&gt; {
 
     expect(Wrapper.name).to.equal(&apos;Test&apos;);
   });
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/partial.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var tslib_1 = require(&quot;tslib&quot;);
+var chai_1 = require(&quot;chai&quot;);
+var partial_1 = require(&quot;./partial&quot;);
+describe(&apos;partial&apos;, function () {
+    it(&apos;should create a partially applied function&apos;, function () {
+        var MyClass = (function () {
+            function MyClass() {
+                this.lastName = &apos;Schmo&apos;;
+            }
+            MyClass.prototype.fn = function (name) {
+                return name + &quot; &quot; + this.lastName;
+            };
+            return MyClass;
+        }());
+        tslib_1.__decorate([
+            partial_1.Partial(&apos;fn&apos;, &apos;Joe&apos;)
+        ], MyClass.prototype, &quot;fn2&quot;, void 0);
+        var myClass = new MyClass();
+        chai_1.expect(myClass.fn2).to.be.a(&apos;function&apos;);
+        chai_1.expect(myClass.fn2()).to.equal(&apos;Joe Schmo&apos;);
+    });
+>>>>>>> esm-cjs-build:docs/test-file/buildDocs/partial.spec.js.html
 });
 </code></pre>
 

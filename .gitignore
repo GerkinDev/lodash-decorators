@@ -13,3 +13,4 @@ src/**/*.js
 src/**/*.map
 .history
 !/.eslintrc.js
+dist

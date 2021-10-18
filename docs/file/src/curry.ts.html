@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/file/src/curry.ts.html
   <title data-ice="title">src/curry.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/curry.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curry.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/curry.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -120,6 +125,18 @@
 import { DecoratorConfig, DecoratorFactory, BiTypedMethodDecorator1 } from &apos;./factory&apos;;
 import { PreValueApplicator } from &apos;./applicators&apos;;
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/curry.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var curry_1 = require(&quot;lodash/curry&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curry.js.html
 /**
  * Creates a function that accepts arguments of func and either invokes func returning its result, if at least arity number of arguments have been provided, or returns a function that accepts the remaining func arguments, and so on.
  * The arity of func may be specified if func.length is not sufficient.
@@ -147,11 +164,17 @@ import { PreValueApplicator } from &apos;./applicators&apos;;
  *
  * add5AndMultiply(10); // =&gt; 30
  */
+<<<<<<< HEAD:docs/file/src/curry.ts.html
 export const Curry = DecoratorFactory.createInstanceDecorator(
   new DecoratorConfig(curry, new PreValueApplicator(), { bound: true, optionalParams: true })
 ) as BiTypedMethodDecorator1&lt;number&gt;;
 export { Curry as curry };
 export default Curry;
+=======
+exports.Curry = factory_1.DecoratorFactory.createInstanceDecorator(new factory_1.DecoratorConfig(curry_1.default, new applicators_1.PreValueApplicator(), { bound: true, optionalParams: true }));
+exports.curry = exports.Curry;
+exports.default = exports.Curry;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/curry.js.html
 </code></pre>
 
 </div>

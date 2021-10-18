@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
   "end": 299,
+=======
+  "end": 438,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "line": 6,
+=======
+      "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
     "end": 299,
+=======
+    "end": 438,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "line": 6,
+=======
+        "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "line": 1,
             "column": 62
           }
@@ -69,13 +92,60 @@
                 "end": {
                   "line": 1,
                   "column": 24
-                },
-                "identifierName": "DecoratorConfig"
-              },
-              "name": "DecoratorConfig"
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
             },
-            "local": {
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
               "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "start": 9,
               "end": 24,
               "loc": {
@@ -105,9 +175,29 @@
                 "line": 1,
                 "column": 42
               }
+=======
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
             },
-            "imported": {
+            "computed": false
+          },
+          "arguments": [
+            {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +208,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 2,
+                  "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "DecoratorFactory"
+              "name": "exports"
             },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -154,31 +257,127 @@
             "end": {
               "line": 1,
               "column": 61
+=======
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
             }
-          },
-          "extra": {
-            "rawValue": "./factory",
-            "raw": "'./factory'"
-          },
-          "value": "./factory"
+          ]
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "type": "ImportDeclaration",
         "start": 63,
         "end": 114,
+=======
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 115,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "loc": {
           "start": {
             "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "line": 2,
             "column": 51
+=======
+            "line": 3,
+            "column": 38
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 90,
@@ -190,10 +389,24 @@
               "end": {
                 "line": 2,
                 "column": 27
+=======
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 114,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 37
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "start": 72,
               "end": 90,
               "loc": {
@@ -204,11 +417,24 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+              "start": 81,
+              "end": 88,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 11
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                },
+                "identifierName": "unary_1"
               },
-              "name": "PreValueApplicator"
+              "name": "unary_1"
             },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "local": {
               "type": "Identifier",
               "start": 72,
@@ -221,13 +447,65 @@
                 "end": {
                   "line": 2,
                   "column": 27
+=======
+            "init": {
+              "type": "CallExpression",
+              "start": 91,
+              "end": 114,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
                 },
-                "identifierName": "PreValueApplicator"
+                "end": {
+                  "line": 3,
+                  "column": 37
+                }
               },
-              "name": "PreValueApplicator"
+              "callee": {
+                "type": "Identifier",
+                "start": 91,
+                "end": 98,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 14
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 21
+                  },
+                  "identifierName": "require"
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 99,
+                  "end": 113,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 22
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 36
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/unary",
+                    "raw": "\"lodash/unary\""
+                  },
+                  "value": "lodash/unary"
+                }
+              ]
             }
           }
         ],
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "source": {
           "type": "StringLiteral",
           "start": 98,
@@ -253,12 +531,21 @@
         "type": "ExportNamedDeclaration",
         "start": 115,
         "end": 249,
+=======
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 116,
+        "end": 153,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "loc": {
           "start": {
             "line": 3,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
             "line": 3,
             "column": 134
           }
@@ -287,15 +574,66 @@
               "loc": {
                 "start": {
                   "line": 3,
-                  "column": 13
+=======
+            "line": 4,
+            "column": 37
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 120,
+            "end": 152,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 120,
+              "end": 129,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
                 },
                 "end": {
+                  "line": 4,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 132,
+              "end": 152,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                   "line": 3,
                   "column": 133
+=======
+                  "line": 4,
+                  "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                 "start": 128,
                 "end": 133,
                 "loc": {
@@ -306,11 +644,111 @@
                   "end": {
                     "line": 3,
                     "column": 18
+=======
+                "start": 132,
+                "end": 139,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
                   },
-                  "identifierName": "Unary"
+                  "end": {
+                    "line": 4,
+                    "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                  },
+                  "identifierName": "require"
                 },
-                "name": "Unary"
+                "name": "require"
               },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 140,
+                  "end": 151,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 154,
+        "end": 199,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 158,
+            "end": 198,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 158,
+              "end": 171,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 174,
+              "end": 198,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+                }
+              },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "init": {
                 "type": "CallExpression",
                 "start": 136,
@@ -372,11 +810,296 @@
                       "identifierName": "createDecorator"
                     },
                     "name": "createDecorator"
+=======
+              "callee": {
+                "type": "Identifier",
+                "start": 174,
+                "end": 181,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 182,
+                  "end": 197,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 200,
+        "end": 373,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 173
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 200,
+          "end": 372,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 6,
+              "column": 172
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 200,
+            "end": 213,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 13
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 200,
+              "end": 207,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 0
+                },
+                "end": {
+                  "line": 6,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 208,
+              "end": 213,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 8
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "Unary"
+              },
+              "name": "Unary"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "CallExpression",
+            "start": 216,
+            "end": 372,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 16
+              },
+              "end": {
+                "line": 6,
+                "column": 172
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 216,
+              "end": 258,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 58
+                }
+              },
+              "object": {
+                "type": "MemberExpression",
+                "start": 216,
+                "end": 242,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 42
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 216,
+                  "end": 225,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 25
+                    },
+                    "identifierName": "factory_1"
+                  },
+                  "name": "factory_1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 226,
+                  "end": 242,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 26
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    },
+                    "identifierName": "DecoratorFactory"
+                  },
+                  "name": "DecoratorFactory"
+                },
+                "computed": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 243,
+                "end": 258,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 43
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 58
+                  },
+                  "identifierName": "createDecorator"
+                },
+                "name": "createDecorator"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 259,
+                "end": 371,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 59
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 171
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 263,
+                  "end": 288,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 63
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 88
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 263,
+                    "end": 272,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 63
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 72
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 273,
+                    "end": 288,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 73
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 88
+                      },
+                      "identifierName": "DecoratorConfig"
+                    },
+                    "name": "DecoratorConfig"
                   },
                   "computed": false
                 },
                 "arguments": [
                   {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                     "type": "NewExpression",
                     "start": 169,
                     "end": 247,
@@ -388,10 +1111,24 @@
                       "end": {
                         "line": 3,
                         "column": 132
+=======
+                    "type": "MemberExpression",
+                    "start": 289,
+                    "end": 304,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 89
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 104
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                       "start": 173,
                       "end": 188,
                       "loc": {
@@ -402,14 +1139,90 @@
                         "end": {
                           "line": 3,
                           "column": 73
+=======
+                      "start": 289,
+                      "end": 296,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 89
                         },
-                        "identifierName": "DecoratorConfig"
+                        "end": {
+                          "line": 6,
+                          "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                        },
+                        "identifierName": "unary_1"
                       },
-                      "name": "DecoratorConfig"
+                      "name": "unary_1"
                     },
-                    "arguments": [
-                      {
+                    "property": {
+                      "type": "Identifier",
+                      "start": 297,
+                      "end": 304,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 97
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 104
+                        },
+                        "identifierName": "default"
+                      },
+                      "name": "default"
+                    },
+                    "computed": false
+                  },
+                  {
+                    "type": "NewExpression",
+                    "start": 306,
+                    "end": 344,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 106
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 144
+                      }
+                    },
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 310,
+                      "end": 342,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 110
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 142
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+                        "start": 310,
+                        "end": 323,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 110
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 123
+                          },
+                          "identifierName": "applicators_1"
+                        },
+                        "name": "applicators_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                         "start": 189,
                         "end": 194,
                         "loc": {
@@ -420,12 +1233,44 @@
                           "end": {
                             "line": 3,
                             "column": 79
+=======
+                        "start": 324,
+                        "end": 342,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 124
                           },
-                          "identifierName": "unary"
+                          "end": {
+                            "line": 6,
+                            "column": 142
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                          },
+                          "identifierName": "PreValueApplicator"
                         },
-                        "name": "unary"
+                        "name": "PreValueApplicator"
                       },
+                      "computed": false
+                    },
+                    "arguments": []
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 346,
+                    "end": 370,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 146
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 170
+                      }
+                    },
+                    "properties": [
                       {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                         "type": "NewExpression",
                         "start": 196,
                         "end": 220,
@@ -437,10 +1282,27 @@
                           "end": {
                             "line": 3,
                             "column": 105
+=======
+                        "type": "ObjectProperty",
+                        "start": 348,
+                        "end": 368,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 148
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 168
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
                           }
                         },
-                        "callee": {
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
                           "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                           "start": 200,
                           "end": 218,
                           "loc": {
@@ -451,11 +1313,24 @@
                             "end": {
                               "line": 3,
                               "column": 103
+=======
+                          "start": 348,
+                          "end": 362,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 148
                             },
-                            "identifierName": "PreValueApplicator"
+                            "end": {
+                              "line": 6,
+                              "column": 162
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                            },
+                            "identifierName": "optionalParams"
                           },
-                          "name": "PreValueApplicator"
+                          "name": "optionalParams"
                         },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
                         "arguments": []
                       },
                       {
@@ -525,19 +1400,35 @@
                             }
                           }
                         ]
+=======
+                        "value": {
+                          "type": "BooleanLiteral",
+                          "start": 364,
+                          "end": 368,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 164
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 168
+                            }
+                          },
+                          "value": true
+                        }
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
                       }
                     ]
                   }
                 ]
               }
-            }
-          ],
-          "kind": "const",
-          "leadingComments": [],
-          "trailingComments": []
+            ]
+          }
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "type": "ExportNamedDeclaration",
         "start": 250,
         "end": 276,
@@ -565,10 +1456,53 @@
               "end": {
                 "line": 4,
                 "column": 23
+=======
+        "type": "ExpressionStatement",
+        "start": 374,
+        "end": 404,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 30
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 374,
+          "end": 403,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 7,
+              "column": 29
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 374,
+            "end": 387,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
               }
             },
-            "local": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "start": 259,
               "end": 264,
               "loc": {
@@ -579,13 +1513,26 @@
                 "end": {
                   "line": 4,
                   "column": 14
+=======
+              "start": 374,
+              "end": 381,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 0
                 },
-                "identifierName": "Unary"
+                "end": {
+                  "line": 7,
+                  "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "Unary"
+              "name": "exports"
             },
-            "exported": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
               "start": 268,
               "end": 273,
               "loc": {
@@ -596,15 +1543,1073 @@
                 "end": {
                   "line": 4,
                   "column": 23
+=======
+              "start": 382,
+              "end": 387,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 8
+                },
+                "end": {
+                  "line": 7,
+                  "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
                 },
                 "identifierName": "unary"
               },
               "name": "unary"
-            }
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 390,
+            "end": 403,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 16
+              },
+              "end": {
+                "line": 7,
+                "column": 29
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 397,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 16
+                },
+                "end": {
+                  "line": 7,
+                  "column": 23
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 403,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 24
+                },
+                "end": {
+                  "line": 7,
+                  "column": 29
+                },
+                "identifierName": "Unary"
+              },
+              "name": "Unary"
+            },
+            "computed": false
           }
-        ],
-        "source": null
+        }
       },
+      {
+        "type": "ExpressionStatement",
+        "start": 405,
+        "end": 437,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": 32
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 405,
+          "end": 436,
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 405,
+            "end": 420,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 412,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 0
+                },
+                "end": {
+                  "line": 8,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 420,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 8
+                },
+                "end": {
+                  "line": 8,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 423,
+            "end": 436,
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 18
+              },
+              "end": {
+                "line": 8,
+                "column": 31
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 423,
+              "end": 430,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 18
+                },
+                "end": {
+                  "line": 8,
+                  "column": 25
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 431,
+              "end": 436,
+              "loc": {
+                "start": {
+                  "line": 8,
+                  "column": 26
+                },
+                "end": {
+                  "line": 8,
+                  "column": 31
+                },
+                "identifierName": "Unary"
+              },
+              "name": "Unary"
+            },
+            "computed": false
+          }
+        }
+      }
+    ],
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
+  },
+  "comments": [],
+  "tokens": [
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "use strict",
+      "start": 0,
+      "end": 12,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "unary_1",
+      "start": 81,
+      "end": 88,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 89,
+      "end": 90,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 12
+        },
+        "end": {
+          "line": 3,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 91,
+      "end": 98,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 14
+        },
+        "end": {
+          "line": 3,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 98,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/unary",
+      "start": 99,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 3,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 113,
+      "end": 114,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 36
+        },
+        "end": {
+          "line": 3,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 114,
+      "end": 115,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 37
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 116,
+      "end": 119,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 120,
+      "end": 129,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 130,
+      "end": 131,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 132,
+      "end": 139,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 139,
+      "end": 140,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "./factory",
+      "start": 140,
+      "end": 151,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       {
         "type": "ExportDefaultDeclaration",
         "start": 277,
@@ -637,19 +2642,33 @@
           "name": "Unary",
           "leadingComments": [],
           "trailingComments": []
+=======
+      "start": 151,
+      "end": 152,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
-    ],
-    "directives": []
-  },
-  "comments": [],
-  "tokens": [
+    },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "import",
         "keyword": "import",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -658,42 +2677,44 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
-      "start": 0,
-      "end": 6,
+      "start": 152,
+      "end": 153,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 0
+          "line": 4,
+          "column": 36
         },
         "end": {
-          "line": 1,
-          "column": 6
+          "line": 4,
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
-      "start": 7,
-      "end": 8,
+      "value": "var",
+      "start": 154,
+      "end": 157,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 7
+          "line": 5,
+          "column": 0
         },
         "end": {
-          "line": 1,
-          "column": 8
+          "line": 5,
+          "column": 3
         }
       }
     },
@@ -709,15 +2730,22 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "DecoratorConfig",
       "start": 9,
       "end": 24,
+=======
+      "value": "applicators_1",
+      "start": 158,
+      "end": 171,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
       "loc": {
         "start": {
-          "line": 1,
-          "column": 9
+          "line": 5,
+          "column": 4
         },
         "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
           "line": 1,
           "column": 24
         }
@@ -772,21 +2800,27 @@
         "end": {
           "line": 1,
           "column": 42
+=======
+          "line": 5,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "}",
-        "beforeExpr": false,
+        "label": "=",
+        "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 43,
       "end": 44,
       "loc": {
@@ -797,6 +2831,19 @@
         "end": {
           "line": 1,
           "column": 44
+=======
+      "value": "=",
+      "start": 172,
+      "end": 173,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -812,6 +2859,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "from",
       "start": 45,
       "end": 49,
@@ -823,6 +2871,44 @@
         "end": {
           "line": 1,
           "column": 49
+=======
+      "value": "require",
+      "start": 174,
+      "end": 181,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 181,
+      "end": 182,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 5,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -839,6 +2925,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "./factory",
       "start": 50,
       "end": 61,
@@ -850,6 +2937,44 @@
         "end": {
           "line": 1,
           "column": 61
+=======
+      "value": "./applicators",
+      "start": 182,
+      "end": 197,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 28
+        },
+        "end": {
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 197,
+      "end": 198,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -866,6 +2991,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 61,
       "end": 62,
       "loc": {
@@ -876,13 +3002,50 @@
         "end": {
           "line": 1,
           "column": 62
+=======
+      "start": 198,
+      "end": 199,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 44
+        },
+        "end": {
+          "line": 5,
+          "column": 45
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 200,
+      "end": 207,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -893,41 +3056,21 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "import",
       "start": 63,
       "end": 69,
+=======
+      "start": 207,
+      "end": 208,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
       "loc": {
         "start": {
-          "line": 2,
-          "column": 0
-        },
-        "end": {
-          "line": 2,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 70,
-      "end": 71,
-      "loc": {
-        "start": {
-          "line": 2,
+          "line": 6,
           "column": 7
         },
         "end": {
-          "line": 2,
+          "line": 6,
           "column": 8
         }
       }
@@ -944,203 +3087,22 @@
         "postfix": false,
         "binop": null
       },
-      "value": "PreValueApplicator",
-      "start": 72,
-      "end": 90,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 91,
-      "end": 92,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 28
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 93,
-      "end": 97,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 30
-        },
-        "end": {
-          "line": 2,
-          "column": 34
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "./applicators",
-      "start": 98,
-      "end": 113,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 35
-        },
-        "end": {
-          "line": 2,
-          "column": 50
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 113,
-      "end": 114,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 50
-        },
-        "end": {
-          "line": 2,
-          "column": 51
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "export",
-        "keyword": "export",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "export",
-      "start": 115,
-      "end": 121,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 0
-        },
-        "end": {
-          "line": 3,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "const",
-        "keyword": "const",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "const",
-      "start": 122,
-      "end": 127,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 3,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 70,
+      "end": 71,
+=======
       "value": "Unary",
-      "start": 128,
-      "end": 133,
+      "start": 208,
+      "end": 213,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
       "loc": {
         "start": {
-          "line": 3,
-          "column": 13
+          "line": 6,
+          "column": 8
         },
         "end": {
-          "line": 3,
-          "column": 18
+          "line": 6,
+          "column": 13
         }
       }
     },
@@ -1158,16 +3120,16 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 134,
-      "end": 135,
+      "start": 214,
+      "end": 215,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 19
+          "line": 6,
+          "column": 14
         },
         "end": {
-          "line": 3,
-          "column": 20
+          "line": 6,
+          "column": 15
         }
       }
     },
@@ -1183,6 +3145,430 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "PreValueApplicator",
+      "start": 72,
+      "end": 90,
+=======
+      "value": "factory_1",
+      "start": 216,
+      "end": 225,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+          "line": 2,
+          "column": 27
+=======
+          "line": 6,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "}",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 91,
+      "end": 92,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 28
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+=======
+      "start": 225,
+      "end": 226,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "from",
+      "start": 93,
+      "end": 97,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 30
+        },
+        "end": {
+          "line": 2,
+          "column": 34
+=======
+      "value": "DecoratorFactory",
+      "start": 226,
+      "end": 242,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "string",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "./applicators",
+      "start": 98,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 35
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 242,
+      "end": 243,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "createDecorator",
+      "start": 243,
+      "end": 258,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 113,
+      "end": 114,
+=======
+      "start": 258,
+      "end": 259,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 58
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+          "line": 2,
+          "column": 51
+=======
+          "line": 6,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "new",
+      "start": 259,
+      "end": 262,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 59
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "export",
+        "keyword": "export",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "export",
+      "start": 115,
+      "end": 121,
+=======
+      "value": "factory_1",
+      "start": 263,
+      "end": 272,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 63
+        },
+        "end": {
+          "line": 6,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "const",
+        "keyword": "const",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "const",
+      "start": 122,
+      "end": 127,
+=======
+      "start": 272,
+      "end": 273,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 72
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+          "line": 3,
+          "column": 12
+=======
+          "line": 6,
+          "column": 73
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "Unary",
+      "start": 128,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 18
+=======
+      "value": "DecoratorConfig",
+      "start": 273,
+      "end": 288,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 73
+        },
+        "end": {
+          "line": 6,
+          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "=",
+      "start": 134,
+      "end": 135,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 20
+=======
+      "start": 288,
+      "end": 289,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 88
+        },
+        "end": {
+          "line": 6,
+          "column": 89
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "DecoratorFactory",
       "start": 136,
       "end": 152,
@@ -1194,6 +3580,19 @@
         "end": {
           "line": 3,
           "column": 37
+=======
+      "value": "unary_1",
+      "start": 289,
+      "end": 296,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 89
+        },
+        "end": {
+          "line": 6,
+          "column": 96
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1210,6 +3609,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 152,
       "end": 153,
       "loc": {
@@ -1220,14 +3620,33 @@
         "end": {
           "line": 3,
           "column": 38
+=======
+      "start": 296,
+      "end": 297,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 96
+        },
+        "end": {
+          "line": 6,
+          "column": 97
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1235,6 +3654,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "createDecorator",
       "start": 153,
       "end": 168,
@@ -1246,14 +3666,33 @@
         "end": {
           "line": 3,
           "column": 53
+=======
+      "value": "default",
+      "start": 297,
+      "end": 304,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 97
+        },
+        "end": {
+          "line": 6,
+          "column": 104
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1261,6 +3700,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 168,
       "end": 169,
       "loc": {
@@ -1271,6 +3711,18 @@
         "end": {
           "line": 3,
           "column": 54
+=======
+      "start": 304,
+      "end": 305,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 104
+        },
+        "end": {
+          "line": 6,
+          "column": 105
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1289,6 +3741,7 @@
         "updateContext": null
       },
       "value": "new",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 169,
       "end": 172,
       "loc": {
@@ -1299,6 +3752,18 @@
         "end": {
           "line": 3,
           "column": 57
+=======
+      "start": 306,
+      "end": 309,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 106
+        },
+        "end": {
+          "line": 6,
+          "column": 109
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1314,6 +3779,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "DecoratorConfig",
       "start": 173,
       "end": 188,
@@ -1325,14 +3791,33 @@
         "end": {
           "line": 3,
           "column": 73
+=======
+      "value": "applicators_1",
+      "start": 310,
+      "end": 323,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 110
+        },
+        "end": {
+          "line": 6,
+          "column": 123
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1340,6 +3825,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 188,
       "end": 189,
       "loc": {
@@ -1350,6 +3836,18 @@
         "end": {
           "line": 3,
           "column": 74
+=======
+      "start": 323,
+      "end": 324,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 123
+        },
+        "end": {
+          "line": 6,
+          "column": 124
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1365,6 +3863,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "unary",
       "start": 189,
       "end": 194,
@@ -1376,22 +3875,41 @@
         "end": {
           "line": 3,
           "column": 79
+=======
+      "value": "PreValueApplicator",
+      "start": 324,
+      "end": 342,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 124
+        },
+        "end": {
+          "line": 6,
+          "column": 142
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 194,
       "end": 195,
       "loc": {
@@ -1402,15 +3920,33 @@
         "end": {
           "line": 3,
           "column": 80
+=======
+      "start": 342,
+      "end": 343,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 142
+        },
+        "end": {
+          "line": 6,
+          "column": 143
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "new",
         "keyword": "new",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1419,6 +3955,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "new",
       "start": 196,
       "end": 199,
@@ -1430,21 +3967,41 @@
         "end": {
           "line": 3,
           "column": 84
+=======
+      "start": 343,
+      "end": 344,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 143
+        },
+        "end": {
+          "line": 6,
+          "column": 144
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "PreValueApplicator",
       "start": 200,
       "end": 218,
@@ -1456,12 +4013,28 @@
         "end": {
           "line": 3,
           "column": 103
+=======
+      "start": 344,
+      "end": 345,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 144
+        },
+        "end": {
+          "line": 6,
+          "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "(",
+=======
+        "label": "{",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1471,6 +4044,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 218,
       "end": 219,
       "loc": {
@@ -1481,6 +4055,18 @@
         "end": {
           "line": 3,
           "column": 104
+=======
+      "start": 346,
+      "end": 347,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 146
+        },
+        "end": {
+          "line": 6,
+          "column": 147
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1496,6 +4082,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 219,
       "end": 220,
       "loc": {
@@ -1506,12 +4093,29 @@
         "end": {
           "line": 3,
           "column": 105
+=======
+      "value": "optionalParams",
+      "start": 348,
+      "end": 362,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 148
+        },
+        "end": {
+          "line": 6,
+          "column": 162
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": ",",
+=======
+        "label": ":",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1522,31 +4126,48 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 220,
-      "end": 221,
+      "start": 362,
+      "end": 363,
       "loc": {
         "start": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
           "line": 3,
           "column": 105
         },
         "end": {
           "line": 3,
           "column": 106
+=======
+          "line": 6,
+          "column": 162
+        },
+        "end": {
+          "line": 6,
+          "column": 163
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "{",
         "beforeExpr": true,
+=======
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 222,
       "end": 223,
       "loc": {
@@ -1557,14 +4178,33 @@
         "end": {
           "line": 3,
           "column": 108
+=======
+      "value": "true",
+      "start": 364,
+      "end": 368,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 164
+        },
+        "end": {
+          "line": 6,
+          "column": 168
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1572,6 +4212,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "optionalParams",
       "start": 224,
       "end": 238,
@@ -1583,22 +4224,39 @@
         "end": {
           "line": 3,
           "column": 123
+=======
+      "start": 369,
+      "end": 370,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 169
+        },
+        "end": {
+          "line": 6,
+          "column": 170
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": ":",
         "beforeExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 238,
       "end": 239,
       "loc": {
@@ -1609,20 +4267,37 @@
         "end": {
           "line": 3,
           "column": 124
+=======
+      "start": 370,
+      "end": 371,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 170
+        },
+        "end": {
+          "line": 6,
+          "column": 171
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "label": "true",
         "keyword": "true",
+=======
+        "label": ")",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
         "binop": null,
         "updateContext": null
       },
@@ -1637,81 +4312,19 @@
         "end": {
           "line": 3,
           "column": 129
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
+=======
         "binop": null
       },
-      "start": 245,
-      "end": 246,
+      "start": 371,
+      "end": 372,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 130
+          "line": 6,
+          "column": 171
         },
         "end": {
-          "line": 3,
-          "column": 131
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 246,
-      "end": 247,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 131
-        },
-        "end": {
-          "line": 3,
-          "column": 132
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 247,
-      "end": 248,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 132
-        },
-        "end": {
-          "line": 3,
-          "column": 133
+          "line": 6,
+          "column": 172
         }
       }
     },
@@ -1728,23 +4341,66 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 248,
-      "end": 249,
+      "start": 372,
+      "end": 373,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 133
+          "line": 6,
+          "column": 172
         },
         "end": {
-          "line": 3,
-          "column": 134
+          "line": 6,
+          "column": 173
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+        "label": "}",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 130
+        },
+        "end": {
+          "line": 3,
+          "column": 131
+=======
+      "value": "exports",
+      "start": 374,
+      "end": 381,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1755,6 +4411,124 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 246,
+      "end": 247,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 131
+        },
+        "end": {
+          "line": 3,
+          "column": 132
+=======
+      "start": 381,
+      "end": 382,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 247,
+      "end": 248,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 132
+        },
+        "end": {
+          "line": 3,
+          "column": 133
+=======
+      "value": "unary",
+      "start": 382,
+      "end": 387,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 248,
+      "end": 249,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 133
+        },
+        "end": {
+          "line": 3,
+          "column": 134
+=======
+      "value": "=",
+      "start": 388,
+      "end": 389,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 14
+        },
+        "end": {
+          "line": 7,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "export",
       "start": 250,
       "end": 256,
@@ -1766,21 +4540,36 @@
         "end": {
           "line": 4,
           "column": 6
+=======
+      "value": "exports",
+      "start": 390,
+      "end": 397,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 16
+        },
+        "end": {
+          "line": 7,
+          "column": 23
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 257,
       "end": 258,
       "loc": {
@@ -1791,6 +4580,18 @@
         "end": {
           "line": 4,
           "column": 8
+=======
+      "start": 397,
+      "end": 398,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 23
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1807,6 +4608,7 @@
         "binop": null
       },
       "value": "Unary",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 259,
       "end": 264,
       "loc": {
@@ -1817,83 +4619,18 @@
         "end": {
           "line": 4,
           "column": 14
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "as",
-      "start": 265,
-      "end": 267,
+=======
+      "start": 398,
+      "end": 403,
       "loc": {
         "start": {
-          "line": 4,
-          "column": 15
-        },
-        "end": {
-          "line": 4,
-          "column": 17
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "unary",
-      "start": 268,
-      "end": 273,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 18
-        },
-        "end": {
-          "line": 4,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 274,
-      "end": 275,
-      "loc": {
-        "start": {
-          "line": 4,
+          "line": 7,
           "column": 24
         },
         "end": {
-          "line": 4,
-          "column": 25
+          "line": 7,
+          "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1910,23 +4647,76 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 275,
-      "end": 276,
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "as",
+      "start": 265,
+      "end": 267,
       "loc": {
         "start": {
           "line": 4,
-          "column": 25
+          "column": 15
         },
         "end": {
           "line": 4,
-          "column": 26
+          "column": 17
+=======
+      "start": 403,
+      "end": 404,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 29
+        },
+        "end": {
+          "line": 7,
+          "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "unary",
+      "start": 268,
+      "end": 273,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+=======
+      "value": "exports",
+      "start": 405,
+      "end": 412,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1937,17 +4727,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 277,
-      "end": 283,
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 274,
+      "end": 275,
       "loc": {
         "start": {
-          "line": 5,
-          "column": 0
+          "line": 4,
+          "column": 24
         },
         "end": {
-          "line": 5,
-          "column": 6
+          "line": 4,
+          "column": 25
+=======
+      "start": 412,
+      "end": 413,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 8,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1965,6 +4767,114 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "start": 275,
+      "end": 276,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 25
+        },
+        "end": {
+          "line": 4,
+          "column": 26
+=======
+      "value": "default",
+      "start": 413,
+      "end": 420,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
+      "value": "export",
+      "start": 277,
+      "end": 283,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 6
+=======
+      "value": "=",
+      "start": 421,
+      "end": 422,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 16
+        },
+        "end": {
+          "line": 8,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 423,
+      "end": 430,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 18
+        },
+        "end": {
+          "line": 8,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "value": "default",
       "start": 284,
       "end": 291,
@@ -1976,6 +4886,18 @@
         "end": {
           "line": 5,
           "column": 14
+=======
+      "start": 430,
+      "end": 431,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 25
+        },
+        "end": {
+          "line": 8,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -1992,6 +4914,7 @@
         "binop": null
       },
       "value": "Unary",
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 292,
       "end": 297,
       "loc": {
@@ -2002,6 +4925,18 @@
         "end": {
           "line": 5,
           "column": 20
+=======
+      "start": 431,
+      "end": 436,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 26
+        },
+        "end": {
+          "line": 8,
+          "column": 31
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -2018,6 +4953,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 297,
       "end": 298,
       "loc": {
@@ -2028,6 +4964,18 @@
         "end": {
           "line": 5,
           "column": 21
+=======
+      "start": 436,
+      "end": 437,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 31
+        },
+        "end": {
+          "line": 8,
+          "column": 32
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
         }
       }
     },
@@ -2044,6 +4992,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/unary.ts.json
       "start": 299,
       "end": 299,
       "loc": {
@@ -2053,6 +5002,17 @@
         },
         "end": {
           "line": 6,
+=======
+      "start": 438,
+      "end": 438,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/unary.js.json
           "column": 0
         }
       }

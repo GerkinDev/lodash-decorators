@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
+<<<<<<< HEAD:docs/file/src/mixin.ts.html
   <title data-ice="title">src/mixin.ts | Lodash Decorators Documentation</title>
+=======
+  <title data-ice="title">buildDocs/delay.js | Lodash Decorators Documentation</title>
+>>>>>>> esm-cjs-build:docs/file/buildDocs/delay.js.html
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -29,6 +33,7 @@
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
+<<<<<<< HEAD:docs/file/src/mixin.ts.html
   <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-After">After</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-AfterAll">AfterAll</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Ary">Ary</a></span></span></li>
@@ -117,6 +122,31 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/mixin.ts</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assign = require(&apos;lodash/assign&apos;);
 
+=======
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">buildDocs/delay.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&quot;use strict&quot;;
+Object.defineProperty(exports, &quot;__esModule&quot;, { value: true });
+var delay_1 = require(&quot;lodash/delay&quot;);
+var factory_1 = require(&quot;./factory&quot;);
+var applicators_1 = require(&quot;./applicators&quot;);
+var decorator = factory_1.DecoratorFactory.createDecorator(new factory_1.DecoratorConfig(function (value, wait) {
+    var args = [];
+    for (var _i = 2; _i &lt; arguments.length; _i++) {
+        args[_i - 2] = arguments[_i];
+    }
+    return function () {
+        var invokeArgs = [];
+        for (var _i = 0; _i &lt; arguments.length; _i++) {
+            invokeArgs[_i] = arguments[_i];
+        }
+        return delay_1.default.apply(void 0, [value.bind(this), wait].concat(invokeArgs, args));
+    };
+}, new applicators_1.PreValueApplicator(), { setter: true }));
+>>>>>>> esm-cjs-build:docs/file/buildDocs/delay.js.html
 /**
  * Mixins an object into the classes prototype.
  *
@@ -136,6 +166,7 @@
  *
  * myClass.blorg(); // =&gt; &apos;blorg!&apos;
  */
+<<<<<<< HEAD:docs/file/src/mixin.ts.html
 export function Mixin(...srcs: Object[]): ClassDecorator {
   return ((target: Function) =&gt; {
     assign(target.prototype, ...srcs);
@@ -145,6 +176,18 @@ export function Mixin(...srcs: Object[]): ClassDecorator {
 }
 export { Mixin as mixin };
 export default Mixin;
+=======
+function Delay(wait) {
+    var args = [];
+    for (var _i = 1; _i &lt; arguments.length; _i++) {
+        args[_i - 1] = arguments[_i];
+    }
+    return decorator.apply(void 0, [wait].concat(args));
+}
+exports.Delay = Delay;
+exports.delay = Delay;
+exports.default = decorator;
+>>>>>>> esm-cjs-build:docs/file/buildDocs/delay.js.html
 </code></pre>
 
 </div>

@@ -1,43 +1,66 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
   "end": 1113,
+=======
+  "end": 1971,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "line": 30,
+=======
+      "line": 50,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
     "end": 1113,
+=======
+    "end": 1971,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "line": 30,
+=======
+        "line": 50,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "type": "ImportDeclaration",
         "start": 0,
         "end": 62,
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "loc": {
           "start": {
-            "line": 1,
+            "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "line": 1,
             "column": 62
           }
@@ -69,13 +92,60 @@
                 "end": {
                   "line": 1,
                   "column": 24
-                },
-                "identifierName": "DecoratorConfig"
-              },
-              "name": "DecoratorConfig"
+=======
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
             },
-            "local": {
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
               "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "start": 9,
               "end": 24,
               "loc": {
@@ -105,9 +175,29 @@
                 "line": 1,
                 "column": 42
               }
+=======
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
             },
-            "imported": {
+            "computed": false
+          },
+          "arguments": [
+            {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "start": 26,
               "end": 42,
               "loc": {
@@ -118,11 +208,24 @@
                 "end": {
                   "line": 1,
                   "column": 42
+=======
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
                 },
-                "identifierName": "DecoratorFactory"
+                "end": {
+                  "line": 2,
+                  "column": 29
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+                },
+                "identifierName": "exports"
               },
-              "name": "DecoratorFactory"
+              "name": "exports"
             },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "local": {
               "type": "Identifier",
               "start": 26,
@@ -154,31 +257,127 @@
             "end": {
               "line": 1,
               "column": 61
+=======
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
             }
-          },
-          "extra": {
-            "rawValue": "./factory",
-            "raw": "'./factory'"
-          },
-          "value": "./factory"
+          ]
         }
       },
       {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "type": "ImportDeclaration",
         "start": 63,
         "end": 113,
+=======
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 121,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "loc": {
           "start": {
             "line": 2,
             "column": 0
           },
           "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "line": 2,
             "column": 50
+=======
+            "line": 3,
+            "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           }
         },
-        "specifiers": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "type": "ImportSpecifier",
             "start": 72,
             "end": 89,
@@ -190,10 +389,24 @@
               "end": {
                 "line": 2,
                 "column": 26
+=======
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 120,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
               }
             },
-            "imported": {
+            "id": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "start": 72,
               "end": 89,
               "loc": {
@@ -245,11 +458,98 @@
           "extra": {
             "rawValue": "./applicators",
             "raw": "'./applicators'"
+=======
+              "start": 81,
+              "end": 91,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 14
+                },
+                "identifierName": "debounce_1"
+              },
+              "name": "debounce_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 94,
+              "end": 120,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 17
+                },
+                "end": {
+                  "line": 3,
+                  "column": 43
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 94,
+                "end": 101,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 17
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 24
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 102,
+                  "end": 119,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 25
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 42
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/debounce",
+                    "raw": "\"lodash/debounce\""
+                  },
+                  "value": "lodash/debounce"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 122,
+        "end": 159,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           },
-          "value": "./applicators"
+          "end": {
+            "line": 4,
+            "column": 37
+          }
         },
-        "trailingComments": [
+        "declarations": [
           {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "type": "CommentBlock",
             "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
             "start": 114,
@@ -262,12 +562,98 @@
               "end": {
                 "line": 26,
                 "column": 3
+=======
+            "type": "VariableDeclarator",
+            "start": 126,
+            "end": 158,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
               }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 126,
+              "end": 135,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 4,
+                  "column": 13
+                },
+                "identifierName": "factory_1"
+              },
+              "name": "factory_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 138,
+              "end": 158,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 16
+                },
+                "end": {
+                  "line": 4,
+                  "column": 36
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 138,
+                "end": 145,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 23
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 146,
+                  "end": 157,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 35
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./factory",
+                    "raw": "\"./factory\""
+                  },
+                  "value": "./factory"
+                }
+              ]
             }
           }
-        ]
+        ],
+        "kind": "var"
       },
       {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "type": "ExportNamedDeclaration",
         "start": 912,
         "end": 1057,
@@ -310,10 +696,70 @@
                 "end": {
                   "line": 27,
                   "column": 144
+=======
+        "type": "VariableDeclaration",
+        "start": 160,
+        "end": 205,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 45
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 164,
+            "end": 204,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 4
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 164,
+              "end": 177,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 4
+                },
+                "end": {
+                  "line": 5,
+                  "column": 17
+                },
+                "identifierName": "applicators_1"
+              },
+              "name": "applicators_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 180,
+              "end": 204,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 20
+                },
+                "end": {
+                  "line": 5,
+                  "column": 44
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                 }
               },
-              "id": {
+              "callee": {
                 "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
                 "start": 925,
                 "end": 932,
                 "loc": {
@@ -407,10 +853,242 @@
                       "end": {
                         "line": 27,
                         "column": 143
+=======
+                "start": 180,
+                "end": 187,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 188,
+                  "end": 203,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 28
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 43
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "./applicators",
+                    "raw": "\"./applicators\""
+                  },
+                  "value": "./applicators"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 206,
+        "end": 356,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 150
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 210,
+            "end": 355,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 149
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 210,
+              "end": 219,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 4
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "decorator"
+              },
+              "name": "decorator"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 222,
+              "end": 355,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 16
+                },
+                "end": {
+                  "line": 6,
+                  "column": 149
+                }
+              },
+              "callee": {
+                "type": "MemberExpression",
+                "start": 222,
+                "end": 264,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 16
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 58
+                  }
+                },
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 222,
+                  "end": 248,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 42
+                    }
+                  },
+                  "object": {
+                    "type": "Identifier",
+                    "start": 222,
+                    "end": 231,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 16
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 25
+                      },
+                      "identifierName": "factory_1"
+                    },
+                    "name": "factory_1"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 232,
+                    "end": 248,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 26
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 42
+                      },
+                      "identifierName": "DecoratorFactory"
+                    },
+                    "name": "DecoratorFactory"
+                  },
+                  "computed": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 249,
+                  "end": 264,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 43
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 58
+                    },
+                    "identifierName": "createDecorator"
+                  },
+                  "name": "createDecorator"
+                },
+                "computed": false
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 265,
+                  "end": 354,
+                  "loc": {
+                    "start": {
+                      "line": 6,
+                      "column": 59
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 148
+                    }
+                  },
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 269,
+                    "end": 294,
+                    "loc": {
+                      "start": {
+                        "line": 6,
+                        "column": 63
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                       }
                     },
-                    "callee": {
+                    "object": {
                       "type": "Identifier",
+                      "start": 269,
+                      "end": 278,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 63
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 72
+                        },
+                        "identifierName": "factory_1"
+                      },
+                      "name": "factory_1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
                       "start": 980,
                       "end": 995,
                       "loc": {
@@ -421,14 +1099,60 @@
                         "end": {
                           "line": 27,
                           "column": 83
+=======
+                      "start": 279,
+                      "end": 294,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 73
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                         },
                         "identifierName": "DecoratorConfig"
                       },
                       "name": "DecoratorConfig"
                     },
-                    "arguments": [
-                      {
+                    "computed": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 295,
+                      "end": 313,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 89
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 107
+                        }
+                      },
+                      "object": {
                         "type": "Identifier",
+                        "start": 295,
+                        "end": 305,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 89
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 99
+                          },
+                          "identifierName": "debounce_1"
+                        },
+                        "name": "debounce_1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
                         "start": 996,
                         "end": 1003,
                         "loc": {
@@ -456,10 +1180,73 @@
                           "end": {
                             "line": 27,
                             "column": 116
+=======
+                        "start": 306,
+                        "end": 313,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 100
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 107
+                          },
+                          "identifierName": "default"
+                        },
+                        "name": "default"
+                      },
+                      "computed": false
+                    },
+                    {
+                      "type": "NewExpression",
+                      "start": 315,
+                      "end": 353,
+                      "loc": {
+                        "start": {
+                          "line": 6,
+                          "column": 109
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 147
+                        }
+                      },
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 319,
+                        "end": 351,
+                        "loc": {
+                          "start": {
+                            "line": 6,
+                            "column": 113
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                           }
                         },
-                        "callee": {
+                        "object": {
                           "type": "Identifier",
+                          "start": 319,
+                          "end": 332,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 113
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 126
+                            },
+                            "identifierName": "applicators_1"
+                          },
+                          "name": "applicators_1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
                           "start": 1009,
                           "end": 1026,
                           "loc": {
@@ -470,11 +1257,24 @@
                             "end": {
                               "line": 27,
                               "column": 114
+=======
+                          "start": 333,
+                          "end": 351,
+                          "loc": {
+                            "start": {
+                              "line": 6,
+                              "column": 127
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                             },
                             "identifierName": "MemoizeApplicator"
                           },
                           "name": "MemoizeApplicator"
                         },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
                         "arguments": []
                       },
                       {
@@ -548,13 +1348,126 @@
                     ]
                   }
                 ]
-              },
-              "leadingComments": null
+=======
+                        "computed": false
+                      },
+                      "arguments": []
+                    }
+                  ]
+                }
+              ]
             }
-          ],
-          "kind": "const",
-          "leadingComments": [
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.\n * The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them.\n * Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function.\n * Subsequent calls to the debounced function return the result of the last func invocation.\n *\n * The debounce state is shared across all instances of the class.\n *\n * Note: If leading and trailing options are true, func is invoked on the trailing edge of the timeout only if the debounced function is invoked more than once during the wait timeout.\n *\n * If wait is 0 and leading is false, func invocation is deferred until to the next tick, similar to setTimeout with a timeout of 0.\n *\n * @param {number} [wait=0] The number in milliseconds to delay.\n * @param {DebounceOptions} [options] The options object.\n * @example\n *\n * class MyClass {\n *   value = 100;\n *\n *   @DebounceAll(10)\n *   add(a) {\n *     this.value += a;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.add(10);\n * myClass.add(50);\n * myClass.add(20);\n *\n * myClass.value; // => 100;\n *\n * setTimeout(() => {\n *   myClass.value; // => 120;\n * }, 11);\n ",
+            "start": 357,
+            "end": 1794,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+              },
+              "end": {
+                "line": 43,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 1795,
+        "end": 1871,
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 0
+          },
+          "end": {
+            "line": 46,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 1804,
+          "end": 1815,
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 9
+            },
+            "end": {
+              "line": 44,
+              "column": 20
+            },
+            "identifierName": "DebounceAll"
+          },
+          "name": "DebounceAll",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 1816,
+            "end": 1820,
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 21
+              },
+              "end": {
+                "line": 44,
+                "column": 25
+              },
+              "identifierName": "wait"
+            },
+            "name": "wait"
+          },
+          {
+            "type": "Identifier",
+            "start": 1822,
+            "end": 1829,
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 27
+              },
+              "end": {
+                "line": 44,
+                "column": 34
+              },
+              "identifierName": "options"
+            },
+            "name": "options"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 1831,
+          "end": 1871,
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 36
+            },
+            "end": {
+              "line": 46,
+              "column": 1
+            }
+          },
+          "body": [
             {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "type": "CommentBlock",
               "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
               "start": 114,
@@ -567,15 +1480,97 @@
                 "end": {
                   "line": 26,
                   "column": 3
+=======
+              "type": "ReturnStatement",
+              "start": 1837,
+              "end": 1869,
+              "loc": {
+                "start": {
+                  "line": 45,
+                  "column": 4
+                },
+                "end": {
+                  "line": 45,
+                  "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                 }
+              },
+              "argument": {
+                "type": "CallExpression",
+                "start": 1844,
+                "end": 1868,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 35
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1844,
+                  "end": 1853,
+                  "loc": {
+                    "start": {
+                      "line": 45,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 45,
+                      "column": 20
+                    },
+                    "identifierName": "decorator"
+                  },
+                  "name": "decorator"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1854,
+                    "end": 1858,
+                    "loc": {
+                      "start": {
+                        "line": 45,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 45,
+                        "column": 25
+                      },
+                      "identifierName": "wait"
+                    },
+                    "name": "wait"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1860,
+                    "end": 1867,
+                    "loc": {
+                      "start": {
+                        "line": 45,
+                        "column": 27
+                      },
+                      "end": {
+                        "line": 45,
+                        "column": 34
+                      },
+                      "identifierName": "options"
+                    },
+                    "name": "options"
+                  }
+                ]
               }
             }
           ],
-          "trailingComments": []
+          "directives": []
         },
         "leadingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
             "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
             "start": 114,
             "end": 911,
@@ -586,6 +1581,18 @@
               },
               "end": {
                 "line": 26,
+=======
+            "value": "*\n * Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.\n * The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them.\n * Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function.\n * Subsequent calls to the debounced function return the result of the last func invocation.\n *\n * The debounce state is shared across all instances of the class.\n *\n * Note: If leading and trailing options are true, func is invoked on the trailing edge of the timeout only if the debounced function is invoked more than once during the wait timeout.\n *\n * If wait is 0 and leading is false, func invocation is deferred until to the next tick, similar to setTimeout with a timeout of 0.\n *\n * @param {number} [wait=0] The number in milliseconds to delay.\n * @param {DebounceOptions} [options] The options object.\n * @example\n *\n * class MyClass {\n *   value = 100;\n *\n *   @DebounceAll(10)\n *   add(a) {\n *     this.value += a;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.add(10);\n * myClass.add(50);\n * myClass.add(20);\n *\n * myClass.value; // => 100;\n *\n * setTimeout(() => {\n *   myClass.value; // => 120;\n * }, 11);\n ",
+            "start": 357,
+            "end": 1794,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 43,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
                 "column": 3
               }
             }
@@ -593,6 +1600,7 @@
         ]
       },
       {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "type": "ExportNamedDeclaration",
         "start": 1058,
         "end": 1088,
@@ -620,10 +1628,53 @@
               "end": {
                 "line": 28,
                 "column": 27
+=======
+        "type": "ExpressionStatement",
+        "start": 1872,
+        "end": 1906,
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 0
+          },
+          "end": {
+            "line": 47,
+            "column": 34
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1872,
+          "end": 1905,
+          "loc": {
+            "start": {
+              "line": 47,
+              "column": 0
+            },
+            "end": {
+              "line": 47,
+              "column": 33
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1872,
+            "end": 1891,
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 0
+              },
+              "end": {
+                "line": 47,
+                "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
               }
             },
-            "local": {
+            "object": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "start": 1067,
               "end": 1074,
               "loc": {
@@ -638,9 +1689,26 @@
                 "identifierName": "Memoize"
               },
               "name": "Memoize"
+=======
+              "start": 1872,
+              "end": 1879,
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 0
+                },
+                "end": {
+                  "line": 47,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
             },
-            "exported": {
+            "property": {
               "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
               "start": 1078,
               "end": 1085,
               "loc": {
@@ -656,11 +1724,46 @@
               },
               "name": "memoize"
             }
+=======
+              "start": 1880,
+              "end": 1891,
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 8
+                },
+                "end": {
+                  "line": 47,
+                  "column": 19
+                },
+                "identifierName": "DebounceAll"
+              },
+              "name": "DebounceAll"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1894,
+            "end": 1905,
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 22
+              },
+              "end": {
+                "line": 47,
+                "column": 33
+              },
+              "identifierName": "DebounceAll"
+            },
+            "name": "DebounceAll"
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           }
-        ],
-        "source": null
+        }
       },
       {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "type": "ExportDefaultDeclaration",
         "start": 1089,
         "end": 1112,
@@ -692,14 +1795,246 @@
           "name": "Memoize",
           "leadingComments": [],
           "trailingComments": []
+=======
+        "type": "ExpressionStatement",
+        "start": 1907,
+        "end": 1941,
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 0
+          },
+          "end": {
+            "line": 48,
+            "column": 34
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1907,
+          "end": 1940,
+          "loc": {
+            "start": {
+              "line": 48,
+              "column": 0
+            },
+            "end": {
+              "line": 48,
+              "column": 33
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1907,
+            "end": 1926,
+            "loc": {
+              "start": {
+                "line": 48,
+                "column": 0
+              },
+              "end": {
+                "line": 48,
+                "column": 19
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1907,
+              "end": 1914,
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 0
+                },
+                "end": {
+                  "line": 48,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1915,
+              "end": 1926,
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 8
+                },
+                "end": {
+                  "line": 48,
+                  "column": 19
+                },
+                "identifierName": "debounceAll"
+              },
+              "name": "debounceAll"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1929,
+            "end": 1940,
+            "loc": {
+              "start": {
+                "line": 48,
+                "column": 22
+              },
+              "end": {
+                "line": 48,
+                "column": 33
+              },
+              "identifierName": "DebounceAll"
+            },
+            "name": "DebounceAll"
+          }
+        }
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 1942,
+        "end": 1970,
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 0
+          },
+          "end": {
+            "line": 49,
+            "column": 28
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 1942,
+          "end": 1969,
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 0
+            },
+            "end": {
+              "line": 49,
+              "column": 27
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 1942,
+            "end": 1957,
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 0
+              },
+              "end": {
+                "line": 49,
+                "column": 15
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 1942,
+              "end": 1949,
+              "loc": {
+                "start": {
+                  "line": 49,
+                  "column": 0
+                },
+                "end": {
+                  "line": 49,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1950,
+              "end": 1957,
+              "loc": {
+                "start": {
+                  "line": 49,
+                  "column": 8
+                },
+                "end": {
+                  "line": 49,
+                  "column": 15
+                },
+                "identifierName": "default"
+              },
+              "name": "default"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 1960,
+            "end": 1969,
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 18
+              },
+              "end": {
+                "line": 49,
+                "column": 27
+              },
+              "identifierName": "decorator"
+            },
+            "name": "decorator"
+          }
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     ],
-    "directives": []
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
   },
   "comments": [
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
       "start": 114,
       "end": 911,
@@ -710,6 +2045,18 @@
         },
         "end": {
           "line": 26,
+=======
+      "value": "*\n * Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.\n * The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them.\n * Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function.\n * Subsequent calls to the debounced function return the result of the last func invocation.\n *\n * The debounce state is shared across all instances of the class.\n *\n * Note: If leading and trailing options are true, func is invoked on the trailing edge of the timeout only if the debounced function is invoked more than once during the wait timeout.\n *\n * If wait is 0 and leading is false, func invocation is deferred until to the next tick, similar to setTimeout with a timeout of 0.\n *\n * @param {number} [wait=0] The number in milliseconds to delay.\n * @param {DebounceOptions} [options] The options object.\n * @example\n *\n * class MyClass {\n *   value = 100;\n *\n *   @DebounceAll(10)\n *   add(a) {\n *     this.value += a;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.add(10);\n * myClass.add(50);\n * myClass.add(20);\n *\n * myClass.value; // => 100;\n *\n * setTimeout(() => {\n *   myClass.value; // => 120;\n * }, 11);\n ",
+      "start": 357,
+      "end": 1794,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           "column": 3
         }
       }
@@ -718,8 +2065,7 @@
   "tokens": [
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "string",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -730,9 +2076,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
+      "value": "use strict",
       "start": 0,
-      "end": 6,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
@@ -740,32 +2086,33 @@
         },
         "end": {
           "line": 1,
-          "column": 6
+          "column": 12
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": ";",
         "beforeExpr": true,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
-      "start": 7,
-      "end": 8,
+      "start": 12,
+      "end": 13,
       "loc": {
         "start": {
           "line": 1,
-          "column": 7
+          "column": 12
         },
         "end": {
           "line": 1,
-          "column": 8
+          "column": 13
         }
       }
     },
@@ -781,17 +2128,149 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "DecoratorConfig",
       "start": 9,
       "end": 24,
+=======
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+          "line": 1,
+          "column": 24
+=======
+          "line": 2,
+          "column": 6
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": ",",
+        "beforeExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      },
+      "start": 24,
+      "end": 25,
       "loc": {
         "start": {
           "line": 1,
-          "column": 9
+          "column": 24
         },
         "end": {
           "line": 1,
-          "column": 24
+          "column": 25
+=======
+      },
+      "start": 20,
+      "end": 21,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
         }
       }
     },
@@ -808,16 +2287,94 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 24,
-      "end": 25,
+      "start": 43,
+      "end": 44,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 24
+          "line": 2,
+          "column": 29
         },
         "end": {
-          "line": 1,
-          "column": 25
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
         }
       }
     },
@@ -833,17 +2390,71 @@
         "postfix": false,
         "binop": null
       },
-      "value": "DecoratorFactory",
-      "start": 26,
-      "end": 42,
+      "value": "value",
+      "start": 61,
+      "end": 66,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 26
+          "line": 2,
+          "column": 47
         },
         "end": {
-          "line": 1,
-          "column": 42
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
         }
       }
     },
@@ -859,16 +2470,95 @@
         "postfix": false,
         "binop": null
       },
-      "start": 43,
-      "end": 44,
+      "start": 73,
+      "end": 74,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 43
+          "line": 2,
+          "column": 59
         },
         "end": {
-          "line": 1,
-          "column": 44
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
         }
       }
     },
@@ -884,17 +2574,305 @@
         "postfix": false,
         "binop": null
       },
-      "value": "from",
-      "start": 45,
-      "end": 49,
+      "value": "debounce_1",
+      "start": 81,
+      "end": 91,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 45
+          "line": 3,
+          "column": 4
         },
         "end": {
-          "line": 1,
-          "column": 49
+          "line": 3,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 92,
+      "end": 93,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 94,
+      "end": 101,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 17
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 101,
+      "end": 102,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 3,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/debounce",
+      "start": 102,
+      "end": 119,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 25
+        },
+        "end": {
+          "line": 3,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 119,
+      "end": 120,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 42
+        },
+        "end": {
+          "line": 3,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 120,
+      "end": 121,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 43
+        },
+        "end": {
+          "line": 3,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 122,
+      "end": 125,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 126,
+      "end": 135,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 4
+        },
+        "end": {
+          "line": 4,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 136,
+      "end": 137,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 138,
+      "end": 145,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 16
+        },
+        "end": {
+          "line": 4,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 145,
+      "end": 146,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 23
+        },
+        "end": {
+          "line": 4,
+          "column": 24
         }
       }
     },
@@ -912,16 +2890,41 @@
         "updateContext": null
       },
       "value": "./factory",
-      "start": 50,
-      "end": 61,
+      "start": 146,
+      "end": 157,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 50
+          "line": 4,
+          "column": 24
         },
         "end": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 157,
+      "end": 158,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 35
+        },
+        "end": {
+          "line": 4,
+          "column": 36
         }
       }
     },
@@ -938,25 +2941,25 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 61,
-      "end": 62,
+      "start": 158,
+      "end": 159,
       "loc": {
         "start": {
-          "line": 1,
-          "column": 61
+          "line": 4,
+          "column": 36
         },
         "end": {
-          "line": 1,
-          "column": 62
+          "line": 4,
+          "column": 37
         }
       }
     },
     {
       "type": {
-        "label": "import",
-        "keyword": "import",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -965,23 +2968,102 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "import",
-      "start": 63,
-      "end": 69,
+      "value": "var",
+      "start": 160,
+      "end": 163,
       "loc": {
         "start": {
-          "line": 2,
+          "line": 5,
           "column": 0
         },
         "end": {
-          "line": 2,
-          "column": 6
+          "line": 5,
+          "column": 3
         }
       }
     },
     {
       "type": {
-        "label": "{",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "applicators_1",
+      "start": 164,
+      "end": 177,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 178,
+      "end": 179,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 5,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 180,
+      "end": 187,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 20
+        },
+        "end": {
+          "line": 5,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
         "beforeExpr": true,
         "startsExpr": true,
         "rightAssociative": false,
@@ -991,93 +3073,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 70,
-      "end": 71,
+      "start": 187,
+      "end": 188,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "MemoizeApplicator",
-      "start": 72,
-      "end": 89,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 9
-        },
-        "end": {
-          "line": 2,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 90,
-      "end": 91,
-      "loc": {
-        "start": {
-          "line": 2,
+          "line": 5,
           "column": 27
         },
         "end": {
-          "line": 2,
+          "line": 5,
           "column": 28
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "from",
-      "start": 92,
-      "end": 96,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 29
-        },
-        "end": {
-          "line": 2,
-          "column": 33
         }
       }
     },
@@ -1095,16 +3100,41 @@
         "updateContext": null
       },
       "value": "./applicators",
-      "start": 97,
-      "end": 112,
+      "start": 188,
+      "end": 203,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 34
+          "line": 5,
+          "column": 28
         },
         "end": {
-          "line": 2,
-          "column": 49
+          "line": 5,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 203,
+      "end": 204,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 44
         }
       }
     },
@@ -1121,39 +3151,23 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 112,
-      "end": 113,
+      "start": 204,
+      "end": 205,
       "loc": {
         "start": {
-          "line": 2,
-          "column": 49
+          "line": 5,
+          "column": 44
         },
         "end": {
-          "line": 2,
-          "column": 50
-        }
-      }
-    },
-    {
-      "type": "CommentBlock",
-      "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
-      "start": 114,
-      "end": 911,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 0
-        },
-        "end": {
-          "line": 26,
-          "column": 3
+          "line": 5,
+          "column": 45
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "var",
+        "keyword": "var",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -1164,6 +3178,891 @@
         "binop": null,
         "updateContext": null
       },
+      "value": "var",
+      "start": 206,
+      "end": 209,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "decorator",
+      "start": 210,
+      "end": 219,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 220,
+      "end": 221,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 222,
+      "end": 231,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 16
+        },
+        "end": {
+          "line": 6,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 231,
+      "end": 232,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "DecoratorFactory",
+      "start": 232,
+      "end": 248,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 6,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 248,
+      "end": 249,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 42
+        },
+        "end": {
+          "line": 6,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "createDecorator",
+      "start": 249,
+      "end": 264,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 43
+        },
+        "end": {
+          "line": 6,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 264,
+      "end": 265,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 58
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "new",
+        "keyword": "new",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "new",
+      "start": 265,
+      "end": 268,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 59
+        },
+        "end": {
+          "line": 6,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "factory_1",
+      "start": 269,
+      "end": 278,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 63
+        },
+        "end": {
+          "line": 6,
+          "column": 72
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 278,
+      "end": 279,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 72
+        },
+        "end": {
+          "line": 6,
+          "column": 73
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "DecoratorFactory",
+      "start": 26,
+      "end": 42,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": 42
+=======
+      "value": "DecoratorConfig",
+      "start": 279,
+      "end": 294,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 73
+        },
+        "end": {
+          "line": 6,
+          "column": 88
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 43
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+=======
+      "start": 294,
+      "end": 295,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 88
+        },
+        "end": {
+          "line": 6,
+          "column": 89
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "from",
+      "start": 45,
+      "end": 49,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 45
+        },
+        "end": {
+          "line": 1,
+          "column": 49
+=======
+      "value": "debounce_1",
+      "start": 295,
+      "end": 305,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 89
+        },
+        "end": {
+          "line": 6,
+          "column": 99
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "string",
+=======
+        "label": ".",
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "./factory",
+      "start": 50,
+      "end": 61,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 50
+        },
+        "end": {
+          "line": 1,
+          "column": 61
+=======
+      "start": 305,
+      "end": 306,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 99
+        },
+        "end": {
+          "line": 6,
+          "column": 100
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": ";",
+=======
+        "label": "default",
+        "keyword": "default",
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 61,
+      "end": 62,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 61
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+=======
+      "value": "default",
+      "start": 306,
+      "end": 313,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 100
+        },
+        "end": {
+          "line": 6,
+          "column": 107
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "import",
+      "start": 63,
+      "end": 69,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+=======
+      "start": 313,
+      "end": 314,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 107
+        },
+        "end": {
+          "line": 6,
+          "column": 108
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "{",
+=======
+        "label": "new",
+        "keyword": "new",
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 70,
+      "end": 71,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 8
+=======
+      "value": "new",
+      "start": 315,
+      "end": 318,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 109
+        },
+        "end": {
+          "line": 6,
+          "column": 112
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "MemoizeApplicator",
+      "start": 72,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 9
+        },
+        "end": {
+          "line": 2,
+          "column": 26
+=======
+      "value": "applicators_1",
+      "start": 319,
+      "end": 332,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 113
+        },
+        "end": {
+          "line": 6,
+          "column": 126
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 90,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 27
+        },
+        "end": {
+          "line": 2,
+          "column": 28
+=======
+      "start": 332,
+      "end": 333,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 126
+        },
+        "end": {
+          "line": 6,
+          "column": 127
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "from",
+      "start": 92,
+      "end": 96,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 33
+=======
+      "value": "PreValueApplicator",
+      "start": 333,
+      "end": 351,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 127
+        },
+        "end": {
+          "line": 6,
+          "column": 145
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "./applicators",
+      "start": 97,
+      "end": 112,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 34
+        },
+        "end": {
+          "line": 2,
+          "column": 49
+=======
+      "start": 351,
+      "end": 352,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 145
+        },
+        "end": {
+          "line": 6,
+          "column": 146
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 112,
+      "end": 113,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 49
+        },
+        "end": {
+          "line": 2,
+          "column": 50
+=======
+      "start": 352,
+      "end": 353,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 146
+        },
+        "end": {
+          "line": 6,
+          "column": 147
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "type": "CommentBlock",
+      "value": "*\n * Creates a function that memoizes the result of func. If resolver is provided,\n * it determines the cache key for storing the result based on the arguments provided to the memoized function.\n * By default, the first argument provided to the memoized function is used as the map cache key.\n * The func is invoked with the this binding of the memoized function.\n *\n * You can use a Function or a string that references a method on the class as the resolver.\n * You can also use a configuration object that lets provide a prexisting cache or specify\n * the map type to use.\n *\n * @example\n *\n * class MyClass {\n *   @Memoize({ type: WeakMap })\n *   getName(item) {\n *     return item.name;\n *   }\n *\n *   @Memoize('getName')\n *   getLastName(item) {\n *     return item.lastName;\n *   }\n * }\n ",
+      "start": 114,
+      "end": 911,
+=======
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 353,
+      "end": 354,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 147
+        },
+        "end": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+          "line": 26,
+          "column": 3
+=======
+          "line": 6,
+          "column": 148
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 354,
+      "end": 355,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 148
+        },
+        "end": {
+          "line": 6,
+          "column": 149
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+=======
+        "label": ";",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "export",
       "start": 912,
       "end": 918,
@@ -1175,10 +4074,23 @@
         "end": {
           "line": 27,
           "column": 6
+=======
+      "start": 355,
+      "end": 356,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 149
+        },
+        "end": {
+          "line": 6,
+          "column": 150
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "type": {
         "label": "const",
         "keyword": "const",
@@ -1203,12 +4115,27 @@
         "end": {
           "line": 27,
           "column": 12
+=======
+      "type": "CommentBlock",
+      "value": "*\n * Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked.\n * The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them.\n * Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function.\n * Subsequent calls to the debounced function return the result of the last func invocation.\n *\n * The debounce state is shared across all instances of the class.\n *\n * Note: If leading and trailing options are true, func is invoked on the trailing edge of the timeout only if the debounced function is invoked more than once during the wait timeout.\n *\n * If wait is 0 and leading is false, func invocation is deferred until to the next tick, similar to setTimeout with a timeout of 0.\n *\n * @param {number} [wait=0] The number in milliseconds to delay.\n * @param {DebounceOptions} [options] The options object.\n * @example\n *\n * class MyClass {\n *   value = 100;\n *\n *   @DebounceAll(10)\n *   add(a) {\n *     this.value += a;\n *   }\n * }\n *\n * const myClass = new MyClass();\n *\n * myClass.add(10);\n * myClass.add(50);\n * myClass.add(20);\n *\n * myClass.value; // => 100;\n *\n * setTimeout(() => {\n *   myClass.value; // => 120;\n * }, 11);\n ",
+      "start": 357,
+      "end": 1794,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 3
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "name",
+        "label": "function",
+        "keyword": "function",
         "beforeExpr": false,
         "startsExpr": true,
         "rightAssociative": false,
@@ -1218,6 +4145,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "Memoize",
       "start": 925,
       "end": 932,
@@ -1229,22 +4157,41 @@
         "end": {
           "line": 27,
           "column": 20
+=======
+      "value": "function",
+      "start": 1795,
+      "end": 1803,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": "=",
         "beforeExpr": true,
         "startsExpr": false,
+=======
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "=",
       "start": 933,
       "end": 934,
@@ -1256,13 +4203,31 @@
         "end": {
           "line": 27,
           "column": 22
+=======
+      "value": "DebounceAll",
+      "start": 1804,
+      "end": 1815,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 9
+        },
+        "end": {
+          "line": 44,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": "name",
         "beforeExpr": false,
+=======
+        "label": "(",
+        "beforeExpr": true,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
@@ -1271,6 +4236,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "DecoratorFactory",
       "start": 935,
       "end": 951,
@@ -1282,22 +4248,38 @@
         "end": {
           "line": 27,
           "column": 39
+=======
+      "start": 1815,
+      "end": 1816,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 20
+        },
+        "end": {
+          "line": 44,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": ".",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 951,
       "end": 952,
       "loc": {
@@ -1308,14 +4290,33 @@
         "end": {
           "line": 27,
           "column": 40
+=======
+      "value": "wait",
+      "start": 1816,
+      "end": 1820,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 21
+        },
+        "end": {
+          "line": 44,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": "name",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1323,6 +4324,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "createInstanceDecorator",
       "start": 952,
       "end": 975,
@@ -1334,6 +4336,18 @@
         "end": {
           "line": 27,
           "column": 63
+=======
+      "start": 1820,
+      "end": 1821,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 25
+        },
+        "end": {
+          "line": 44,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1349,6 +4363,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 975,
       "end": 976,
       "loc": {
@@ -1359,23 +4374,42 @@
         "end": {
           "line": 27,
           "column": 64
+=======
+      "value": "options",
+      "start": 1822,
+      "end": 1829,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 27
+        },
+        "end": {
+          "line": 44,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": "new",
         "keyword": "new",
         "beforeExpr": true,
         "startsExpr": true,
+=======
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "new",
       "start": 976,
       "end": 979,
@@ -1387,239 +4421,18 @@
         "end": {
           "line": 27,
           "column": 67
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "DecoratorConfig",
-      "start": 980,
-      "end": 995,
+=======
+      "start": 1829,
+      "end": 1830,
       "loc": {
         "start": {
-          "line": 27,
-          "column": 68
+          "line": 44,
+          "column": 34
         },
         "end": {
-          "line": 27,
-          "column": 83
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 995,
-      "end": 996,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 83
-        },
-        "end": {
-          "line": 27,
-          "column": 84
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "memoize",
-      "start": 996,
-      "end": 1003,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 84
-        },
-        "end": {
-          "line": 27,
-          "column": 91
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 1003,
-      "end": 1004,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 91
-        },
-        "end": {
-          "line": 27,
-          "column": 92
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "new",
-        "keyword": "new",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "new",
-      "start": 1005,
-      "end": 1008,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 93
-        },
-        "end": {
-          "line": 27,
-          "column": 96
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "MemoizeApplicator",
-      "start": 1009,
-      "end": 1026,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 97
-        },
-        "end": {
-          "line": 27,
-          "column": 114
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "(",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 1026,
-      "end": 1027,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 114
-        },
-        "end": {
-          "line": 27,
-          "column": 115
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 1027,
-      "end": 1028,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 115
-        },
-        "end": {
-          "line": 27,
-          "column": 116
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 1028,
-      "end": 1029,
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 116
-        },
-        "end": {
-          "line": 27,
-          "column": 117
+          "line": 44,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1635,16 +4448,76 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1030,
-      "end": 1031,
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "DecoratorConfig",
+      "start": 980,
+      "end": 995,
       "loc": {
         "start": {
           "line": 27,
-          "column": 118
+          "column": 68
         },
         "end": {
           "line": 27,
-          "column": 119
+          "column": 83
+=======
+      "start": 1831,
+      "end": 1832,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 36
+        },
+        "end": {
+          "line": 44,
+          "column": 37
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 995,
+      "end": 996,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 83
+        },
+        "end": {
+          "line": 27,
+          "column": 84
+=======
+      "value": "return",
+      "start": 1837,
+      "end": 1843,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 4
+        },
+        "end": {
+          "line": 45,
+          "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1660,6 +4533,326 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "memoize",
+      "start": 996,
+      "end": 1003,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 84
+        },
+        "end": {
+          "line": 27,
+          "column": 91
+=======
+      "value": "decorator",
+      "start": 1844,
+      "end": 1853,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 11
+        },
+        "end": {
+          "line": 45,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1003,
+      "end": 1004,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 91
+        },
+        "end": {
+          "line": 27,
+          "column": 92
+=======
+      "start": 1853,
+      "end": 1854,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 20
+        },
+        "end": {
+          "line": 45,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "new",
+      "start": 1005,
+      "end": 1008,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 93
+        },
+        "end": {
+          "line": 27,
+          "column": 96
+=======
+      "value": "wait",
+      "start": 1854,
+      "end": 1858,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 21
+        },
+        "end": {
+          "line": 45,
+          "column": 25
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "MemoizeApplicator",
+      "start": 1009,
+      "end": 1026,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 97
+        },
+        "end": {
+          "line": 27,
+          "column": 114
+=======
+      "start": 1858,
+      "end": 1859,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 25
+        },
+        "end": {
+          "line": 45,
+          "column": 26
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1026,
+      "end": 1027,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 114
+        },
+        "end": {
+          "line": 27,
+          "column": 115
+=======
+      "value": "options",
+      "start": 1860,
+      "end": 1867,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 27
+        },
+        "end": {
+          "line": 45,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1027,
+      "end": 1028,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 115
+        },
+        "end": {
+          "line": 27,
+          "column": 116
+=======
+      "start": 1867,
+      "end": 1868,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 34
+        },
+        "end": {
+          "line": 45,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1028,
+      "end": 1029,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 116
+        },
+        "end": {
+          "line": 27,
+          "column": 117
+=======
+      "start": 1868,
+      "end": 1869,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 35
+        },
+        "end": {
+          "line": 45,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+=======
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1030,
+      "end": 1031,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 118
+        },
+        "end": {
+          "line": 27,
+          "column": 119
+=======
+      "start": 1870,
+      "end": 1871,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "optionalParams",
       "start": 1032,
       "end": 1046,
@@ -1671,11 +4864,25 @@
         "end": {
           "line": 27,
           "column": 134
+=======
+      "value": "exports",
+      "start": 1872,
+      "end": 1879,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": ":",
         "beforeExpr": true,
         "startsExpr": false,
@@ -1706,6 +4913,11 @@
         "keyword": "true",
         "beforeExpr": false,
         "startsExpr": true,
+=======
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1714,6 +4926,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "true",
       "start": 1048,
       "end": 1052,
@@ -1725,14 +4938,30 @@
         "end": {
           "line": 27,
           "column": 140
+=======
+      "start": 1879,
+      "end": 1880,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 7
+        },
+        "end": {
+          "line": 47,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
         "label": "}",
+=======
+        "label": "name",
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1740,6 +4969,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1053,
       "end": 1054,
       "loc": {
@@ -1750,21 +4980,36 @@
         "end": {
           "line": 27,
           "column": 142
+=======
+      "value": "DebounceAll",
+      "start": 1880,
+      "end": 1891,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 19
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
-        "beforeExpr": false,
+        "label": "=",
+        "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
-        "isAssign": false,
+        "isAssign": true,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1054,
       "end": 1055,
       "loc": {
@@ -1775,14 +5020,27 @@
         "end": {
           "line": 27,
           "column": 143
+=======
+      "value": "=",
+      "start": 1892,
+      "end": 1893,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 20
+        },
+        "end": {
+          "line": 47,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": ")",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -1790,6 +5048,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1055,
       "end": 1056,
       "loc": {
@@ -1800,6 +5059,19 @@
         "end": {
           "line": 27,
           "column": 144
+=======
+      "value": "DebounceAll",
+      "start": 1894,
+      "end": 1905,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 22
+        },
+        "end": {
+          "line": 47,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1816,6 +5088,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1056,
       "end": 1057,
       "loc": {
@@ -1826,23 +5099,34 @@
         "end": {
           "line": 27,
           "column": 145
+=======
+      "start": 1905,
+      "end": 1906,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 33
+        },
+        "end": {
+          "line": 47,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
         "beforeExpr": false,
-        "startsExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null,
-        "updateContext": null
+        "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "export",
       "start": 1058,
       "end": 1064,
@@ -1854,21 +5138,36 @@
         "end": {
           "line": 28,
           "column": 6
+=======
+      "value": "exports",
+      "start": 1907,
+      "end": 1914,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
         "prefix": false,
         "postfix": false,
-        "binop": null
+        "binop": null,
+        "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1065,
       "end": 1066,
       "loc": {
@@ -1878,6 +5177,17 @@
         },
         "end": {
           "line": 28,
+=======
+      "start": 1914,
+      "end": 1915,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 7
+        },
+        "end": {
+          "line": 48,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           "column": 8
         }
       }
@@ -1894,6 +5204,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "Memoize",
       "start": 1067,
       "end": 1074,
@@ -1905,6 +5216,46 @@
         "end": {
           "line": 28,
           "column": 16
+=======
+      "value": "debounceAll",
+      "start": 1915,
+      "end": 1926,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 48,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 1927,
+      "end": 1928,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 20
+        },
+        "end": {
+          "line": 48,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1920,6 +5271,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "as",
       "start": 1075,
       "end": 1077,
@@ -1931,57 +5283,19 @@
         "end": {
           "line": 28,
           "column": 19
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "memoize",
-      "start": 1078,
-      "end": 1085,
+=======
+      "value": "DebounceAll",
+      "start": 1929,
+      "end": 1940,
       "loc": {
         "start": {
-          "line": 28,
-          "column": 20
+          "line": 48,
+          "column": 22
         },
         "end": {
-          "line": 28,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 1086,
-      "end": 1087,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 28
-        },
-        "end": {
-          "line": 28,
-          "column": 29
+          "line": 48,
+          "column": 33
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -1998,23 +5312,75 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1087,
-      "end": 1088,
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "memoize",
+      "start": 1078,
+      "end": 1085,
       "loc": {
         "start": {
           "line": 28,
-          "column": 29
+          "column": 20
         },
         "end": {
           "line": 28,
-          "column": 30
+          "column": 27
+=======
+      "start": 1940,
+      "end": 1941,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 33
+        },
+        "end": {
+          "line": 48,
+          "column": 34
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1086,
+      "end": 1087,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 28
+        },
+        "end": {
+          "line": 28,
+          "column": 29
+=======
+      "value": "exports",
+      "start": 1942,
+      "end": 1949,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 49,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -2025,17 +5391,29 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 1089,
-      "end": 1095,
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "start": 1087,
+      "end": 1088,
       "loc": {
         "start": {
-          "line": 29,
-          "column": 0
+          "line": 28,
+          "column": 29
         },
         "end": {
-          "line": 29,
-          "column": 6
+          "line": 28,
+          "column": 30
+=======
+      "start": 1949,
+      "end": 1950,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 7
+        },
+        "end": {
+          "line": 49,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -2053,6 +5431,48 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
+      "value": "export",
+      "start": 1089,
+      "end": 1095,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 6
+=======
+      "value": "default",
+      "start": 1950,
+      "end": 1957,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 8
+        },
+        "end": {
+          "line": 49,
+          "column": 15
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "default",
       "start": 1096,
       "end": 1103,
@@ -2064,6 +5484,19 @@
         "end": {
           "line": 29,
           "column": 14
+=======
+      "value": "=",
+      "start": 1958,
+      "end": 1959,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 16
+        },
+        "end": {
+          "line": 49,
+          "column": 17
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -2079,6 +5512,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "value": "Memoize",
       "start": 1104,
       "end": 1111,
@@ -2090,6 +5524,19 @@
         "end": {
           "line": 29,
           "column": 22
+=======
+      "value": "decorator",
+      "start": 1960,
+      "end": 1969,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 18
+        },
+        "end": {
+          "line": 49,
+          "column": 27
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -2106,6 +5553,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1111,
       "end": 1112,
       "loc": {
@@ -2116,6 +5564,18 @@
         "end": {
           "line": 29,
           "column": 23
+=======
+      "start": 1969,
+      "end": 1970,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 27
+        },
+        "end": {
+          "line": 49,
+          "column": 28
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
         }
       }
     },
@@ -2132,6 +5592,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/memoize.ts.json
       "start": 1113,
       "end": 1113,
       "loc": {
@@ -2141,6 +5602,17 @@
         },
         "end": {
           "line": 30,
+=======
+      "start": 1971,
+      "end": 1971,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 50,
+>>>>>>> esm-cjs-build:docs/ast/source/debounceAll.js.json
           "column": 0
         }
       }

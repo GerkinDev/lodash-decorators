@@ -1,34 +1,51 @@
 {
   "type": "File",
   "start": 0,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
   "end": 380,
+=======
+  "end": 480,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "line": 17,
+=======
+      "line": 15,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
     "end": 380,
+=======
+    "end": 480,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
         "line": 17,
+=======
+        "line": 15,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         "column": 0
       }
     },
     "sourceType": "module",
     "body": [
       {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
         "type": "ExportNamedDeclaration",
         "start": 271,
         "end": 379,
@@ -57,9 +74,355 @@
               "line": 16,
               "column": 1
             }
+=======
+        "type": "ExpressionStatement",
+        "start": 14,
+        "end": 76,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
           },
-          "id": {
+          "end": {
+            "line": 2,
+            "column": 62
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 14,
+          "end": 75,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          },
+          "callee": {
+            "type": "MemberExpression",
+            "start": 14,
+            "end": 35,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 21
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 20,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 2,
+                  "column": 6
+                },
+                "identifierName": "Object"
+              },
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 35,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 21
+                },
+                "identifierName": "defineProperty"
+              },
+              "name": "defineProperty"
+            },
+            "computed": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 22
+                },
+                "end": {
+                  "line": 2,
+                  "column": 29
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            {
+              "type": "StringLiteral",
+              "start": 45,
+              "end": 57,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 31
+                },
+                "end": {
+                  "line": 2,
+                  "column": 43
+                }
+              },
+              "extra": {
+                "rawValue": "__esModule",
+                "raw": "\"__esModule\""
+              },
+              "value": "__esModule"
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 59,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 45
+                },
+                "end": {
+                  "line": 2,
+                  "column": 60
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 61,
+                  "end": 72,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 47
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58
+                    }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 66,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52
+                      },
+                      "identifierName": "value"
+                    },
+                    "name": "value"
+                  },
+                  "value": {
+                    "type": "BooleanLiteral",
+                    "start": 68,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 54
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 58
+                      }
+                    },
+                    "value": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "VariableDeclaration",
+        "start": 77,
+        "end": 117,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        },
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 81,
+            "end": 116,
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 39
+              }
+            },
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 89,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 4
+                },
+                "end": {
+                  "line": 3,
+                  "column": 12
+                },
+                "identifierName": "forOwn_1"
+              },
+              "name": "forOwn_1"
+            },
+            "init": {
+              "type": "CallExpression",
+              "start": 92,
+              "end": 116,
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 15
+                },
+                "end": {
+                  "line": 3,
+                  "column": 39
+                }
+              },
+              "callee": {
+                "type": "Identifier",
+                "start": 92,
+                "end": 99,
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "identifierName": "require"
+                },
+                "name": "require"
+              },
+              "arguments": [
+                {
+                  "type": "StringLiteral",
+                  "start": 100,
+                  "end": 115,
+                  "loc": {
+                    "start": {
+                      "line": 3,
+                      "column": 23
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 38
+                    }
+                  },
+                  "extra": {
+                    "rawValue": "lodash/forOwn",
+                    "raw": "\"lodash/forOwn\""
+                  },
+                  "value": "lodash/forOwn"
+                }
+              ]
+            }
+          }
+        ],
+        "kind": "var",
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @private\n ",
+            "start": 118,
+            "end": 312,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "FunctionDeclaration",
+        "start": 313,
+        "end": 442,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "id": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 334,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 9
+            },
+            "end": {
+              "line": 10,
+              "column": 21
+            },
+            "identifierName": "copyMetadata"
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+          },
+          "name": "copyMetadata",
+          "leadingComments": null
+        },
+        "generator": false,
+        "expression": false,
+        "async": false,
+        "params": [
+          {
             "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
             "start": 287,
             "end": 299,
             "loc": {
@@ -70,12 +433,24 @@
               "end": {
                 "line": 13,
                 "column": 28
+=======
+            "start": 335,
+            "end": 337,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 22
               },
-              "identifierName": "copyMetadata"
+              "end": {
+                "line": 10,
+                "column": 24
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+              },
+              "identifierName": "to"
             },
-            "name": "copyMetadata",
-            "leadingComments": null
+            "name": "to"
           },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
           "generator": false,
           "expression": false,
           "async": false,
@@ -94,10 +469,43 @@
                   "column": 31
                 },
                 "identifierName": "to"
+=======
+          {
+            "type": "Identifier",
+            "start": 339,
+            "end": 343,
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 26
               },
-              "name": "to"
+              "end": {
+                "line": 10,
+                "column": 30
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+              },
+              "identifierName": "from"
             },
+            "name": "from"
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 345,
+          "end": 442,
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 32
+            },
+            "end": {
+              "line": 13,
+              "column": 1
+            }
+          },
+          "body": [
             {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
               "type": "Identifier",
               "start": 304,
               "end": 308,
@@ -156,10 +564,52 @@
                     "end": {
                       "line": 14,
                       "column": 49
+=======
+              "type": "ExpressionStatement",
+              "start": 351,
+              "end": 425,
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 4
+                },
+                "end": {
+                  "line": 11,
+                  "column": 78
+                }
+              },
+              "expression": {
+                "type": "CallExpression",
+                "start": 351,
+                "end": 424,
+                "loc": {
+                  "start": {
+                    "line": 11,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 11,
+                    "column": 77
+                  }
+                },
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 351,
+                  "end": 367,
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
                     }
                   },
-                  "callee": {
+                  "object": {
                     "type": "Identifier",
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
                     "start": 316,
                     "end": 322,
                     "loc": {
@@ -170,11 +620,24 @@
                       "end": {
                         "line": 14,
                         "column": 10
+=======
+                    "start": 351,
+                    "end": 359,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 4
                       },
-                      "identifierName": "forOwn"
+                      "end": {
+                        "line": 11,
+                        "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+                      },
+                      "identifierName": "forOwn_1"
                     },
-                    "name": "forOwn"
+                    "name": "forOwn_1"
                   },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
                   "arguments": [
                     {
                       "type": "Identifier",
@@ -190,9 +653,24 @@
                           "column": 15
                         },
                         "identifierName": "from"
+=======
+                  "property": {
+                    "type": "Identifier",
+                    "start": 360,
+                    "end": 367,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 13
                       },
-                      "name": "from"
+                      "end": {
+                        "line": 11,
+                        "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+                      },
+                      "identifierName": "default"
                     },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 329,
@@ -324,13 +802,201 @@
                             "end": {
                               "line": 14,
                               "column": 48
-                            },
-                            "identifierName": "value"
-                          },
-                          "name": "value"
-                        }
+=======
+                    "name": "default"
+                  },
+                  "computed": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 368,
+                    "end": 372,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 21
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 25
+                      },
+                      "identifierName": "from"
+                    },
+                    "name": "from"
+                  },
+                  {
+                    "type": "FunctionExpression",
+                    "start": 374,
+                    "end": 423,
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 27
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 76
                       }
+                    },
+                    "id": null,
+                    "generator": false,
+                    "expression": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 384,
+                        "end": 389,
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 37
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 42
+                          },
+                          "identifierName": "value"
+                        },
+                        "name": "value"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 391,
+                        "end": 394,
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 44
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 47
+                          },
+                          "identifierName": "key"
+                        },
+                        "name": "key"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 396,
+                      "end": 423,
+                      "loc": {
+                        "start": {
+                          "line": 11,
+                          "column": 49
+                        },
+                        "end": {
+                          "line": 11,
+                          "column": 76
+                        }
+                      },
+                      "body": [
+                        {
+                          "type": "ReturnStatement",
+                          "start": 398,
+                          "end": 421,
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 51
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 74
+                            }
+                          },
+                          "argument": {
+                            "type": "AssignmentExpression",
+                            "start": 405,
+                            "end": 420,
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 58
+                              },
+                              "end": {
+                                "line": 11,
+                                "column": 73
+                              }
+                            },
+                            "operator": "=",
+                            "left": {
+                              "type": "MemberExpression",
+                              "start": 405,
+                              "end": 412,
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 58
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 65
+                                }
+                              },
+                              "object": {
+                                "type": "Identifier",
+                                "start": 405,
+                                "end": 407,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 58
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 60
+                                  },
+                                  "identifierName": "to"
+                                },
+                                "name": "to"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 408,
+                                "end": 411,
+                                "loc": {
+                                  "start": {
+                                    "line": 11,
+                                    "column": 61
+                                  },
+                                  "end": {
+                                    "line": 11,
+                                    "column": 64
+                                  },
+                                  "identifierName": "key"
+                                },
+                                "name": "key"
+                              },
+                              "computed": true
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "start": 415,
+                              "end": 420,
+                              "loc": {
+                                "start": {
+                                  "line": 11,
+                                  "column": 68
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 73
+                                },
+                                "identifierName": "value"
+                              },
+                              "name": "value"
+                            }
+                          }
+                        }
+                      ],
+                      "directives": []
                     }
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
                   ]
                 }
               },
@@ -365,12 +1031,14 @@
                   },
                   "name": "to"
                 }
+=======
+                  }
+                ]
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
               }
-            ],
-            "directives": []
-          },
-          "leadingComments": [
+            },
             {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
               "type": "CommentBlock",
               "value": "*\n * @desc\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @lineNumber\n * 10\n * @param\n * {undefined} to\n * @param\n * {undefined} from\n ",
               "start": 0,
@@ -383,15 +1051,46 @@
                 "end": {
                   "line": 12,
                   "column": 3
+=======
+              "type": "ReturnStatement",
+              "start": 430,
+              "end": 440,
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 4
+                },
+                "end": {
+                  "line": 12,
+                  "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
                 }
+              },
+              "argument": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 439,
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 13
+                  },
+                  "identifierName": "to"
+                },
+                "name": "to"
               }
             }
           ],
-          "trailingComments": []
+          "directives": []
         },
         "leadingComments": [
           {
             "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
             "value": "*\n * @desc\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @lineNumber\n * 10\n * @param\n * {undefined} to\n * @param\n * {undefined} from\n ",
             "start": 0,
             "end": 270,
@@ -402,18 +1101,165 @@
               },
               "end": {
                 "line": 12,
+=======
+            "value": "*\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @private\n ",
+            "start": 118,
+            "end": 312,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
                 "column": 3
               }
             }
           }
         ]
+      },
+      {
+        "type": "ExpressionStatement",
+        "start": 443,
+        "end": 479,
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 36
+          }
+        },
+        "expression": {
+          "type": "AssignmentExpression",
+          "start": 443,
+          "end": 478,
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 35
+            }
+          },
+          "operator": "=",
+          "left": {
+            "type": "MemberExpression",
+            "start": 443,
+            "end": 463,
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 20
+              }
+            },
+            "object": {
+              "type": "Identifier",
+              "start": 443,
+              "end": 450,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 0
+                },
+                "end": {
+                  "line": 14,
+                  "column": 7
+                },
+                "identifierName": "exports"
+              },
+              "name": "exports"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 451,
+              "end": 463,
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 8
+                },
+                "end": {
+                  "line": 14,
+                  "column": 20
+                },
+                "identifierName": "copyMetadata"
+              },
+              "name": "copyMetadata"
+            },
+            "computed": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 478,
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 23
+              },
+              "end": {
+                "line": 14,
+                "column": 35
+              },
+              "identifierName": "copyMetadata"
+            },
+            "name": "copyMetadata"
+          }
+        }
       }
     ],
-    "directives": []
+    "directives": [
+      {
+        "type": "Directive",
+        "start": 0,
+        "end": 13,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "value": {
+          "type": "DirectiveLiteral",
+          "start": 0,
+          "end": 12,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 12
+            }
+          },
+          "value": "use strict",
+          "extra": {
+            "raw": "\"use strict\"",
+            "rawValue": "use strict"
+          }
+        }
+      }
+    ]
   },
   "comments": [
     {
       "type": "CommentBlock",
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "value": "*\n * @desc\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @lineNumber\n * 10\n * @param\n * {undefined} to\n * @param\n * {undefined} from\n ",
       "start": 0,
       "end": 270,
@@ -424,6 +1270,18 @@
         },
         "end": {
           "line": 12,
+          "column": 3
+=======
+      "value": "*\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @private\n ",
+      "start": 118,
+      "end": 312,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
           "column": 3
         }
       }
@@ -431,25 +1289,87 @@
   ],
   "tokens": [
     {
-      "type": "CommentBlock",
-      "value": "*\n * @desc\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @lineNumber\n * 10\n * @param\n * {undefined} to\n * @param\n * {undefined} from\n ",
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "use strict",
       "start": 0,
-      "end": 270,
+      "end": 12,
       "loc": {
         "start": {
           "line": 1,
           "column": 0
         },
         "end": {
-          "line": 12,
-          "column": 3
+          "line": 1,
+          "column": 12
         }
       }
     },
     {
       "type": {
-        "label": "export",
-        "keyword": "export",
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 12,
+      "end": 13,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 12
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Object",
+      "start": 14,
+      "end": 20,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
         "beforeExpr": false,
         "startsExpr": false,
         "rightAssociative": false,
@@ -460,17 +1380,579 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "export",
-      "start": 271,
-      "end": 277,
+      "start": 20,
+      "end": 21,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 2,
+          "column": 6
+        },
+        "end": {
+          "line": 2,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "defineProperty",
+      "start": 21,
+      "end": 35,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 7
+        },
+        "end": {
+          "line": 2,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 35,
+      "end": 36,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 21
+        },
+        "end": {
+          "line": 2,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "exports",
+      "start": 36,
+      "end": 43,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 22
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 43,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 29
+        },
+        "end": {
+          "line": 2,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "__esModule",
+      "start": 45,
+      "end": 57,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 31
+        },
+        "end": {
+          "line": 2,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 57,
+      "end": 58,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 43
+        },
+        "end": {
+          "line": 2,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 59,
+      "end": 60,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 2,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "value",
+      "start": 61,
+      "end": 66,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 47
+        },
+        "end": {
+          "line": 2,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 66,
+      "end": 67,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 52
+        },
+        "end": {
+          "line": 2,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 68,
+      "end": 72,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 54
+        },
+        "end": {
+          "line": 2,
+          "column": 58
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 73,
+      "end": 74,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 59
+        },
+        "end": {
+          "line": 2,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 74,
+      "end": 75,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 60
+        },
+        "end": {
+          "line": 2,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 75,
+      "end": 76,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 61
+        },
+        "end": {
+          "line": 2,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "var",
+        "keyword": "var",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "var",
+      "start": 77,
+      "end": 80,
+      "loc": {
+        "start": {
+          "line": 3,
           "column": 0
         },
         "end": {
-          "line": 13,
-          "column": 6
+          "line": 3,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "forOwn_1",
+      "start": 81,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 4
+        },
+        "end": {
+          "line": 3,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "=",
+      "start": 90,
+      "end": 91,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "require",
+      "start": 92,
+      "end": 99,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 3,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "(",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 99,
+      "end": 100,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 22
+        },
+        "end": {
+          "line": 3,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "lodash/forOwn",
+      "start": 100,
+      "end": 115,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 23
+        },
+        "end": {
+          "line": 3,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 115,
+      "end": 116,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 38
+        },
+        "end": {
+          "line": 3,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 116,
+      "end": 117,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 39
+        },
+        "end": {
+          "line": 3,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @private\n ",
+      "start": 118,
+      "end": 312,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
         }
       }
     },
@@ -488,20 +1970,27 @@
         "binop": null
       },
       "value": "function",
-      "start": 278,
-      "end": 286,
+      "start": 313,
+      "end": 321,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 7
+          "line": 10,
+          "column": 0
         },
         "end": {
-          "line": 13,
-          "column": 15
+          "line": 10,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
     {
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "type": "CommentBlock",
+      "value": "*\n * @desc\n * Used to copy over meta data from function to function.\n * If meta data is attached to a function. This can get lost\n * when wrapping functions. This tries to persist that.\n * @lineNumber\n * 10\n * @param\n * {undefined} to\n * @param\n * {undefined} from\n ",
+      "start": 0,
+      "end": 270,
+=======
       "type": {
         "label": "name",
         "beforeExpr": false,
@@ -514,16 +2003,21 @@
         "binop": null
       },
       "value": "copyMetadata",
-      "start": 287,
-      "end": 299,
+      "start": 322,
+      "end": 334,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
       "loc": {
         "start": {
-          "line": 13,
-          "column": 16
+          "line": 10,
+          "column": 9
         },
         "end": {
-          "line": 13,
-          "column": 28
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+          "line": 12,
+          "column": 3
+=======
+          "line": 10,
+          "column": 21
         }
       }
     },
@@ -539,16 +2033,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 299,
-      "end": 300,
+      "start": 334,
+      "end": 335,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 28
+          "line": 10,
+          "column": 21
         },
         "end": {
-          "line": 13,
-          "column": 29
+          "line": 10,
+          "column": 22
         }
       }
     },
@@ -565,16 +2059,16 @@
         "binop": null
       },
       "value": "to",
-      "start": 300,
-      "end": 302,
+      "start": 335,
+      "end": 337,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 29
+          "line": 10,
+          "column": 22
         },
         "end": {
-          "line": 13,
-          "column": 31
+          "line": 10,
+          "column": 24
         }
       }
     },
@@ -591,16 +2085,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 302,
-      "end": 303,
+      "start": 337,
+      "end": 338,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 31
+          "line": 10,
+          "column": 24
         },
         "end": {
-          "line": 13,
-          "column": 32
+          "line": 10,
+          "column": 25
         }
       }
     },
@@ -617,16 +2111,16 @@
         "binop": null
       },
       "value": "from",
-      "start": 304,
-      "end": 308,
+      "start": 339,
+      "end": 343,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 33
+          "line": 10,
+          "column": 26
         },
         "end": {
-          "line": 13,
-          "column": 37
+          "line": 10,
+          "column": 30
         }
       }
     },
@@ -642,16 +2136,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 308,
-      "end": 309,
+      "start": 343,
+      "end": 344,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 37
+          "line": 10,
+          "column": 30
         },
         "end": {
-          "line": 13,
-          "column": 38
+          "line": 10,
+          "column": 31
         }
       }
     },
@@ -667,16 +2161,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 310,
-      "end": 311,
+      "start": 345,
+      "end": 346,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 39
+          "line": 10,
+          "column": 32
         },
         "end": {
-          "line": 13,
-          "column": 40
+          "line": 10,
+          "column": 33
         }
       }
     },
@@ -692,17 +2186,86 @@
         "postfix": false,
         "binop": null
       },
-      "value": "forOwn",
-      "start": 316,
-      "end": 322,
+      "value": "forOwn_1",
+      "start": 351,
+      "end": 359,
       "loc": {
         "start": {
-          "line": 14,
+          "line": 11,
           "column": 4
         },
         "end": {
-          "line": 14,
-          "column": 10
+          "line": 11,
+          "column": 12
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "export",
+      "start": 271,
+      "end": 277,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 6
+=======
+      "start": 359,
+      "end": 360,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 12
+        },
+        "end": {
+          "line": 11,
+          "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 360,
+      "end": 367,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": 20
         }
       }
     },
@@ -718,16 +2281,30 @@
         "postfix": false,
         "binop": null
       },
-      "start": 322,
-      "end": 323,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "function",
+      "start": 278,
+      "end": 286,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 10
+          "line": 13,
+          "column": 7
         },
         "end": {
-          "line": 14,
-          "column": 11
+          "line": 13,
+          "column": 15
+=======
+      "start": 367,
+      "end": 368,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 20
+        },
+        "end": {
+          "line": 11,
+          "column": 21
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -743,17 +2320,30 @@
         "postfix": false,
         "binop": null
       },
-      "value": "from",
-      "start": 323,
-      "end": 327,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "copyMetadata",
+      "start": 287,
+      "end": 299,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 11
+          "line": 13,
+          "column": 16
         },
         "end": {
-          "line": 14,
-          "column": 15
+          "line": 13,
+          "column": 28
+=======
+      "value": "from",
+      "start": 368,
+      "end": 372,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 21
+        },
+        "end": {
+          "line": 11,
+          "column": 25
         }
       }
     },
@@ -770,16 +2360,44 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 327,
-      "end": 328,
+      "start": 372,
+      "end": 373,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 15
+          "line": 11,
+          "column": 25
         },
         "end": {
-          "line": 14,
-          "column": 16
+          "line": 11,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "function",
+        "keyword": "function",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "function",
+      "start": 374,
+      "end": 382,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 27
+        },
+        "end": {
+          "line": 11,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -795,6 +2413,427 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 299,
+      "end": 300,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 28
+        },
+        "end": {
+          "line": 13,
+          "column": 29
+=======
+      "start": 383,
+      "end": 384,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 36
+        },
+        "end": {
+          "line": 11,
+          "column": 37
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "to",
+      "start": 300,
+      "end": 302,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 29
+        },
+        "end": {
+          "line": 13,
+          "column": 31
+=======
+      "value": "value",
+      "start": 384,
+      "end": 389,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 37
+        },
+        "end": {
+          "line": 11,
+          "column": 42
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 302,
+      "end": 303,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 31
+        },
+        "end": {
+          "line": 13,
+          "column": 32
+=======
+      "start": 389,
+      "end": 390,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 42
+        },
+        "end": {
+          "line": 11,
+          "column": 43
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "from",
+      "start": 304,
+      "end": 308,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 33
+        },
+        "end": {
+          "line": 13,
+          "column": 37
+=======
+      "value": "key",
+      "start": 391,
+      "end": 394,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 44
+        },
+        "end": {
+          "line": 11,
+          "column": 47
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ")",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 308,
+      "end": 309,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 37
+        },
+        "end": {
+          "line": 13,
+          "column": 38
+=======
+      "start": 394,
+      "end": 395,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 47
+        },
+        "end": {
+          "line": 11,
+          "column": 48
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 396,
+      "end": 397,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 49
+        },
+        "end": {
+          "line": 11,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "return",
+        "keyword": "return",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 310,
+      "end": 311,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 39
+        },
+        "end": {
+          "line": 13,
+          "column": 40
+=======
+      "value": "return",
+      "start": 398,
+      "end": 404,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 51
+        },
+        "end": {
+          "line": 11,
+          "column": 57
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "forOwn",
+      "start": 316,
+      "end": 322,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 10
+=======
+      "value": "to",
+      "start": 405,
+      "end": 407,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 58
+        },
+        "end": {
+          "line": 11,
+          "column": 60
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 322,
+      "end": 323,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 10
+        },
+        "end": {
+          "line": 14,
+          "column": 11
+=======
+      "start": 407,
+      "end": 408,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 60
+        },
+        "end": {
+          "line": 11,
+          "column": 61
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "from",
+      "start": 323,
+      "end": 327,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 11
+        },
+        "end": {
+          "line": 14,
+          "column": 15
+=======
+      "value": "key",
+      "start": 408,
+      "end": 411,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 61
+        },
+        "end": {
+          "line": 11,
+          "column": 64
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "]",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 327,
+      "end": 328,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 15
+        },
+        "end": {
+          "line": 14,
+          "column": 16
+=======
+      "start": 411,
+      "end": 412,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 64
+        },
+        "end": {
+          "line": 11,
+          "column": 65
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 329,
       "end": 330,
       "loc": {
@@ -805,6 +2844,19 @@
         "end": {
           "line": 14,
           "column": 18
+=======
+      "value": "=",
+      "start": 413,
+      "end": 414,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 66
+        },
+        "end": {
+          "line": 11,
+          "column": 67
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -821,6 +2873,7 @@
         "binop": null
       },
       "value": "value",
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 330,
       "end": 335,
       "loc": {
@@ -831,12 +2884,24 @@
         "end": {
           "line": 14,
           "column": 23
+=======
+      "start": 415,
+      "end": 420,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 68
+        },
+        "end": {
+          "line": 11,
+          "column": 73
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
     {
       "type": {
-        "label": ",",
+        "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -847,6 +2912,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 335,
       "end": 336,
       "loc": {
@@ -857,14 +2923,26 @@
         "end": {
           "line": 14,
           "column": 24
+=======
+      "start": 420,
+      "end": 421,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 73
+        },
+        "end": {
+          "line": 11,
+          "column": 74
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
     {
       "type": {
-        "label": "name",
+        "label": "}",
         "beforeExpr": false,
-        "startsExpr": true,
+        "startsExpr": false,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -872,6 +2950,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "value": "key",
       "start": 337,
       "end": 340,
@@ -883,6 +2962,18 @@
         "end": {
           "line": 14,
           "column": 28
+=======
+      "start": 422,
+      "end": 423,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 75
+        },
+        "end": {
+          "line": 11,
+          "column": 76
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -898,6 +2989,7 @@
         "postfix": false,
         "binop": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 340,
       "end": 341,
       "loc": {
@@ -908,12 +3000,24 @@
         "end": {
           "line": 14,
           "column": 29
+=======
+      "start": 423,
+      "end": 424,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 76
+        },
+        "end": {
+          "line": 11,
+          "column": 77
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
     {
       "type": {
-        "label": "=>",
+        "label": ";",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -924,6 +3028,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 342,
       "end": 344,
       "loc": {
@@ -960,188 +3065,18 @@
         "end": {
           "line": 14,
           "column": 35
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "[",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 347,
-      "end": 348,
+=======
+      "start": 424,
+      "end": 425,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 35
+          "line": 11,
+          "column": 77
         },
         "end": {
-          "line": 14,
-          "column": 36
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "key",
-      "start": 348,
-      "end": 351,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 36
-        },
-        "end": {
-          "line": 14,
-          "column": 39
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "]",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 351,
-      "end": 352,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 39
-        },
-        "end": {
-          "line": 14,
-          "column": 40
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "=",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": true,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "=",
-      "start": 353,
-      "end": 354,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 41
-        },
-        "end": {
-          "line": 14,
-          "column": 42
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "value",
-      "start": 355,
-      "end": 360,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 43
-        },
-        "end": {
-          "line": 14,
-          "column": 48
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ")",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 360,
-      "end": 361,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 48
-        },
-        "end": {
-          "line": 14,
-          "column": 49
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ";",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 361,
-      "end": 362,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 49
-        },
-        "end": {
-          "line": 14,
-          "column": 50
+          "line": 11,
+          "column": 78
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -1159,17 +3094,30 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "return",
-      "start": 367,
-      "end": 373,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 347,
+      "end": 348,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 14,
+          "column": 35
+        },
+        "end": {
+          "line": 14,
+          "column": 36
+=======
+      "value": "return",
+      "start": 430,
+      "end": 436,
+      "loc": {
+        "start": {
+          "line": 12,
           "column": 4
         },
         "end": {
-          "line": 15,
+          "line": 12,
           "column": 10
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -1185,17 +3133,31 @@
         "postfix": false,
         "binop": null
       },
-      "value": "to",
-      "start": 374,
-      "end": 376,
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "key",
+      "start": 348,
+      "end": 351,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 14,
+          "column": 36
+        },
+        "end": {
+          "line": 14,
+          "column": 39
+=======
+      "value": "to",
+      "start": 437,
+      "end": 439,
+      "loc": {
+        "start": {
+          "line": 12,
           "column": 11
         },
         "end": {
-          "line": 15,
+          "line": 12,
           "column": 13
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -1212,6 +3174,284 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 351,
+      "end": 352,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 39
+        },
+        "end": {
+          "line": 14,
+          "column": 40
+=======
+      "start": 439,
+      "end": 440,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 13
+        },
+        "end": {
+          "line": 12,
+          "column": 14
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "=",
+      "start": 353,
+      "end": 354,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 41
+        },
+        "end": {
+          "line": 14,
+          "column": 42
+=======
+      "start": 441,
+      "end": 442,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "value",
+      "start": 355,
+      "end": 360,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 43
+        },
+        "end": {
+          "line": 14,
+          "column": 48
+=======
+      "value": "exports",
+      "start": 443,
+      "end": 450,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 7
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 360,
+      "end": 361,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 48
+        },
+        "end": {
+          "line": 14,
+          "column": 49
+=======
+      "start": 450,
+      "end": 451,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 7
+        },
+        "end": {
+          "line": 14,
+          "column": 8
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "start": 361,
+      "end": 362,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 49
+        },
+        "end": {
+          "line": 14,
+          "column": 50
+=======
+      "value": "copyMetadata",
+      "start": 451,
+      "end": 463,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 20
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "=",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": true,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "return",
+      "start": 367,
+      "end": 373,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 10
+=======
+      "value": "=",
+      "start": 464,
+      "end": 465,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+          "column": 22
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
+      "value": "to",
+      "start": 374,
+      "end": 376,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 11
+        },
+        "end": {
+          "line": 15,
+          "column": 13
+=======
+      "value": "copyMetadata",
+      "start": 466,
+      "end": 478,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 23
+        },
+        "end": {
+          "line": 14,
+          "column": 35
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 376,
       "end": 377,
       "loc": {
@@ -1247,6 +3487,18 @@
         "end": {
           "line": 16,
           "column": 1
+=======
+      "start": 478,
+      "end": 479,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 35
+        },
+        "end": {
+          "line": 14,
+          "column": 36
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
         }
       }
     },
@@ -1263,6 +3515,7 @@
         "binop": null,
         "updateContext": null
       },
+<<<<<<< HEAD:docs/ast/source/utils/copyMetaData.ts.json
       "start": 380,
       "end": 380,
       "loc": {
@@ -1272,6 +3525,17 @@
         },
         "end": {
           "line": 17,
+=======
+      "start": 480,
+      "end": 480,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+>>>>>>> esm-cjs-build:docs/ast/source/utils/copyMetaData.js.json
           "column": 0
         }
       }
