@@ -28,4 +28,29 @@ describe('once', () => {
 
     expect(calls, 'multiple class').to.equal(2);
   });
+  it('should invoke the getter only once', () => {
+    let calls = 0;
+
+    class MyClass {
+      @Once()
+      get prop() {
+        return calls++;
+      }
+    }
+
+    const myClass = new MyClass();
+    const myClass2 = new MyClass();
+
+    myClass.prop;
+    myClass.prop;
+    myClass.prop;
+
+    expect(calls, 'single class').to.equal(1);
+
+    myClass2.prop;
+    myClass2.prop;
+    myClass2.prop;
+
+    expect(calls, 'multiple class').to.equal(2);
+  });
 });
